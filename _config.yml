@@ -6,12 +6,12 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Lanyon
-tagline:          'Mike-Ward.net'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Mike-Ward.Net
+tagline:          '.NET, Technology, Life, Whatever...'
+description:      'Made by me'
 url:              http://mike-ward.github.io
 baseurl:          '/'
-paginate:         5
+paginate:         3
 
 author:
   name:           'Mike Ward'
