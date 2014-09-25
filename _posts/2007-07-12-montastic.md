@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Montastic
+title: 'Montastic'
 ---
 ![The image “http://www.montastic.com/images/montasticman.jpg” cannot be displayed, because it contains errors.](http://www.montastic.com/images/montasticman.jpg)
 

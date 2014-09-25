@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Hartville Tool - Nice
+title: 'Hartville Tool - Nice'
 ---
 ![](http://www.hartvilletool.com/shared/images/navbar//htlogo.jpg)
 

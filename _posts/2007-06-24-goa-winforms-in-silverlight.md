@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  GOA WinForms in Silverlight
+title: 'GOA WinForms in Silverlight'
 ---
 [GOA WinForms](http://community.netikatech.com/demos/) is an implementation of the standard System.Windows.Form .NET library for both Adobe Flash and Microsoft Silverlight. It allows .NET developers to write standard WinForms applications that will run on these two RIA platforms. The look and feel of the package is faithful which is surprising when you consider it is written in JavaScript (a current restriction in Silverlight 1.1 that will be addressed in Silverlight 2.0).
 

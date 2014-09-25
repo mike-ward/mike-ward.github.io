@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #8
+title: 'Friday Links #8'
 ---
 [Opera 9.51](http://www.opera.com/download/) - Opera is the "other" browser that doesn't get as much press as Firefox. It's really fast and is a great alternative.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Calendar Gadget Alpha Released
+title: 'Calendar Gadget Alpha Released'
 ---
 [![image](/cdn/images/blog/CalendarGadgetAlphaReleased_12316/image_thumb.png)](/cdn/images/blog/CalendarGadgetAlphaReleased_12316/image.png)
 

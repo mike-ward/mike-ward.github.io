@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Make your own large font calc
+title: 'Make your own large font calc'
 ---
 Under the category of stupid programmer tricks:
 

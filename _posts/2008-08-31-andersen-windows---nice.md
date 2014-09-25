@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Andersen Windows - Nice
+title: 'Andersen Windows - Nice'
 ---
 ![Andersen logo](/cdn/images/blog/AndersenWindowsNice_720E/image.png) When we built out house 12 years ago we specified windows made by [Andersen](http://www.andersenwindows.com/). Turns out that was a good decision. Not only have they performed well, but they have stood by their warranty without hassle. 
 

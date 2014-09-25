@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Market Report and Stopwatch Gadgets Updated
+title: 'Market Report and Stopwatch Gadgets Updated'
 ---
 I had some extra time this weekend to spruce up a couple of my other sidebar gadgets.
 

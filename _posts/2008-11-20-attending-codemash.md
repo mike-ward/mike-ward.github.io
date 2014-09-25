@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Attending CodeMash
+title: 'Attending CodeMash'
 ---
 [![codemash](/cdn/images/blog/AttendingCodeMash_9068/codemash_thumb.png)](/cdn/images/blog/AttendingCodeMash_9068/codemash.png) What is [CodeMash](http://codemash.org)?
 

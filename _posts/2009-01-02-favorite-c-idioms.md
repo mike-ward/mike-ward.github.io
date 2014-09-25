@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Favorite C# Idioms
+title: 'Favorite C# Idioms'
 ---
 There’s a great post on Stackoverflow about [hidden features in C#](http://stackoverflow.com/questions/9033?sort=votes&page=1#sort-top). I prefer to think of these as idioms rather than hidden features since most are actually documented. Here are my favorites.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Asset Bundling in NancyFx &ndash; Part 2
+title: 'Asset Bundling in NancyFx &ndash; Part 2'
 ---
 [Last time](/blog/post/00906/script-bundling-in-nancyfx) I wrote a "naïve" implementation of asset bundling for [NancyFx](http://nancyfx.org). While effective it was inefficient. This time around I'll add cache support and, "304, Not Modified" handling.
 

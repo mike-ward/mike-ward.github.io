@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Vista Sidebar Weather Gadget Update
+title: 'Vista Sidebar Weather Gadget Update'
 ---
 I’ve added another format that includes icons of the forecast conditions.
 

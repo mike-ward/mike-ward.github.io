@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Wix 3.0 Web Install UI
+title: 'Wix 3.0 Web Install UI'
 ---
 One of the best ways to write installers for Windows programs is to use Wix 3.0. Recently released, its an open source product from Microsoft that uses XML markup to author Windows installers that use the Windows built-in installer engine (msiexec.com).
 

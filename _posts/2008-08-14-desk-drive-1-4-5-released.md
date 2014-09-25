@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.4.5 Released
+title: 'Desk Drive 1.4.5 Released'
 ---
 Desk Drive 1.4.5 includes two new languages, Japanese and Finnish. Keep those translations coming.
 

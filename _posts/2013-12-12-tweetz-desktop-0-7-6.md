@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop 0.7.6
+title: 'Tweetz Desktop 0.7.6'
 ---
 What's new:
 

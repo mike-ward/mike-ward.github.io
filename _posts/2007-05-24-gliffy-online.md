@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  gliffy Online
+title: 'gliffy Online'
 ---
 Here's a fun little find. [Gliffy](http://www.gliffy.com) is an only drawing program. It's very much like Visio but without the headaches. I always find myself a bit lost in Visio but with Gliffy I'm in productive and focuses. I think this is mostly because they make the easy stuff easy. Here's a drawing I did within 2 minutes of logging on for the first time.
 

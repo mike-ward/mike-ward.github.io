@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Including JavaScript Conditionally in ASP.Net
+title: 'Including JavaScript Conditionally in ASP.Net'
 ---
 In the course of building this Web site I've wanted several JavaScripts I use for ads and hit counting to be disabled when I'm developing locally on my laptop. I looked for more than a few minutes and couldn't get a definitive answer which was a bit surprising (read annoying). Some suggested using Asp:Literal, others said that code-behind was the only way. I found an easier way. Maybe this is obvious to all you old-time ASP.Net hacks but it certainly didn't jump out at me.
 

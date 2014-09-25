@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Safari Web Inspector
+title: 'Safari Web Inspector'
 ---
 I seem to be using the [Windows beta of Safari](http://www.apple.com/safari/download/) more and more. I can't say exactly why. Some how it just feels right to me. One thing I do miss is the excellent [Firebug](https://addons.mozilla.org/en-US/firefox/addon/1843) plug-in for [Firefox](http://www.mozilla.com/en-US/). But fret no more! There is something similar in Safari called [Web Inspector](http://webkit.org/blog/108/yet-another-one-more-thing-a-new-web-inspector/). It requires that you add a line to the preferences file to enable. [Instructions can be found here](http://trac.webkit.org/projects/webkit/wiki/Web%20Inspector#EnablingWebInspector).
 

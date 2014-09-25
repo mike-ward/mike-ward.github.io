@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Software Architecture - why does it sometimes fall short?
+title: 'Software Architecture - why does it sometimes fall short?'
 ---
 I'm asking the question because more and more my responsibilities are shifting into the area of architecture. As a developer, I've always eyed architects with a bit of suspicion. After all, they don't program so how much do they really know? And do they really have to live the consequences of their designs the way developers do? I sometimes wonder. Still, there is a need for an over-arching view of the subsystems and how they work. I guess what bugs me about architecture is that it's often done up front and then left to rot as the project develops.
 

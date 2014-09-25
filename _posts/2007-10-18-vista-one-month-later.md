@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Vista One Month Later
+title: 'Vista One Month Later'
 ---
 I mentioned earlier that I couldn't figure out why people hate Vista so much. I've found it to be stable fast and fun to use. I suspect the people who are railing on it so much either haven't used it or are predisposed to disliking anything Microsoft.
 

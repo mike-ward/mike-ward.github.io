@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #44
+title: 'Friday Links #44'
 ---
 [Mike Harsh's Blog : Silverlight 3 Beta Sample - Slidentity - Presentation Creation App](http://blogs.msdn.com/mharsh/archive/2009/03/18/silverlight-3-beta-sample-slidentity-presentation-creation-app.aspx) - lidentity is a Silverlight 3 based presentation app. This app lets users create slides and save them to their machine (thanks to the new SaveFileDialog). The app also lets you view the presentation in fullscreen mode and the transition between slides uses the new Perspective 3D feature to create a spinning cube effect.
 

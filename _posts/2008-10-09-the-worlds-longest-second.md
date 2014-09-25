@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The World’s Longest Second
+title: 'The World’s Longest Second'
 ---
 Why must every Microsoft tool take 20 minutes to uninstall and leave you with no feed back other than this:
 

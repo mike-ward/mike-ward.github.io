@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #52
+title: 'Friday Links #52'
 ---
 Hey, it’s been a year of links already. Hard to believe. To celebrate the event I’m posting 2 days late this week. OK, I’m kidding, the holiday messed with my schedule so I’m a bit behind. Seeing as it has been one year, I thought I try grouping the links by topic. Let me know what you think.
 

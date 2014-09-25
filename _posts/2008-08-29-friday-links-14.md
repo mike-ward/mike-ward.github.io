@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #14
+title: 'Friday Links #14'
 ---
 [Find Files in Large Folders More Easily with Windows Vista Explorer](http://www.labnol.org/software/tutorials/find-file-folders-in-windows-vista-explorer/4315/)- Manage large folders that have hundreds of files and sub-folders with these Vista only tips.![](/content/images/links.gif)
 

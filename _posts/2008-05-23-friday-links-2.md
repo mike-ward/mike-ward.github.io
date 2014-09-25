@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #2
+title: 'Friday Links #2'
 ---
 [Elevator Quickly Disables UAC for Specific Programs](http://lifehacker.com/391261/elevator-quickly-disables-uac-for-specific-programs) - You can disable the UAC for specific applications using the registry or you can use this handy-dandy alternative which is much easier. Installation is fussy so read the directions carefully.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3.1 Update
+title: 'Tweetz 3.1 Update'
 ---
 Just a quickie maintenance release. The Hungarian translation has been updated and [tweetz](/tweetz) has been ported to [jQuery 1.6.1](http://jquery.com). I try to keep up with the changes in jQuery, especially as of late since recent releases have had breaking changes. In theory, the gadget should benefit from improvements in the jQuery library, particularly in the areas of animation and attribute lookup.
 

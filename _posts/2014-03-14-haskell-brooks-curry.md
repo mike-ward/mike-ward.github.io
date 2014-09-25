@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Haskell Brooks Curry
+title: 'Haskell Brooks Curry'
 ---
 Stuff like this just tweaks my inner-geek.
 

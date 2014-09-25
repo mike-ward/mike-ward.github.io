@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Performancing is now ScribeFire
+title: 'Performancing is now ScribeFire'
 ---
 [![Logo](http://scribefire.com/themes/sympal_theme/logo.png)](http://scribefire.com/)  
   

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Three Useful Programs
+title: 'Three Useful Programs'
 ---
 Now that I have my [shiny new laptop](/blog/post/2007/09/25/new-notebook-new-operating-system) I'm revisiting many of the programs I use. Over the last couple of days I've found some new and useful programs.
 

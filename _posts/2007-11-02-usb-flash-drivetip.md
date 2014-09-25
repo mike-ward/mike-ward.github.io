@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  USB Flash DriveTip
+title: 'USB Flash DriveTip'
 ---
 ![](http://www.productexpectations.com/uploaded/images/products29-Twister_5_Drive-thumb-aspect.jpg)
 

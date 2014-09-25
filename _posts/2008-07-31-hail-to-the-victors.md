@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Hail to the Victors
+title: 'Hail to the Victors'
 ---
 [![Educated](/cdn/images/blog/HailtotheVictors_81BE/Educated_thumb.jpg)](/cdn/images/blog/HailtotheVictors_81BE/Educated.jpg) I've lived in Ann Arbor and the surrounding area since the Winter of 1979. I've often thought Ann Arbor is one of Michigan's best kept secrets. Apparently, I'm not alone. Two years ago, Google opened up shop here and today's Google blog [gushes](http://googleblog.blogspot.com/2008/07/hello-from-a2.html) about what a great place Ann Arbor is to live.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Ultimate List of Free Windows Software from Microsoft
+title: 'Ultimate List of Free Windows Software from Microsoft'
 ---
 Over 150 freebies including many I'd never heard of.
 

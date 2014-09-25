@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Managing Money – Rule #2
+title: 'Managing Money – Rule #2'
 ---
 ![image](/cdn/images/blog/ManagingMoneyRule2_10B1D/image.png)
 

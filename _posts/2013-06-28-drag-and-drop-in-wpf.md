@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Drag and Drop in WPF
+title: 'Drag and Drop in WPF'
 ---
 Well in this case, just Drop.
 

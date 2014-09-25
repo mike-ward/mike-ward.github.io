@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Word Wrap in a Console App (C#)
+title: 'Word Wrap in a Console App (C#)'
 ---
 I needed a word wrapping function to format text to the console. Being the lazy coder that I am, I immediately ‘Google’ed for code. What I found worked but was a bit buggy and somewhat clumsy in its implementation. In fact, when I looked further, most of the [published code](http://geekswithblogs.net/cwilliams/archive/2005/01/21/20581.aspx) used the same approach.
 

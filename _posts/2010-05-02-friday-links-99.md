@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #99
+title: 'Friday Links #99'
 ---
 Sorry for the late post. I had a speaking engagement this weekend which consumed more time than I expected.
 

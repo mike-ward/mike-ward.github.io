@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #30
+title: 'Friday Links #30'
 ---
 [Dilbert comic strip for 12/14/2008](http://dilbert.com/strips/comic/2008-12-14/)
 

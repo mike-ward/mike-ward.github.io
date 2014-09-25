@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Predators and the Internet
+title: 'Predators and the Internet'
 ---
 My parents, I love them dearly, but sometimes I wonder how they made it through life. Case in point.
 

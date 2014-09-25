@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Learning F# &ndash; Deployment
+title: 'Learning F# &ndash; Deployment'
 ---
 One of the first things I think about when writing a new program is deployment. That may seem odd but the deployment aspect of your program is one of the first things a user encounters. Nothing frustrates me more than getting a shiny new package and then having to search for 10 other dependencies to install before I can get things running.
 

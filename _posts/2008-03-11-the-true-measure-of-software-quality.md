@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The True measure of software quality
+title: 'The True measure of software quality'
 ---
 This is probably closer to the truth than many of us would care to admit.
 

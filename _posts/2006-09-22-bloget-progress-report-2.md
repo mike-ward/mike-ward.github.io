@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bloget Progress Report #2
+title: 'Bloget Progress Report #2'
 ---
 Work continues to go well on Bloget. I'm feature complete now for the first release which will be an alpha release of some sort. I'm still pretty happy with my little project as it continues to grow and take on new attributes. There are numerous little deployment issues I need to deal with now and one minor architectural issue.
 

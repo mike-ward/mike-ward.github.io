@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Logmein release remote control for Macs
+title: 'Logmein release remote control for Macs'
 ---
 ![](https://secure.logmein.com/images/logos/logolmi.gif)
 

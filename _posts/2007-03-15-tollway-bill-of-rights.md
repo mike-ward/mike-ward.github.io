@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tollway Bill of Rights
+title: 'Tollway Bill of Rights'
 ---
 I just spent a lovely week in Orlando with my family doing the theme park thing. The kids (and I) loved it. However, I'm considering not returning and it's for a number of reasons including the F-ing tollways. In this this day and age, you would think someone could come up with a better way to pay for roads (like the gas tax for instance). I drove 10. 3 miles (according to Google) and it took 45 minutes because of the damn tollway.
 

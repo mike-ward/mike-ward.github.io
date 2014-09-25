@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Microsoft's Gifts to Bloggers
+title: 'Microsoft's Gifts to Bloggers'
 ---
 [ ![The Controversy Over Microsoft’s Gifts to Bloggers](http://www.playfuls.com/scitech/gimages/acefer01012.jpg)Playfuls.com is reporting](http://www.playfuls.com/news_05668_The_Controversy_Over_Microsofts_Gifts_to_Bloggers.html) that Microsoft is giving laptops to bloggers who are covering technologies related to Vista. Some are calling it a bribe. I have only one thing to say to all this. Hey, Microsoft, **I love Vista!** I’ve never used it but I’m sure I would have lots of good things to say about if only I had a laptop to run it on ![](/cdn/images/blog/Blog/smile3.gif). (Perhaps I’ve had a little more holidy cheer than I can handle?)
 

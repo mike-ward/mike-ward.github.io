@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Configuring the ASP.NET Health Monitor
+title: 'Configuring the ASP.NET Health Monitor'
 ---
 One of the things I really like about programming in .NET and ASP.NET is all the cool built-in functionality in the framework. The ASP.NET health monitor is an excellent example.
 

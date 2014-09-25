@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3–Alpha 4
+title: 'Tweetz 3–Alpha 4'
 ---
 With the upcoming holiday, it looks like I’m going to be busy with family stuff, so I thought I would get another build out the door rather than wait. Like the other alpha’s, this is not feature or even function complete. You’ll find stuff that doesn’t work or isn’t quite right. I’m mostly looking for an indication if things are moving in the right direction.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Writely Free to All Now
+title: 'Writely Free to All Now'
 ---
 One of the things I need for my blogging software is a good editor. I've been using the FreeTextBox at the easy to remember URL of [http://freetextbox.com/](http://freetextbox.com/). It is a very nice WYSIWYG editor that requires no ActiveX controls and integrates directly into your ASP.Net code. Still it lacked something I sorely need. A spell checker. As a result, I started using GMail's editor because it does have a spell checker. Not exactly word processing but it works well enough. I compose in GMail and then copy and paste into my Blog entry screen.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Yellowstone - Day one
+title: 'Yellowstone - Day one'
 ---
 Ok, so we're off and rolling. We left Ann Arbor, MI about 6:00 am. We've rented a 19 ft travel trailer that I'm towing behind my 6 cylinder Trailblazer. I mention this because after fighting strong head-winds all day, I realize why experienced haulers have 8 cylinder engines (and diesel at that). While the Trailblazer can easily haul a 3,000 pound travel trailer, it does so at a cost -- Fuel. I figure I'm going to burn 25% more fuel than anticipated. Bummer.
 

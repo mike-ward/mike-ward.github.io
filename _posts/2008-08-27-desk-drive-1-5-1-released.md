@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.5.1 Released
+title: 'Desk Drive 1.5.1 Released'
 ---
 [Desk Drive](/deskdrive) 1.5.1 fixes two issues and introduces a new translation:
 

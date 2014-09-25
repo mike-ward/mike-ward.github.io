@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #25
+title: 'Friday Links #25'
 ---
 [Ballmer: No on WebKit, yes on app store | Latest Microsoft News - CNET News](http://news.cnet.com/8301-10805_3-10090118-75.html?part=rss&subj=news&tag=2547-1_3-0-5) - Despite acknowledging that WebKit's open-source nature is "interesting," Microsoft's chief executive elaborated on why he says the software giant is sticking--at least for now--with its [Trident rendering engine](http://news.cnet.com/Microsoft-brandishes-its-Trident/2100-1001_3-239879.html) for Internet Explorer.
 

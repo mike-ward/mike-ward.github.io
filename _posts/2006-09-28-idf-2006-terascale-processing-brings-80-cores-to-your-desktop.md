@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  IDF 2006: Terascale Processing Brings 80 Cores to your Desktop
+title: 'IDF 2006: Terascale Processing Brings 80 Cores to your Desktop'
 ---
 PC Perspective is running an interesting [article](http://www.pcper.com/article.php?aid=302">terascale) on the future multicore processing. The article starts off:
 

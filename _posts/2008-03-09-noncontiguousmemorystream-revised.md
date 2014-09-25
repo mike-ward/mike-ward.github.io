@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  NonContiguousMemoryStream Revised
+title: 'NonContiguousMemoryStream Revised'
 ---
 [Earlier I wrote about a class I designed to combat large heap fragmentation issues with memory streams](/blog/post/2007/12/27/noncontiguousmemorystream-in-net). I've updated the class to correct a bug I recently discovered in the read routine. I've also published the entire solution with additional unit tests.
 

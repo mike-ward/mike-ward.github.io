@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather Update
+title: 'Simply Weather Update'
 ---
 Just in time for the Windows 7 launch, an update to the definitive weather gadget for Windows, Simply Weather. This update makes some minor but welcome improvements including a new font and better handling of long names - especially for those long Northern European languages.
 

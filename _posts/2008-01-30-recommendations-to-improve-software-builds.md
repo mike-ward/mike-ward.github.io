@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Recommendations to Improve Software Builds
+title: 'Recommendations to Improve Software Builds'
 ---
 I recently took over management of our build process for our development team mostly because no one else wanted to touch it. Once I started looking at the build scripts and the issues surrounding them I understood why no one volunteered. It was simply a mess. Sadly, this is not an uncommon occurrence if my experience of the last 20 years is any indication.
 

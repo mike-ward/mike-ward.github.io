@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweet Desktop 0.8.8
+title: 'Tweet Desktop 0.8.8'
 ---
 It's been a while since I've blogged about [Tweetz](/tweetz). I've been fixing things here and there and adding a few conveniences. Here's a partial list.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #12
+title: 'Friday Links #12'
 ---
 ![](/cdn/images/links.gif)
 

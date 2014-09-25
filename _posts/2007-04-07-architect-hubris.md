@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Architect Hubris
+title: 'Architect Hubris'
 ---
 My day job has morphed into an architect role as of late. It's quite a change going from the consumer of designs to the maker of designs. I'm also rubbing shoulders with folks who don't program for a living and it's quite interesting to hear their views about how the implementation of a particular design should proceed. I once heard read somewhere that you should beware the non-coding architect. To be fair, you need people (make that smart people) who's primary duty is to design and align the major elements of a project. But I don't think they should be entirely removed from "feeling the pain" of their decisions either. A coding assignment now and then helps to realize the issues up close and personal.
 

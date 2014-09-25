@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3.0 – Release Candidate
+title: 'Tweetz 3.0 – Release Candidate'
 ---
 Hey, it’s almost done. All that’s left to do is to write a new Web page and documentation. That will take an evening or two. In the mean time, here are the release bits barring some major bug. I’m anxious to get started on 3.1 so it’s time to stick a fork in it.
 

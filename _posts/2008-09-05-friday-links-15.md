@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #15
+title: 'Friday Links #15'
 ---
 ![Picture of interlocking ](/cdn/images/links.gif) [John Robbins' Blog : So You Want To Set a Windows Journal Recording Hook on Vista?](http://www.wintellect.com/CS/blogs/jrobbins/archive/2008/08/30/so-you-want-to-set-a-windows-journal-recording-hook-on-vista-it-s-not-nearly-as-easy-as-you-think.aspx) – How to setup journal hooks in Vista and a reference to a neat unit testing tool.
 

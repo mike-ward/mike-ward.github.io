@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bloget 0.8 Released
+title: 'Bloget 0.8 Released'
 ---
 Another, month, another alpha. Don't know if anyone has noticed by I've been hitting alpha releases at about one per month since October. [Bloget™](/bloget) 0.8 is here and it has some cool new features. 
 

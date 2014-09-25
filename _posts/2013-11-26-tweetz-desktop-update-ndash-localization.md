@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop Update &ndash; Localization
+title: 'Tweetz Desktop Update &ndash; Localization'
 ---
 [![3892](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update--Localization_CDF9/3892_thumb.jpg)](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update--Localization_CDF9/3892_2.jpg)Version 0.7.0 introduces one new feature – Localization.
 

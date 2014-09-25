@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  My Favorite Session of the Build Conference
+title: 'My Favorite Session of the Build Conference'
 ---
 Stephen Toub's .NET 4.5 talk was easily my favorite session of the Build Conference.
 

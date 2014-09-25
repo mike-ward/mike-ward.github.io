@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Nested Switch Statements to Table Lookup using LINQ
+title: 'Nested Switch Statements to Table Lookup using LINQ'
 ---
 _Note: My colleague _[_Brian Genisio_](http://geekswithblogs.net/HouseOfBilz/Default.aspx)_ deserves much of the credit for this work. He urged me to consider a functional approach during a code review and then later contributed significantly to the code and this article. Check out his blog. Trust me, you’ll be a better programmer for it. _
 

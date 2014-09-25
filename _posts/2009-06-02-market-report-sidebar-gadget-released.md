@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Market Report Sidebar Gadget Released
+title: 'Market Report Sidebar Gadget Released'
 ---
 ![image](/cdn/images/blog/MarketReportSidebarGadgetReleased_11170/image.png) There are a number of “stock ticker” gadgets available for Vista/Windows 7, but as usual, they either don’t work or they try to do too much. I have a more “casual” interest in the market and just want to know what the major indices are doing. 
 

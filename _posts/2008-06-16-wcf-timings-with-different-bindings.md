@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  WCF timings with different bindings
+title: 'WCF timings with different bindings'
 ---
 I was curious how WCF timings compared using different transport bindings. Here's what I came up with:
 

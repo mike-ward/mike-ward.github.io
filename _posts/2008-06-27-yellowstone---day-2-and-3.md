@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Yellowstone - Day 2 and 3
+title: 'Yellowstone - Day 2 and 3'
 ---
 We made a mad dash across Minnesota and then South Dakota to the bad lands. The wind continue to persist for most of the trip which limited me to 55 mph. The landscape goes by very slowly. Not that the country isn't beautiful. There's a great rest stop on I-90 just before the Missouri river. Some really spectacular views. Lewis and Clark must of just been in awe.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Old Reader as an Alternative to Google Reader (with a few tweaks)
+title: 'The Old Reader as an Alternative to Google Reader (with a few tweaks)'
 ---
 Since Google’s announcement that it’s [killing it’s awesome Google Reader](http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html), I’ve been looking for an alternative. [The Old Reader](https://theoldreader.com) has a similar feel and includes the social bookmarks that Google elminated a few years ago from it’s reader. Like other readers, it has a few issues but it fits well enough with my style of use.
 

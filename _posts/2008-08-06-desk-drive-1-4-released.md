@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.4 Released
+title: 'Desk Drive 1.4 Released'
 ---
 Desk Drive continues to prove popular and lately I've been receiving an avalanche of suggestions. That's great and do keep them coming.
 

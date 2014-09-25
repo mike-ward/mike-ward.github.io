@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.8 – Windows 7 Compatible
+title: 'Desk Drive 1.8 – Windows 7 Compatible'
 ---
 Perhaps you’ve heard about an announcement from Microsoft about some new Operating System or such? Well, it’s here, it’s cool and it broke some of Desk Drive’s cooler features.
 

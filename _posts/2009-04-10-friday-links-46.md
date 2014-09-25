@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #46
+title: 'Friday Links #46'
 ---
 [Twitter Blog: The Discovery Engine Is Coming](http://blog.twitter.com/2009/04/discovery-engine-is-coming.html) - The best way to experience Twitter Search is when it's a natural part of your normal Twitter experience.
 

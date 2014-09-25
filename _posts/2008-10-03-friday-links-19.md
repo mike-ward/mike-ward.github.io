@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #19
+title: 'Friday Links #19'
 ---
 [Slashdot | Studies Say Ideology Trumps Facts](http://science.slashdot.org/article.pl?sid=08/09/25/036232&from=rss) – Why am I not surprised?
 

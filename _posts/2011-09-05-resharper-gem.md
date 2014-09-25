@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ReSharper Gem
+title: 'ReSharper Gem'
 ---
 If you program in C#, odds are you use [Microsoft’s Visual Studio](http://www.microsoft.com/visualstudio/en-us) development environment. VS 2010 has it’s stability and performance issues, which I’ve been quite vocal about, but it still is one of the best IDE's for .NET development going. Developing without [Intellisense](http://en.wikipedia.org/wiki/Intellisense) is hard to imagine.
 

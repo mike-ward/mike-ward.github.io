@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #40
+title: 'Friday Links #40'
 ---
 [The Laptop Buying Guide For 2009 | MakeUseOf.com](http://www.makeuseof.com/tag/the-laptop-buying-guide-for-2009/) - You can grab the full MakeUseOf Laptop Buying Guide in PDF format [here](http://makeuseof.com/downloads/guides/Laptop-Buying-Guide.pdf). It’s a nice summary. Give it your Father-in-Law the next time he asks for you a “recommendation”.
 

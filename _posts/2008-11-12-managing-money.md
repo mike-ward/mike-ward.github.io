@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Managing Money
+title: 'Managing Money'
 ---
 ![money](/cdn/images/blog/ManagingMoney_11549/money.jpg) 
 

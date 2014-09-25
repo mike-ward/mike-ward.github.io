@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Asynchronous XMLHttpRequests in JavaScript
+title: 'Asynchronous XMLHttpRequests in JavaScript'
 ---
 XMLHttpRequest (XHR) is a [DOM](http://en.wikipedia.org/wiki/Document_Object_Model) [API](http://en.wikipedia.org/wiki/Application_programming_interface) that can be used inside a [web browser](http://en.wikipedia.org/wiki/Web_browser) [scripting language](http://en.wikipedia.org/wiki/Scripting_language), such as [JavaScript](http://en.wikipedia.org/wiki/JavaScript), to send an [HTTP request](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) directly to a [web server](http://en.wikipedia.org/wiki/Web_server) and load the [server response](http://en.wikipedia.org/wiki/Response) data directly back into the scripting language. Once the data is within the scripting language, it is available as both an [XML](http://en.wikipedia.org/wiki/XML) document, if the response was valid XML markup, and as [plain text](http://en.wikipedia.org/wiki/Plain_text). (Thank you Wikipedia).
 

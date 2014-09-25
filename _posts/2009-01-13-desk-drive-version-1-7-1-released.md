@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive Version 1.7.1 Released
+title: 'Desk Drive Version 1.7.1 Released'
 ---
 Version 1.7 of [Desk Drive](/deskdrive) introduced a bug. When enough files were added or deleted from a removable device (like a USB stick), Desk Drive would add another shortcut to the desktop. This bug was related to the 1.7 feature showing total/free space for removable devices. Version 1.7.1 fixes this (hopefully).
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Asset Bundling in NancyFx - Part 3
+title: 'Asset Bundling in NancyFx - Part 3'
 ---
 In parts [1](/blog/post/00906/script-bundling-in-nancyfx) and [2](/blog/post/00907/asset-bundling-in-nancyfx-ndash-part-2), I built an Asset Bundling facility for use in [NancyFx](http://nancyfx.org). It provides a very easy (dare I say, super-duper-happy) method to bundling assets in NancyFx. In this last part, I'll add asynchronous support.
 

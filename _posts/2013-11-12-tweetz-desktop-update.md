@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop Update
+title: 'Tweetz Desktop Update'
 ---
 Version 0.6.2
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Stopwatch Gadget Updated
+title: 'Stopwatch Gadget Updated'
 ---
 If you look for Vista Stopwatch Sidebar gadgets you’ll find that most have small numbers and even smaller buttons. My gadget is a different. It’s takes up relatively little screen real-estate, has large easy to read numbers, and no buttons.
 

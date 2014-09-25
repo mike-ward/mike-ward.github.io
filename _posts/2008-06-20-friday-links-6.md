@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #6
+title: 'Friday Links #6'
 ---
 I'm on vacation in Yellowstone for the next couple of weeks so this will be the last "techy" post until I return. I will post pictures of trip here along the way if I get the chance.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Keyboard Handling in WPF Popup Class
+title: 'Keyboard Handling in WPF Popup Class'
 ---
 It's quite a bit of effort to get a Windows Presentation Foundation (WPF) Popup to close when the Escape key is pressed. There are several solutions freely available on the Web, but none of them worked for my use case so I wrote one. 
 

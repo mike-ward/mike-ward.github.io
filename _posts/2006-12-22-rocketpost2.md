@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  RocketPost2
+title: 'RocketPost2'
 ---
 This post tests Bloget with [RocketPost2](http://www.anconia.com/rocketpost/). Actually, this blog editor gave me a quite a bit of difficulty. Unlike other blog editors, sends the password as a base64 string. Not a bad idea but again, not standard either. That’s what testing is for I suppose. It has some rather unique features that are a bit of fun. You have already seen one of them, the Drop Cap style (well you would if I could get it to post). Another cool feature is something called a pull quote. Just highlight a section and click the button and you get one of those quotes in a block with larget letters. Makes for some nice effects. ![](/cdn/images/blog/blogcglogo_8.png)
 

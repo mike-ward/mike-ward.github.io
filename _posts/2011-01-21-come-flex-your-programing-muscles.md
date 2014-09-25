@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Come “Flex” your Programing Muscles
+title: 'Come “Flex” your Programing Muscles'
 ---
 [Codemash](http://codemash.org) is a regional conference that has grown from humble beginnings 5 years ago into a world class conference. It’s one of my primary sources for learning “new stuff”. Hey, one of the reasons we programmers love what we do is that there’s always “new stuff” to learn.
 

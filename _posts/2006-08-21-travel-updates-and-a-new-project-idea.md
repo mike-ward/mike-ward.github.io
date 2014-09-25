@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Travel, Updates and a New Project Idea
+title: 'Travel, Updates and a New Project Idea'
 ---
 It has been another one of those whirlwind weeks. I was on a plane Monday to Germany to do some architecture planning for a new medical application. During the week I tried to update this blog and actually managed two articles although their not quite the quality I would have hoped for.
 

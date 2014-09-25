@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #42
+title: 'Friday Links #42'
 ---
 [Nikhil Kothari's Weblog : Specialized Layout Panels for Silverlight](http://www.nikhilk.net/Silverlight-Layout-Panels-1.aspx) - An overview of some layout panels in Silverlight.FX: XGrid, FormPanel, HStackPanel, VStackPanel and TilePanel - specialized for simplifying layout.
 

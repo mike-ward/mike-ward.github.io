@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Script# - Developing JavaScript in C#
+title: 'Script# - Developing JavaScript in C#'
 ---
 Just picked this up on [DotNetKicks.com](http://dognetkicks.com/). This is great idea if it really works. I've written a lot of javascript and frankly it's tedious work. Having a real language and tools would be a boon to client side development
 

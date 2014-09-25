@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive Version 1.1 Released
+title: 'Desk Drive Version 1.1 Released'
 ---
 [![deskdrive](/cdn/images/blog/DeskDriveVersion1.1Released_E33C/deskdrive_thumb.png)](/cdn/images/blog/DeskDriveVersion1.1Released_E33C/deskdrive.png) There were a couple of positive articles on some popular web sites about Desk Drive posted last week. As a result, I've received a ton of email requesting features, fixes, etc. Version 1.1 adds one new feature and removes another.
 

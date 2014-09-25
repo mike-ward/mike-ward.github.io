@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.4.7 Released
+title: 'Desk Drive 1.4.7 Released'
 ---
 [Desk Drive](/deskdrive) 1.4.7 includes two new features:
 

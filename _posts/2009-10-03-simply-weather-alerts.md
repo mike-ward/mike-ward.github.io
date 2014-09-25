@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather Alerts
+title: 'Simply Weather Alerts'
 ---
 I’ve always been somewhat annoyed that weather alerts appear on a separate page in many weather sites. Isn’t an alert important enough to display on the same page as the rest of the weather? I don’t know, call me crazy but important information like a tornado warning might warrant a more prominent placement.
 

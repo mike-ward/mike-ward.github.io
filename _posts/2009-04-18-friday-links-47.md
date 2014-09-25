@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #47
+title: 'Friday Links #47'
 ---
 [NCover - Code Coverage for .NET Developers](http://www.ncover.com/blog/2009/04/08/ncover-v3020-released) – Version 3.0.20 released. Decreased memory usage when merging coverage files by 30-40%. Great tool.
 

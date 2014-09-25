@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update #10
+title: 'tweetz Update #10'
 ---
 Every time I think I’m coming to the end of a software project, someone rains on my parade with some “weird” bug. Turns out many of you like to run multiple instances of tweetz to monitor multiple accounts. Being a casual twitter user, it seems odd to want to have multiple twitter accounts, but hey, it’s a free country.
 

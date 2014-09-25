@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Remote Desktop Tips
+title: 'Remote Desktop Tips'
 ---
 We recently switched from using Timbuktu to Remote Desktop to access servers where I work. In general, I like Remote Desktop better than Timbuktu. You get your own desktop and session distinct from other logons and you get to use your own logon credentials which is just one less account/password to have to remember.  
   

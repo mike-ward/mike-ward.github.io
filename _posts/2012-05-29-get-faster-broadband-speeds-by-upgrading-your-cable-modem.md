@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Get Faster Broadband Speeds by Upgrading your Cable Modem
+title: 'Get Faster Broadband Speeds by Upgrading your Cable Modem'
 ---
 I don't pay attention much to my cable connection. It's reliable and while not blazing fast was good enough to stream movies. Heck, why would I need more than 2mb/s download speed right? Wrong!
 

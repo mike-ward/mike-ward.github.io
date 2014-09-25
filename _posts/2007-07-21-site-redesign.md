@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Site Redesign
+title: 'Site Redesign'
 ---
 I was getting tired of the old look. Here's a new look that's a nod to the Web 2.0 designs of late but without the "beta" emblems and rounded corners. I already get points for a silly name.  
   

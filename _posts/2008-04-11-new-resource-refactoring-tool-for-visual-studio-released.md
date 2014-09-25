@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  New Resource Refactoring Tool for Visual Studio Released!
+title: 'New Resource Refactoring Tool for Visual Studio Released!'
 ---
 After replacing about 100 strings with resource references recently, I began to wonder why Microsoft did not include a refactoring tool extract strings in code to resources. To do it currently requires switching back and forth between resource view and your code and copying strings. Tedious to say the least.
 

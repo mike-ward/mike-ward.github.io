@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Syntactic Line Compression in Visual Studio
+title: 'Syntactic Line Compression in Visual Studio'
 ---
 The [Productivity Power Tools](http://visualstudiogallery.msdn.microsoft.com/dbcb8670-889e-4a54-a226-a48a15e4cace?SRC=VSIDE) (PPT) extensions have never held much interest for me. I found that while much of it looks useful and interesting, I would quickly forget it was there and stop using it. Unlike [ReSharper](http://www.jetbrains.com/resharper/), PPT doesn't nudge me into using it.
 

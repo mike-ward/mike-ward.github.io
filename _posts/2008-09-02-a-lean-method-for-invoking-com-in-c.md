@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A lean method for invoking COM in C#
+title: 'A lean method for invoking COM in C#'
 ---
 One of the features I wanted to add to Desk Drive was the ability to minimize all windows when it detected a new drive. There's a method in the Windows Shell that is exposed through COM that does this. One way to get at this is to do the following:
 

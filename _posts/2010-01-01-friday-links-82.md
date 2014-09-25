@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #82
+title: 'Friday Links #82'
 ---
 Happy New Year everyone. OK, moment over, back to links.
 

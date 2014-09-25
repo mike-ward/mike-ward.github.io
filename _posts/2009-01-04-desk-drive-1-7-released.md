@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.7 Released
+title: 'Desk Drive 1.7 Released'
 ---
 ![tinytags](/cdn/images/blog/DeskDrive1.7Released_BE05/tinytags.png) Just in time to welcome in the new year, [Desk Drive](/deskdrive) 1.7 adds three new translations and a cool little feature suggested by one of our users.
 

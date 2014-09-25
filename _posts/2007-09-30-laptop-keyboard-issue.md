@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Laptop Keyboard Issue
+title: 'Laptop Keyboard Issue'
 ---
 I mentioned in an [earlier post](/blog/post/2007/09/25/new-notebook-new-operating-system) that the new laptop I purchased has the FN and CTRL keys in the wrong position (IMHO). The CTRL key should be the left most key. I thought after a week or so I would get use to the new layout, but alas it is just not working out. The Left CTRL key is just to far right to be of any real use.
 

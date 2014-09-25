@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop Update
+title: 'Tweetz Desktop Update'
 ---
 [![typeahead](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update_998D/typeahead_thumb.png)](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update_998D/typeahead_2.png)Been a good week development-wise. Here's what's new with Tweetz Desktop. 
 

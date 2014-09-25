@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Converting URLs to Hyperlinks in JavaScript
+title: 'Converting URLs to Hyperlinks in JavaScript'
 ---
 I hunted around for a JavaScript method to convert URLs in a text stream to hyperlinks and came up short. I wrote this quickie method that works for the limited data I’ve thrown at it. There are likely more robust methods but darn if I could find one.
     

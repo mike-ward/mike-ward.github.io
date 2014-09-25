@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Yellowstone
+title: 'Yellowstone'
 ---
 We're headed out West next week for a long over due vacation. The plan is rent a pull-behind trailer and drive out to Yellowstone via the Bad Lands. I've spent a fair amount of time in Colorado and Arizona but never managed to find my way to Wyoming.
 

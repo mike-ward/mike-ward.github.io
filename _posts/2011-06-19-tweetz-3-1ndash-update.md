@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz 3.1&ndash; Update
+title: 'tweetz 3.1&ndash; Update'
 ---
 The 1.6.1 version of jQuery had some breaking changes with regard to the .attr() method. This caused some settings in [tweetz](/tweetz) not to be saved. Changed to use the new .prop() method which behaves as expected.
 

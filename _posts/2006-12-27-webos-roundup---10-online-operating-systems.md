@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  WebOS Roundup - 10 Online Operating Systems
+title: 'WebOS Roundup - 10 Online Operating Systems'
 ---
 [WebOS’s](http://en.wikipedia.org/wiki/Webtop) (sometimes called Webtops) are online systems designed to resemble a standard PC desktop while making it accessible from anywhere in the world. These virtual desktops look and feel like a Windows desktop (or Linux or Mac) but work through a Web browser making any Web capable computer a portal to your applications and data. None of these systems are mature enough to replace your operating system just yet but they show promise.
 

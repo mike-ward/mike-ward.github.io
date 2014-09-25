@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Vista Weather Gadget – More Updates
+title: 'Vista Weather Gadget – More Updates'
 ---
 In keeping with updating early and often, here’s the latest release of my weather gadget for Windows Vista. Some more layout fixes and a few bug fixes. Here’s another look.
 

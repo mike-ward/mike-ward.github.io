@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz &ndash; Direct Messages Update
+title: 'tweetz &ndash; Direct Messages Update'
 ---
 Good news! I figured out how to get the Direct Messages working. Recall that due to a recent change in twitter’s API policy, direct messages stopped working a few days ago.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Kindle 2 is a winner
+title: 'Kindle 2 is a winner'
 ---
 ![The Kindle Store: More Than 275,000 Books](http://g-ecx.images-amazon.com/images/G/01/kindle/turing/photos/earths-biggest-selection-450px._V251249388_.jpg)
 

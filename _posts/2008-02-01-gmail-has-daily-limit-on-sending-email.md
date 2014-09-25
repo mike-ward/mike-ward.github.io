@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Gmail has Daily Limit on Sending Email
+title: 'Gmail has Daily Limit on Sending Email'
 ---
 I'm an avid Gmail user. I've never come anywhere near these limits but still it's good to know where the boundaries are:
 

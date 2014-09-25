@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Setting File Permissions in Wix 3.0
+title: 'Setting File Permissions in Wix 3.0'
 ---
 I’m new to Wix and to Windows Installers in general so some of this is likely wrong or obvious. Still, I couldn’t find much information on how to do set file permissions for a particular user account so I thought I’d share.
 

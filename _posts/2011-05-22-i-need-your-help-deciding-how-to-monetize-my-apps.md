@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  I need your help deciding how to monetize my apps
+title: 'I need your help deciding how to monetize my apps'
 ---
 Recently, my download counters ticked past the 1 million mark. I don’t count all the mirror sites, magazine CD subscriptions or even some of the obvious copies of my work (yes, I know who you are). Donations on the other hand are far and few between. A good month lands me a whole $20.
 

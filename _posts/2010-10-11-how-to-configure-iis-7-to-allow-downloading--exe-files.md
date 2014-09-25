@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to configure IIS 7 to allow downloading .exe files
+title: 'How to configure IIS 7 to allow downloading .exe files'
 ---
 If you’re finding that you’re getting 404 errors when trying to download executable files, add the following to your web.config (IIS 7 only).
     

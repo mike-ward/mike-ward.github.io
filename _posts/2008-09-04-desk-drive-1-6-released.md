@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.6 Released
+title: 'Desk Drive 1.6 Released'
 ---
 [![usb memory stick](/cdn/images/blog/DeskDrive1.6Released_974A/usb.jpg)](/deskdrive) Desk Drive 1.6 features the option to open Windows Explorer when it detects a new drive. In addition, you should notice that Desk Drive memory usage as indicated by the Task Manager is considerably less.
 

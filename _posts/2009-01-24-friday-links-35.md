@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #35
+title: 'Friday Links #35'
 ---
 [![image](/cdn/images/blog/FridayLinks35_10705/image_thumb.png)](/cdn/images/blog/FridayLinks35_10705/image.png)
 

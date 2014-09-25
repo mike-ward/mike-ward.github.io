@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 2.3 – Update Failed
+title: 'Tweetz 2.3 – Update Failed'
 ---
 [![Crying_64](/cdn/images/blog/Tweetz2.3UpdateFailed_A6A3/Crying_64_thumb.png)](/cdn/images/blog/Tweetz2.3UpdateFailed_A6A3/Crying_64.png) OK, I missed on this release. It happens sometimes. I’ve pulled the tweetz 2.3 release due to bugs and a general dissatisfaction with the way new tweets are indicated.
 

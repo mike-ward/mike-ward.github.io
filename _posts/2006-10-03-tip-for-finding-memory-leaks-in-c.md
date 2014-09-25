@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tip for Finding Memory Leaks in C#
+title: 'Tip for Finding Memory Leaks in C#'
 ---
 There are many tools and techniques for finding memory leaks in managed code. Some involve sophisticated tools like the [CLR Profiler](http://www.c-sharpcorner.com/Code/2004/Aug/CLRProfiler.asp). While I have found such techniques useful for bugs in the "wild", I have found a simpler technique that smokes out these errors during development. It's really two tips.
 

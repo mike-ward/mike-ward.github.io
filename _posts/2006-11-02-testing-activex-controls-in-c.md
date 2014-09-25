@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Testing ActiveX Controls in C#
+title: 'Testing ActiveX Controls in C#'
 ---
 Using COM in managed code can seem like uneasy truce at times. Take the AxHost wrapper class for instance. When using ActiveX controls in C#, Visual Studio will generate an AxHost wrapper class that builds a facade around the unmanaged code. Problem is, the constructor for this AxHost wrapper class doesn't actually check if it can create the control. Instead, the wrapper waits until a method is called that requires the actual ActiveX control and only then does it try to create it.
 

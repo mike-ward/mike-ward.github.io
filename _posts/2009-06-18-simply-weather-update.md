@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather Update
+title: 'Simply Weather Update'
 ---
 A couple of nice tweeks for this release. First, the layout has been improved to handle languages other than English better. Dutch turns out to be a challenging one to fit in Simply Weather’s small format. Here’s an example.
 

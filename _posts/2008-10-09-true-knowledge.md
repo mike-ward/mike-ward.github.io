@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  true knowledge
+title: 'true knowledge'
 ---
 Google does a great job at key word searches but it is less adept at answering questions like the follow:
 

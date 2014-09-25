@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Handy Command Line Options
+title: 'Handy Command Line Options'
 ---
 [Here](http://erik.thauvin.net/wiki/display/Tips/XP%20Run%20Commands) is a list of commands you can execute from the Run command prompt in XP: 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A Change of Sorts
+title: 'A Change of Sorts'
 ---
 “Who is the Mike Ward chap and what have you done with Blue Onion Software?”
 

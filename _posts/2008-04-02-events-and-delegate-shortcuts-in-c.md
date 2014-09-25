@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Events and Delegate Shortcuts in C#
+title: 'Events and Delegate Shortcuts in C#'
 ---
 The syntax for events and delegates has always struck me as a bit bulky and hard to remember. For instance, to declare an Alarm event seen in many of the Microsoft code samples, you declare a handler type and an event of that handler type as follows:
     

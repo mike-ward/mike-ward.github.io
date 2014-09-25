@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Introducing Nancy.Pile
+title: 'Introducing Nancy.Pile'
 ---
 [Nancy.Pile](https://github.com/mike-ward/Nancy.Pile) is a super simple asset bundler for NancyFx.
 

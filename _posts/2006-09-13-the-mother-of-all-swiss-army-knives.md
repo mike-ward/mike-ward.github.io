@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Mother of All Swiss Army Knives
+title: 'The Mother of All Swiss Army Knives'
 ---
 One question: Why?
 

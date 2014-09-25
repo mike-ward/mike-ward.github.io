@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Google Chromebook Review &ndash; C7 Acer
+title: 'Google Chromebook Review &ndash; C7 Acer'
 ---
 I recently bought a Chrome Book for my daughter which I’m reviewing here.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  AdSensor Update
+title: 'AdSensor Update'
 ---
 AdSensor is a Windows 7 Sidebar gadget that tracks your AdSense earnings. This update fixes a few minor issues. 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Female Space Tourist Phones Home
+title: 'Female Space Tourist Phones Home'
 ---
 Some people just live incredible lives. Anari's story of coming to this country with nothing and becoming a mega-millionaire is just extraordinary. And unlike some, she is using her wealth to do and experience things the rest of us can only dream about. She recently called Google founder Larry Page from the International Space Station.
 

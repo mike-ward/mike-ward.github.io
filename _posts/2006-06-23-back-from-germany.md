@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Back From Germany
+title: 'Back From Germany'
 ---
 Had to take a few days off to fly to Germany. My day job requires regular trips to the Germany these days. I really like the food there, maybe a bit too much.
 

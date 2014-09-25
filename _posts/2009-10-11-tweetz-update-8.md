@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update #8
+title: 'tweetz Update #8'
 ---
 This update has a bunch of little usability updates.
 

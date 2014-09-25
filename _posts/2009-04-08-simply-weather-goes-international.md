@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather goes international
+title: 'Simply Weather goes international'
 ---
 Simply Weather is a Vista/Windows 7 Sidebar Gadget that brings you the weather in a simple, no nonsense format. It neatly fits in the sidebar and displays the current conditions and 3 day forecast in compact, easy to read format. It also has 5 different display formats and, as of version 1.2, supports many different languages/cultures. Here’s the standard display format.
 

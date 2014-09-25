@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  All Electric Vehicles Appearing
+title: 'All Electric Vehicles Appearing'
 ---
 Recently I blogged that the [future of cars is electric](/blog?bloget_mode=View&bloget_item=18dd72fd-0854-41c0-a603-7d2379421129). Here's an offering from [Phoenix Motorcars](http://phoenixmotorcars.com) that drives the point home (Ok, bad pun). No word on the cost but if it lives up to the specifications I'm mighty interested. My only question is "Why a pickup truck?" There appears to a sedan model but there is little information about it other than these [two](http://phoenixmotorcars.com/models/images/suv-front.jpg)[photos](http://phoenixmotorcars.com/models/images/suv-rear.jpg).
 

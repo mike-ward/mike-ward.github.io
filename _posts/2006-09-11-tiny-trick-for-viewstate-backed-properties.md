@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tiny Trick for ViewState Backed Properties
+title: 'Tiny Trick for ViewState Backed Properties'
 ---
 Phil Haacked's blog has an excellent article on using [the null coalescing operator with value types](http://haacked.com/archive/2006/08/07/TinyTrickForViewStateBackedProperties.aspx). I ran into to this very issue just the other night and like Phil quickly gave up. To summarize the trick.
     

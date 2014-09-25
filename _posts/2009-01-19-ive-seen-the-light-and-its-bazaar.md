@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  I’ve seen the light and it’s Bazaar
+title: 'I’ve seen the light and it’s Bazaar'
 ---
 ![Bazaar](http://bazaar-vcs.org/htdocs/bazaarNew/css/logo.png)One of the coolest presentations I attended at [CodeMash 2009](http://codemash.org/) was a session on [Bazaar](http://bazaar-vcs.org/), an open source, distributed version control system. It’s hard to imagine getting excited about something as mundane as version control but in this case it’s really worth a look. Promise.
 

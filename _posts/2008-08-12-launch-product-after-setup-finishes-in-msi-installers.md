@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Launch product after setup finishes in MSI installers
+title: 'Launch product after setup finishes in MSI installers'
 ---
 Visual Studio 2008 includes a setup project that can build MSI installers for your products. The authoring interface is a bit clunky but it incorporates most of the features one would want in a robust installer. Furthermore, since it is a Windows MSI Installer, it provides enterprise level options like feature selection and rollback. All in all, its a powerful and useful package.
 

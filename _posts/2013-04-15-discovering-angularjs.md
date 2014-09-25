@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Discovering AngularJS
+title: 'Discovering AngularJS'
 ---
 I write web applications and my usual tools are [KnockoutJS](http://knockoutjs.com) and [jQuery](http://jquery.org). But in the last day or so I’ve discovered [AngularJS](http://angularjs.org), a JavaScript framework by Google. I’m totally hooked. Here’s a simple example:
     

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ASP.Net Blog Control, Where art thou? (continued)
+title: 'ASP.Net Blog Control, Where art thou? (continued)'
 ---
 In[ part one](/BlogArticle.aspx?articleId=6d08d1d4-3a79-4ae4-9b3f-ada86eda4471) I discussed some of my motivation for writing my own blog software, not the least of which I'm cheap. But really, it's not all that hard once you know you're way around .Net. Perhaps the hardest part of .Net is just getting to know the breath and depth of the .Net library. Part one introduced you to XmlSerializer, a quick and easy way to serialize an object to XML and back again. But the object model was incomplete so let's fill that in and introduce a few new .Net 2.0 concepts along the way.
 

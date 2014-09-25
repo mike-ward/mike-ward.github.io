@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Anonymous Methods, Method Group Conversions and EventHandler
+title: 'Anonymous Methods, Method Group Conversions and EventHandler'
 ---
 One of my favorite new features of C# 2.0 is Anynomous Methods. Anynomous Methods allow you to write event handlers inline instead of assigning a method. Often times this is handier, especially when you're doing something simple like incrementing a counter or displaying a message. 
 

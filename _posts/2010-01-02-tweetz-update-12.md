@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update #12
+title: 'tweetz Update #12'
 ---
 **What’s New**
 

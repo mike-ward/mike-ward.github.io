@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #83
+title: 'Friday Links #83'
 ---
 **Programming**
 

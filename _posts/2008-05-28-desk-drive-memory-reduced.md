@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive Memory Reduced?
+title: 'Desk Drive Memory Reduced?'
 ---
 I'm not sure why but Version 1.1 of Desk Drive uses 5 MB as compared to 18 MB for Version 1.0.
 

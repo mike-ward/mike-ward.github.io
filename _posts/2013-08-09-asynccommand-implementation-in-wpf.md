@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  AsyncCommand Implementation in WPF
+title: 'AsyncCommand Implementation in WPF'
 ---
 I found this nifty implementation of a asynchronous command using the new [async/await](http://msdn.microsoft.com/en-us/library/vstudio/hh191443.aspx) syntax in C# 4.5 in some code I was reviewing. Nice abstraction.
     

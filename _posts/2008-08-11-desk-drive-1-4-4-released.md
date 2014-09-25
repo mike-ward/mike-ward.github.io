@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.4.4 Released
+title: 'Desk Drive 1.4.4 Released'
 ---
 I was still receiving reports of Desk Drive crashing when "Minimize all windows" was active. I talked about this problem in an earlier post titled "[Using C# to Interact with the Shell Gotcha](/blog/post/2008/08/07/using-c-to-interact-with-the-shell-gotcha)". **Well, I was wrong**. If you develop on a system with a later version of the shell interface, it will bind to that version when using the VS 2008 interop code generator. Said another way, you can't just add a reference to the Shell and let VS do the COM interop.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  AugularJS iTunes Example
+title: 'AugularJS iTunes Example'
 ---
 I recently gave a presentation on AnguluarJS to a local user group. It was introductory in nature. Towards the end I presented a single file example that demonstrated a number of concepts I had touched on in the presentation including data-binding and AJAX requests.
 

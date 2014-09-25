@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Marvin’s Marvelous Mechanical Museum
+title: 'Marvin’s Marvelous Mechanical Museum'
 ---
 Yesterday, the family and I went to a really [interesting little museum](http://marvin3m.com/). Well, that’s what they call it but it’s more of an arcade.
 

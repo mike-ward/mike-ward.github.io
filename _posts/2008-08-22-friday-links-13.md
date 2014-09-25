@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #13
+title: 'Friday Links #13'
 ---
 [Track Your Twitter Popularity With TwitterCounter](http://www.makeuseof.com/tag/track-your-twitter-popularity-with-twittercounter/) - Twitter equivalent of Feed Burner, automatically generating a counter for your site and giving you access to some fairly reasonable statistical data.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Give the Gift of Safe
+title: 'Give the Gift of Safe'
 ---
 ![](http://www.opendns.com/img/logo/opendns_logo_100.gif)
 

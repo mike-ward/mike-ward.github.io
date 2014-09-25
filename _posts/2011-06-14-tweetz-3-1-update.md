@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz 3.1 Update
+title: 'tweetz 3.1 Update'
 ---
 A few weeks back I posted a fix for the HTTPS problems some of you encountered. I posted a beta then that addressed the problem. Haven’t had any complaints since then so I’m making it official. This new release is the same as the beta so there is no need to update if you downloaded the beta already.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Beta – OAuth
+title: 'tweetz Beta – OAuth'
 ---
 twitter.com has made it known that they plan to phase out the user name/password authentication API in favor of OAuth in the near future. [OAuth](http://oauth.net) allows applications, like tweetz, to access your twitter account without having to give the application your user name and password.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bloget Alpha 3 is Away
+title: 'Bloget Alpha 3 is Away'
 ---
 [Bloget](/bloget) Version 0.3 is just in time for the Holidays. This release implements the [MetaWeblog Api](http://www.xmlrpc.com/metaWeblogApi) including image uploads. It works great with many off line editors like [BlogJet](http://blogjet.com/) and [Windows Live Writer](http://windowslivewriter.spaces.live.com/blog/cns!D85741BB5E0BE8AA!174.entry) as well as blogging services like [Blogmailr](http://www.blogmailr.com/). Along the way there have been many _little_ changes that don’t seem like much but really add to the overall feel of the project. Of course being only Alpha 3 there’s lots left to do.
 

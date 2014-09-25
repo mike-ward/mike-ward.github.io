@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Get a Free Mobile Site for a Year from Google
+title: 'Get a Free Mobile Site for a Year from Google'
 ---
 [![US-175x100](/cdn/images/blog/Google_D650/US-175x100.png)](http://www.howtogomo.com/en/d/why-go-mo/)Not sure how long this has been around, but Google is promoting mobile sites by offering a free year of service from [http://dudamobile.com](http://dudamobile.com).
 

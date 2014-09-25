@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop Beta
+title: 'Tweetz Desktop Beta'
 ---
 [![tweetzdesktop](/cdn/images/blog/WindowsLiveWriter/TweetzDesktopBeta_A15A/tweetzdesktop_thumb.png)](/cdn/images/blog/WindowsLiveWriter/TweetzDesktopBeta_A15A/tweetzdesktop_2.png) Tweetz Desktop is a desktop version of my twitter gadget **tweetz**. It has many of a the same features as the gadget. Like the gadget, Tweetz Desktop is designed to sit quietly in the corner of your desktop. The design is minimal, quiet and has almost no window chrome. 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz &ndash; Direct Messages Broken
+title: 'tweetz &ndash; Direct Messages Broken'
 ---
 Today, just before the holiday, twitter has enabled a new security feature (sigh). Third party applications like [tweetz](/tweetz) have to make an extra request and get approval to access Direct Messages.
 

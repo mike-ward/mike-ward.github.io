@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Yellowstone - Day 7 and 8
+title: 'Yellowstone - Day 7 and 8'
 ---
 We've arrived at Yellowstone at last! The day's driving was relatively easy despite the mountainous terrain. Towing a large trailer takes a little different attitude. The cruise control is worthless. It's designed for lightly loaded vehicle. I've found if I accelerate early and keep the RPM's up the truck does a very good job of pulling the trailer. Also, I've been adjusting the load levelers and I think I've found the sweet spot. Despite pulling some pretty steep grades, most of the time I could maintain 55 mph.
 

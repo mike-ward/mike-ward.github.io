@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Learning F#
+title: 'Learning F#'
 ---
 The old saying in programming is "adapt or die". While that's not entirely true, I find the programmers I respect and consult with the most are the ones who are always learning something new. And these days, there's a lot of "new" out there to learn.
 

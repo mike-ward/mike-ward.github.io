@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  FileHamster
+title: 'FileHamster'
 ---
 Silly name but a great idea.
 

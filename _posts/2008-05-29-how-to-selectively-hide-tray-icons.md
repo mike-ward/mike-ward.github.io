@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to Selectively Hide Tray Icons
+title: 'How to Selectively Hide Tray Icons'
 ---
 I've had a number of requests to add a feature to Desk Drive that hides the tray icon. Turns out, you already have the ability to do this from the task bar. Here's how.
 

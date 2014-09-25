@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Safari on Windows
+title: 'Safari on Windows'
 ---
 ![](http://images.apple.com/safari/images/contentfooter_webdev20070611.png) 
 

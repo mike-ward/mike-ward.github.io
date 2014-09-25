@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop Update - 0.8.22
+title: 'Tweetz Desktop Update - 0.8.22'
 ---
 Been a while since I updated [Tweetz](/tweetz) Desktop. Busy busy busy as they say. So what's new?
 

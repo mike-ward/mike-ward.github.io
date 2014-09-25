@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Custom Error Pages in NancyFx
+title: 'Custom Error Pages in NancyFx'
 ---
 [NancyFx](http://nancyfx.org) (commonly just called Nancy) is a [Sinatra](http://en.wikipedia.org/wiki/Sinatra_(software)) inspired MVC framework for ASP.Net. It’s low ceremony and just plain fun to write in. The home page communicates volumes about its philosophy in just 7 lines of code (including braces).
 

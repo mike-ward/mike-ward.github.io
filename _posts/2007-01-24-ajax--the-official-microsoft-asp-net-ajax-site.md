@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  AJAX : The Official Microsoft ASP.NET AJAX Site
+title: 'AJAX : The Official Microsoft ASP.NET AJAX Site'
 ---
 ASP.NET [AJAX](http://www.answers.com/topic/asp-net-ajax?method=26&initiator=answertip:more) has just been officially released. ASP.NET AJAX is a [free framework](http://ajax.asp.net/downloads/default.aspx?tabid=47) for quickly creating a new generation of more efficient, more interactive and highly-personalized Web experiences that work across all the most popular browsers.
 

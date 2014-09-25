@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  BitPump Released
+title: 'BitPump Released'
 ---
 If you've spent anytime in the Freeware world, you have probably encountered [AnalogX](http://www.AnalogX.com) at one time or another. If not, you owe it to yourself to visit this site. This guy has been pumping out freeware for years and it's really good stuff. AnalogX programs are always small, always reliable and just seem to work without much fuss.
 

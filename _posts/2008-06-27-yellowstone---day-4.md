@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Yellowstone - Day 4
+title: 'Yellowstone - Day 4'
 ---
 We left the Bad Lands of South Dakota early and headed for the Interstate. First stop was the National Minuteman Missile Launch Facility. The park service runs tours of the old cold war missile silos and command centers. It's such an important part of history that we had to stop and investigate.
 

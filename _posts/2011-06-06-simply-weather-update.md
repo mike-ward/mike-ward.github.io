@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather Update
+title: 'Simply Weather Update'
 ---
 OK, once again, the icons are back and working. I’ve added code to read both the old (current again) and new format in case those Googler’s slip a fast change in on me again. Of course, if they go to yet another format, then I’ll have to code for that one a well.
 

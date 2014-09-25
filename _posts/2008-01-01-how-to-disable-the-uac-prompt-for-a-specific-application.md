@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to disable the UAC prompt for a specific application
+title: 'How to disable the UAC prompt for a specific application'
 ---
 Sometimes, you want to disable UAC prompt for certain applications on a Windows Vista computer without disabling UAC for the whole computer.
 

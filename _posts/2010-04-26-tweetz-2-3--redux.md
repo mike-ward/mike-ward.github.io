@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz 2.3 – Redux
+title: 'tweetz 2.3 – Redux'
 ---
 I’m reintroducing version 2.3. The last release was a bit under cooked. Apart from some minor layout tweaks, the only new feature is the ability to mark an entry.
 

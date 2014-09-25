@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Ford Airstream concept: a shiny, hydrogen-powered PHEV funmobile
+title: 'Ford Airstream concept: a shiny, hydrogen-powered PHEV funmobile'
 ---
 [![](/cdn/images/blog/WindowsLiveWriter/FordAirstreamconceptashinyhydrogenpowere_7D5E/fordairstreamconcept_05_thumb.jpg) AutoblogGreen](/cdn/images/blog/WindowsLiveWriter/FordAirstreamconceptashinyhydrogenpowere_7D5E/fordairstreamconcept_05%5B2%5D.jpg) has an article on Ford's new concept vehicle. It wins my vote for one of the ugliest concept vehicles I've ever seen. One thing did catch my eye however.
 

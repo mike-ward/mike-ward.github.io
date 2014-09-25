@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C# 2.5? | Did it with .NET
+title: 'C# 2.5? | Did it with .NET'
 ---
 Hey, now here's a tip that's really useful and something I didn't realize. Many of the features of C# 3.0 are available when targeting the .NET 2.0 framework when developing with Visual Studio 2008. 
 

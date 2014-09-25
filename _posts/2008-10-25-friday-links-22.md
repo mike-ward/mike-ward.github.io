@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #22
+title: 'Friday Links #22'
 ---
 [ePrintableCalendars: Free Printable Calendars](http://www.makeuseof.com/dir/eprintablecalendars-free-printable-calendars-charts-flash-cards-games/) – Sometimes you just need a blank calendar. Simple and to the point.
 

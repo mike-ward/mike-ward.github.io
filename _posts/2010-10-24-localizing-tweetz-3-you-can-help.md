@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Localizing tweetz 3– You can help
+title: 'Localizing tweetz 3– You can help'
 ---
 [Tweetz](/tweetz) 3 is finished and it’s on to version 3.1. The first order of business is to localize tweetz and so I’m going to need translations. Download [locale.js](/downloads/locale.js), edit it to for your language preference, and send it back to me. I’ll verify the submission and add it to the language matrix for the next release.
 

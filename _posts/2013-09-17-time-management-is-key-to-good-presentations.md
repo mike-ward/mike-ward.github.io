@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Time Management is Key to Good Presentations
+title: 'Time Management is Key to Good Presentations'
 ---
 I occasionally give talks on programming topics at user groups and conferences. I'm no expert at this, but having sat through hundreds of talks and having delivered a few of them myself, I've come to view time management a one of the most important aspects of a presentation. Here are some recommendations that have worked for me.
 

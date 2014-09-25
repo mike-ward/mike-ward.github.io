@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Yellowstone - Day 9 and 10
+title: 'Yellowstone - Day 9 and 10'
 ---
 We were up at 5:30 am local time and out the door a little after 6:00 am. We headed North to Hayden Flats in look of wildlife. We came up empty. In fact, we were pretty much a bust on the wildlife aspect of our trip. Others told us they were practically tripping over wildlife but we were hard pressed to find any. Timing is everything I suppose.
 

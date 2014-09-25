@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update #9
+title: 'tweetz Update #9'
 ---
 User kimatg made some excellent suggestions some of which I’ve incorporated in this release.
 

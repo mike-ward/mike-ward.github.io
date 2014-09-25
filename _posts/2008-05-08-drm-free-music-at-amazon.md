@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  DRM Free Music at Amazon
+title: 'DRM Free Music at Amazon'
 ---
 Jeff Atwood, the author of the fabulous Coding Horror blog, has a [great write up about buying DRM (Digital Rights Management) free software from Amazon.com](http://www.codinghorror.com/blog/archives/001113.html). I never bought music from ITunes simply because of the DRM issues. However, like Jeff, I vote with my wallet and buy music from Amazon.com precisely because it is DRM free. What cracked me up the most however was some of the comments he makes along the way.
 

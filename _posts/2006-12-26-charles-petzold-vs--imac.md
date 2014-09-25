@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Charles Petzold vs. IMac
+title: 'Charles Petzold vs. IMac'
 ---
 If you're a windows programmer then it's likely you know who Charles Petzold and his many books on Windows programming. Charles writings are always technically concise and almost always devoid of commentary, which is why I was quite surprised to read his [blog](http://www.charlespetzold.com/blog/2006/12/250913.html) article on his experiences with Apple and in particular, the IMac. Here's an excerpt:
 

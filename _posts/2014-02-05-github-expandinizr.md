@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Github Expandinizr
+title: 'Github Expandinizr'
 ---
 Rarely has an extension improved my web browsing experience like [GitHub Expandinizr](https://chrome.google.com/webstore/detail/githubexpandinizr/cbehdjjcilgnejbpnjhobkiiggkedfib?hl=en). What it does:
 

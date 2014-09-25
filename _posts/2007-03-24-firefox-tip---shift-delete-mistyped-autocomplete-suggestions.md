@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Firefox Tip - Shift-Delete Mistyped Autocomplete Suggestions
+title: 'Firefox Tip - Shift-Delete Mistyped Autocomplete Suggestions'
 ---
 [Lifehacker](http://lifehacker.com/software/firefox/firefox-tip--shift+delete-mistyped-autocomplete-suggestions-238693.php) has a great little Firefox tip:
 

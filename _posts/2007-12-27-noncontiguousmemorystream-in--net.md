@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  NonContiguousMemoryStream in .NET
+title: 'NonContiguousMemoryStream in .NET'
 ---
 System.IO.MemoryStream is one handy little class. One of my favorite uses for memory streams is serialization. I typically serialize to a memory stream first and then copy the stream to a file or other backing store. Why I do this is simple. If the serialization faults, I don't corrupt the backing store image. You can of course accomplish a similar thing using temporary files but I find the speed and convenience of memory streams to be better.
 

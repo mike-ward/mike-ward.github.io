@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  FreeSnap 1.5.2 Released
+title: 'FreeSnap 1.5.2 Released'
 ---
 FreeSnap 1.5 added support for multiple monitors which changed how the Win+5 key combination worked. In single monitor situations, FreeSnap centers the window on the desktop. When multiple monitors are detected, the same key combination moves the window to the next monitor.
 

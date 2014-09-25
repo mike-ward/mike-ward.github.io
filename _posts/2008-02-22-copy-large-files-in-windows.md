@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Copy Large Files in Windows
+title: 'Copy Large Files in Windows'
 ---
 Robocopy (means Robust Copy) is a tool from Microsoft. It is distributed in the Windows 2003 Server Resource kit (along with many other cool tools). Robocopy is faster and much more reliable. It can restart failed transfers and has a rich set of options for mirroring directories, logging and more.
 

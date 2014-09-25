@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Introducing Nancy.Markdown.Blog
+title: 'Introducing Nancy.Markdown.Blog'
 ---
 
 `TL;TR` - [GitHub - Nancy.Markdown.Blog](https://github.com/mike-ward/Nancy.Markdown.Blog)

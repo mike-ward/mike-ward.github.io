@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Maintaining User Settings when Upgrading
+title: 'Maintaining User Settings when Upgrading'
 ---
 A Desk Drive user sent me a bug report complaining that his settings were not maintained when he upgraded from one version to the next. After checking into it I discovered he was right. The **Settings** class in .Net maintains settings in a **user.config** style that is stored in a folder that corresponds to the program version.
 

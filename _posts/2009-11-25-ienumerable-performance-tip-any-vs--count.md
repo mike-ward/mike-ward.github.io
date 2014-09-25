@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  IEnumerable Performance Tip: Any() vs. Count()
+title: 'IEnumerable Performance Tip: Any() vs. Count()'
 ---
 I can’t count the number of times (unintentional pun) I’ve checked if an IEnumerable<T> sequence contains elements using Count().
     

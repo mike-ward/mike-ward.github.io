@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Tooth Fairy Note
+title: 'The Tooth Fairy Note'
 ---
 My daughter left this note for the tooth fairy the other night.
 

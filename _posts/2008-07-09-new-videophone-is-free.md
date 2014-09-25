@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  New Videophone is Free!
+title: 'New Videophone is Free!'
 ---
 _Here's the bottom line. If you have high-speed Internet access you can make unlimited local and long distance phone calls (to any phone, not just videophones) for 29.95/month. If the other party has a Videophone, you can see them. And the kicker, the equipment is **free**! Send me an email at [mike@blueonionsoftware.com](mailto:mike@blueonionsoftware.com) or visit [http://mikejean.acnrep.com](http://mikejean.acnrep.com). This is a limited time offer so don't delay._
 

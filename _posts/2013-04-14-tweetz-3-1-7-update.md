@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3.1.7 Update
+title: 'Tweetz 3.1.7 Update'
 ---
 [![update](/cdn/images/blog/Windows-Live-Writer/Tweetz-3.1.7_7BBB/update_thumb.png)](/cdn/images/blog/Windows-Live-Writer/Tweetz-3.1.7_7BBB/update_2.png)A few weeks ago I started getting messages about tweetz login errors. Not having a Windows 7 machine limited what I could do. Since then I’ve found a way to run [desktop gadgets on Windows 8](http://teamwindows8.com/2013/02/install-desktop-gadgets-and-sidebar-in-windows-8/).
 

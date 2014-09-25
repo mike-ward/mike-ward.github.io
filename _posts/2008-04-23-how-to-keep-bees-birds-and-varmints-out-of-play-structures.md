@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to keep bees, birds and varmints out of play structures
+title: 'How to keep bees, birds and varmints out of play structures'
 ---
 ![](http://www.odoban.com/NewproductPictures/retail/medium/OdoBan_Gallon_Odor_Eliminator.jpg) This is one of those [Lifehacker](http://lifehacker.com) type of tips my wife discovered a few years ago. Problem, we have a play house I built for our kids a few years back that attracts bees, nesting birds and other pests. We would have to clean out the structure every few days to keep the pests from taking over. The solution to problem was stunningly simple.
 

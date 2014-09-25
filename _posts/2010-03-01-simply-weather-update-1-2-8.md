@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather Update 1.2.8
+title: 'Simply Weather Update 1.2.8'
 ---
 ![image](/cdn/images/blog/SimplyWeatherUpdate_104AE/image.png)Simply Weather™, the best darn weather gadget for windows, has been updated to version 1.2.8. Based on user feedback, I’ve added the following:
 

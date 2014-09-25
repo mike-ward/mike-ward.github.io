@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Learning F#&ndash;Assembly Level Attributes
+title: 'Learning F#&ndash;Assembly Level Attributes'
 ---
 I'm learning F# and for the most part, it's been fun and productive. However, I find myself getting tripped up on seeming simple but necessary constructs required for writing well behaved .NET programs. One of those constructs are the assembly level attributes used to indicate version and build numbers, copyrights and product descriptions.
 

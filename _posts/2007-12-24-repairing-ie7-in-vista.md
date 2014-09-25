@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Repairing IE7 in Vista
+title: 'Repairing IE7 in Vista'
 ---
 I've been using Vista on my new laptop for 3 months now and still like it. I'm puzzled why there is such hatred leveled at this operating system. CNet in fact called it one of the 5 worst technologies of 2007. I guess I've just been lucky.
 

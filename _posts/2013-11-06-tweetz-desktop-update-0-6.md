@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop Update 0.6
+title: 'Tweetz Desktop Update 0.6'
 ---
 Here's what's new in 0.6
 

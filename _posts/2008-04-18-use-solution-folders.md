@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Use Solution Folders
+title: 'Use Solution Folders'
 ---
 ![](http://www.hanselman.com/blog/cdn/binary/WindowsLiveWriter/TheWeeklySourceCode24ExtensibilityEditio_13756/image_3.png) In reading [Scott Hanselman's blog](http://feeds.feedburner.com/~r/ScottHanselman/~3/272745966/TheWeeklySourceCode24ExtensibilityEditionPlugInsProvidersAttributesAddInsAndModulesInNET.aspx) this morning, I ran across an interesting tid bit.
 

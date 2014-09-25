@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #39
+title: 'Friday Links #39'
 ---
 [Tesla Motors to show off electric sedan next month | Green Tech - CNET News](http://news.cnet.com/8301-11128_3-10161459-54.html?part=rss&subj=news&tag=2547-1_3-0-5) – A “street drivable” prototype of the Model S Sedan will be demoed next month.
 

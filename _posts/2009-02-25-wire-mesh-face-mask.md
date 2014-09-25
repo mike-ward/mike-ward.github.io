@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Wire Mesh Face Mask
+title: 'Wire Mesh Face Mask'
 ---
 Woodworking requires good tools and I’m always looking for a new “shop-aid” to feed my gadget habit. I bought one of these wire mesh face masks a while back and find I use it often.
 

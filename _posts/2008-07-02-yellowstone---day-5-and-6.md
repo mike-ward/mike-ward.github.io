@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Yellowstone - Day 5 and 6
+title: 'Yellowstone - Day 5 and 6'
 ---
 [![CIMG1580](/cdn/images/blog/YellowstoneDay5_14503/CIMG1580_thumb.jpg)](/cdn/images/blog/YellowstoneDay5_14503/CIMG1580.jpg) We slept in late (well for us a least) and didn't get out the door until 8:00 am. We set out for the Wildlife Loop in Custer State Park, SD. No sooner did we drive a few miles when we ran into hundreds of buffalo. They were in the road and in no hurry to move. We were near the South entrance to the park. The younger buffalo were checking out some of the doors of the ranger station.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Home Theater PC Recommendations
+title: 'Home Theater PC Recommendations'
 ---
 Jeff Attwood recently blogged about how inexpensive it was for him to [build a new Home Theater PC (HTPC)](http://www.codinghorror.com/blog/archives/001107.html) based on Vista's Windows Media Center. As readers of this blog well know, I'm a Vista fan and regularly use the Windows Media Center on my laptop. I have to agree with Jeff that WMC is one of best apps Microsoft has ever produced.
 

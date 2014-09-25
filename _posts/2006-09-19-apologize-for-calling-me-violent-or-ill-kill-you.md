@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Apologize For Calling Me Violent Or I'll Kill You
+title: 'Apologize For Calling Me Violent Or I'll Kill You'
 ---
 I [wrote](/blog?bloget_mode=view&bloget_item=ca03d6cf-2c84-4de5-aa07-3bd43dc7ecf7) about this issue earlier. This [guy](http://suspiria.org/2006/09/apologize_for_calling_me_viole.html) hits the mark in fewer words. 
 

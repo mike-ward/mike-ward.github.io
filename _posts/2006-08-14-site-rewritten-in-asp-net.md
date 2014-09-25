@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Site Rewritten in ASP.Net
+title: 'Site Rewritten in ASP.Net'
 ---
 I'm back after a week of building a new site. If you have been here before you'll notice the site looks a little different. I've abandoned DotNetNuke and went to writing in Asp.Net directly. Having never done written in Asp.Net before, there was a bit of a learning curve. Still, with some effort I was able to produce a new site with most of the content of the old site.
 

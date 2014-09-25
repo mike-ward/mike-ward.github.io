@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Programming WCF Services
+title: 'Programming WCF Services'
 ---
 ![](http://ecx.images-amazon.com/images/I/518JrUtbBlL._SL500_AA240_.jpg) My two favorite .Net programming books just happen to be by the same author - [Juval Lowy](http://www.oreillynet.com/pub/au/741). The first book, "[Programming .NET Components](http://www.oreilly.com/catalog/9780596102074/)", is a well worn companion that often is not on my desk because I loan it out so often. And now, "[Programming WCF Services](http://www.oreilly.com/catalog/9780596526993/toc.html)" occupies the #2 slot of .Net book favorites.
 

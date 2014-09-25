@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Dual monitor use in Visual Studio 2005
+title: 'Dual monitor use in Visual Studio 2005'
 ---
 If you have dual monitors and would like to make some use of the expanded realestate, check this out. You can likely do something like this in the MDI mode of VS2005 but I like that tab interface better and this trick gives me the best of both. 
 

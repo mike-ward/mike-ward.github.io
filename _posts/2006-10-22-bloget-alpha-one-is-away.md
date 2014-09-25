@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bloget Alpha One is Away
+title: 'Bloget Alpha One is Away'
 ---
 As mentioned in an earlier blog, there comes a time in every software project when you have to shoot the developers (or in this case, myself) and ship.
 

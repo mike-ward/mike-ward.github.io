@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #41
+title: 'Friday Links #41'
 ---
 [Caving into bullies](http://www.lessig.org/blog/2009/02/caving_into_bullies_aka_here_w.html) - So here we go again -- How long till we can buy Alice's Adventures in Wonderland and be told that this book "cannot be read aloud"?
 

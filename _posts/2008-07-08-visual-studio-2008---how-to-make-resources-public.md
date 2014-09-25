@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Visual Studio 2008 - How to make resources public
+title: 'Visual Studio 2008 - How to make resources public'
 ---
 Vacation over. Back to the good stuff.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop &ndash; 0.8.2
+title: 'Tweetz Desktop &ndash; 0.8.2'
 ---
 What’s new:
 

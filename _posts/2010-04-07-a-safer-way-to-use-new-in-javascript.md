@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A safer way to use new in JavaScript
+title: 'A safer way to use new in JavaScript'
 ---
 In JavaScript, when you make a new object, you can select an object to use as a prototype for the new object. This is “Prototypal Inheritance”, and it’s one of the key features that makes JavaScript different than classical inheritance languages like Java and C#. It also has a serious deficiency that we’ll get to in a moment.
 

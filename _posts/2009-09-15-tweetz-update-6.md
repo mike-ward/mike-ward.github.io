@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update #6
+title: 'tweetz Update #6'
 ---
 I’ve received feedback about the icons being a bit to colorful. I’ve converted most of them to monochrome, which tones them down.
 

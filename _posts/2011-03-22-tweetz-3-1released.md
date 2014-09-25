@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3.1–Released
+title: 'Tweetz 3.1–Released'
 ---
 Sound the trumpets (or kazoos), [Tweetz](/tweetz) 3.1 has shipped. I waited for IE9 to ship to make sure there were no compatibility issues (there were none). So what’s new?
 

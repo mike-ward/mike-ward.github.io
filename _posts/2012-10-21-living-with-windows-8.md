@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Living with Windows 8
+title: 'Living with Windows 8'
 ---
 [![win8logo](/cdn/images/blog/Living-with-Windows-8_781F/win8logo_thumb.jpg)](/cdn/images/blog/Living-with-Windows-8_781F/win8logo.jpg)I recently replaced my laptop with a Zenbook (great laptop/ultrabook that I’ll talk about another time). As is so typical in the PC industry it had a bunch of crap on it I didn’t want and 20% of the hard drive was wasted on hidden partitions for recovery and diagnostic utilities. On large disks that’s not a issue but I only have a 128 GB SSD so those bytes are valuable real estate to me. After wiping the disk (and peeling off those stupid “Intel Inside” stickers) I was faced with a decision, Windows 7 which I know and love, or Windows 8. For the impatient, I went with Windows 8 and the bottom line is I’m glad I did.
 

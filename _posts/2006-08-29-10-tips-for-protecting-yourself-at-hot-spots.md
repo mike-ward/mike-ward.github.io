@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  10 Tips for Protecting Yourself at Hot Spots
+title: '10 Tips for Protecting Yourself at Hot Spots'
 ---
 Wi-Fi hot spots have become ubiquitous at cafe's, airports, restaurants, and other public location. In fact, more and more cities are creating hot spots that blanket entire metropolitan areas.
 

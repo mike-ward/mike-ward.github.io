@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ASP.NET Data Binding Expression Syntax Tip
+title: 'ASP.NET Data Binding Expression Syntax Tip'
 ---
 [Bloget™](/bloget) uses ASP.NET's built in [template syntax](http://msdn2.microsoft.com/en-us/library/ms178657.aspxTemplated%20Server%20Control%20Example) for customization (other ASP.NET templated server controls include [Repeater](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.repeater.aspx) and [GridView](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.gridview.aspx)). It's one of those killer ASP.NET features (IMHO) that doesn't get enough press. Coupled with data binding, it makes for a formidable template system that I use to develop Bloget blogs. Recently however, I stumbled trying to do something seemingly simple. First, however, let's quickly review the [Data Binding Syntax](http://msdn2.microsoft.com/en-us/library/ms178366.aspx) in ASP.NET
     

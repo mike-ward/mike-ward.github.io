@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bloget Alpha 9
+title: 'Bloget Alpha 9'
 ---
 Bloget alpha 9 is available for download. It also marks the end of the alpha releases. There's an old saying in the software biz that goes something like, "Sometimes you have to just shoot the programmers and ship the darn thing." Well, I'm not going that far but my cat Euclid says it's time. 
 

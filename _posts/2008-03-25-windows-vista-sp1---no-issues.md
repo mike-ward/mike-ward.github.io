@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Windows Vista SP1 - No Issues
+title: 'Windows Vista SP1 - No Issues'
 ---
 ![](http://www.microsoft.com/library/media/1033/windows/images/shop/vista-box.gif) With all the negative press out there about Windows Vista SP1, I would like to report that some of us have some how managed to install the service pack despite Microsoft's best efforts (yes, that was sarcasm). Really, it was a no brainer. Downloaded the bits last night (~450 MB) and ran the install. It took about 45 minutes and it was done. It was bit anticlimactic from what I was expecting given all the bad press. Geez, it couldn't even manage one lousy little plague of locus.
 

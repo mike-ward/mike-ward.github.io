@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather Gadget&ndash;Quick Fix
+title: 'Simply Weather Gadget&ndash;Quick Fix'
 ---
 Thursday morning I discovered that Google has changed the format of their weather feed to point to new weather icons. The Simply Weather gadget caches these images locally, so that the images can be displayed even when you’re not online. Google’s change breaks this mechanism.
 

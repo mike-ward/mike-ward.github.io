@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Microsoft .NET Quick Start Tutorials
+title: 'Microsoft .NET Quick Start Tutorials'
 ---
 ![Dotnet logo](/cdn/images/blog/Blog/dotnet.gif)I wish I had known about this site when I started programming in ASP.NET a few months back. The [Microsoft .NET Quick Start Tutorials](http://quickstarts.asp.net/QuickStartv20/default.aspx) Web site is just the right balance of detail and brevity. It assumes you know a bit about Web programming but extensive knowledge is not necessary. The quick starts only apply to ASP.NET 2.0 technologies despite the name. Perhaps in the future Microsoft will supply additional tutorial on other .NET technologies.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Make Google Maps your Maps
+title: 'Make Google Maps your Maps'
 ---
 ![Google Maps Logo](http://www.google.com/intl/en_ALL/images/maps_results_logo.gif)
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  15 Answers to Creationist Nonsense
+title: '15 Answers to Creationist Nonsense'
 ---
 This is an article from the [July 2002 issue of Scientific American](http://sciam.com/article.cfm?chanID=sa013&articleID=000D4FEC-7D5B-1D07-8E49809EC588EEDF&pageNumber=1&catID=2) and still remains in my mind one of the best summaries of the issues to date. Anyone interested in the debate between Evolution and Intelligent Design would do well to read this.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Colorful error messages may not be the best choice
+title: 'Colorful error messages may not be the best choice'
 ---
 The error message below appeared on our corporate intranet site the other day. 
 

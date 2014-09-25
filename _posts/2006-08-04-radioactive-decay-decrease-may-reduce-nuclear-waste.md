@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Radioactive Decay Decrease May Reduce Nuclear Waste
+title: 'Radioactive Decay Decrease May Reduce Nuclear Waste'
 ---
 I don't know about you, but with all the talk of global warming it seems likely that we will be generating more of our power from alternative sources and nuclear seems the only short-term answer at the moment.
 

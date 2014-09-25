@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #36
+title: 'Friday Links #36'
 ---
 ![](http://pomonahistorical.org/12times/britney.jpg)
 

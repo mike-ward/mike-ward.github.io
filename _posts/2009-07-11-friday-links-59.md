@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #59
+title: 'Friday Links #59'
 ---
 **Programming Computers**
 

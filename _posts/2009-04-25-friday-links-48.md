@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #48
+title: 'Friday Links #48'
 ---
 [Native JSON Parsing: What does it mean? - Rick Strahl's Web Log](http://west-wind.com/weblog/posts/729630.aspx) - Quick tests confirm that the performance gain from using native JSON serialization is significantly faster than using the json2 JavaScript library.
 

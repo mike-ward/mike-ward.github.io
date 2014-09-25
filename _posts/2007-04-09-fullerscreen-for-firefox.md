@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Fullerscreen for Firefox
+title: 'Fullerscreen for Firefox'
 ---
 ![FullerScreen Logo](https://addons.mozilla.org/en-US/firefox/images/addon_icon/4650)
 

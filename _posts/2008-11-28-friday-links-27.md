@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #27
+title: 'Friday Links #27'
 ---
 It’s “Black Friday” but so what. I do almost all of my shopping on the Internet. Better choices, Yes. Better prices, Yes. Not waiting in line, Priceless. Don’t know about you but I still have some “Turkey hangover” from all the feasting yesterday.
 

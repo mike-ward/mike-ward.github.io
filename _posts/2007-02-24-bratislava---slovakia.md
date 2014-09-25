@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bratislava - Slovakia
+title: 'Bratislava - Slovakia'
 ---
 My real job takes me to places all over Europe as of late. I'm currently blogging from my hotel room in Bratislava. If you haven't heard of Bratislava you're not alone, neither had I. This former Soviet block country is waking up to capitalism in a big way. It reminds me of Moscow back in the 1999 when I visited there.
 

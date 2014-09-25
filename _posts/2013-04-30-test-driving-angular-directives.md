@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Test Driving Angular Directives
+title: 'Test Driving Angular Directives'
 ---
 [AngularJS](http://angularjs.org) is a client-side JavaScript framework from Google. With it you can extend the HTML vocabulary of your application resulting in extraordinarily expressive, readable and quick to develop code.
 

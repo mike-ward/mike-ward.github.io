@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  TAB auto complete with wildcards
+title: 'TAB auto complete with wildcards'
 ---
 If you use the command shell in XP, then you probably already use the [TAB key for auto-complete](http://support.microsoft.com/kb/310530). One new thing (to me anyways) is that this also works with wildcards, so you can type this: 
 

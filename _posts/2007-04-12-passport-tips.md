@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Passport Tips
+title: 'Passport Tips'
 ---
 My day job requires that I travel frequently. Recently, my passport came up for renewal. Typically, it takes about 2-3 weeks to renew a passport. However, lately it has been running much longer. I sent my passport in for renewal on March 7th and as of today (April 12th) I still do not have it.  
   

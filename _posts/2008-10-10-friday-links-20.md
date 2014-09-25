@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #20
+title: 'Friday Links #20'
 ---
 [Smushit: Optimize Images For Web Without Losing on Quality | MakeUseOf.com ](http://www.makeuseof.com/dir/smushit-optimize-image-size-loosing-visual-quality/)- a web tool that lets you optimize images for the web and reduce the size without compromising on visual quality.
 

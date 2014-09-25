@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update #11
+title: 'tweetz Update #11'
 ---
 Just in time for Christmas, it’s an update to tweetz! (Well, OK, Christmas has nothing to do with it but it made for a cheap and flashy introduction). So what’s new?
 

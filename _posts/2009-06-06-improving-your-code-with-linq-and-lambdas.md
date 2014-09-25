@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Improving your code with LINQ and Lambdas
+title: 'Improving your code with LINQ and Lambdas'
 ---
 I’m surprised at how much code I review that still does not take advantage of the newer constructs of C#. Here’s an (admittedly contrived) example.
     

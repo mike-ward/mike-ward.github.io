@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  IE8 and Session Cookies
+title: 'IE8 and Session Cookies'
 ---
 IE8 has this annoying habit on my wife’s computer of not working with some Web sites. Same computer, same Web site using Opera or Firefox works fine. She prefers IE8 so after a few moments of poking around I discovered that I had to enable session cookies. Here’s how:
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Ala Crate - Nice
+title: 'Ala Crate - Nice'
 ---
 I'm starting a new category and calling it Naughty & Nice in honor of the season. I buy products online all the time and prefer it to shopping at retail stores. Of course, like all things in life, there are good vendors and bad vendors. I'm documenting my online buying experiences under this category in hopes it will help others. I do not get paid for these endorsements. I simply relate my experiences as I see them.  
   

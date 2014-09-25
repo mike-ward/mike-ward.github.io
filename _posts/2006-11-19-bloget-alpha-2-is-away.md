@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bloget Alpha 2 is Away...
+title: 'Bloget Alpha 2 is Away...'
 ---
 Bloget Alpha 2 is ready for download. So what's new you ask? The two major new features of this release are Pingback support and logging.   
   

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Pingback Test
+title: 'Pingback Test'
 ---
 Testing [pingback](http://www.quietearth.us/webtools/pingback-tester.php)  
   

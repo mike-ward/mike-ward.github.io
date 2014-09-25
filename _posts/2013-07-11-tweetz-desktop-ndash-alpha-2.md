@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop &ndash; Alpha 2
+title: 'Tweetz Desktop &ndash; Alpha 2'
 ---
 [![image](/cdn/images/blog/Windows-Live-Writer/TweetzAlpha-2_10285/image_thumb.png)](/cdn/images/blog/Windows-Live-Writer/TweetzAlpha-2_10285/image_2.png)Just when you thought it was safe, another tweetz alpha release appears. Be afraid :)
 

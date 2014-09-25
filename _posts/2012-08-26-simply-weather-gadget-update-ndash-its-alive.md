@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather Gadget Update &ndash; It's Alive!
+title: 'Simply Weather Gadget Update &ndash; It's Alive!'
 ---
 Simply Weather stopped working this weekend and it's because Google has killed their weather API. I've changed Simply Weather to use Microsoft's MSN weather API. The MSN API does not have as many features as the Google API but it's the only free API remaining that supports 3 day forecasts. You can get the updated gadget from the [downloads page](/downloads).
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Godaddy Web Hosting - A Good Value
+title: 'Godaddy Web Hosting - A Good Value'
 ---
 I've been a fan of Godaddy.com for a number of years now. Besides cheap domain names, they really have pretty decent web service. I've read all sorts of reports from various forums and blogs as to how terrible they are but my experience has been just the opposite. That's not to say I've had no problems.
 

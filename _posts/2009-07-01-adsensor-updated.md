@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  AdSensor Updated
+title: 'AdSensor Updated'
 ---
 AdSensor is a Windows Vista/Windows 7 Sidebar gadget that monitors your AdSense account. Now you can keep track of your Internet riches without logging into the AdSense Web page. You can read more about it [here](/blog/post/2009/04/27/adsensor-a-windows-sidebar-adsense-gadget-that-actually-works).
 

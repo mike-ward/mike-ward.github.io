@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3 – Release Candidate  4
+title: 'Tweetz 3 – Release Candidate  4'
 ---
 I was going to call this the final version for 3.0 but enough of you have complained about tweets not being sent that I thought I should do something about it. I suspect it’s a combination of exceeding quota and/or twitter jitters. In those cases, the gadget should report the issue and perhaps try again. In the meantime, here are the latest changes.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Safari Beta for Windows
+title: 'Safari Beta for Windows'
 ---
 ![](http://images.apple.com/safari/images/contentfooter_webdev20070611.png) 
 

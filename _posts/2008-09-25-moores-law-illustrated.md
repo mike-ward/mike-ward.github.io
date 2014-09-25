@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Moore’s Law Illustrated
+title: 'Moore’s Law Illustrated'
 ---
 This is a cool illustration of [Moore’s law](http://en.wikipedia.org/wiki/Moore%27s_law).
 

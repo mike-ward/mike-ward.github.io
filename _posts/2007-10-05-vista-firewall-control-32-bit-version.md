@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Vista Firewall Control 32-bit version
+title: 'Vista Firewall Control 32-bit version'
 ---
 ![](http://www.sphinx-soft.com/Vista/pict/x-wall.jpg) Microsoft has been touting the new Windows Firewall in Windows Vista, which it says for the first time includes an outbound filter as well as an inbound filter. Outbound filters are important because it keeps programs on your computer from making outbound connections to the Internet without your permission. Great idea but the problem is that the Windows firewall is all but impractical to manually configure.
 

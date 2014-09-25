@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #63
+title: 'Friday Links #63'
 ---
 Prepping to install Windows 7 while writing this. Multitasking, not just for computers…
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  SimplyWeather.net
+title: 'SimplyWeather.net'
 ---
 Tens of thousands of you have downloaded my [Simply Weather gadget](/gadgets). It’s time now for a the sequel, Simply Weather the web site.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Secret Gmail delete keyboard shortcut
+title: 'Secret Gmail delete keyboard shortcut'
 ---
 ![](http://www.myotherdrive.com/public/blueonion/Blog/gmail.png)
 

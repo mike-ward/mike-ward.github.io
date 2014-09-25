@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Average Response Time on Azure
+title: 'Average Response Time on Azure'
 ---
 Out of curiosity, I set up my blog software to run on the new Azure Web sites service and then monitored the response times as compared to my current hosting service. Data centers for both services are located in the US.
 

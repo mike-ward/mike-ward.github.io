@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Free Refactoring Tool for ASP.NET
+title: 'Free Refactoring Tool for ASP.NET'
 ---
 Ooh, ooh, ooh! I just saw this over on Brad Abrams blog
 

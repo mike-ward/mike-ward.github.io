@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Windows 7 Bluetooth Mouse Fix
+title: 'Windows 7 Bluetooth Mouse Fix'
 ---
 I’ve had this weird problem on my new laptop where the Bluetooth mouse stops working. Sometimes using the scroll wheel reactivates it but most of the time I have to turn off, and then turn on the Bluetooth radio (FAIL). I was sure it had something to do with the power management on the mouse. After a few hours of fiddling I found that it was indeed a power management setting, but for the Bluetooth adapter, not the the mouse. Here’s a quick tutorial on how to disable the power management for Bluetooth devices on Windows 7.
 

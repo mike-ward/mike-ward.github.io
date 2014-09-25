@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  CopySourceAsHtml
+title: 'CopySourceAsHtml'
 ---
 [CopySourceAsHtml ](http://www.jtleigh.com/people/colin/software/CopySourceAsHtml/)is a free Visual Studio 2005 add-in that lets you copy source code as HTML. It even preserves the color coding. CopySourceAsHtml addes itself to the right-click menu so it's easy to use. There are many options for formatting. Very handy for blog postings. Below is an example.
 

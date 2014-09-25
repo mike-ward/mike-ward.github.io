@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  FreeSnap 1.3 Released
+title: 'FreeSnap 1.3 Released'
 ---
 This release of FreeSnap can be summarized in two words - Multi-monitor Support! (do hyphennated words count as one?)
 

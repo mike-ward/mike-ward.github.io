@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Calculator Gadget Reviewed
+title: 'Calculator Gadget Reviewed'
 ---
 Well, my latest little [Vista gadget](/blog/post/2008/06/02/calculator-sidebar-gadget-released) has received two reviews so far. One guy hated it and gave me one star rating. Another guy loved it and gave me a 5 start rating. Hey, I'm at 3 stars! Pretty funny. The 5 star guy did leave a five star comment as well.
 

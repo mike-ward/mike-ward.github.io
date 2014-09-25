@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Super Cool Video Phone
+title: 'Super Cool Video Phone'
 ---
 Our new video phone just arrived today.
 

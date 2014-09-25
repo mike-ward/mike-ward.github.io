@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Flex Jam with Adobe Evangelist James Ward
+title: 'Flex Jam with Adobe Evangelist James Ward'
 ---
 There’s still time to register for the [Flex Jam with Adobe Evangelist James Ward](http://riarockstars.com/2011/02/10/flex-jam-with-adobe-evangelist-james-ward/). I’m going and it’s going to be a great learning opportunity. You’ll be a better developer whether your focus is Adobe Flex or Silverlight.
 

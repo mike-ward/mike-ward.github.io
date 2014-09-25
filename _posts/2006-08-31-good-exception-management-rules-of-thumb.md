@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Good Exception Management Rules of Thumb
+title: 'Good Exception Management Rules of Thumb'
 ---
 Another great article from Scott Hanselman's blog. I've been involved in more "discussions" on exception management than I care to remember. It surprises me how many developers see them as evil, even to the point of banning them from code. Exceptions are not evil, they're a tool like anything else and it takes some understanding to wield them properly. Scott has some nice "[Rules of Thumb](http://www.hanselman.com/blog/GoodExceptionManagementRulesOfThumb.aspx)" here that I totally agree with.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Dibert Cartoon Hits Close to Home
+title: 'Dibert Cartoon Hits Close to Home'
 ---
 This is just freaking hilarious. I can't tell you the number of conversations I've had with my wife that end like this.
 

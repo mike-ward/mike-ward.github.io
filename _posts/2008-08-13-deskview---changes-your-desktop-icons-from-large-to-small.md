@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Deskview - Changes your desktop icons from large to small
+title: 'Deskview - Changes your desktop icons from large to small'
 ---
 When it comes to computer desktops, most people fall into two categories. Those who keep their desktops virtually clear of any icons, and those who throw icons on it like a toxic waste dump. I fall into the later category.
 

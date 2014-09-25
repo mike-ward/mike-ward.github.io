@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Silverlight Demo
+title: 'Silverlight Demo'
 ---
 Microsoft announced some new and very cool technology at [Mix](http://visitmix.com/) in Las Vegas last week. [Silverlight](http://silverlight.net/) (formerly called WPF/E) allows you to run .NET applications in your browser (a bit of an over simplification) and it's cross platform. You can read all about it at the Mix and Silverlight websites. For fun I thought I try uploading and streaming a video. It's a bit of work since there are not many authoring tools available. Directions on how to do this can be found [here](http://blogs.msdn.com/tims/archive/2007/04/30/silverlight-streaming-is-now-live.aspx). It's not for the faint of heart.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Calling Managed Code from C++ Gotcha
+title: 'Calling Managed Code from C++ Gotcha'
 ---
 Here's an issue I ran into the other day.
     

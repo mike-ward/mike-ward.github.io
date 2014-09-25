@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Windows 7 - So Smooth
+title: 'Windows 7 - So Smooth'
 ---
 [![windows7](/cdn/images/blog/Windows7SoSmooth_13996/windows7_thumb.jpg)](/cdn/images/blog/Windows7SoSmooth_13996/windows7.jpg) I’ve been running the RTM version of Windows 7 for about 2 weeks now and I have to say it works so smoothly as to be boring. I’m actually having to “just use” my computer. No tweaking, no tinkering. What’s a “Dyed in the wool” geek like myself suppose to do?
 

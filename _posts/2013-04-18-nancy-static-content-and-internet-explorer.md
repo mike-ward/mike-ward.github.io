@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Nancy Static Content and Internet Explorer
+title: 'Nancy Static Content and Internet Explorer'
 ---
 Many of you like to download and use my desktop gadgets (that Microsoft unceremoniously killed in Windows 8). Setting up a web site to download a gadget should not be a big deal, right? Something like:
     

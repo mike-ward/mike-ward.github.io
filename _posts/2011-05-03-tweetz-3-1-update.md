@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3.1 Update
+title: 'Tweetz 3.1 Update'
 ---
 This update contains a fix for some issues with the Portuguese translation.
 

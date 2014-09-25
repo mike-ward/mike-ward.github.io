@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  GOOG-411 graduates from Labs
+title: 'GOOG-411 graduates from Labs'
 ---
 ![](http://www.google.com/goog411/images/goog411-logo.gif) The idea is so simple and yet brilliant. Call the toll free number 1-800-GOOG-411 (4664-411) and using just your voice, get information about local businesses. It even dials for you. The voice recognition is excellent and apparently required extensive training. From Google:
 

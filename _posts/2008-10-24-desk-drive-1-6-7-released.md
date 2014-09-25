@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.6.7 Released
+title: 'Desk Drive 1.6.7 Released'
 ---
 [Desk Drive](/deskdrive) 1.6.7 adds one minor but useful feature. Many of you have asked that the “X” button in the upper-right corner of the dialog hide the program rather than close it.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3 - Release Candidate 3
+title: 'Tweetz 3 - Release Candidate 3'
 ---
 Some really good stuff in what I hope to be last release candidate.
 

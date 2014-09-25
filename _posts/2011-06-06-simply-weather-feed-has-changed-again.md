@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather Feed has Changed (Again)
+title: 'Simply Weather Feed has Changed (Again)'
 ---
 Sigh, Google has changed the feed again with regard to the icons. I’ll post an update tonight to resolve the issue. Not sure what the issue is all the feed changes are lately. Probably some “new guy” trying to make things better.
 

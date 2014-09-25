@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3.1–Release Candidate 1
+title: 'Tweetz 3.1–Release Candidate 1'
 ---
 Barring no bad bugs, this should be the release code for 3.1.
 

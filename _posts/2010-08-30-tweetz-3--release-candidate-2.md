@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz 3 – Release Candidate #2
+title: 'tweetz 3 – Release Candidate #2'
 ---
 I was planning to get RC #2 out a bit earlier but my back has decided to raise hell with me. I’m actually active and healthy but every once and a while I manage to do something that lays me out. However, I’ve managed to stay vertical for the last couple of hours and so I’ve packaged up the latest fixes. Hopefully there are no bad regressions.
 

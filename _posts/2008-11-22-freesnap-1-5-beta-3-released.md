@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  FreeSnap 1.5 Beta 3 Released
+title: 'FreeSnap 1.5 Beta 3 Released'
 ---
 ![](/cdn/images/blog/FreeSnap1.5Beta_117EF/beta.jpg) You can read about the new features in my earlier blog posts.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 2.1 Update
+title: 'Tweetz 2.1 Update'
 ---
 ![image](/cdn/images/blog/Tweetz2.1Update_10724/image.png) Now that the rewrite is done, I’m adding new stuff. It’s much easier to do so with the new code structure. Here’s what’s new in this release.
 

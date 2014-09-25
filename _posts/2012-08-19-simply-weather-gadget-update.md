@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather Gadget Update
+title: 'Simply Weather Gadget Update'
 ---
 I've been getting more than a few emails as of late that my Simply Weather gadget has stopped working. It also stopped working on one of my systems last week as well. It was obvious what was failing but I never could figure out why. The call was valid, the data going over the wire looked valid, but all I would get in return from Google is a 403 error (Simply Weather uses Google's weather API). Something has changed, either on Microsoft's side or Google's. Such is the life of a programmer, working today, broken tomorrow.
 

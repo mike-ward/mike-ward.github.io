@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather Update – Windows 7 Compatible
+title: 'Simply Weather Update – Windows 7 Compatible'
 ---
 Fixed an odd layout bug on Windows 7. 
 

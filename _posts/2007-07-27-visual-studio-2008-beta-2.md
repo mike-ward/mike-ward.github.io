@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Visual Studio 2008 Beta 2
+title: 'Visual Studio 2008 Beta 2'
 ---
 ![VS 2008 Logo](http://msdn2.microsoft.com/en-us/vstudio/aa700831.VS08_v%28en-us,MSDN.10%29.png)
 

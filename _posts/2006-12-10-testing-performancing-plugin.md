@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Testing Performancing Plugin
+title: 'Testing Performancing Plugin'
 ---
   
 Testing the Performancing blogging plugin. This is a FireFox extension. It's supports [MetaWeblog API](http://www.xmlrpc.com/metaWeblogApi) but not correctly. This is the second time I've found a bug in the implementation of MetaWeblog API which is really sad because it really is a simple protocol. Really guys, it's a one page specification. So what's the bug? Performancing passes boolean tags as true/false. The specification says it should be 1/0. That may not sound like a big deal but it does require putting special case code into my XmlRpc parser to deal with it. Really annoying and unnecessary.  

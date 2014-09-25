@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bloget™ Alpha 5
+title: 'Bloget™ Alpha 5'
 ---
 Despite a trip to Slovakia this month I managed to squeak out the next alpha of [Bloget](/bloget). Alpha 5 introduces two new features, timezone support and [BlogML](http://blogml.com). Timezones are well, timezones. You can set the timezone of your blog to reflect your location. Sounds simple I know but it requires a bit more coding than you might think. Makes me wish I had .NET 3.0 which does support timezone conversions.
 

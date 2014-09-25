@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  DoubleDesktop
+title: 'DoubleDesktop'
 ---
 [DoubleDesktop](http://www.fatfreesoft.com/2desk.php) is a smart and elegant system tray utility that effectively doubles the width of your Windows desktop. It's simpler to use than many similar programs: just mouse-click on its icon or hit a keystroke combination to switch between "left" and "right" parts of the desktop. This lets you easily rearrange all your application windows between the two desktop parts.
 

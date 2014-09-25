@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Visual Studio 2005 Debugging Tips
+title: 'Visual Studio 2005 Debugging Tips'
 ---
 _A fellow developer at work posted this on our "tips" blog. Good stuff..._
 

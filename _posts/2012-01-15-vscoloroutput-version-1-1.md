@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  VSColorOutput Version 1.1
+title: 'VSColorOutput Version 1.1'
 ---
 You can read more about VSColorOutput [here](/blog/post/2011/12/28/vscoloroutput-visual-studio-output-coloring-extension). Version 1.1 is a maintenance release that fixes two bugs and captures more error conditions in the build output.
 

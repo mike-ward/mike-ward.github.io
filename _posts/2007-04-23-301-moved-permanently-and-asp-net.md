@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  301 Moved Permanently and ASP.NET
+title: '301 Moved Permanently and ASP.NET'
 ---
 Yousef, over at [My C# Corner](http://www.mycsharpcorner.com/) has an nice article on why you should use 301 response codes to redirect your [www.xyz.com](http://www.xyz.com) site to xyz.com or vice-versa. In short, search engines might misinterpret the two sites as duplicates and reduce your page rank accordingly. Also, your page rankings get split across multiple sites. The easy and correct way to fix this is to issue a 301 permanent redirect from one name to the other. Yousef even suggests using the Application_BeginRequest method in your Global.asax file. All good stuff. Here's his sample code.
 

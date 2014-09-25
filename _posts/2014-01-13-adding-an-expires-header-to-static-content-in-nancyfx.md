@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Adding an Expires Header to Static Content in NancyFx
+title: 'Adding an Expires Header to Static Content in NancyFx'
 ---
 [NancyFx](http://nancyfx.org) is one simplest, fastest ways to build a MVC style web site in ASP.NET. It only takes a few minutes to grok how it works.
 

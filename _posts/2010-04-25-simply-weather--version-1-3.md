@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather – Version 1.3
+title: 'Simply Weather – Version 1.3'
 ---
 Simply Weather is my no-nonsense weather gadget that displays the current conditions and forecast in a straightforward, easy to read format.
 

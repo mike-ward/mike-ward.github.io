@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Testing Ecto
+title: 'Testing Ecto'
 ---
 [Ecto](http://ecto.kung-foo.tv/index.php) is an offline blggonig editor. Testing to see if it works with [Bloget](/bloget). Looks like it does. 
 

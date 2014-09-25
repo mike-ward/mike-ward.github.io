@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bloget Progress Report
+title: 'Bloget Progress Report'
 ---
 Well, the dog food just gets yummier and yummier so to speak. I've committed this blog to using the new Bloget engine. For those of you who have just joined us, Bloget is an ASP.Net blogging control I'm writing to manage my blog. It started out as a quick couple of ASP.Net pages and has now morphed into a full-blown ASP.Net server control. Like I said in an earlier posting, I'm having way to much fun with this project.
 

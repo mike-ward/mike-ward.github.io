@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Creating Custom Configuration Sections in Web.config
+title: 'Creating Custom Configuration Sections in Web.config'
 ---
 > Most ASP.Net web applications have some amount of configuration. In ASP.Net you can add configuration settings to the Web.config under the _<appSettings>_ section. Here's an example:
     

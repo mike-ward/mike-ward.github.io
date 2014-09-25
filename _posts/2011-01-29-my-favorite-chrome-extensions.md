@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  My Favorite Chrome Extensions
+title: 'My Favorite Chrome Extensions'
 ---
 If you’re not using [Google’s Chrome browser](http://www.google.com/aclk?sa=l&ai=C8hylS1JETbzjNsf3tgeAv-GdDammrvQBydHWohPXyIQGCAAQAVD6uKKjAWDJtseJkKToD6AB_fXI9gPIAQGqBBhP0IboooLn5hGcNm2pclDdSVPn0F5MoVK6BRMIz-34hfzfpgIVwb_lCh0HVTsDygUA&ei=S1JETY-cNcH_lgeHqu0Z&sig=AGiWqtzyvfzmHsCKNTxhU2-VoS_FVZ1kpw&adurl=http://www.google.com/chrome/%3Fbrand%3DCHMB%26utm_campaign%3Den%26utm_source%3Den-ha-na-us-sk%26utm_medium%3Dha), you might want to try it. Fast, minimal interface and compatible with the latest Web technologies (i.e. HTML5), it’s my favorite browser. Chrome also supports extensions. While not as numerous as Firefox’s extensions, it’s a healthy selection and getting better everyday (Sure wish Firebug would port it’s extension to Chrome). I’ve tried a lot of extensions. Many have been installed but few stay. Here are the ones that have made the cut.
 

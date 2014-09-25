@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #9
+title: 'Friday Links #9'
 ---
 Things were a little crazy yesterday which is why I'm a day late.
 

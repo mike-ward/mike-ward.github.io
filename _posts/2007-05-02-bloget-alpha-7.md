@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bloget Alpha 7
+title: 'Bloget Alpha 7'
 ---
 Bloget alpha 7 is ready for download. There are the usual little fix ups and polishing here and there. I've also spent a bit of time cleaning up unit tests and running code analysis to make sure the code stays reliable and clean. Even so, I did manage to get a few new features in this month.
 

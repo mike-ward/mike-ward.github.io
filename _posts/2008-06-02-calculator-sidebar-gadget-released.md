@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Calculator Sidebar Gadget Released
+title: 'Calculator Sidebar Gadget Released'
 ---
 Yes, just what the world needs, another calculator gadget! Except this is actually a useful and useable calculator gadget. You don't get pretty buttons or bubble gum skins. Instead, you get a calculator that evaluates expressions and remembers what you enter for later use. Like my Stopwatch gadget, it's no frills and to the point. Here's a screen shot.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #23
+title: 'Friday Links #23'
 ---
 I’m behind this week because of all the [PDC](http://www.microsoftpdc.com) activity.
 

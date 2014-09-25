@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #49
+title: 'Friday Links #49'
 ---
 [Windows 7 RC release date confirmed - vnunet.com](http://www.vnunet.com/vnunet/news/2241098/windows-rc-release-date) – Looks like May 5th is the day. Other reports put the final release sometime from late August to October based on past releases.
 

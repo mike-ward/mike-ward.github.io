@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Weather Gadgets
+title: 'Weather Gadgets'
 ---
 I wouldn't call myself a weather junkie, but then again I do like to keep up on the current conditions. To that end there are a few things I have around the house here that keep me informed about current weather conditions.
 

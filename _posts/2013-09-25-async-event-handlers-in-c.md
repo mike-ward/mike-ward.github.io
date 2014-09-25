@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Async Event Handlers in C#
+title: 'Async Event Handlers in C#'
 ---
 Recently, C# added a nifty [async/await](http://msdn.microsoft.com/en-us/library/vstudio/hh191443.aspx) facility. I have not used it extensively due to the new and unfamiliar _async/await_ declarations. I'm slowly warming up to it however. Here's a two-liner that speaks volumes to the expressiveness of the _aysnc/await_.
     

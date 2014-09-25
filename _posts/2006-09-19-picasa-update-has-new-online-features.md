@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Picasa Update has New Online Features
+title: 'Picasa Update has New Online Features'
 ---
 I've always been a big fan of Picasa and now it's even better. Software that's good and free. Here's the announcement from Google.
 

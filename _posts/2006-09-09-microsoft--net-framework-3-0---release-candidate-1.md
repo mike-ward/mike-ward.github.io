@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Microsoft .NET Framework 3.0 - Release Candidate 1
+title: 'Microsoft .NET Framework 3.0 - Release Candidate 1'
 ---
 Time flies. Last November witnessed the release of .Net 2.0. I attended the PDC (Professional Developer's Conference) in September 2005 and saw all the 3.0 goodies. I thought it would be a lifetime before I saw them, but now here it is less than a year later and we have RC1. There are some really amazing new things in .Net 3.0. If you have not looked at LINQ (Language Integrated Query) do take the time. Some of my colleagues have already dismissed it thinking it will be some complicated, slow and almost useful feature but that's because they have not taken the time to examine it closely. I'm sure you won't make the same mistake.
 

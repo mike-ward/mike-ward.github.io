@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Writing for Deployment
+title: 'Writing for Deployment'
 ---
 One of the things I try to think about when coding is what I call "Writing for Deployment". Too often I have encountered software that is difficult to install and configure. Most of the time, but not always, these are legacy systems that have matured over a long period of time. During this long gestation, changes are added that in and of themselves are seemingly simple, but taken in their aggregate cause headaches for customers and field technicians alike. Here are some of things I do to try to minimize deployment issues (many of these are Windows specific). 
 

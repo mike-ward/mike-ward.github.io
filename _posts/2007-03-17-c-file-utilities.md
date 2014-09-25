@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C# File Utilities
+title: 'C# File Utilities'
 ---
 Since [Bloget™](/bloget) is file based, I needed some file open routines that were robust and tolerant. [Das Blog](http://www.dasblog.net) is a popular open source blogging engine that also uses files so I thought I would take a peek at what they did.
 

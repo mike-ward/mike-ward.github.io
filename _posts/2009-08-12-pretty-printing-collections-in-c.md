@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Pretty Printing Collections in C#
+title: 'Pretty Printing Collections in C#'
 ---
 The combination of [Extension Methods](http://msdn.microsoft.com/en-us/library/bb383977.aspx) and [LINQ](http://msdn.microsoft.com/en-us/library/bb308959.aspx) can make everyday tedious programming chores a bit less annoying. Take formatting an array of strings.
     

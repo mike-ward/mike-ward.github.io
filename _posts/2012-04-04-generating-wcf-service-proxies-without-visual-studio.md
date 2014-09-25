@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Generating WCF Service Proxies without Visual Studio
+title: 'Generating WCF Service Proxies without Visual Studio'
 ---
 Ever since my employer transitioned from Clearcase to TFS, I could no longer generate WCF service proxies using the “Add Service Reference” feature of Visual Studio (it generated an empty proxy file). The “Add Service Reference” feature has always been problematic for me so it was time to take matters into my own hands.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop Update &ndash; Non Latin Character Input
+title: 'Tweetz Desktop Update &ndash; Non Latin Character Input'
 ---
 In this update:
 

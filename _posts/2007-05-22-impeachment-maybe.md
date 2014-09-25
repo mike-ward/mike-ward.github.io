@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Impeachment Maybe?
+title: 'Impeachment Maybe?'
 ---
 This poll from today's [MSNBC Live Vote](http://www.msnbc.msn.com/id/10562904/) is very telling indeed.
 

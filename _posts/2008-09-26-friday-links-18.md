@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #18
+title: 'Friday Links #18'
 ---
 ![logo](http://www.makeuseof.com/wp-content/uploads/2008/09/sliderocketlogo.png)[Make Beautiful Online Presentations With Sliderocket | MakeUseOf.com](Make Beautiful Online Presentations With Sliderocket | MakeUseOf.com (http://www.makeuseof.com/tag/ make-beautiful-online- presentations-with- sliderocket/)) - Web app that allows you to do pretty much everything you can hope to do with a presentation and much more.
 

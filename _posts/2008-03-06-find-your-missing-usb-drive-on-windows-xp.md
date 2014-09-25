@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Find your missing USB drive on Windows XP
+title: 'Find your missing USB drive on Windows XP'
 ---
 ![](http://www.howtogeek.com/posticons/logov3.png) The How-To Geek as a great article on how to resolve removable drive conflicts on your system.
 

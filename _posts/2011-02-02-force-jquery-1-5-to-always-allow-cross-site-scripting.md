@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Force jQuery 1.5 to always allow cross-site scripting
+title: 'Force jQuery 1.5 to always allow cross-site scripting'
 ---
 [jQuery 1.5](http://jquery.com) has just been released and there’s lots of new goodness. Perhaps the most significant change is the new pluggable [Ajax](http://en.wikipedia.org/wiki/Ajax_(programming)) module. However, when I added jQuery 1.5 to my [tweetz](/tweetz) sidebar gadget, it no longer worked. Stranger still was the Ajax error message: “No Transport”. What did that mean? 
 

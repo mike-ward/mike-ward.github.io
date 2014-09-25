@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Build only startup projects and dependencies on Run – Visual Studio
+title: 'Build only startup projects and dependencies on Run – Visual Studio'
 ---
 Depending on the project, Visual Studio sometimes wants to build more than is necessary to actually debug/run the project. Sometimes even, it will continue building the other project dependencies after the debugging session has ended. Really annoying and on larger projects, a significant time waster.
 

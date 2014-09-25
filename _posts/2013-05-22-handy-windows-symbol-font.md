@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Handy Windows Symbol Font
+title: 'Handy Windows Symbol Font'
 ---
 I’ve been writing a WPF program as of late and have found myself needing icons for the usual menu/toolbar operations. Usually, I reach for the icon package that use to ship in Visual Studio.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #29
+title: 'Friday Links #29'
 ---
 [Head First Design Patterns : Steve Smith's Blog](http://stevesmithblog.com/blog/head-first-design-patterns/) – According to the reviewer, this seemingly light-weight book is actually a serious programming book. Who knew?
 

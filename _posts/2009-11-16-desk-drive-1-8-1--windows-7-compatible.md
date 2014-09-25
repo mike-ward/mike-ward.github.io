@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.8.1 – Windows 7 Compatible
+title: 'Desk Drive 1.8.1 – Windows 7 Compatible'
 ---
 Version 1.8 introduced Windows 7 compatibility and version 1.8.1 tweaks it a little more. I’ve found a few minor issues that likely no one but myself would notice. But like any author, I know my program for all its faults and not its strengths. So if you notice the changes between 1.8 and 1.8.1, good for you and remember there’s therapy available for people like us.
 

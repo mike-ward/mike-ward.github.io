@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Keep Firefox’s location bar on sight
+title: 'Keep Firefox’s location bar on sight'
 ---
 > Some pop-up windows may hide the location bar for a number of valid good reasons like providing a less cluttered interface or a smaller window, but it is also an easy cover for malicious web sites to hide the real location of fake sites in cross site scripting (XSS) attacks. 
 > 

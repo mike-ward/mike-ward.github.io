@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The example domain
+title: 'The example domain'
 ---
 Interesting tip about example domains.  
   

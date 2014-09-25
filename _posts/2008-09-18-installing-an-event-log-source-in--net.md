@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Installing an Event Log Source in .NET
+title: 'Installing an Event Log Source in .NET'
 ---
 Event logs have been a feature of Windows NT since its original release. Applications and operating system components can make use of this centralized log service to report events that have taken place, such as a failure to start a component or complete an action.
 

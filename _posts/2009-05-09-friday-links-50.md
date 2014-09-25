@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #50
+title: 'Friday Links #50'
 ---
 [Digital Recovery of Moon Images](http://kk.org/ct2/2009/05/digital-recovery-of-moon-image.php) - Behind the counter of an abandoned McDonalds lie 48,000 lbs of 70mm tape the only copy of extremely high-resolution images of the moon. Those images include a high-resolution version of “Earthrise,” the first picture of the Earth from the Moon’s vantage point. Hard to believe we almost lost them.
 

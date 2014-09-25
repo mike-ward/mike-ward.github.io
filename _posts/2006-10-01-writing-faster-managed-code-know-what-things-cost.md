@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Writing Faster Managed Code: Know What Things Cost
+title: 'Writing Faster Managed Code: Know What Things Cost'
 ---
 Jan Gray of the Microsoft CLR Performance Team has published an excellent (and lengthy) [paper](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dndotnet/html/fastmanagedcode.asp) on how much operations like function calls and object allocation cost performance wise in managed code. This article has also appeared on SlashDot and Digg so you probably already know about. I've actually read the article and I can sincerely say that if you are a managed code programmer, it is definitely worth your time.
 

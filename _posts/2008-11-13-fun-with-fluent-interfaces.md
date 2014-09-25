@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Fun with Fluent Interfaces
+title: 'Fun with Fluent Interfaces'
 ---
 A while back I published a [helper class](/blog?p=b5b9e553-3e10-40ae-9f59-e38f1c50e2d6) that made routine argument checks one liners. For example:
     

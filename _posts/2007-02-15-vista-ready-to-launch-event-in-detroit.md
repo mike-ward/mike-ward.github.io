@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Vista Ready to Launch Event in Detroit
+title: 'Vista Ready to Launch Event in Detroit'
 ---
 The Vista Ready to Launch tour came to Detroit this week. These "kick-off" events are a lot of fun and the break out sessions can be very informative. Mostly I go to reenergize my interest in computers. Fresh ideas make for fresh thinking and keep me from getting bored with the technology.
 

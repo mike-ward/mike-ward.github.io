@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Standard Numeric Format Strings Output Examples
+title: 'Standard Numeric Format Strings Output Examples'
 ---
 I can never seem to remember the format strings for numbers in .NET. There are several cheat sheets available but the one that works best for me is the examples page in the Microsoft documentation.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  FreeSnap 1.5 Released
+title: 'FreeSnap 1.5 Released'
 ---
 ![](/cdn/images/blog/FridayLinks27_979B/tinytags_thumb.png) FreeSnap 1.5 includes these new features:
 

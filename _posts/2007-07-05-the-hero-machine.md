@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Hero Machine
+title: 'The Hero Machine'
 ---
 This is a complete waste of time which is of course why like it and am blogging about it. The [Hero Machine](http://www.marvelvc.com.br/Hero/) is an online drawing tool from Marvel comics that let's you quickly and easily design your own super hero. It's so easy even this blogger can do it.
 

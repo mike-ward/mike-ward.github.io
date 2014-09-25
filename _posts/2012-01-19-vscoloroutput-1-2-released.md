@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  VSColorOutput 1.2 Released
+title: 'VSColorOutput 1.2 Released'
 ---
 Added new feature: Stop Build on First Error.
 

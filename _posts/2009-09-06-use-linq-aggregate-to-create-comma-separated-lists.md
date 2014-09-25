@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Use LINQ Aggregate to Create Comma Separated Lists
+title: 'Use LINQ Aggregate to Create Comma Separated Lists'
 ---
 It’s a common problem. You’re handed a collection of strings or numbers and you need emit a comma separated list. The usual approach I’ve seen (and done) is to resort to a loop and some check to if it’s the first or last element to control when the comma is added.
     

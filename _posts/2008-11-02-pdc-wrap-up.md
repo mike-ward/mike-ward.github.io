@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  PDC Wrap Up
+title: 'PDC Wrap Up'
 ---
 The last two days were as interesting as the first two. Seemed like the week got busier towards the end which is why I’m playing catch up now.
 

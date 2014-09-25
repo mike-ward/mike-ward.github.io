@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  FreeSnap 1.3 and Desk Drive in the Wild
+title: 'FreeSnap 1.3 and Desk Drive in the Wild'
 ---
 [![Free download software](http://www.soft82.com/images/awards/soft82_award_88x88.gif)](http://www.soft82.com/)It's been about a week now since I released version 1.3 of FreeSnap. Haven't heard a peep out of anyone as to problems. Guess I must be writing perfect code :). Really folks, I'm curious if the multi-monitor support is working out for you so drop me a line. 
 

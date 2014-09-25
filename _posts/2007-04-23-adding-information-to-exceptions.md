@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Adding Information to Exceptions
+title: 'Adding Information to Exceptions'
 ---
 This is an excerpt of a post from Marc Brooks about [Exception Handling in .NET](http://musingmarc.blogspot.com/2005/09/exception-handling-in-net-some-general.html).
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Publishing to Bloget with Google Docs &amp; Spreadsheets
+title: 'Publishing to Bloget with Google Docs &amp; Spreadsheets'
 ---
 I'm not sure how long this has been available but you can now post to your blog using [Google Docs & Spreadsheets](http://docs.google.com/). You can add your blog by clicking the Publish button. In the dialog your see a button labeled "Post to blog".  
   

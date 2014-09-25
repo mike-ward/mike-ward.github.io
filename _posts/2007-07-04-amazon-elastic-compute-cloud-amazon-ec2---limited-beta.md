@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Amazon Elastic Compute Cloud (Amazon EC2) - Limited Beta
+title: 'Amazon Elastic Compute Cloud (Amazon EC2) - Limited Beta'
 ---
 ![](http://ec1.images-amazon.com/images/G/01/00/10/00/14/19/27/100014192753)Lately, I've been spending time with some of the Web services offered by Amazon (yeah, the same people who sell all those books). They have some interesting services like S3, which I use to host images on this site. I'm working on an S3 browser written in .NET 3.0 I'll release later this year.
 

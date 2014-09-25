@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Flock - the social browser
+title: 'Flock - the social browser'
 ---
 ![Flock: The Social Web Browser.](http://www.flock.com/themes/flock/images/logo3_small.jpg)
 

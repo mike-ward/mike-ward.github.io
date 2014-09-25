@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #17
+title: 'Friday Links #17'
 ---
 [The Weekly Source Code 33 - Microsoft Open Source inside Google Chrome](http://www.hanselman.com/blog/TheWeeklySourceCode33MicrosoftOpenSourceInsideGoogleChrome.aspx) – Scott Hanselman’s regular column examines Google’s new Chrome browser and notes the extensive use of the Windows Template Library.
 

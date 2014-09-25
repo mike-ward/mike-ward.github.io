@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Best Free Text Editor
+title: 'The Best Free Text Editor'
 ---
 How many times have you've seen this title in a blog? There certainly are enough opinions out there and everyone has their favorites. So without further ado here's my choice - [EmEditor](http://www.download.com/EmEditor-Free/3000-2352_4-10493299.html).
 

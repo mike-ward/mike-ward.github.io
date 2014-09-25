@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Window Seat Completed
+title: 'Window Seat Completed'
 ---
 Believe it not I actually do other things beside play with computers (not much more but at least it’s something). After 12 years of living in our house we did a kitchen remodel. We updated appliances (stainless steel, I love it), granite counter tops and a new backsplash. We already had some very nice cabinetry work so we kept it. One of the last pieces was a window seat for the kitchenette area.
 

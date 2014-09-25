@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Themes for Tweetz 3.1–You can help
+title: 'Themes for Tweetz 3.1–You can help'
 ---
 I’ve received lots about half a dozen translations for [tweetz](/tweetz) to date. Thanks to everyone who helped. I’ve included the translations in this updated version. Localizations include German, Spanish, Portuguese (BR), Japanese, Swedish, and Turkish. I missed a couple of strings in the original locale.js file. If you see a non-localized string, send me a translation. And of course, other languages are certainly welcome. For non-Latin languages, UTF-8 encoding is required.
 

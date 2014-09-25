@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  JSLint for Visual Studio 2010
+title: 'JSLint for Visual Studio 2010'
 ---
 > [`JSLint`](http://www.JSLint.com) is a JavaScript program that looks for problems in JavaScript programs. It is a code quality tool.
 > 

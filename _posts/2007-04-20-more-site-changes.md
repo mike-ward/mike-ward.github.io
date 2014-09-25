@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  More Site Changes
+title: 'More Site Changes'
 ---
 Fiddling with the site layout has been just a maddening experience. I really don't know how designers do it. I find myself constantly wanting to pixel tweak the layout. I'm learning that just like in code, keep it simple. Part of the reason I've been spending so much time on this aspect is that I need to learn what it missing from [Bloget](/bloget) in terms of ease of integration. Like most freeware developers, I eat my own dog food in that I use Bloget much like I think a user would use it (notice the word "think"). That's because until I get more feedback from the field, I really don't a know where user's pain points are occurring. This is true of almost any software one writes.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3.0 Released
+title: 'Tweetz 3.0 Released'
 ---
 Finally broke out the fork and declared it done. The long lapse from the last release candidate was mostly because I was waiting for the 1.4.3 release of jQuery hoping it would address a few issues I was having (it did).
 

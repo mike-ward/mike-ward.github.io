@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Vista Sidebar Stopwatch Gadget
+title: 'Vista Sidebar Stopwatch Gadget'
 ---
 [Vista has gadgets](http://vista.gallery.microsoft.com/vista/SideBar.aspx?mkt=en-us) similar to what is found on the [Mac](http://www.apple.com/downloads/dashboard/) and in [Yahoo Widgets](http://widgets.yahoo.com/) (formerly Konfabulator). For some reason, they have not been well received which (again) is a bit puzzling to me since they work quite well and are easy to author. The quality of a gadgets themselves is not always up to par with their Mac and Yahoo counterparts but that's not a limitation of the platform. My favorite gadgets are the [NPR Listener](http://gallery.live.com/liveItemDetail.aspx?li=d99b643d-e05c-48e2-a5b4-030d4d5e5d6b&bt=1&pl=1), [AdSense Monitor](http://gallery.live.com/liveItemDetail.aspx?li=3fd2ed33-77fa-46d8-b60e-85f1839be2a1&bt=1) and [Wireless Status Meter](http://gallery.live.com/liveItemDetail.aspx?li=35393b6e-5e43-45ff-95dd-49cfc4303246&bt=1). 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  XmlResourceManager
+title: 'XmlResourceManager'
 ---
 The most recent release of Desk Drive now allows for localization by modifying a text file and adding the appropriate language code and strings. Recall that localizing applications in .Net generally involves creating satellite assemblies, one for each language. It usually requires special tools like the Visual Studio IDE or a resource management tool.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Zeitgeist: Search patterns, trends, and surprises
+title: 'Zeitgeist: Search patterns, trends, and surprises'
 ---
 ![](http://www.google.com/intl/en/press/images/logo.gif)
 

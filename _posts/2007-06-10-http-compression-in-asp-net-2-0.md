@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  HTTP Compression in ASP.NET 2.0
+title: 'HTTP Compression in ASP.NET 2.0'
 ---
 Mads Kristensen writes an excellent blog called .NET Slave. Recently, he posted an article on how easy it is to enable [HTTP compression](http://www.madskristensen.dk/blog/PermaLink,guid,60533e14-789d-41a1-92d2-43efddce7d8e.aspx) in ASP.NET 2.0 without having to touch IIS. This is a handy thing to have when using hosted services like [Go Daddy](http://godaddy.com) where you don't have access to the IIS configuration. I've had it bookmarked for some time intending to add it to this site. Well I finally took the plunge and added it.
 

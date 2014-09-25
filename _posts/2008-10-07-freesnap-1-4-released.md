@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  FreeSnap 1.4 Released
+title: 'FreeSnap 1.4 Released'
 ---
 [FreeSnap 1.4](/freesnap) is available for download. New features include incremental size, a configuration file for settings, 64 bit support and a help dialog. The help dialog is a handy reference for all the keyboard shortcuts. Press the **Windows Key + ?** combination to bring it up.
 

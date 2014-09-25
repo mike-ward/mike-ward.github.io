@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Add CopyTo and MoveTo to context menus in Vista
+title: 'Add CopyTo and MoveTo to context menus in Vista'
 ---
 Here's a fun little productivity tip. Add CopyTo and MoveTo to your right-click context menu in windows explorer. Saves you having to open a second explorer window or navigate away from your current location. Simply open notepad and copy the following lines into it. Watch out for the word wrap. It should total three lines.
 

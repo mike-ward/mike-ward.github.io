@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Windows Really Do Leak
+title: 'Windows Really Do Leak'
 ---
 With all the news about record cold temperatures (it was –14F the other morning sans wind chill) it’s interesting to note how much Windows can leak.
 

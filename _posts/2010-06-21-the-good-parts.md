@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Good Parts
+title: 'The Good Parts'
 ---
 I’ve been reading (and rereading) [Douglas Crockford’s, “JavaScript, The Good Parts”](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742). The style is simple and quietly disarming. The content is excellent. If I could make it required reading at my day job, I would.
 

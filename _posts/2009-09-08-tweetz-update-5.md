@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update #5
+title: 'tweetz Update #5'
 ---
 Well, after a week of living with my minimalistic design and feedback from users, I’ve gone back to the older look with icons and dividers. Here’s a peek.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simply Weather Gadget&ndash;Fixed Icons
+title: 'Simply Weather Gadget&ndash;Fixed Icons'
 ---
 Last Thursday, Google changed the location and form of their weather icons. They also changed the feed which meant Simply Weather™ could no longer map weather icons to conditions. I issued a quick fix over the weekend since I was away.
 

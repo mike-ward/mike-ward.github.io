@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  FreeSnap 1.5 – The Movie
+title: 'FreeSnap 1.5 – The Movie'
 ---
 OK, not really, but there is a video someone posted on YouTube.
 

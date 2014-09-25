@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #1
+title: 'Friday Links #1'
 ---
 I'm moving like cold molasses this morning with this head cold. Still, the blog must go on. Here's some stuff I found interesting this week when I didn't have a head cold.
 

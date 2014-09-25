@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Using C# to Interact with the Shell Gotcha
+title: 'Using C# to Interact with the Shell Gotcha'
 ---
 **Update**: I've discovered my solution here is flawed. See [Desk Drive 1.4.4 Released](/blog/post/2008/08/11/desk-drive-1-4-4-released) for details.
 

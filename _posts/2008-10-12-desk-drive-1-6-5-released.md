@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.6.5 Released
+title: 'Desk Drive 1.6.5 Released'
 ---
 [Desk Drive](/deskdrive) 1.6.5 adds Dutch (Belgium) to its growing list of languages.
 

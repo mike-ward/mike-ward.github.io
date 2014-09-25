@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Recent Tweetz Updates
+title: 'Recent Tweetz Updates'
 ---
 ![Hitting-Head-against-wall](/cdn/images/blog/Tweetz-Updates_D058/Hitting-Head-against-wall.jpg)Well, it started out simple. I had some corrections to some language translations (German and Italian). After adding the updated translations, I decided to fix something that has bugged me for a while. [tweetz](/tweetz) shows screen names instead of real names. Every other twitter client I've used shows the real name associated with the account. No problem, 5 minutes later I'm done and pushing out an update.
 

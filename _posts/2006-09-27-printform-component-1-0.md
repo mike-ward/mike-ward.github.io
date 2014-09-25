@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  PrintForm Component 1.0
+title: 'PrintForm Component 1.0'
 ---
 Looks like the VB team has been busy. This component allows you to print a windows form, clean and easy. C# programmers should not fret since this is .Net component, you can easily call it from an .Net compliant language. You can also print to a file which contains encapsulated postscript. From the [website](http://msdn2.microsoft.com/en-us/vbasic/aa701261.aspx).
 

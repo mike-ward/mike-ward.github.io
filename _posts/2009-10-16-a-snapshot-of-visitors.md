@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A Snapshot of Visitors
+title: 'A Snapshot of Visitors'
 ---
 It’s interesting to see who visits the site and what they use to browse with. The market stills belong to IE but visitors to this site seem to prefer Firefox with IE not far behind.
 

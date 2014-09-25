@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Weather Gadgets Need Updating
+title: 'Weather Gadgets Need Updating'
 ---
 This morning I noticed that Google changed the format of their weather API. Both the Simply Weather Gadget and Web site are messed up at the moment. It should be a straight forward fix but wouldn’t you know it, I’m on the road this week. With luck I should be able to fix it this evening.
 

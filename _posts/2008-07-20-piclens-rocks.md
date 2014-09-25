@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  PicLens Rocks
+title: 'PicLens Rocks'
 ---
 [PicLens](http://www.piclens.com/) is a browser plug-in for Firefox that presents images in a unique and interesting way. It makes for a compelling, alternative way to browse images and news.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #7
+title: 'Friday Links #7'
 ---
 [PostSharp](http://www.postsharp.org/) - aspect weaver for .NET. It can can reduce the number of lines of code and improve the logical decoupling of your programs.
 

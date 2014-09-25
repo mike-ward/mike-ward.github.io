@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  FreeSnap 1.5 Beta
+title: 'FreeSnap 1.5 Beta'
 ---
 ![beta](/cdn/images/blog/FreeSnap1.5Beta_117EF/beta.jpg)
 

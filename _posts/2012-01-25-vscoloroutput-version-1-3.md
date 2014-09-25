@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  VSColorOutput Version 1.3
+title: 'VSColorOutput Version 1.3'
 ---
 I was getting sporadic reports of 1.2 crashing. Finally ran down the cause. Initial feedback indicates that I have fixed it.
 

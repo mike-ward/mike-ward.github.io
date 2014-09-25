@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  DTE Energy Insight Application
+title: 'DTE Energy Insight Application'
 ---
 [![slideshow_long_2x](/cdn/images/blog/Windows-Live-Writer/DTE-Energy_7D1A/slideshow_long_2x_thumb.jpg)](/cdn/images/blog/Windows-Live-Writer/DTE-Energy_7D1A/slideshow_long_2x_2.jpg)
 

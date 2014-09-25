@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Make IE6/IE7 more usable with The World Browser
+title: 'Make IE6/IE7 more usable with The World Browser'
 ---
   
 As much as I like FireFox and Safari for Windows there are times when only Internet Explorer will do. This is often the case in corporations where you are either restricted to using IE or there are IT applications that will only run in IE. Personally, I find the IE6/IE7 interfaces annoying to use. Apparently I'm not the only one who feels this way. There are dozens of alternative browsers that use the IE rendering engine with enhanced interfaces.  

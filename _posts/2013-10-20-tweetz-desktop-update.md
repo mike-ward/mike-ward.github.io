@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop Update
+title: 'Tweetz Desktop Update'
 ---
 Release 0.5.1 notes:
 

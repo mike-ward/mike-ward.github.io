@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.5 Released
+title: 'Desk Drive 1.5 Released'
 ---
 [Desk Drive 1.5](/deskdrive) adds a new feature many of you have asked for -- Remembered icon positions. Plug-in your USB Stick, move the shortcut that appears to a new location on your desktop and Desk Drive will remember to put it there the next time. (Note, this feature only remembers Desk Drive icons, not all the icons on your desktop)
 

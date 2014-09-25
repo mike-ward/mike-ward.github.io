@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Adding ELMAH to a Nancy Site
+title: 'Adding ELMAH to a Nancy Site'
 ---
 Description of [ELMA](https://code.google.com/p/elmah/)H from the web site:
 

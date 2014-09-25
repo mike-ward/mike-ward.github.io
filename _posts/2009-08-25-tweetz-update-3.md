@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update #3
+title: 'tweetz Update #3'
 ---
 Ok, I’m losing track of updates so I started numbering them. New changes include:
 

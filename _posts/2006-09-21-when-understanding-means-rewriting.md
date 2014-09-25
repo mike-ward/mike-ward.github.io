@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  When Understanding means Rewriting
+title: 'When Understanding means Rewriting'
 ---
 Jeff Atwood has an excellent blog entry this morning called "[When Understanding means Rewriting](http://www.codinghorror.com/blog/archives/000684.html)". In it he explains how many programmer's rewrite code in order to understand how it works. The premise is that the previous code is complex enough in nature that it's faster to rework the problem than to work with the current solution.
 

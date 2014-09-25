@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #53
+title: 'Friday Links #53'
 ---
 **Science and the Environment**
 

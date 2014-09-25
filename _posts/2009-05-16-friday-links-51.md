@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #51
+title: 'Friday Links #51'
 ---
 [Top 10 improvements for a future Kindle - MobileRead Forums](http://www.mobileread.com/forums/showthread.php?t=46449) – I really like my Kindle but it’s not without it faults. 
 

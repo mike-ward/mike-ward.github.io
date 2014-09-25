@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Pure CSS Framework as an Alternative to Bootstrap
+title: 'Pure CSS Framework as an Alternative to Bootstrap'
 ---
 Given the popularity of [Bootstrap](http://getbootstrap.com/) you could be forgiven not knowing about other capable CSS frameworks.
 

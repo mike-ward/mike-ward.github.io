@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 2.0 – Those Darn New Tweets
+title: 'Tweetz 2.0 – Those Darn New Tweets'
 ---
 There’s an interesting tension in tweetz between knowing when new tweets arrive and viewing them. When I started out, I figured that because it was a gadget, I should simply display the new tweets when they come in. This plays well with Aero Peek and is how I like to use the program. Then there’s there are times when you are viewing older tweets and you don’t want the new tweets to change what you’re viewing. 
 

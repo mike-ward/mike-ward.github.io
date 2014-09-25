@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Determining the local IP address via script
+title: 'Determining the local IP address via script'
 ---
 Why determining the local IP address should be such a monumental task in Windows is anyone’s guess. Here’s some JavaScript code I cobbled together from a couple of different sources for an installer script I’m writing.
     

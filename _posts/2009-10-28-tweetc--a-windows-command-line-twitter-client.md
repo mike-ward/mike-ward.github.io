@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetc – A Windows command line twitter client
+title: 'tweetc – A Windows command line twitter client'
 ---
 **tweetc** is a twitter client for the Windows command line.
 

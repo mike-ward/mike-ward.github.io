@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Update – Version 2.3
+title: 'Tweetz Update – Version 2.3'
 ---
 The pace of updates for [tweetz](/tweetz) is slowing down in part to other obligations. With that aside, this release implements one of the most asked for features, indication of new tweets.
 

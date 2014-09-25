@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz, JavaScript, jQuery and Discovery
+title: 'Tweetz, JavaScript, jQuery and Discovery'
 ---
 I’ve been busily working on the next release of tweetz™ these last couple of weeks and have mostly ignored my blogging duties as a result. Codemash 2009 was a real wake call for me in that I realized that I needed to update my skills in a number of areas. If you take your craft seriously, you realize that getting “comfortable” is the kiss of death, skills wise. Especially in the profession of programming.
 

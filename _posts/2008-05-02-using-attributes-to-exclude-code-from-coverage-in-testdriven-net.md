@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Using Attributes to Exclude Code from Coverage in TestDriven.Net
+title: 'Using Attributes to Exclude Code from Coverage in TestDriven.Net'
 ---
 There are times when you don't want your coverage level penalized for code not covered. Often this occurs with code that is produced from a code generator. Since [TestDriven.Net](http://www.testdriven.net) invokes [NCover](http://www.ncover.com) with the `//ea CoverageExcludeAttribute` switch, it's relatively easy remove code from the coverage statistics.
 

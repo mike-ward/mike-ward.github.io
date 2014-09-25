@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update #4
+title: 'tweetz Update #4'
 ---
 I think I started to lose site of what this gadget is about. As it often seems, gadgets are more about the gadget than the content. I was starting to lean towards “The Dark Side” with tweetz. This release goes back to my original goals. Content presented in a clear and concise format with as little space as necessary for controls and navigation aids.
 

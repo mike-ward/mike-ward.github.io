@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Vista calculator gadget updated
+title: 'Vista calculator gadget updated'
 ---
 A few months ago I wrote a quick little Vista gadget called "Calculator" mostly to teach myself how to write Vista gadgets. They're really simple to write if you know a bit of HTML and JavaScript. You can [read more](/blog/post/2008/06/02/calculator-sidebar-gadget-released) about the Calculator gadget from the original post.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Number of Types in the .NET Framework
+title: 'Number of Types in the .NET Framework'
 ---
 Well, the answer is not 42. Try 11,417.
 

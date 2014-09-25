@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Detect Strong Named Assemblies in .NET
+title: 'Detect Strong Named Assemblies in .NET'
 ---
 [![image](/cdn/images/blog/DetectStrongNamedAssembliesin.NET_A51C/image_thumb.png)](/cdn/images/blog/DetectStrongNamedAssembliesin.NET_A51C/image.png) Seems like I get asked at least once a week how to determine if an assembly is strongly named. 
 

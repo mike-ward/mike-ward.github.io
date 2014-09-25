@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.8.2 Update, Bug Fixes, New Translation
+title: 'Desk Drive 1.8.2 Update, Bug Fixes, New Translation'
 ---
 I’ve had sporadic reports about [Desk Drive](/deskdrive) crashing when removing flash drives. With a help of few users, I think I’ve fixed this little gremlin at last. May it rest in peace.
 

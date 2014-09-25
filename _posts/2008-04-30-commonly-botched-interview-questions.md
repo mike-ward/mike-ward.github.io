@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Commonly Botched Interview Questions
+title: 'Commonly Botched Interview Questions'
 ---
 Lately, I've had to do a some interviewing for new positions that have opened up here. My interview style is to not ask too many questions and to try and get the candidate to talk about themselves. Still, there a few technical questions I ask just to make sure the basics are understood. It's surprising how candidates with many years of experience can't answer the following:
 

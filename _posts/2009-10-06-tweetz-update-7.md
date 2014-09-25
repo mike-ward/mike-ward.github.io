@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update #7
+title: 'tweetz Update #7'
 ---
 [![tweetz](/cdn/images/blog/tweetzUpdate6_11AE8/tweetz_thumb.png)](/cdn/images/blog/tweetzUpdate6_11AE8/tweetz.png)It’s been a busy month with school for the kids starting and other fall activities. I still managed to squeeze in some programming time however. This update includes an oft asked for feature – custom vertical sizing. You can set the height in the setting dialogs. I’m working on a more traditional click and drag technique but this will suffice for now. The docked and expanded height settings are independent.
 

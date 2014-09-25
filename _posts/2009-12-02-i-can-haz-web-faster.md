@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  I can haz Web faster?
+title: 'I can haz Web faster?'
 ---
 One of the best and easiest speed improvements you can make to your Internet connection is to use OpenDNS.com. I’ve blogged about this incredible (and free) service before but a recent announcement makes it even better.
 

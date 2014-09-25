@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #37
+title: 'Friday Links #37'
 ---
 [How to Use the Mailto Syntax – Examples](http://www.labnol.org/internet/email/learn-mailto-syntax/6748/) – You can add multiple recipients, blind copies and even subjects, all in one compact syntax.
 

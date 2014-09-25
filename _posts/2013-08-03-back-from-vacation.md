@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Back from Vacation
+title: 'Back from Vacation'
 ---
 Had a lovely time out West with the family. Friday Links will resume next week.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Queued Ajax Calls in JQuery
+title: 'Queued Ajax Calls in JQuery'
 ---
 When writing Ajax, you can sometimes get into situations where sending two Ajax calls close together will return results out of order. In other words, the first Ajax call will receive the second Ajax calls’ results. This seems to be a particular problem in IE and Windows Sidebar Gadgets that use IE to display.
 

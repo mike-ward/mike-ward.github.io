@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  AdSensor Gadget Updated
+title: 'AdSensor Gadget Updated'
 ---
 Vista (and now Windows 7) Sidebar gadgets are nifty little programs that run on your desktop. They’re mostly convenience programs for monitoring bits of information like stocks or weather. The Vista Sidebar gadgets have a reputation as being the lesser cousins of gadget applications like [Yahoo Widgets](http://widgets.yahoo.com/). While there is a larger selection Yahoo Widgets, I’m not convinced they’re necessarily better. While I’m certainly biased, my Simply Weather, Calculator and Stop Watch gadgets are the best I’ve seen on any gadget platform. Yeah, I suck as graphic artist but the function and ease makes up for it.
 

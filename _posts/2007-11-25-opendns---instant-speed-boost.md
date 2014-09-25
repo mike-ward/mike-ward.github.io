@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  OpenDNS = Instant Speed Boost
+title: 'OpenDNS = Instant Speed Boost'
 ---
 Want to improve your Internet connection right now? Simple. Just head over to [OpenDNS](http://www.opendns.com) and follow the directions to setup your computer or router to point to OpenDNS. If you're not sure what a DNS is or why you should care, seriously, take 5 minutes to head over to the site and read their excellent materials. Oh, yeah, I forgot to mention the service is **FREE**!
 

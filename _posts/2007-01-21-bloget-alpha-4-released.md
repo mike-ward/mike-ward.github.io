@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bloget Alpha 4 Released
+title: 'Bloget Alpha 4 Released'
 ---
 ![](/cdn/images/blog/WindowsLiveWriter/BlogetAlpha4Released_C67C/dork%5B5%5D.png) Bloget, alpha 4 is out the door! Some of the changes include:
 

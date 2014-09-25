@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  VSColorOutput - Visual Studio Output Coloring Extension
+title: 'VSColorOutput - Visual Studio Output Coloring Extension'
 ---
 VSColorOutput provides color highlighting for the build and debug output windows in Visual Studio. I wrote it to highlight trace output in debug output window. I found it made it easier to find trace messages I was interested in during debug sessions.
 

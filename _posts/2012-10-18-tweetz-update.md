@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Update
+title: 'Tweetz Update'
 ---
 [![Twitter_Fail_Cisco (Mobile)](/cdn/images/blog/Tweetz-Update_11BD7/Twitter_Fail_Cisco-Mobile_thumb.jpg)](/cdn/images/blog/Tweetz-Update_11BD7/Twitter_Fail_Cisco-Mobile.jpg)Many of you have been experiencing issues with tweetz not working over the last several days. The reason was that twitter started shutting off access to their data via their version 1.0 API. I don’t follow the API changes as closely as as should. I’ve migrated tweetz to use the newer 1.1 version of the twitter API. Things appear to be working again.
 

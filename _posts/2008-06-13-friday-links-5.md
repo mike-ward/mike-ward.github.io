@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #5
+title: 'Friday Links #5'
 ---
 [Microsoft Project Code Named “Velocity”](http://msdn.mi%0acrosoft.com/library/cc645013.aspx) - "Velocity" is a distributed in-memory application cache platform for developing scalable, available, and high-performance applications. "Velocity" fuses memory across multiple computers to give a single unified cache view to applications. Applications can store any serializable CLR object.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Set the Expires header on static content to increase web site performance
+title: 'Set the Expires header on static content to increase web site performance'
 ---
 Yahoo and Google recommend setting the **Expires** header of a web site’s static content (i.e. images) to some distant future date. This makes those components cacheable. It also avoids unnecessary HTTP requests on subsequent page views. If you’re using IIS7, just add the following to your Web.config.
     

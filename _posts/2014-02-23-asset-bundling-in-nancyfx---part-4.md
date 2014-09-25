@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Asset Bundling in NancyFx - Part 4
+title: 'Asset Bundling in NancyFx - Part 4'
 ---
 Shortly, after I posted the first 3 parts of this article, [Andreas Håkansson](http://thecodejunkie.com/) (a.k.a [@TheCodeJunkie](https://twitter.com/TheCodeJunkie) and one of the creators of [NancyFx](http://nancyfx.org)), contacted me to suggest I implement my asset bundler as a static content provider.
 

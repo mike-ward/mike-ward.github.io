@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #43
+title: 'Friday Links #43'
 ---
 ![Silverlight 3](http://storage.timheuer.com/timsl3mock.png)[A guide to Silverlight 3 new features](http://timheuer.com/blog/archive/2009/03/18/silverlight-3-whats-new-a-guide.aspx) – The boys at Redmond have been busy indeed. This guide boils it down at the developer level to articulate some of the core changes and relevant issues.
 

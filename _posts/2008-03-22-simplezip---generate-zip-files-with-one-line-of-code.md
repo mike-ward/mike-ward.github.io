@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  SimpleZip - Generate Zip files with one line of code
+title: 'SimpleZip - Generate Zip files with one line of code'
 ---
 .NET doesn't have much in the way of built-in archive support. If you want to Zip up some files you can use the open source [SharpZipLib](http://www.icsharpcode.net/OpenSource/SharpZipLib/) or a commercial package like [Xceed](http://xceed.com/). There's also Zip API's in the J# library but you can't count on the assemblies being installed. A recent article in The Code Project called [SimpleUnzipper](http://www.codeproject.com/KB/cs/Simple_Unzipper.aspx) inspired me to write a counter part aptly named SimpleZip.
 

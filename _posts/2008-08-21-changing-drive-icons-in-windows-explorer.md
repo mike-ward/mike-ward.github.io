@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Changing drive icons in Windows Explorer
+title: 'Changing drive icons in Windows Explorer'
 ---
 A few of you have emailed asking if it is possible to change the icon that [Desk Drive](/deskdrive) puts on the desktop. Well, the answer is yes with qualifications. There is no option in Desk Drive to change drive icons but it can be done a couple of ways from the Windows itself.
 

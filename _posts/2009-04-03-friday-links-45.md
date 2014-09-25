@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #45
+title: 'Friday Links #45'
 ---
 [Live Smooth Streaming – Design Thoughts - Sam Zhang's Blog](http://blogs.iis.net/samzhang/archive/2009/03/27/live-smooth-streaming-design-thoughts.aspx) - In summary, the pull model we designed for IIS Live Smooth Streaming is very different than how the traditional live streaming push model works. With this model, the server becomes a very lean stateless server with better performance, scalability, and manageability. The client has more control over different aspects of streaming/playback and is better equipped to handle all the challenges to offer a great user experience.
 

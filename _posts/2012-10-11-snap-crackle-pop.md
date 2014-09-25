@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Snap, Crackle, Pop
+title: 'Snap, Crackle, Pop'
 ---
 [![knockout-punch](/cdn/images/blog/Snap-Crackle-Pop_729C/knockout-punch_thumb.jpg)](/cdn/images/blog/Snap-Crackle-Pop_729C/knockout-punch.jpg)Twitter has started phasing out its Version 1.0 REST API’s as of yesterday. As a result Tweetz, my twitter desktop gadget, stopped working. I’ve posted a very quick patch to get the timelines working again. However, posting new tweets is broken. That’s going to take more work.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.5.3 Released
+title: 'Desk Drive 1.5.3 Released'
 ---
 [Desk Drive](/deskdrive) 1.5.3 introduces two new languages, Galician and Spanish. I've also added a hook into the windows notification mechanism which sends Desk Drive a notification when new media is inserted or removed. This allows the program to detect new drives faster. Several corrections to translations were added as well. Finally, I've eliminated the generated COM interops in favor of internal code.
 

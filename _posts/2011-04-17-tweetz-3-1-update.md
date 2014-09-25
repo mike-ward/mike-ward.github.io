@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3.1 Update
+title: 'Tweetz 3.1 Update'
 ---
 I released this update a couple of days ago but have been busy with family stuff which is why this post is a few days behind. This release has some minor bug fixes and language updates.
 

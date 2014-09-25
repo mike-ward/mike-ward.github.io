@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Effective Features of Chatwing&rsquo;s Premier Chat App
+title: 'Effective Features of Chatwing&rsquo;s Premier Chat App'
 ---
 This is a guest posting by Aaron Kong 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.6.3 Released
+title: 'Desk Drive 1.6.3 Released'
 ---
 Desk Drive 1.6.3 includes changes that should allow it to run on x64 for systems natively. One of the cool benefits of writing in .Net is that if you stick to the rules, your compiled code can run in both 32 and 64 bit modes natively. This is due to the “Just in Time” (JIT) compilation feature of .Net.
 

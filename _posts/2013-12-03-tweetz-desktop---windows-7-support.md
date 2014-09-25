@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz Desktop - Windows 7 Support
+title: 'Tweetz Desktop - Windows 7 Support'
 ---
 [![Windows-7-logo](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop---Windows-7-Support_C480/Windows-7-logo_thumb.jpg)](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop---Windows-7-Support_C480/Windows-7-logo_2.jpg)It took a bit of fussing, but I've wrangled support for Windows 7 into Tweetz Desktop.
 

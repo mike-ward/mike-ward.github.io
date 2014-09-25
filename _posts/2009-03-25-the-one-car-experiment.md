@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The One Car Experiment
+title: 'The One Car Experiment'
 ---
 Last November when the lease came up on our Chevy Trail Blazer, we did something a bit unusual. We turned in the vehicle and elected not to lease another.
 

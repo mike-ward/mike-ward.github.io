@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update – 2.2
+title: 'tweetz Update – 2.2'
 ---
 ![settings](/cdn/images/blog/tweetzUpdate2.2_106C7/settings.png)Time for another [tweetz](/tweetz) update. Version 2.2 adds support for “Native Retweets”. What that means is tweetz uses the newer retweet support recently added to twitter. But fear not, if you like the old school method, you can simply turn off the option.
 

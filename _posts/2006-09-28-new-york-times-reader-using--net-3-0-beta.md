@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  New York Times Reader Using .Net 3.0 Beta
+title: 'New York Times Reader Using .Net 3.0 Beta'
 ---
 The New York Times has a new .Net 3.0 new [reader in pre-beta](http://firstlook.nytimes.com/?category_name=times%20reader). That's not a misprint, it's .Net 3.0. It's well worth the rather large .Net 3.0 download to check out this reader. It doesn't have all the eye-candy of other WPF demos. Instead it focuses on being a very good news reader and succeeds.
 

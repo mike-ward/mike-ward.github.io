@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Visual Studio 2005 Service Pack 1 (SP1) Released
+title: 'Visual Studio 2005 Service Pack 1 (SP1) Released'
 ---
 This SP release is a pretty major service pack, and incorporates a lot of bug-fixes and feedback from customers. Included built-in with the service pack is support for VS 2005 Web Application Projects (which we also made available as a separate download back in May). Check out the comments on Digg. It's rare that Digg comments are actually worth anything but serveral of them (including one by KarmasAgent) are refreshingly insightful. I'll be downloading this service patch later today and reporting my experiences. Also, it appears that Bloget is working with Digg's MetaWeblog implementation as evidenced by this entry. Cool!  
   

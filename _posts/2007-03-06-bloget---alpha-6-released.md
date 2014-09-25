@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bloget - Alpha 6 Released
+title: 'Bloget - Alpha 6 Released'
 ---
 Whoa!, Alpha 5 just went out a week ago and I'm now deploying Alpha 6. What happened? In a word, good stuff. I discovered earlier last week that you can embed resources in binaries and serve them up in web pages. Say what? Ok, let's look at an example. Let's say you have an static image of a help button you want to display in your ASP.NET control. Easy enough but the image has to exist in a specific location on the server in order to link to it. That means when you deploy your control, the image has to be in the correct location or it won't display.
 

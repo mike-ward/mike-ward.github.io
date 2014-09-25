@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  SimpleZip Update
+title: 'SimpleZip Update'
 ---
 ![](http://content.answers.com/main/content/wp/en-commons/d/d9/Torchlight_zip.png) SimpleZip is my .NET (C#) Zip file generator that requires no third-party support libraries. You can read more about it at the [Code Project](http://www.codeproject.com/KB/cs/SimpleZip.aspx). This update adds one additional API.
 

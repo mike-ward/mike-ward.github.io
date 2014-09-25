@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  An Easy Speed Fix up for Internet Explorer
+title: 'An Easy Speed Fix up for Internet Explorer'
 ---
 ![](http://www.microsoft.com/library/media/1033/windows/images/products/winfamily/ie/icon_ie7.gif)  
 My wife uses Internet Explorer 7. I prefer [FireFox](http://www.mozilla.org/) or more recently [Safari for Windows](http://www.apple.com/safari). For the most part it's a trouble free existence. However, the other day she started having issues with Web sites she regularly visits not displaying. I was able to visit the same sites using the same Internet connection. After a few minutes of sleuthing I found that IE's phishing filter was taking a long time to respond causing the site to time out.  

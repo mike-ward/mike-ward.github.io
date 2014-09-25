@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #3
+title: 'Friday Links #3'
 ---
 [BugWiki = Bug tracking made easy](https://www.bugwiki.com/) - I'm using it for my projects. Easy and to the point. Free for single developers.
 

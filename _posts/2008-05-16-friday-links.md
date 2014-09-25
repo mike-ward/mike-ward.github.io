@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links
+title: 'Friday Links'
 ---
 Links I found interesting this week.
 

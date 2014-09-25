@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to Check C# Parameters
+title: 'How to Check C# Parameters'
 ---
 I just downloaded a sample from [The Code Project](http://www.thecodeproject.com) and as usual spent 20 minutes cleaning up the code. Don't get me wrong, I'm grateful for the contributions and use them often. What bothers me is that many of what the industry considers "best practices" are simply ignored in these contributions. One of the most fundamental "best practices" is to check the validity of parameters.
 

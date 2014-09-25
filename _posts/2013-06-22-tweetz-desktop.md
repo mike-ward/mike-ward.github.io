@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Desktop
+title: 'tweetz Desktop'
 ---
 [![image](/cdn/images/blog/Windows-Live-Writer/tweetz-Desktop_9B6D/image_thumb.png)](/cdn/images/blog/Windows-Live-Writer/tweetz-Desktop_9B6D/image_2.png)As many of you already know, Microsoft killed the gadget platform in Windows 8 because they wanted to make the new Metro applications as awesome as possible (yeah, right). Tweetz Desktop is the reincarnation of [tweetz](/tweetz), the gadget (RIP).
 

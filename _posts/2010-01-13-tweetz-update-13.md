@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  tweetz Update #13
+title: 'tweetz Update #13'
 ---
 This version (1.5) marks the transition to using [OAuth](http://oauth.net) to access your account. This mostly changes how you login. I’ve detailed the procedure in a [previous post if you need a step by step guide](/blog/post/2010/01/10/tweetz-beta-oauth).
 

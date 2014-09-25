@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3.1 – Feedback on Interface Change
+title: 'Tweetz 3.1 – Feedback on Interface Change'
 ---
 I’m looking for a bit of feedback on a interface change I’m thinking about.
 

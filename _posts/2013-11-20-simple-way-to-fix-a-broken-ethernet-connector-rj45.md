@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simple Way to Fix a Broken Ethernet Connector (RJ45)
+title: 'Simple Way to Fix a Broken Ethernet Connector (RJ45)'
 ---
 I've seen a number of articles on how to fix broken RJ45 connectors including the somewhat famous [zip tie hack](http://www.instructables.com/id/Repair-a-Broken-Ethernet-Plug/). The best way of course is to replace the plug but that usually requires some tools and good eyes. I'm not that patient and besides, the plug can get broken again.
 

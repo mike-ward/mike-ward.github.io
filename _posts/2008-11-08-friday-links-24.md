@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Friday Links #24
+title: 'Friday Links #24'
 ---
 [UrlScan 3.1: Wade Hilmo](http://blogs.iis.net/wadeh/archive/2008/10/31/urlscan-3-1.aspx) – Latest release has better protection for [SQL Injection Attacks](http://blogs.iis.net/wadeh/archive/2008/06/24/urlscan-v3-0-beta-release.aspx).
 

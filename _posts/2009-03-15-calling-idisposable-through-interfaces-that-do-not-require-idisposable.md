@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Calling IDisposable through Interfaces that do not require IDisposable
+title: 'Calling IDisposable through Interfaces that do not require IDisposable'
 ---
 How do you call IDisposable.Dispose() when your interface does _not_ inherit from [IDisposable](SomeInterface someInterface = SomeInterfaceFactory();) but your implementation _does_? This happens more often than you might think, particularly when code generation is involved. For example, when Visual Studio generates service proxies for WCF service contracts, the generated ServiceClientProxy derives from System.ServiceModel.ClientBase, which can contain an auto-generated IDisposable depending on the interface constructs.
 

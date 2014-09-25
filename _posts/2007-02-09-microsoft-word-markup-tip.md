@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Microsoft Word Markup Tip
+title: 'Microsoft Word Markup Tip'
 ---
 I don't particularly care for the **track changes markup** that displays on the right edge of documents in Microsoft Word. While it may be useful for collaborating on documents, most of what I write is solo. I searched for a way to turn this feature off for all documents. While you can't eliminate this feature entirely, you can cut down on the "visual noise" by following a few simple steps.
 

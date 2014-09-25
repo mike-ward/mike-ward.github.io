@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Have feed, will podcast
+title: 'Have feed, will podcast'
 ---
 Check out my new podcast.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tweetz 3 – Release Candidate 5
+title: 'Tweetz 3 – Release Candidate 5'
 ---
 I’m hoping to stick a fork in this soon. Latest fixes include:
 

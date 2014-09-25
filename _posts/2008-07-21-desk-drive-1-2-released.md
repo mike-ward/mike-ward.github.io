@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desk Drive 1.2 Released
+title: 'Desk Drive 1.2 Released'
 ---
 Desk Drive 1.2 introduces two new features. The first feature allows you to hide the tray icon. To get to the settings dialog once the the tray icon is hidden, simply run the program a second time.
 

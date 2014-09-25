@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  GhostDoc helps with Commenting your Code
+title: 'GhostDoc helps with Commenting your Code'
 ---
 ![](http://s3.amazonaws.com/BlueOnionSoftware/Blog/GhostDoc.png)<summary>  
 [GhostDoc](http://www.roland-weigelt.de/ghostdoc/) is a free add-in for Visual Studio that automatically  

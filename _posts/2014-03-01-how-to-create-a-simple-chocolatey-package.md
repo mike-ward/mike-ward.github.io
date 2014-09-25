@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to Create a Simple Chocolatey Package
+title: 'How to Create a Simple Chocolatey Package'
 ---
 Haven't heard of [Chocolatey](http://chocolatey.org)? Rather than me rehash what it is you can [read about it here](http://www.hanselman.com/blog/IsTheWindowsUserReadyForAptget.aspx).
 

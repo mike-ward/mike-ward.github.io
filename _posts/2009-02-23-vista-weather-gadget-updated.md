@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Vista Weather Gadget Updated
+title: 'Vista Weather Gadget Updated'
 ---
 Last week saw an early release of my Vista Sidebar Weather Gadget. Not knowing when to leave well enough alone, I’ve updated it with some new formats and styles. There are 3 additional formats. Here’s what they look like:
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Twitter’s reach greater than you think
+title: 'Twitter’s reach greater than you think'
 ---
 In a rash moment, I tweeted the following a while at [Codemash 2009](http://www.codemash.org/):
 

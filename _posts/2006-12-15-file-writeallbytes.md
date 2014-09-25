@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  File.WriteAllBytes
+title: 'File.WriteAllBytes'
 ---
 The .NET runtime has so many features it is difficult to keep track. Just the other night, I need to write a byte[] to a file. I started out with something like this:
 

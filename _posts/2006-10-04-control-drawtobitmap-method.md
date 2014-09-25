@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Control.DrawToBitmap Method
+title: 'Control.DrawToBitmap Method'
 ---
 A requirement from one of our clients required that I capture an image of a control to a bitmap. Being a Win32 programmer from days gone by I figured no problem. Grab a device context, do some bit blasting and I'm done. It's a little harder in .Net since you have to do a platform invoke for the BitBlt operation but very doable.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Script Bundling in NancyFx
+title: 'Script Bundling in NancyFx'
 ---
 There are several script bundling options available in NancyFx including SquishIt and Microsoft’s Bundle and Minification classes. Try as I might though, I couldn’t get them to work. There’s something funky with the Razor view engine that makes this task impossible at the moment.
 

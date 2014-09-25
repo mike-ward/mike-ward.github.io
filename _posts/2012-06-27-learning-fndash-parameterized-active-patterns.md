@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Learning F#&ndash; Parameterized Active Patterns
+title: 'Learning F#&ndash; Parameterized Active Patterns'
 ---
 I've been teaching myself F#, Microsoft's functional language for .NET and blogging about it from time to time. Here are links to my previous articles.
 

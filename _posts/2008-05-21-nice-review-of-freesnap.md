@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Nice Review of FreeSnap
+title: 'Nice Review of FreeSnap'
 ---
 The folks over at [Freewaregenius](http://www.freewaregenius.com/2008/05/21/freesnap-maximize-window-edges-individually/) did a nice review of my FreeSnap program. 
 

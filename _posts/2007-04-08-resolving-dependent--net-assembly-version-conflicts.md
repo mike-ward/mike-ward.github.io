@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Resolving Dependent .NET Assembly Version Conflicts
+title: 'Resolving Dependent .NET Assembly Version Conflicts'
 ---
 I ran into an interesting error message this morning while adding some [NUnitAsp](http://nunitasp.sourceforge.net/tutorial/index.html) unit tests to [Bloget](/bloget).
 

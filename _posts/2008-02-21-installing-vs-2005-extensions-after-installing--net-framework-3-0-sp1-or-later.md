@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Installing VS 2005 Extensions after Installing .NET Framework 3.0 SP1 or Later
+title: 'Installing VS 2005 Extensions after Installing .NET Framework 3.0 SP1 or Later'
 ---
 If you try to install the Visual Studio 2005 Extensions required for WPF development after installing the .Net Framework 3.0 SP1 or later, you will get an error saying that the .Net FW 3.0 is not installed.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Resolving Virtual Paths to Uri's in ASP.Net
+title: 'Resolving Virtual Paths to Uri's in ASP.Net'
 ---
 ASP.Net has a boat load of methods for dealing with paths. However, no where can I find a method to convert a virtual path (~/) to its equivalent Uri. Perhaps it’s there but darn if I can find it. The best I can up with is:
     

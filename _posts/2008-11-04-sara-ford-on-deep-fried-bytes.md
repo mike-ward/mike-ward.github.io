@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Sara Ford on Deep Fried Bytes
+title: 'Sara Ford on Deep Fried Bytes'
 ---
 A friend of mine turned me on to the cool and casual programmer podcast [Deep Fried Bytes](http://deepfriedbytes.com/) recently. I like the format and their guests seem to enjoy the it as well. In episode 15, Keith and Woody interview Sara Ford of Microsoft fame. She publishes a [blog with daily tips](http://blogs.msdn.com/saraford/) about Microsoft Visual Studio. She also recently posted a collection of these tips in her new Microsoft Press book “Microsoft Visual Studio Tips.” I cross link the better tips in my regular Friday Links series.
 
