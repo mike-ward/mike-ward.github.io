@@ -4,17 +4,16 @@ title:  WCF timings with different bindings
 ---
 I was curious how WCF timings compared using different transport bindings. Here's what I came up with:
 
-`Buffered   
---------   
-WSHttpBinding : time=00:00:00.7206547, length=11520054   
-NetTcpBinding : time=00:00:00.5371746, length=11520054 
+**Buffered**
 
-`Streaming   
----------   
-BasicHttpBinding : time=00:00:00.9087755, length=11520054   
-NetTcpBinding : time=00:00:01.8869526, length=11520054 `
+    WSHttpBinding : time=00:00:00.7206547, length=11520054   
+    NetTcpBinding : time=00:00:00.5371746, length=11520054 
 
-```---------   
+**Streaming**
+
+    BasicHttpBinding : time=00:00:00.9087755, length=11520054   
+    NetTcpBinding : time=00:00:01.8869526, length=11520054 `
+
 NetBIOS : time=00:00:00.9174436, length=11520054`
 
 The test measured how long it took to get an 11MB image file from a remote server. This is not what one would call a definitive test. However, I think the results are interesting enough to share.
