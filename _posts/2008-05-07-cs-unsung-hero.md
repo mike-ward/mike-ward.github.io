@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C#'s Unsung Hero'
+title: 'C#''s Unsung Hero'
 ---
 I was updating some legacy Windows C++ code last night and the pain of using it hit me like a ton of bricks. In particular, the string handling was a nightmare. Here are all the ways I found strings used in this program:
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ASP.Net blog control, Where art thou?'
+title:  'ASP.Net blog control, Where art thou?'
 ---
 One of the things I needed for the new site is a blog. Now there are lots of way to blog these days from custom software to services. However, I wanted something that would integrate with my site. I also wanted to have access to the data store. Oddly, however, there is not much in the way of free Asp.Net blogging components. This strikes me as odd since it is a relatively easy thing to write.
 

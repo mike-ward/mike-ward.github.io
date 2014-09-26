@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''Update: Desk Drive 1.8.5''
+title: 'Update: Desk Drive 1.8.5'
 ---
 This update fixes an occasional but persistent crash when removing drive media. It doesn't happen on most systems but when it does, it sure is a bummer. I could never reproduce this but one of your fellow users could and he was willing to put up with several updates and fiddling to run the problem down. Thanks!
 
