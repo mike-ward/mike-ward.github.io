@@ -29,9 +29,13 @@
           <a href="https://github.com/mike-ward" title="Follow on GitHub"><img src="{{ site.baseurl }}cdn/images/github.png" alt="" width="48" height="48"></a>
         </div>
         <div>.Net, Technology, Life, Whatever</div>
-        <div>
-          <p>sidebar</p>
-        </div>
+        <p><strong>Recent Posts</strong></p>
+        <p>
+          {% for post in site.posts limit:7 %}
+          <div class="recent-post"><a href="{{ post.url }}">{{ post.title }}</a></div>
+          {% endfor %}
+          <div class="recent-post"><a href="{{ site.baseUrl }}archive">More... ({{ site.posts | size }})</a></div>
+        </p>
         <div>
           <!-- Sidebar -->
           <ins class="adsbygoogle"
@@ -97,6 +101,8 @@
 
       init(loadScript('//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'));
       init(function () { (adsbygoogle = window.adsbygoogle || []).push({}); });
+      init(loadScript('https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js'));
+      Array.prototype.forEach.call(document.querySelectorAll('pre'), function (e) { e.className += ' prettyprint'; });
     </script>
   </body>
 </html>
