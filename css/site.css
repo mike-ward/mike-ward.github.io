@@ -85,9 +85,10 @@ article {
 
 .post-date {
   display: block;
-  margin-top: -.5rem;
+  margin-top: -1.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+  font-weight: bold;
 }
 
 .post-comment-button {
@@ -127,6 +128,11 @@ code {
     margin: 0.2pc;
   }
 
+  .site-title {
+    text-align: center;
+    font-size: smaller;
+  }
+  
   #content {
     width: auto;
   }
