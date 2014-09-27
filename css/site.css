@@ -96,6 +96,10 @@ article {
   font-size: 80%;
 }
 
+.older {
+  float: right;
+}
+
 .recent-post {
   line-height: 2;
   border-bottom: solid #ccc 1px;
