@@ -134,7 +134,8 @@ code {
 
   .site-title {
     text-align: center;
-    font-size: smaller;
+    font-size: normal;
+    border-bottom: 1px;
   }
   
   #content {
