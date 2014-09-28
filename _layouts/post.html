@@ -2,8 +2,8 @@
 layout: default
 ---
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <span class="post-date">{{ post.date | date_to_string }}</span>
   {{ content }}
 </div>
 
@@ -14,4 +14,4 @@ layout: default
   {% if page.previous.url %}
   <a style="float:right" href="{{ page.previous.url }}">older &rarr;</a>
   {% endif %}
-</div>
+</div>2
