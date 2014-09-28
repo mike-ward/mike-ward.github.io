@@ -30,3 +30,6 @@ It's easy to translate Tweetz Desktop. Find the file **tweetz.exe.locale** in th
 **Note to Reviewers:** Please review Tweetz Desktop for what it is and not what it is not. Tweetz Desktop is based on the idea that less is sometimes more. It's not a kitchen sink of features nor will it ever be.
 
 [Download Tweetz Desktop ](/downloads)
+
+<button onclick="load_disqus('tweetzdesktop', 'Tweetz Desktop');" class="pure-button">Comments</button>
+<div id="disqus_thread"></div>
