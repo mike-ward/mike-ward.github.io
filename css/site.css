@@ -5,10 +5,6 @@
   font-family: helvetica, sans-serif;
 }
 
-.hide-desktop {
-  display: none;
-}
-
 #content {
   width: 1020px;
   margin-left: auto;
@@ -134,6 +130,10 @@ code {
 @media (max-device-width: 1019px) {
   body, html {
     margin: 0.2pc;
+  }
+
+  .hide-desktop {
+    display: none;
   }
 
   .site-title {
