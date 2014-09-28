@@ -132,10 +132,6 @@ code {
     margin: 0.2pc;
   }
 
-  #archive_link: {
-    display: block;
-  }
-
   .site-title {
     text-align: center;
     font-size: 20px;
@@ -160,4 +156,12 @@ code {
   .right {
     margin-left: 0;
   }
+}
+
+@media only screen and (min-width : 800px) {
+.mobile {display:none;}
+}
+
+@media only screen and (max-width : 800px) {
+.big-screen {display: none;}
 }
