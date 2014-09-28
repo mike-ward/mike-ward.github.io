@@ -132,6 +132,9 @@ code {
     margin: 0.2pc;
   }
 
+  #archive-link: {
+    display: block;
+  }
 
   .site-title {
     text-align: center;
