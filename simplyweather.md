@@ -4,7 +4,7 @@ title:  Simply Weather
 ---
 Simply Weather is, well, simply the weather. No garish ads or popups. Neat, simple and to the point.
 
-![Screen Shot](/cdn/images/simply_weather/simplyweather.png ""sw-screen-shot"")
+![Screen Shot](/cdn/images/simply_weather/simplyweather.png "sw-screen-shot")
 
 **Features**
 
