@@ -5,6 +5,10 @@
   font-family: helvetica, sans-serif;
 }
 
+.hide-desktop {
+  display: none;
+}
+
 #content {
   width: 1020px;
   margin-left: auto;
@@ -133,7 +137,7 @@ code {
   }
 
   .hide-desktop {
-    display: none;
+    display: block;
   }
 
   .site-title {
