@@ -5,10 +5,6 @@
   font-family: helvetica, sans-serif;
 }
 
-.hide-desktop {
-  display: none;
-}
-
 #content {
   width: 1020px;
   margin-left: auto;
@@ -136,9 +132,6 @@ code {
     margin: 0.2pc;
   }
 
-  .hide-desktop {
-    display: block;
-  }
 
   .site-title {
     text-align: center;
