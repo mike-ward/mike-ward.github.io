@@ -17,6 +17,9 @@ author:
   name:           'Mike Ward'
   url:            https://twitter.com/mikeward_aa
 
+gems:
+  - jekyll-sitemap
+
 # Custom vars
 version:          1.0.0
 
