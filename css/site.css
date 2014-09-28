@@ -132,7 +132,7 @@ code {
     margin: 0.2pc;
   }
 
-  #archive-link: {
+  #archive_link: {
     display: block;
   }
 
@@ -145,6 +145,7 @@ code {
   #topbar {
     text-align: center;
   }
+
   #content {
     width: auto;
   }
