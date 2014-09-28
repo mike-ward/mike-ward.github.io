@@ -22,7 +22,7 @@ _Version 2.1, December 9, 2013_
 
 --------------------------------------
 
-[Simply Weather](/download?file=simplyweathersetup.exe) 
+[Simply Weather](/download?file=SimplyWeatherSetup.exe) 
 
 [Simply Weather](/simplyweather) is a windows desktop application that, um, er, displays the weather.
  
