@@ -158,10 +158,10 @@ code {
   }
 }
 
-@media only screen and (min-width : 800px) {
+@media only screen and (min-width : 1019px) {
 .mobile {display:none;}
 }
 
-@media only screen and (max-width : 800px) {
+@media only screen and (max-width : 1019px) {
 .big-screen {display: none;}
 }
