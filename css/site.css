@@ -5,6 +5,10 @@
   font-family: helvetica, sans-serif;
 }
 
+.hide-desktop {
+  display: none;
+}
+
 #content {
   width: 1020px;
   margin-left: auto;
