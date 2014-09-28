@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description" content="Free programs and gadgets for Windows. Weekly links with a focus on Programming, Science and Technology. Tips on programming in .NET and JavaScript.">
+  <title>
+    {% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}
+    {% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}
+  </title>
+  <link rel="stylesheet" href="/css/pure-min.css">
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feedproxy.google.com/MikeWardTechnologyBlog">
+  <link rel="alternate" type="application/rdf+xml" title="RSS" href="http://feedproxy.google.com/MikeWardTechnologyBlog">
+</head>
   <body>
     <div id="content">
       <h1 class="site-title">Mike-Ward.Net</h1>
@@ -23,11 +36,11 @@
       </div>
       <div class="right">
         <div>
-          <a href="http://feedproxy.google.com/MikeWardTechnologyBlog" title="RSS Feed"><img src="{{ site.baseurl }}cdn/images/rss-metro.png" alt="" width="48" height="48"></a>
-          <a href="http://feedburner.google.com/fb/a/mailverify?uri=MikeWardTechnologyBlog&amp;loc=en_US" title="Email Feed"><img src="{{ site.baseurl }}cdn/images/email-metro.png" alt="" width="48" height="48"></a>
-          <a href="https://twitter.com/mikeward_aa" title="Follow &#64;mikeward_aa"><img src="{{ site.baseurl }}cdn/images/twitter.png" alt="" width="48" height="48"></a>
-          <a href="http://stackoverflow.com/users/1032172/mike-ward" title="Follow on Stackoverflow.com"><img src="{{ site.baseurl }}cdn/images/stackoverflow.png" alt="" width="48" height="48"></a>
-          <a href="https://github.com/mike-ward" title="Follow on GitHub"><img src="{{ site.baseurl }}cdn/images/github.png" alt="" width="48" height="48"></a>
+          <a href="http://feedproxy.google.com/MikeWardTechnologyBlog" title="RSS Feed"><img src="/cdn/images/rss-metro.png" alt="" width="48" height="48"></a>
+          <a href="http://feedburner.google.com/fb/a/mailverify?uri=MikeWardTechnologyBlog&amp;loc=en_US" title="Email Feed"><img src="/cdn/images/email-metro.png" alt="" width="48" height="48"></a>
+          <a href="https://twitter.com/mikeward_aa" title="Follow &#64;mikeward_aa"><img src="/cdn/images/twitter.png" alt="" width="48" height="48"></a>
+          <a href="http://stackoverflow.com/users/1032172/mike-ward" title="Follow on Stackoverflow.com"><img src="/cdn/images/stackoverflow.png" alt="" width="48" height="48"></a>
+          <a href="https://github.com/mike-ward" title="Follow on GitHub"><img src="/cdn/images/github.png" alt="" width="48" height="48"></a>
         </div>
         <div>.Net, Technology, Life, Whatever</div>
         <p><strong>Recent Posts</strong></p>
@@ -35,7 +48,7 @@
           {% for post in site.posts limit:7 %}
           <div class="recent-post"><a href="{{ post.url }}">{{ post.title }}</a></div>
           {% endfor %}
-          <div class="recent-post"><a href="{{ site.baseUrl }}archive">More... ({{ site.posts | size }})</a></div>
+          <div class="recent-post"><a href="/archive">More... ({{ site.posts | size }})</a></div>
         </p>
         <div>
           <!-- Sidebar -->
@@ -83,9 +96,8 @@
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-39684572-1', 'auto');
         ga('send', 'pageview');
+        (adsbygoogle = window.adsbygoogle || []).push({});
       }
-
-      init(analytics);
 
       function load_disqus(id, title) {
         var disqus_shortname = 'mikeward';
@@ -100,10 +112,14 @@
         })();
       }
 
+      function prettyPrint() {
+        Array.prototype.forEach.call(document.querySelectorAll('pre'), function (e) { e.className += ' prettyprint'; });
+        loadScript('https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js')
+      }
+
+      init(analytics);
+      init(prettyPrint);
       init(loadScript('//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'));
-      init(function () { (adsbygoogle = window.adsbygoogle || []).push({}); });
-      init(loadScript('https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js'));
-      Array.prototype.forEach.call(document.querySelectorAll('pre'), function (e) { e.className += ' prettyprint'; });
     </script>
   </body>
 </html>

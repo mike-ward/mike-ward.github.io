@@ -21,7 +21,7 @@ strong {
 }
 
 .site-title {
-  color: #666;
+  color: #777;
 }
 
 #topbar {
@@ -46,7 +46,7 @@ img {
 
   img[title="sw-screen-shot"] {
     margin-left: 25%;
-    border: 1px solid black;
+    border: solid black 1px;
   }
 
 ul {
@@ -78,9 +78,8 @@ a, a:link, a:visited {
   margin-left: 755px;
 }
 
-article {
+.post {
   margin-bottom: 4pc;
-  border-bottom: black double;
 }
 
 .post-date {
