@@ -1,3 +1,7 @@
+---
+layout: page
+title:  Windows 7 Gadgets
+---
 Seriously useful Windows 7 gadgets
 
 If you want Windows Sidebar Gadgets the useful and easy to use you've come to the right place. If you want pretty gadgets that entertain and constantly beg for your attention you should look else where. All gadgets are available on the [downloads page](/downloads).
@@ -10,10 +14,6 @@ If you've ever had the feeling that your weather gadget is more about the gadget
 
 Finally, Simply Weather is unbranded. Like the name says, it's Simply Weather. [[more information](/blog/post/2012/09/03/simply-weather-gadget-ndash-you-can-haz-background-images)]
 
----
-layout: page
-title:  Windows 7 Gadgets
----
 ### tweetz
 
 ![Image](/cdn/images/gadgets/tweetz.png)
@@ -56,7 +56,7 @@ AdSensor has been retired due to recent changes from Google.
 
 **Non Sidebar Gadgets**
 
-----------------------
+---
 
 ### Calendar Gadget
 
