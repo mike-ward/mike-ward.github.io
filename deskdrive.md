@@ -11,22 +11,22 @@ You pop a USB thumb drive or DVD into your computer and then you have to open Wi
 Desk Drive adds a desktop icon pointing to the drive automatically.
 Remove the media and the shortcut goes away. Brilliantly simple and effective.
 
-![Desk Drive screenshot](/cdn/images/deskdrive/deskdrive.png)
+![Desk Drive screen shot](/cdn/images/deskdrive/deskdrive.png)
 
 Desk Drive sits quietly in the system tray.
 Configuration (image at right) is just a click away and allows you to specify which types of media to monitor.
 So simple, it just works. Download it today!
 
 ***
-The Desk Drive installer includes offers to install other programs which requires online access.
-Some of you have asked for an offline installer for use in corporate environments.
+The Desk Drive installer includes offers to install other programs which requires on-line access.
+Some of you have asked for an off-line installer for use in corporate environments.
 You can now purchase one at <https://sites.fastspring.com/mikeward/instant/deskdrive>.
 ***
 
 [http://www.spellchecker.net/grammar/](http://www.spellchecker.net/grammar/) - Spellchecker.net provides grammar and spell checking service, it's totally free and easy to use.
 
 Help me localize Desk Drive!
-The distribution contains a file named DeskDrive.exe.xml that contains localized strings and instructions. 
+The distribution contains a file named `DeskDrive.exe.xml` that contains localized strings and instructions.
 Add your language to the file, send it to me, and I'll include it in the next release. Thanks!
 
 #### Languages
