@@ -1,6 +1,5 @@
 ---
 layout: page
-title: VSColorOutput
 ---
 ![VSColorOutput Banner](/cdn/images/vscoloroutput/vscoloroutputlogo.png)
 
