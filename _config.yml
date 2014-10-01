@@ -25,3 +25,6 @@ version:          1.0.0
 
 github:
   repo:           https://github.com/mike-ward
+
+sass:
+    style: :compressed
