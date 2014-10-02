@@ -6,6 +6,7 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
   <button onclick="load_disqus('{{ page.url }}', '{{ page.title }}');" class="pure-button blog-comment-button">Comments</button>
+  <div id="disqus_thread"></div>
 </div>
 
 <div>
