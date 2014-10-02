@@ -1,0 +1,15 @@
+{
+  "name": "_scripts",
+  "version": "1.0.0",
+  "description": "Scripts to help build posts",
+  "main": "new-post.js",
+  "dependencies": {
+    "slug": "^0.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Ward",
+  "license": "ISC"
+}
