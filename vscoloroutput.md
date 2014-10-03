@@ -5,12 +5,13 @@ layout: page
 
 A Visual Studio extension to colorize your build and debug output
 
->Not only is this extension a must install for me and all the people in my dev dept, stop on first error has save countless hours of our development time with our large projects, one of which has over 90 projects.
+> Not only is this extension a must install for me and all the people in my dev dept, stop on first error has save countless hours of our development time with our large projects, one of which has over 90 projects.
+>
 > <cite>Mitch Ferrer  
-Application Architect  
-AppRiver LLC</cite>
+> Application Architect  
+> AppRiver LLC</cite>
 
-### What is it?
+## What is it?
 
 VSColorOutput can change the color of a line emitted to the output window based on specified rules.
 The rules consist of regular expressions. Rules map to classifications which in turn map to colors.
@@ -19,13 +20,13 @@ The default patterns will color build errors in red, warnings in yellow/gold and
 
 ![screen shot of VSColorOutput build output](/cdn/images/vscoloroutput/vscoloroutput.png)
 
-### Installation
+## Installation
 
 Download and open the VsColorOutput.visx file.
 To uninstall, go the Tools|Extensions page, find VSColorOutput in the ""Installed Extensions"" and click uninstall.
 Registry entries are not removed so later installations will reuse these settings.
 
-###How does it work?
+## How does it work?
 
 VSColorOutput hooks into the the classifier chain of Visual Studio. This allows VSColorOutput to monitor every line sent to the output window.
 A list of classifiers, consisting of regular expressions and classifications is checked.
@@ -33,7 +34,7 @@ The first matching expression determines the classification. If no patterns matc
 
 From here, Visual Studio does the heavy lifting of mapping the classification to a color. Colors are stored in the registry.
 
-### Usage
+## Usage
 
 I originally wrote VSColorOutput to highlight trace output while debugging.
 It's still the primary reason I use it.
@@ -63,7 +64,7 @@ There are nine VSColors classifications. They are:
 Build Text is the default classification for any line that does not match the other patterns.
 Its default color is ""Gray"". I've found this helps to highlight the other classified lines.
 
-### Creating Patterns
+## Creating Patterns
 
 The Tools|Options|VSColorOutput dialog contains settings.
 You can add, delete or edit the patterns. Patterns are regular expressions.
@@ -81,15 +82,15 @@ No additional patterns are tested for the given line. Therefore, the order of th
 
 ### Other Features
 
-* Stop Build On First Error
+Stop Build On First Error
   - Pretty much does what it says. A real time saver on larger projects.
 
-* Show Elapsed Build Time
+Show Elapsed Build Time
 
   - If you build from the command line, MSBuild tells you how long the build takes.
     Building within Visual Studio does not. Why? Don't know. It's always bugged me so I fixed it.
 
-* Show Debug Window when Debug Starts
+Show Debug Window when Debug Starts
 
   - Visual Studio has a ""Show Build Window when Build Starts"".
     Now you have one for the debug session. If you run your debugger output in a tiled window, this won't have much affect.
