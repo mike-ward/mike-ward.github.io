@@ -5,11 +5,10 @@ layout: page
 
 A Visual Studio extension to colorize your build and debug output
 
->"Not only is this extension a must install for me and all the people in my dev dept, stop on first error has save countless hours of our development time with our large projects, one of which has over 90 projects."
-
-> Mitch Ferrer  
-> Application Architect  
-> AppRiver LLC
+>Not only is this extension a must install for me and all the people in my dev dept, stop on first error has save countless hours of our development time with our large projects, one of which has over 90 projects.
+> <cite>Mitch Ferrer  
+Application Architect  
+AppRiver LLC</cite>
 
 ### What is it?
 
