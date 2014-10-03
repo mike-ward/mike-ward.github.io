@@ -80,7 +80,7 @@ At run-time, VSColorOutput will walk this list in order, testing the line of tex
 If it matches, the line is given the classification associated with the pattern.
 No additional patterns are tested for the given line. Therefore, the order of the classifiers is significant.
 
-### Other Features
+## Other Features
 
 Stop Build On First Error
   - Pretty much does what it says. A real time saver on larger projects.
@@ -96,6 +96,6 @@ Show Debug Window when Debug Starts
     Now you have one for the debug session. If you run your debugger output in a tiled window, this won't have much affect.
     If you run it in a tabbed window (like I do) then this setting will activate the debug window saving you a few mouse clicks.
 
-### Open Source
+## Open Source
 
 VSColorOuput is open source. It's hosted on Codeplex at http://vscoloroutput.codeplex.com
