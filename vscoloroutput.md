@@ -98,4 +98,5 @@ Show Debug Window when Debug Starts
 
 ## Open Source
 
-VSColorOuput is open source. It's hosted on Codeplex at http://vscoloroutput.codeplex.com
+VSColorOutput is open source. It's hosted on Codeplex at
+[GitHub](https://github.com/mike-ward/VSColorOutput)
