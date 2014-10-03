@@ -7,7 +7,7 @@ function getImage() {
 }
 
 function getLatestPost() {
-  var files = fs.readdirSync('../_posts')
+  var files = fs.readdirSync('../_posts');
   return files
     .filter(function (f) { return f.slice(-3) === '.md'; })
     .sort()
