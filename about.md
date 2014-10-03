@@ -9,11 +9,10 @@ There's not much that doesn't interest me as along has it doesn't involve religi
 
 ![Family picture at Discovery Cove in Florida](/cdn/images/about/family.jpg ""The Dolphin's name is Dexter"")
 
-Mike-Ward.net is a personal project.
+Mike-Ward.Net is a personal project.
 It gives me a place to try new technologies out, learn how to express myself through words and code and is my home on the Web.
 Look around, read the blog, try the software and please send feedback.
 
 Finally, while it should go without saying, it can't, given the awful behavior of some.
-If you choose to contact me I won't spam you or sell your name or otherwise infringe on your privacy.
-I have plenty of interesting things going on in my own life and that's enough for me.
-Enjoy - [Mike](mailto:mike@mike-ward.net)
+If you choose to contact me, I won't spam you or sell your name or otherwise infringe on your privacy.
+I have plenty of interesting things going on in my own life and that's enough for me. - [Mike](mailto:mike@mike-ward.net)
