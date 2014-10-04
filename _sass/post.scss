@@ -1,0 +1,25 @@
+.post {
+  margin-bottom: 4pc;
+}
+
+.post-date {
+  display: block;
+  margin-top: -1.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+  font-weight: bold;
+}
+
+.post-comment-button {
+  float: left;
+  font-size: 80%;
+}
+
+.older {
+  float: right;
+}
+
+.recent-post {
+  line-height: 2;
+  border-bottom: solid #ccc 1px;
+}
