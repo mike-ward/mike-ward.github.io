@@ -1,8 +1,12 @@
+/* global require, process */
+/*jshint -W097 */
+'use strict';
+
 var fs = require('fs');
 
 function getImage() {
   var imageFile = process.argv[2];
-  if (!fs.existsSync(imageFile)) throw imageFile +  ' not found';
+  if (!fs.existsSync(imageFile)) { throw imageFile +  ' not found'; }
   return imageFile;
 }
 
@@ -20,7 +24,7 @@ function createPostFolder(name) {
     fs.mkdirSync(path);
   }
   catch (e) {
-    if (e.code !== 'EEXIST') throw e;
+    if (e.code !== 'EEXIST') { throw e; }
   }
   return path;
 }

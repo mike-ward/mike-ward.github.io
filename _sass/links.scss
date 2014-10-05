@@ -1,9 +1,9 @@
 a, a:link, a:visited {
   color: #36b;
   text-decoration: none;
-}
 
-  a:hover {
+  &:hover {
     color: #222;
     text-decoration: underline;
   }
+}

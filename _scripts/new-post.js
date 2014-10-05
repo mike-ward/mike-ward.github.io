@@ -1,7 +1,8 @@
+/* global require, process */
+/*jshint -W097 */
 'use strict';
 
 var fs = require('fs');
-var sys = require('sys');
 var slug = require('slug');
 var moment = require('moment');
 
@@ -31,7 +32,7 @@ function buildFrontMatter(title) {
 function writeFile(file, frontMatter) {
   var path = '../_posts/' + file;
   var err = fs.writeFileSync(path, frontMatter);
-  if (err) throw err;
+  if (err) { throw err; }
   console.log(path + ' created');
   return path;
 }
