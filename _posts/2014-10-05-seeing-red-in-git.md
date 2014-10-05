@@ -14,9 +14,9 @@ I've altered my `.gitconfig` file as follows:
 
     [color "status"]
       added = cyan bold
-        changed = cyan bold
-        nobranch = cyan bold
-        untracked = cyan bold
+      changed = cyan bold
+      nobranch = cyan bold
+      untracked = cyan bold
     
     [color "diff"]
       old = cyan bold
