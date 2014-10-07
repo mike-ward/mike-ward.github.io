@@ -5,7 +5,7 @@ title:  "Seeing Red in Git"
 I have a hard time seeing the color red in the Windows command prompt.
 This is particularly bothersome when I'm using [Git](http://git-scm.com/).
 I've tried changing the background but there are some utilities (I'm looking at you [Chocolatey](http://chocolatey.org/))
-that change the background to back to black.
+that change the background back to black.
 
 I've altered my `.gitconfig` file as follows:
 
