@@ -1,13 +1,19 @@
-pre {
-  background-color: #f6f6f9;  
+code {
+  padding: 0 3px;
+  border: solid 1px #ccc;
+  background-color: #f6f6f9;
 }
 
 pre.prettyprint {
+  background-color: #f6f6f9;  
   padding: .5em !important;
-}
+  border: none !important;
 
-code {
-  font-size: 90%;
-  line-height: 1.2;
-  font-family: helvetica, sans-serif;
+  code {
+    font-size: 90%;
+    padding: 0;
+    border: none;
+    line-height: 1.2;
+    font-family: helvetica, sans-serif;
+  }
 }
