@@ -47,18 +47,18 @@ Includes a sample Web site and the binary (note the singular form of binary)
 
 --------------------------------------
 
-[CalendarGadget.msi](/download?file=CalendarGadget.msi)  
-> [bigclock.cgs](/download?file=cg/bigclock.cgs)  
-> [blackglass.cgs](/download?file=cg/blackglass.cgs)  
-> [firstclock.cgs](/download?file=cg/firstclock.cgs)  
-> [blackglass.cgs](/download?file=cg/blackglass.cgs)  
-> [grayclock2.cgs](/download?file=cg/grayclock2.cgs)  
-> [grayclock3.cgs](/download?file=cg/grayclock3.cgs)  
-> [mountain.cgs](/download?file=cg/mountain.cgs)  
-> [purplehaze.cgs](/download?file=cg/purplehaze.cgs)  
-> [yuckyblue.cgs](/download?file=cg/yuckyblue.cgs)  
-> [todayis.cgs](/download?file=cg/todayis.cgs)  
-> [scenic.cgs (~10 MB)](/download?file=cg/scenic.cgs)  
+[CalendarGadget.msi](/download?file=CalendarGadget.msi)
+- [bigclock.cgs](/download?file=cg/bigclock.cgs)  
+- [blackglass.cgs](/download?file=cg/blackglass.cgs)  
+- [firstclock.cgs](/download?file=cg/firstclock.cgs)  
+- [blackglass.cgs](/download?file=cg/blackglass.cgs)  
+- [grayclock2.cgs](/download?file=cg/grayclock2.cgs)  
+- [grayclock3.cgs](/download?file=cg/grayclock3.cgs)  
+- [mountain.cgs](/download?file=cg/mountain.cgs)  
+- [purplehaze.cgs](/download?file=cg/purplehaze.cgs)  
+- [yuckyblue.cgs](/download?file=cg/yuckyblue.cgs)  
+- [todayis.cgs](/download?file=cg/todayis.cgs)  
+- [scenic.cgs (~10 MB)](/download?file=cg/scenic.cgs)  
 
 This is an alpha version so your mileage may vary. The .cgs files are calendar skins. Once downloaded, you can just drag and drop them on the Calendar. 
 There's a built in designer that allows you to edit the existing skins or create new ones. You can read more about [here](/blog/post/2008/10/26/calendar-gadget-alpha-released).
