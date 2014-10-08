@@ -6,14 +6,14 @@ Simply Weather is, well, simply the weather. No garish ads or popups. Neat, simp
 
 ![Screen Shot](/cdn/images/simply_weather/simplyweather.png "sw-screen-shot")
 
-**Features**
+### Features
 
 - Powered by [Forecast.io](http://forecast.io/) - Forecast.io is backed by a wide range of data sources, which are aggregated together statistically to provide the most accurate forecast possible for a given location.
 - 3 and 7 day forecasts
 - No advertisements
 - Extreme low and high temperatures shown in red
 
-**Configuration**
+### Configuration
 
 When you first start Simply Weather, it displays a screen similar to the one below:
 
