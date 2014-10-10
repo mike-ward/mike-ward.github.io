@@ -6,7 +6,7 @@ title: 'Introducing Nancy.Pile'
 
 **Features**
 
-  * Concats and minifies style sheets and javascript files. 
+  * Concatenates and minifies style sheets and JavaScript files. 
   * Won't minify files with ".min." in the file name. 
   * Nuget package or include a single file in your current package. 
   * Detects when files change. 
@@ -42,7 +42,7 @@ title: 'Introducing Nancy.Pile'
         }
     }
 
-And reference the bundles in html
+And reference the bundles in HTML
     
     <html lang="en">
     <head>
