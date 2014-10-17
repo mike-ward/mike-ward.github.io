@@ -6,7 +6,7 @@ highlighter:      ''
 permalink:        pretty
 
 # Setup
-title:            Mike-Ward.Net
+title:            'Mike-Ward.Net'
 tagline:          '.NET, Technology, Life, Whatever...'
 description:      'Made by me'
 url:              http://mike-ward.net
@@ -15,16 +15,16 @@ paginate:         3
 
 author:
   name:           'Mike Ward'
-  url:            https://twitter.com/mikeward_aa
+  email:          'mike@mike-ward.net'
+  url:            'https://twitter.com/mikeward_aa'
 
 gems:
   - jekyll-sitemap
 
-# Custom vars
-version:          1.0.0
+version:          '1.0.0'
 
 github:
-  repo:           https://github.com/mike-ward
+  repo:           'https://github.com/mike-ward'
 
 sass:
-    style: :compressed
+    style:        ':compressed'
