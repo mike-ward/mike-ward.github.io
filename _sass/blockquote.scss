@@ -1,25 +1,24 @@
-  blockquote {
-    border-left: 4px solid #dddddd;
-    padding: 0 15px;
-    color: #777;
-  }
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777;
+}
 
-  blockquote > :first-child {
-    margin-top: 0;
-  }
+blockquote > :first-child {
+  margin-top: 0;
+}
 
-  blockquote > :last-child {
-    margin-bottom: 0;
-  }
+blockquote > :last-child {
+  margin-bottom: 0;
+}
 
-  cite {
-    color: #999999;
-    font-size: 14px;
-    display: block;
-    margin-top: 5px;
+blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
 
-    &:before {
-      content: "\2014 \2009";
-    }
+  &:before {
+    content: "\2014 \2009";
   }
 }
