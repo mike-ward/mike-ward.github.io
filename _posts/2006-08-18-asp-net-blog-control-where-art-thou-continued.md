@@ -6,44 +6,44 @@ In[ part one](/BlogArticle.aspx?articleId=6d08d1d4-3a79-4ae4-9b3f-ada86eda4471) 
 
 Remember the ArticleCollection class that was embedded in the Blog class from part one? Well, not surprisingly, it's a collection of BlogArticles. Here's the class.
 
-public class BlogArticle  
-{  
-private Guid id = Guid.NewGuid();  
-private string title = "New Article";  
-private DateTime date = DateTime.Now;  
-private string article;  
-private BlogCommentCollection comments;
-
-public Guid Id  
-{  
-get { return id; }  
-set { id = value; }  
-}
-
-public string Title  
-{  
-get { return title; }  
-set { title = value; }  
-}
-
-public DateTime Date  
-{  
-get { return date; }  
-set { date = value; }  
-}
-
-public string Article  
-{  
-get { return article; }  
-set { article = value; }  
-}
-
-public BlogCommentCollection Comments  
-{  
-get { return comments; }  
-set { comments = value; }  
-}  
-}
+    public class BlogArticle  
+        {  
+        private Guid id = Guid.NewGuid();  
+        private string title = "New Article";  
+        private DateTime date = DateTime.Now;  
+        private string article;  
+        private BlogCommentCollection comments;
+        
+        public Guid Id  
+        {  
+        get { return id; }  
+        set { id = value; }  
+        }
+        
+        public string Title  
+        {  
+        get { return title; }  
+        set { title = value; }  
+        }
+        
+        public DateTime Date  
+        {  
+        get { return date; }  
+        set { date = value; }  
+        }
+        
+        public string Article  
+        {  
+        get { return article; }  
+        set { article = value; }  
+        }
+        
+        public BlogCommentCollection Comments  
+        {  
+        get { return comments; }  
+        set { comments = value; }  
+        }  
+    }
 
 Id member is a GUID. What's a GUID you say? Why it's a Global Unique Identifier. If you've ever programmed in COM (an earlier Microsoft technology filled with pain and loathing) you'll recognize the GUID. According to the documentation, it has a "very low probability of being duplicated." In this case low probability means not in this lifetime, or the next or the next million or so. There are lots of other ways to generate identifiers I suppose but this one is easy and I don't have to keep a counter around.
 
@@ -51,13 +51,13 @@ Title, date and article should be self explanatory and then there's another coll
 
 So that's one article, but of course our blog has multiple articles. Sounds like we need a collection and I've got just the ticket.
 
-public class ArticleCollection : KeyedCollection<Guid, BlogArticle>  
-{  
-protected override Guid GetKeyForItem(BlogArticle item)  
-{  
-return item.Id;  
-}  
-}
+    public class ArticleCollection : KeyedCollection<Guid, BlogArticle>  
+        {  
+        protected override Guid GetKeyForItem(BlogArticle item)  
+        {  
+        return item.Id;  
+        }  
+    }
 
 Now we have two new things here. Generics and KeyedCollections. We'll start with the generics.
 
@@ -69,41 +69,41 @@ KeyedCollections require an override to be implemented that identifies the key t
 
 KeyedCollections have all the methods you would expect for a collection class like add, remove, and contains. And it shouldn't be a great leap to figure out what the BlogCommentCollection is all about. Here's the classes for BlogComment and BlogCommentCollection.
 
-public class BlogComment  
-{  
-string author;  
-string email;  
-string comment;  
-DateTime date = DateTime.Now;
+    public class BlogComment  
+        {  
+        string author;  
+        string email;  
+        string comment;  
+        DateTime date = DateTime.Now;
+        
+        public DateTime Date  
+        {  
+        get { return date; }  
+        set { date = value; }  
+        }
+        
+        public string Author  
+        {  
+        get { return author; }  
+        set { author = value; }  
+        }
+        
+        public string Email  
+        {  
+        get { return email; }  
+        set { email = value; }  
+        }
+        
+        public string Comment  
+        {  
+        get { return comment; }  
+        set { comment = value; }  
+        }  
+    }
 
-public DateTime Date  
-{  
-get { return date; }  
-set { date = value; }  
-}
-
-public string Author  
-{  
-get { return author; }  
-set { author = value; }  
-}
-
-public string Email  
-{  
-get { return email; }  
-set { email = value; }  
-}
-
-public string Comment  
-{  
-get { return comment; }  
-set { comment = value; }  
-}  
-}
-
-public class BlogCommentCollection : Collection<BlogComment>  
-{  
-}
+    public class BlogCommentCollection : Collection<BlogComment>  
+    {  
+    }
 
 And that pretty much rounds out the object model. A little basic yes, but then we're not writing a Blogger type service. Now I know some of you are thinking that I should have kept the comment collection separate and linked to it with the BlogArticle.Id. If I were doing a database backed design, I would agree, but heck, I just wanted to get the thing done and get back to other things (like finishing Calendar Gadget) and I really didn't want to deal with multiple files.
 
