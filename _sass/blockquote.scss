@@ -1,6 +1,7 @@
 blockquote {
   border-left: 4px solid #dddddd;
   padding: 0 15px;
+  color: #333;
 }
 
 blockquote > :first-child {
@@ -12,7 +13,7 @@ blockquote > :last-child {
 }
 
 blockquote cite {
-  color: #999999;
+  color: #666;
   font-size: 14px;
   display: block;
   margin-top: 5px;
