@@ -2,7 +2,7 @@
 layout: post
 title: 'Easy .NET Performance Hack'
 ---
-![works on my machine badge!](cdn/images/blog/2014-10-20-easy-net-performance-hack/works-on-my-machine.png "Your milage may vary")
+<span style="float: right">![works on my machine badge!](cdn/images/blog/2014-10-20-easy-net-performance-hack/works-on-my-machine.png "Your milage may vary")</span>
 
 As of late, my laptop has been slow to start applications. I did the usual disk cleaning, cache flushes, etc., all of which had little affect on performance. Then I came across [this Stack Overflow Article](http://stackoverflow.com/questions/2947118/wpf-slow-to-start-on-x64-in-net-framework-4-0). To quote one of the commenters:
 
