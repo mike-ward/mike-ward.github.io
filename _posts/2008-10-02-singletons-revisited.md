@@ -2,7 +2,7 @@
 layout: post
 title: 'Singletons Revisited'
 ---
-[Earlier I wrote](/blog/post/2008/09/24/the-definitive-c-singleton) about how easy it was to write thread-safe, lazily constructed singletons in C#. To recap:
+[Earlier I wrote](/2008/09/24/the-definitive-c-singleton) about how easy it was to write thread-safe, lazily constructed singletons in C#. To recap:
     
     sealed class Singleton
     {
