@@ -10,21 +10,21 @@ Such was the case for me recently. In this particular case the Form and the prog
 
 About the only sure-fire way I could test if the control was create-able was to create it. The code below does just that. It uses **System.Activator**, one of those little nuggets buried in the .NET framework.
 
-bool CanCreateComControl(Guid CLSID_Item)  
-{  
-try  
-{  
-Type itemType = Type.GetTypeFromCLSID(CLSID_Item, true);  
-object item = System.Activator.CreateInstance(itemType);  
-System.Runtime.InteropServices.Marshal.ReleaseComObject(item);  
-}
-
-catch  
-{  
-return false;  
-}
-
-return true;  
-}
+    bool CanCreateComControl(Guid CLSID_Item)  
+    {  
+        try  
+        {  
+        Type itemType = Type.GetTypeFromCLSID(CLSID_Item, true);  
+        object item = System.Activator.CreateInstance(itemType);  
+        System.Runtime.InteropServices.Marshal.ReleaseComObject(item);  
+        }
+        
+        catch  
+        {  
+        return false;  
+        }
+        
+        return true;  
+    }
 
 Knowing ahead of time that the wrapper class would fail to create the control allowed me to gracefully degrade the functionality of the application and avoid aborting the creation of the form.

@@ -3,7 +3,7 @@ layout: post
 title: 'Introducing Nancy.Markdown.Blog'
 ---
 
-`TL;TR` - [GitHub - Nancy.Markdown.Blog](https://github.com/mike-ward/Nancy.Markdown.Blog)
+`TL;DR` - [GitHub - Nancy.Markdown.Blog](https://github.com/mike-ward/Nancy.Markdown.Blog)
 
 I wanted to write my blog posts in [Markdown](http://daringfireball.net/projects/markdown/syntax). I write my GitHub docs and [Stack Overflow](http://stackoverflow.com) questions in Markdown, so why not my blog posts? I also wanted to lose my dependency on [Windows Live Writer](http://www.wikiwand.com/en/Windows_Live_Writer). Live Writer is a (very) nice program for authoring, but it hasn't been updated in a long time. I get this feeling it might go away soon.
 

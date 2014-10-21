@@ -57,95 +57,45 @@ The "stopwatch.html" file is also straightforward. It's just an HTML file contai
         div { padding-top: 16px; padding-left: 10px; color: Lime; font-family: Segoe Condensed; font-size: 30px; }
       </style>
       <script type="text/javascript">
-    
-       
-    
           System.Gadget.settingsUI = "stopwatchsettings.html";
-    
-       
-    
           intervalId = 0;
-    
           running = false;
-    
           start = 0;
     
-          
-    
           function onreset()
-    
           {
-    
             clearInterval(intervalId);
-    
             start = 0;
-    
             running = false;
-    
             watch.firstChild.nodeValue = "00:00:00.0";
-    
           }
-    
           
-    
           function onstartstop()
-    
           {
-    
             if (running)
-    
             {
-    
               clearInterval(intervalId);
-    
               running = false;
-    
             }
-    
-              
-    
             else
-    
             { 
-    
               if (start <= 0) start = (new Date).getTime();
-    
               intervalId = setInterval("ticker()", 50);
-    
               running = true;
-    
             }
-    
           }
-    
-          
     
           function ticker()
-    
           {
-    
             now = (new Date).getTime() - start;
-    
             hour = Math.floor((now / 3600000) % 24);
-    
             min = Math.floor((now / 60000) % 60);
-    
             sec = Math.floor((now / 1000) % 60);
-    
             tenths = Math.floor((now / 100) % 10);
-    
-       
-    
             if (min <= 9)  min = "0" + min;
-    
             if (sec <= 9)  sec = "0" + sec;
-    
             if (hour < 10) hour = "0" + hour;
-    
-       
-    
             watch.firstChild.nodeValue = hour + ":" + min + ":" + sec + "." + tenths;
-    
           }    
     
         
