@@ -56,7 +56,7 @@ Open the ELMAH dashboard and navigate to _http://yourwebsite/elmah_
 
 Here’s an example dashboard:
 
-[![homeshot](/content/images/blog/WindowsLiveWriter/InstallingelmahonaNancySite_C011/homeshot_thumb.png)](/content/images/blog/WindowsLiveWriter/InstallingelmahonaNancySite_C011/homeshot_2.png)
+![](/cdn/images/blog/WindowsLiveWriter/InstallingelmahonaNancySite_C011/homeshot_2.png)
 
 Finally, I discovered a minor bug in Nancy where [some accept headers can raise exceptions](https://groups.google.com/forum/#!topic/nancy-web-framework/AfvVl5gSssM). On my site it was generating several hundred log messages a day. There’s a bug logged and it will likely be fixed in a future version of [Nancy](http://nancyfx.org/). In the meantime, you can modify your ELMAH configuration to remove these exceptions. Here’s the final form of the ELMAH configuration.
     

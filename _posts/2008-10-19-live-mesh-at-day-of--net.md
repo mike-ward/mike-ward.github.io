@@ -10,7 +10,7 @@ I spent the morning at the Ann Arbor [Day of .Net](http://www.dayofdotnet.org/) 
 
 If you’ve ever been to a Professional Developer’s Conference the format is similar. Excellent, detailed, deep-dive presentations given by real-world developers on topics they are passionate about. It’s a lot of fun and the information content is dense and rich. It’s a bit like drinking from a fire hose.
 
-[![image](/content/images/blog/LiveMeshatAADoDN_855C/image_thumb.png)](/content/images/blog/LiveMeshatAADoDN_855C/image.png)
+![](/cdn/images/blog/LiveMeshatAADoDN_855C/image.png)
 
 Live Mesh is a product/online service from Microsoft that synchronizes all your PC’s (and soon Mac’s) and other digital devices. When I first saw this I was mostly unimpressed since I use [Mozy](http://mozy.com/) for backups and [SkyDrive](http://skydrive.live.com/) (and others) for file sharing. It didn’t really register.
 

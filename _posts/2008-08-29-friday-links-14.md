@@ -2,7 +2,7 @@
 layout: post
 title: 'Friday Links #14'
 ---
-[Find Files in Large Folders More Easily with Windows Vista Explorer](http://www.labnol.org/software/tutorials/find-file-folders-in-windows-vista-explorer/4315/)- Manage large folders that have hundreds of files and sub-folders with these Vista only tips.![](/content/images/links.gif)
+[Find Files in Large Folders More Easily with Windows Vista Explorer](http://www.labnol.org/software/tutorials/find-file-folders-in-windows-vista-explorer/4315/)- Manage large folders that have hundreds of files and sub-folders with these Vista only tips.
 
 [FileForum | Autoruns](http://fileforum.betanews.com/detail/Autoruns/1092024321/1) - Autoruns shows you what programs are configured to run during system bootup or login, and shows you the entries in the order Windows processes them. Best one IMHO.
 
@@ -32,7 +32,9 @@ title: 'Friday Links #14'
 
 [Windows Vista Team Blog : Mojave: The Experiment Continues…](http://windowsvistablog.com/blogs/windowsvista/archive/2008/08/26/mojave-the-experiment-continues.aspx) - Details on Microsoft's Mojave Experiment.
 
-[Laurent’s Blog » Blog Archive » Disable autoplay of USB drive and put icon on the dekstop](http://www.brichet.be/2008/08/13/disable-autoplay-of-usb-drive-and-put-icon-on-the-dekstop/) - This should be a "Hall of Fame" tip.![triplex](/content/images/blog/FridayLinks14_BFD2/triplex_thumb.jpg)
+[Laurent’s Blog » Blog Archive » Disable autoplay of USB drive and put icon on the dekstop](http://www.brichet.be/2008/08/13/disable-autoplay-of-usb-drive-and-put-icon-on-the-dekstop/) - This should be a "Hall of Fame" tip.
+
+![triplex](/cdn/images/blog/FridayLinks14_BFD2/triplex_thumb.jpg)
 
 [Top Two Sprint Cup Drivers Busch, Edwards Both Placed on Probation](http://www.dailyme.com/story/2008082700015419/) - I said [I had no interest in NASCAR](/blog/post/2008/08/17/nascar) and here I am posting links to it now. I'm doomed.
 

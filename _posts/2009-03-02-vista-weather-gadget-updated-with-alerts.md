@@ -4,7 +4,7 @@ title: 'Vista Weather Gadget Updated with Alerts'
 ---
 Pressing forward with more improvements, the latest version of my Simply Weather gadget now monitors for weather alerts. Alerts are advisories, watches and warnings issued by the weather service for unusual weather events. When an alert is detected, the “Wind” information changes to a highlight color with a description of the alert. 
 
-[![image](/content/images/blog/VistaWeatherGadgetUpdatedwithAlerts_11111/image_thumb.png)](/content/images/blog/VistaWeatherGadgetUpdatedwithAlerts_11111/image.png)
+![](/cdn/images/blog/VistaWeatherGadgetUpdatedwithAlerts_11111/image.png)
 
 If you hover over the description (click on the gadget to give it input focus first), it displays a tool tip of when the alert expires.
 
