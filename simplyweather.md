@@ -2,9 +2,9 @@
 layout: page
 title:  Simply Weather
 ---
-Simply Weather is, well, simply the weather. No garish ads or popups. Neat, simple and to the point.
+Simply Weather is, well, simply the weather. No garish ads or pop-ups. Neat, simple and to the point.
 
-![Screen Shot](/cdn/images/simply_weather/simplyweather.png "sw-screen-shot")
+![Screen Shot](/cdn/images/simply_weather/simplyweather.png)
 
 ### Features
 
@@ -17,12 +17,12 @@ Simply Weather is, well, simply the weather. No garish ads or popups. Neat, simp
 
 When you first start Simply Weather, it displays a screen similar to the one below:
 
-![Screen Shot](/cdn/images/simply_weather/swsettings.png "sw-screen-shot")
+![Screen Shot](/cdn/images/simply_weather/swsettings.png)
 
 - Location - This is displayed near the top of the application. It for display only.
 - Latitude, Longitude - Use your smart phone or other GPS enabled device to determine your current location. You can also use [LatLong.net](http://latlong.net/)
-- Celsius - Displays temperatures as celsius and wind speeds as kilometers per hour when checked
-- Api Key - Forecast.io generously allows access to their data for free. However, you'll need to signup and get a API key. Don't worry, they won't spam you. It's simply a mechanism to control access. Just click on the [""Get API Key""](https://developer.forecast.io/register) link and follow the prompts.
+- Celsius - Displays temperatures as Celsius and wind speeds as kilometers per hour when checked
+- Api Key - Forecast.io generously allows access to their data for free. However, you'll need to sign-up and get a API key. Don't worry, they won't spam you. It's simply a mechanism to control access. Just click on the [""Get API Key""](https://developer.forecast.io/register) link and follow the prompts.
 
 [ILoveFreeSoftware](http://www.ilovefreesoftware.com/18/windows/desktop-weather-application-view-current-weather-weather-forecasts.html)
 has a nice tutorial on how to setup Simply Weather.

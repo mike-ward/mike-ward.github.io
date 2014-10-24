@@ -1,9 +1,8 @@
 img {
-  border-style: none;
+  border: solid black 1px;
   max-width: 100%;
 }
 
-  img[title="sw-screen-shot"] {
-    margin-left: 25%;
-    border: solid black 1px;
-  }
+img[alt="noborder"] {
+  border-style: none;
+}

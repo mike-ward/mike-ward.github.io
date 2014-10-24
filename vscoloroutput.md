@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-![VSColorOutput Banner](/cdn/images/vscoloroutput/vscoloroutputlogo.png)
+![noborder](/cdn/images/vscoloroutput/vscoloroutputlogo.png)
 
 A Visual Studio extension to colorize your build and debug output
 
