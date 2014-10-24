@@ -4,13 +4,13 @@ title:  Calendar
 ---
 A fun, free perpetual calendar
 
-![Calendar screenshot](/cdn/images/calendar/calendar.png)
+![noborder](/cdn/images/calendar/calendar.png)
 
 Calendar is a fun, perpetual calendar that is perfect for keeping track of recurring holidays and personal events. Calendar can display one or more months and doesn't take up a lot of screen real estate. Calendar is small and loads fast. Keep it in your Quick Launch toolbar or put it in the System Tray. Calendar aims to blend in, not stand out.
 
 Adding your own personal events to Calendar is a breeze. With a single, simple and logical dialog, you can add recurring events (annual, biweekly, etc.), movable events (first Thursday, last Wednesday, etc.), Special events (Easter, Mardi Gras, etc.) and the Seasons (Spring, Summer, Autumn, Winter). It's fun and easy! Calendar comes preconfigured with all Federal (US) holidays and many religious and secular events. 
 
-![calendar appearance dialog](/cdn/images/calendar/appearance.png)
+![noborder](/cdn/images/calendar/appearance.png)
 
 Change the look and feel of Calendar by altering the colors and fonts. Blend into the desktop with opacity settings. Remove the border to make it appear as part of the desktop. With Calendar, you decide how it looks.
 
@@ -31,4 +31,4 @@ Windows XP/Vista
 
 **Additional Screen Shots**  
   
-![Events dialog](/cdn/images/calendar/events.png) ![multi-month display with week numbers](/cdn/images/calendar/weeknumbers.png)
+![noborder](/cdn/images/calendar/events.png) ![border](/cdn/images/calendar/weeknumbers.png)

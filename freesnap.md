@@ -16,11 +16,11 @@ Press and hold the left “Windows Key” (see illustration below) and press the
 It’s just that simple.
 The number-pad keys work as well, regardless of the NumLock state.
 
-![keyboard layout](/cdn/images/freesnap/keyboard.png)
+![noborder](/cdn/images/freesnap/keyboard.png)
 
 Press **Windows Key + ?** to bring up the help screen (notice the Donate button).
 
-![main dialog](/cdn/images/freesnap/freesnaphelp.png)
+![noborder](/cdn/images/freesnap/freesnaphelp.png)
 
 The Home, End, PgUp, and PgDn keys move a window to the corresponding corner of the screen without resizing the window.
 I like to think of these as the “corner keys”.

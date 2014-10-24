@@ -22,4 +22,4 @@ Calendar Gadget is skinable, customizable calendar application for your desktop.
 - Support for multiple profiles
 - Localization support (mutliple-languages limited to on screen controls, perhaps someone would like to do some translations?)
 
-![Collage of different calendar skins](/cdn/images/calendargadget/collage.png)
+![noborder](/cdn/images/calendargadget/collage.png)
