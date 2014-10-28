@@ -69,7 +69,7 @@ _Version 0.1.0, October 25, 2008_
 [Deskview.zip (10K)](/download?file=Deskview.zip)
 
 Deskview changes your desktop icons from large to small (and back again). It's a perfect complement to Desk Drive.
-[Read more...](/2008/08/13/deskview-changes-your-desktop-icons-from-large-to-small)
+[Read more...](2008/08/13/deskview---changes-your-desktop-icons-from-large-to-small)
 
 --------------------------------------
 
