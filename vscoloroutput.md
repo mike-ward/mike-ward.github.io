@@ -16,13 +16,13 @@ A Visual Studio extension to colorize your build and debug output
 VSColorOutput can change the color of a line emitted to the output window based on specified rules.
 The rules consist of regular expressions. Rules map to classifications which in turn map to colors.
 
-The default patterns will color build errors in red, warnings in yellow/gold and successfull build messages in green.
+The default patterns will color build errors in red, warnings in yellow/gold and successful build messages in green.
 
 ![screen shot of VSColorOutput build output](/cdn/images/vscoloroutput/vscoloroutput.png)
 
 ## Installation
 
-Download and open the VsColorOutput.visx file.
+Download and open the VSColorOutput.visx file.
 To uninstall, go the Tools|Extensions page, find VSColorOutput in the "Installed Extensions" and click uninstall.
 Registry entries are not removed so later installations will reuse these settings.
 
@@ -48,7 +48,7 @@ interestingly, Visual Studio does not support adding colors to this category.
 
 ![screen shot of VSColorOutput colors dialog](/cdn/images/vscoloroutput/vscoloroutputcolors.png)
 
-There are nine VSColors classifications. They are:
+There are nine VSColor classifications. They are:
 
 * Build Text
 * Build Header

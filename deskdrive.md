@@ -4,7 +4,7 @@ title: Desk Drive
 ---
 Automatic drive/media shortcuts for your desktop
 
-_December 9, 2013 - [Version 2.1 Released](/blog/post/00888/desk-drive-2-1)_
+_December 9, 2013 - [Version 2.1 Released](/2013/12/09/desk-drive-2-1/)_
 
 Desk Drive™ solves a really annoying problem.
 You pop a USB thumb drive or DVD into your computer and then you have to open Window's Explorer and find the mapped drive or folder.

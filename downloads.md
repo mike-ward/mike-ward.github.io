@@ -60,8 +60,7 @@ Includes a sample Web site and the binary (note the singular form of binary)
 - [todayis.cgs](/download?file=cg/todayis.cgs)  
 - [scenic.cgs (~10 MB)](/download?file=cg/scenic.cgs)  
 
-This is an alpha version so your mileage may vary. The .cgs files are calendar skins. Once downloaded, you can just drag and drop them on the Calendar. 
-There's a built in designer that allows you to edit the existing skins or create new ones. You can read more about [here](/blog/post/2008/10/26/calendar-gadget-alpha-released).
+This is an alpha version so your mileage may vary. The .cgs files are calendar skins. Once downloaded, you can just drag and drop them on the Calendar.  There's a built in designer that allows you to edit the existing skins or create new ones. You can read more about [here](/2008/10/26/calendar-gadget-alpha-released).
 
 _Version 0.1.0, October 25, 2008_
 
@@ -70,7 +69,7 @@ _Version 0.1.0, October 25, 2008_
 [Deskview.zip (10K)](/download?file=Deskview.zip)
 
 Deskview changes your desktop icons from large to small (and back again). It's a perfect complement to Desk Drive.
-[Read more...](/blog/post/2008/08/13/deskview-changes-your-desktop-icons-from-large-to-small)
+[Read more...](/2008/08/13/deskview-changes-your-desktop-icons-from-large-to-small)
 
 --------------------------------------
 

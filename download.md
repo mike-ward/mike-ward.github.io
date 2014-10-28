@@ -6,8 +6,6 @@ title:  Download
 
 [Back to downloads](/downloads)
 
-<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-1981154560626519" data-ad-slot="6577379811"></ins>
-
 ---
 
 ### ![rss](/cdn/images/rss-icon.png) Keep up to date

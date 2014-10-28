@@ -37,10 +37,10 @@ The “Plus” and “Minus” keys on the number-pad will resize the window to 
 1280 x 1024
 
 This is handy for seeing how your artwork will fit on standard size screens. 
-Sizes can be added or removed by editing the FreeSnap.cfg file in the application folder (usually C:\Program Files\Blue Onion Sofware\FreeSnap).
+Sizes can be added or removed by editing the FreeSnap.cfg file in the application folder (usually C:\Program Files\Blue Onion Software\FreeSnap).
 You'll need to restart FreeSnap for the settings to take affect.
 
-The “5” key on the number-pad centerThe “5” key on the number-pad centers the window on the screen without resizing it.
+The “5” key on the number-pad centers the window on the screen without resizing it.
 The number-pad ""Enter"" key will maximize the window when it is normal size and vice-versa. The ""0"" key will minimizes the window.
 
 When multiple monitors are detected, FreeSnap remaps the ""5"" key to move the window from one monitor to the next.
@@ -58,27 +58,17 @@ You can grow and shrink an edge by 10 pixels by pressing Windows Key + Ctrl + (a
 
 An alternate set of keys that are more suitable for laptop users is available. The keys are:
 
- Windows Key + I snap to top edge
-
- Windows Key + K snap to bottom edge
-
- Windows Key + J snap to left edge
-
- Windows Key + L snap to right edge
-
- Windows Key + T move window to top-left corner
-
- Windows Key + G move window to bottom-left corner
-
- Windows Key + Y move window to top-right corner
-
- Windows Key + H move window to bottom-Windows
-
- Windows Key + C center window (move to next monitor when multiple monitors detected)
-
- Windows Key + Z grow window
-
- Windows Key + X shrink window
+- Windows Key + I snap to top edge
+-  Windows Key + K snap to bottom edge
+- Windows Key + J snap to left edge
+- Windows Key + L snap to right edge
+- Windows Key + T move window to top-left corner
+- Windows Key + G move window to bottom-left corner
+- Windows Key + Y move window to top-right corner
+- Windows Key + H move window to bottom-Windows
+- Windows Key + C center window (move to next monitor when multiple monitors detected)
+- Windows Key + Z grow window
+- Windows Key + X shrink window
 
 #### Running FreeSnap
 
