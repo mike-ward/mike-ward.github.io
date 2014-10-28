@@ -29,47 +29,27 @@ In most regards Tweetz works like other twitter clients you may have used. Becau
 
 Main Gadget
 
- Ctrl+D Show markup (useful for writing themes)
-
- Ctrl+Q Change themes
-
- Ctrl+S Compose a new tweet
-
- PgUp Scroll up one tweet
-
- PgDn Scroll down one tweet
-
- Up Arrow Scroll up one tweet
-
- Down Arrow Scroll down one tweet
-
- Home Scroll to top (first tweet)
-
- End Scroll to bottom (last tweet)
-
-Compose Tweets
-
- Ctrl+K Shorten urls
-
- Ctrl+S Send tweet
-
- Esc Cancel
-
-Selected Tweet (Same as Context Menu)
-
- R Reply
-
- Shift+R Reply to all @mention in tweet
-
- M Send a direct message to tweet author
-
- T Retweet (old school)
-
- Shift-T Retweet (new style)
-
- F Mark as favorite
-
- Ctrl+C Copy tweet to clipboard
+- Ctrl+D Show markup (useful for writing themes)
+- Ctrl+Q Change themes
+- Ctrl+S Compose a new tweet
+- PgUp Scroll up one tweet
+- PgDn Scroll down one tweet
+- Up Arrow Scroll up one tweet
+- Down Arrow Scroll down one tweet
+- Home Scroll to top (first tweet)
+- End Scroll to bottom (last tweet)
+- Compose Tweets
+- Ctrl+K Shorten urls
+- Ctrl+S Send tweet
+- Esc Cancel
+- elected Tweet (Same as Context Menu)
+- R Reply
+- Shift+R Reply to all @mention in tweet
+- M Send a direct message to tweet author
+- T Retweet (old school)
+- Shift-T Retweet (new style)
+- F Mark as favorite
+- Ctrl+C Copy tweet to clipboard
 
 ### Scrolling
 
