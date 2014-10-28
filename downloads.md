@@ -87,4 +87,4 @@ _Last update: Version 2.2.2, October 21, 2008_
 Some installers incorporate Install Monetizer to recommend additional software to install. 
 You may decline to install the recommended software without affecting the installation. 
 
-[More Information](/InstallMonetizer)
+[More Information](/installmonetizer)
