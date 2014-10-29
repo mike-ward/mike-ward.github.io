@@ -3,7 +3,7 @@ code {
   border-radius: 4px;
   border: solid 1px #ccc;
   background-color: #f7f7f7;
-  font-size: 80%;
+  font-family: Consolas, Monaco, monospace, san-serif;
 }
 
 pre.prettyprint {
@@ -16,5 +16,6 @@ pre.prettyprint {
     padding: 0;
     border: none;
     line-height: 1.2;
+    font-size: 80%;
   }
 }
