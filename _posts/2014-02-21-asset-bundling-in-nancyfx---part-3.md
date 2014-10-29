@@ -6,10 +6,10 @@ In parts [1](/blog/post/00906/script-bundling-in-nancyfx) and [2](/blog/post/009
 
 Related:
 
-  * [Script Bundling in NancyFx](/blog/post/00906/script-bundling-in-nancyfx)
-  * [Asset Bundling in NancFx - Part 2](/blog/post/00907/asset-bundling-in-nancyfx-ndash-part-2)
-  * [Asset Bundling in NancFx - Part 3](/blog/post/00908/asset-bundling-in-nancyfx-part-3)
-  * [Asset Bundling in NancFx - Part 4](/blog/post/00910/asset-bundling-in-nancyfx-part-4)
+  * [Script Bundling in NancyFx](/2014/02/19/script-bundling-in-nancyfx)
+  * [Asset Bundling in NancFx - Part 2](/2014/02/20/asset-bundling-in-nancyfx-ndash-part-2)
+  * [Asset Bundling in NancFx - Part 3](/2014/02/21/asset-bundling-in-nancyfx---part-3)
+  * [Asset Bundling in NancFx - Part 4](/2014/02/23/asset-bundling-in-nancyfx---part-4)
 
 In recent releases, NancyFx has added support for asynchronous route handling. Adding asynchronous support to the Asset Bundling code is easy using C#'s new async/await facility.
 

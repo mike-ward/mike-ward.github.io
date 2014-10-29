@@ -6,14 +6,14 @@ There are several script bundling options available in NancyFx including SquishI
 
 Related:
 
-  * [Script Bundling in NancyFx](/blog/post/00906/script-bundling-in-nancyfx)
-  * [Asset Bundling in NancFx - Part 2](/blog/post/00907/asset-bundling-in-nancyfx-ndash-part-2)
-  * [Asset Bundling in NancFx - Part 3](/blog/post/00908/asset-bundling-in-nancyfx-part-3)
-  * [Asset Bundling in NancFx - Part 4](/blog/post/00910/asset-bundling-in-nancyfx-part-4)
+  * [Script Bundling in NancyFx](/2014/02/19/script-bundling-in-nancyfx)
+  * [Asset Bundling in NancFx - Part 2](/2014/02/20/asset-bundling-in-nancyfx-ndash-part-2)
+  * [Asset Bundling in NancFx - Part 3](/2014/02/21/asset-bundling-in-nancyfx---part-3)
+  * [Asset Bundling in NancFx - Part 4](/2014/02/23/asset-bundling-in-nancyfx---part-4)
 
 This got me to thinking, how hard can it be? Isn’t it just concatenating files into a single response? Well, there’s likely more to it, but as a first cut this works for me.
 
-See [Part 2](/blog/post/00907/asset-bundling-in-nancyfx-ndash-part-2) for an implementation with caching support
+See [Part 2](/2014/02/20/asset-bundling-in-nancyfx-ndash-part-2) for an implementation with caching support
     
     using System;
     using System.Collections.Generic;

@@ -6,14 +6,14 @@ Shortly, after I posted the first 3 parts of this article, [Andreas Håkansson](
 
 Related:
 
-  * [Script Bundling in NancyFx](/blog/post/00906/script-bundling-in-nancyfx)
-  * [Asset Bundling in NancFx - Part 2](/blog/post/00907/asset-bundling-in-nancyfx-ndash-part-2)
-  * [Asset Bundling in NancFx - Part 3](/blog/post/00908/asset-bundling-in-nancyfx-part-3)
-  * [Asset Bundling in NancFx - Part 4](/blog/post/00910/asset-bundling-in-nancyfx-part-4)
+  * [Script Bundling in NancyFx](/2014/02/19/script-bundling-in-nancyfx)
+  * [Asset Bundling in NancFx - Part 2](/2014/02/20/asset-bundling-in-nancyfx-ndash-part-2)
+  * [Asset Bundling in NancFx - Part 3](/2014/02/21/asset-bundling-in-nancyfx---part-3)
+  * [Asset Bundling in NancFx - Part 4](/2014/02/23/asset-bundling-in-nancyfx---part-4)
 
 Duh! I should have thought of that. I guess I was thinking that because it was assembling files, it wasn't "static content". Andreas suggested implementing it as a _StaticContentProvider_. I couldn't puzzle out just how to do this so I mimicked the [convention used to map folders and files](https://github.com/NancyFx/Nancy/wiki/Managing-static-content) as static content. 
 
-To add bundles, override the ConfigureConventions method in the bootstrapper as follows:
+To add bundles, override the `ConfigureConventions` method in the `bootstrapper` as follows:
     
     protected override void ConfigureConventions(NancyConventions nancyConventions)
     {
@@ -43,7 +43,7 @@ The first argument is the requested path so head of the HTML page looks like:
         <script src="~/scripts"></script>
     <head>
 
-The code changes in that a _StaticContentBundleConventionBuilder_ is added to build help integrate the bundling logic into the Nancy's static content conventions and some syntactic sugar in the form of extension methods.
+The code changes in that a `StaticContentBundleConventionBuilder` is added to build help integrate the bundling logic into the Nancy's static content conventions and some syntactic sugar in the form of extension methods.
 
 Here's the code:
     
