@@ -11,7 +11,7 @@ I needed a word wrapping function to format text to the console. Being the lazy 
 
 Simple enough and it mostly works. There are a few corner cases this doesn’t handle like breaking words that are longer than the wrap margin. The algorithm also removes any variable spacing in the text, which you may or may not want.
 
-Text wrapping seems like a common enough need that is should be included in the standard string libraries. But after thinking about it, I realized that most text wrapping requirements are specific to the application they’re used in. Do you wrap on hyphens and syllables? How about preserving the original formatting like line breaks and word spacing? Alot depends on what you’re after.
+Text wrapping seems like a common enough need that is should be included in the standard string libraries. But after thinking about it, I realized that most text wrapping requirements are specific to the application they’re used in. Do you wrap on hyphens and syllables? How about preserving the original formatting like line breaks and word spacing? A lot depends on what you’re after.
 
 Getting back to the problem at hand, I decided that breaking the text up into words and reassembling was not what I wanted. It’s not efficient in that it creates a lot of temporary objects and it doesn’t address the “Single word longer than a line” corner case. Here’s my solution:
     
@@ -39,6 +39,6 @@ Getting back to the problem at hand, I decided that breaking the text up into wo
         return lines;
     }
 
-In my particular situation, I wanted to take out line feeds, tabs, etc., which is what the “Regex” expression does. It also handles the “Single word longer than a line case” by breaking the word at the margin.
+In my particular situation, I wanted to take out line feeds, tabs, etc., which is what the `Regex` expression does. It also handles the “Single word longer than a line case” by breaking the word at the margin.
 
 No word-wrapping algorithm is perfect and neither is this one, but I think you’ll find this one easy to modify to your needs.

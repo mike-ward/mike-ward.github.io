@@ -31,12 +31,12 @@ Before, it was very common to see developers do this with strings and types (or 
     RegisterMethod(typeof(MyClass), "SomeMethod");  
     
 
-Well, that sucks because of the lack of strong-typing. What if I rename "SomeMethod"? Now, in 3.5 however, I can do this in a strongly-typed fashion:
+Well, that sucks because of the lack of strong-typing. What if I rename `SomeMethod`? Now, in 3.5 however, I can do this in a strongly-typed fashion:
     
     RegisterMethod(cl => cl.SomeMethod());  
     
 
-In which the RegisterMethod class uses Expression> like this:
+In which the `RegisterMethod` class uses Expression> like this:
     
     void RegisterMethod(Expression> action) where T : class  
     {  
@@ -65,7 +65,7 @@ If you're trying to use brackets inside a String.Format expression...
     String.Format("{{i am in brackets!}} {0} {1}", foo, bar);  
     //outputs "{i am in brackets!} 3 blind mice"
 
-InternalsVisibleTo attribute is one that is not that well known, but can come in increadibly handy in certain circumstances. It basically allows another assembly to be able to access "internal" elements of the defining assembly
+`InternalsVisibleTo` attribute is one that is not that well known, but can come in handy in certain circumstances. It basically allows another assembly to be able to access `internal` elements of the defining assembly
 
 If you want to exit your program without calling any finally blocks or finalizers use
     
@@ -73,21 +73,21 @@ If you want to exit your program without calling any finally blocks or finalizer
 
 I just found out about this one today -- and I've been working with C# for 5 years!
 
-It's the namespace alias qualifier:
+It's the `namespace` alias qualifier:
     
     extern alias YourAliasHere  
     
 
 You can use it to load multiple versions of the same type. This can be useful in maintenance or upgrade scenarios where you have an updated version of your type that won't work in some old code, but you need to upgrade it to the new version. [Slap on a namespace alias qualifier](http://blogs.msdn.com/abhinaba/archive/2005/11/30/498278.aspx), and the compiler will let you have both types in your code.
 
-There's also the ThreadStaticAttribute to make a static field unique per thread, so you can have strongly typed thread-local storage.
+There's also the `ThreadStaticAttribute` to make a static field unique per thread, so you can have strongly typed thread-local storage.
 
 
 The [Environment.UserInteractive](http://msdn.microsoft.com/en-us/library/system.environment.userinteractive.aspx) property.
 
-The UserInteractive property reports false for a Windows process or a service like IIS that runs without a user interface. If this property is false, do not display modal dialogs or message boxes because there is no graphical user interface for the user to interact with.
+The `UserInteractive` property reports false for a Windows process or a service like IIS that runs without a user interface. If this property is false, do not display modal dialogs or message boxes because there is no graphical user interface for the user to interact with.
 
-My favourite is the
+My favorite is the
     
     global::  
     

@@ -2,9 +2,7 @@
 layout: post
 title: 'Parallels Workstation for Windows &amp; Linux - Free'
 ---
-![Free](http://mergeweb.com/images/free_sign.gif)Don’t know how long this one is going to last but you can get a free commercial version of Parallels Workstation. Check out the link below.
-
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http%3a%2f%2fblueonionsoftware.com%2fblog.aspx%3fp%3d652365e6-e535-481c-824a-4137e00957c1)](http://www.dotnetkicks.com/kick/?url=http%3a%2f%2fblueonionsoftware.com%2fblog.aspx%3fp%3d652365e6-e535-481c-824a-4137e00957c1)
+Don’t know how long this one is going to last but you can get a free commercial version of Parallels Workstation. Check out the link below.
 
 [Parallels Workstation for Windows & Linux – Free](http://www.labnol.org/software/download-parallels-workstation-free/6297/)
 

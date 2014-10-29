@@ -20,7 +20,7 @@ and voila!
 
 Looks like nice weather for the next couple of days, at least temperature-wise.
 
-Simply Weather also monitors for weather alerts. When a weather alert is detected, the wind information is replaced by the alert message in red. If there are multiple alerts, the messages are cycled continuously. Click on the alert and a popup appears with additional details.
+Simply Weather also monitors for weather alerts. When a weather alert is detected, the wind information is replaced by the alert message in red. If there are multiple alerts, the messages are cycled continuously. Click on the alert and a pop-up appears with additional details.
 
 ![smfo](/cdn/images/blog/IcanhazFrenchSimplyWeathergoesinternatio_101CA/smfo.png)
 

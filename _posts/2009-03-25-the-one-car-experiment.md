@@ -8,7 +8,9 @@ So now we’re down to one car, a 1994 Oldsmobile Delta 88 with 180,000 miles on
 
 Consider also that the car we do have is no beauty. It’s been well cared for but it is 15 years old. The air conditioner stopped working years ago and the seats are cracked. The sound system died a few years back. I found a replacement on EBay for $15, but that was without a DVD player. The car looks and feels old.
 
-![2007 Mercedes-Benz S 550](http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/2007-Mercedes-Benz-S-550.jpg/250px-2007-Mercedes-Benz-S-550.jpg)OK, so we have a established that my self image doesn’t require a fancy car or SUV. It’s not that I don’t like cars. Hey, I’d love to drive an S-Class Sedan with a 5.5L Twin-Turbo V12 and 510 hp like the one pictured here. But it won’t be happening anytime soon given my salary.
+![2007 Mercedes-Benz S 550](http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/2007-Mercedes-Benz-S-550.jpg/250px-2007-Mercedes-Benz-S-550.jpg)
+
+OK, so we have a established that my self image doesn’t require a fancy car or SUV. It’s not that I don’t like cars. Hey, I’d love to drive an S-Class Sedan with a 5.5L Twin-Turbo V12 and 510 hp like the one pictured here. But it won’t be happening anytime soon given my salary.
 
 So 5 months later, how has it worked out? Exceptionally well. There was perhaps only one time in that period where two cars would have been helpful but as it turned out, I was able to catch a ride home with a co-worker that day.
 
@@ -34,7 +36,7 @@ I’d like to note one other thing that was quite unexpected. It’s a feeling o
 
 _This is the third installment in my occasional Managing Money Series. Here are the earlier articles._
 
-  * [Managing Money](/blog/post/2008/11/12/managing-money)
-  * [Managing Money – Rule #2](/blog/post/2008/11/23/managing-money-rule-2)
+  * [Managing Money](/2008/11/12/managing-money)
+  * [Managing Money – Rule #2](2008/11/23/managing-money--rule-2)
 
 What are your favorite ways to save money? Write me, or better yet, why not author a guest article here.

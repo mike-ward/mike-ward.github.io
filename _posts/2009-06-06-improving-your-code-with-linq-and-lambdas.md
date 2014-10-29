@@ -28,6 +28,6 @@ Now compare it to this.
 
 Which would you prefer to maintain? Which one more clearly communicates the intent of the program?
 
-If that’s not enough to convince you, consider that extension methods like **Count()** are static, which allows for further optimizations and parallel execution opportunities.
+If that’s not enough to convince you, consider that extension methods like **Count()** are static, which allows for further optimization and parallel execution opportunities.
 
 If you consider yourself a pro, you owe it to yourself (and your fellow developers) to keep on top of these things. Read books, pair program, embrace the changes and learn from others. People smarter than you and I have spent countless hours thinking about these things and improving them. Shouldn’t you take advantage of those efforts?

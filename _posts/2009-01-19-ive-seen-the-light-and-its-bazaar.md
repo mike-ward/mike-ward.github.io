@@ -2,14 +2,16 @@
 layout: post
 title: 'I’ve seen the light and it’s Bazaar'
 ---
-![Bazaar](http://bazaar-vcs.org/htdocs/bazaarNew/css/logo.png)One of the coolest presentations I attended at [CodeMash 2009](http://codemash.org/) was a session on [Bazaar](http://bazaar-vcs.org/), an open source, distributed version control system. It’s hard to imagine getting excited about something as mundane as version control but in this case it’s really worth a look. Promise.
+![Bazaar](http://bazaar-vcs.org/htdocs/bazaarNew/css/logo.png)
+
+One of the coolest presentations I attended at [CodeMash 2009](http://codemash.org/) was a session on [Bazaar](http://bazaar-vcs.org/), an open source, distributed version control system. It’s hard to imagine getting excited about something as mundane as version control but in this case it’s really worth a look. Promise.
 
 Bazaar’s tag line is that it “Just Works”, and by golly it does. I’ve used a bunch of VCS systems over the years and before using Bazaar, I was convinced that [Subversion](http://subversion.tigris.org/) was it. It only took about 10 minutes to change my mind.
 
 OK, assuming you know what a VCS is here’s what I like about Bazaar.
 
   * It’s just a program. No server required. No plugin’s needed or databases or other stuff required. 
-  * No predefined workflow. Use it alone, with others, on servers or not. 
+  * No predefined work-flow. Use it alone, with others, on servers or not. 
   * It’s simple. Even an old codger like myself can grok it. 
   * It’s powerful. It does pretty much anything the big guys do and with much less fuss. 
   * It’s very lightweight . Hell, if it were any lighter it might float off my lap top. 

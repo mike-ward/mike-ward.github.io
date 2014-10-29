@@ -47,16 +47,13 @@ I was refactoring some code I wrote a few months ago and ran across this (illust
         throw new InvalidOperationException();  
     }
 
-  
-
-
 It gets the job done . Also, there were about 20 top-level case statements in the original code so it spanned multiple pages which made it hard to visualize.
 
-Given the repetitive nature of the the code, it really warrants some kind of lookup table. At the time, I was just coming up to speed on LINQ to SQL and Dynamic Predicate Building so “Getting it to just work” was my primary concern.
+Given the repetitive nature of the the code, it really warrants some kind of look-up table. At the time, I was just coming up to speed on LINQ to SQL and Dynamic Predicate Building so “Getting it to just work” was my primary concern.
 
-You’ll notice that the switch statement is just a double lookup: Find a given Part, filtered by a Part descriptor and an additional search criteria. Since I’m building my query expression dynamically, what I want to return here is a Predicate describing the filter. (Reminder, a predicate here is just a function that takes an argument and returns a bool). That’s what the switch statement is doing.
+You’ll notice that the switch statement is just a double look-up: Find a given Part, filtered by a Part descriptor and an additional search criteria. Since I’m building my query expression dynamically, what I want to return here is a Predicate describing the filter. (Reminder, a predicate here is just a function that takes an argument and returns a bool). That’s what the switch statement is doing.
 
-Here’s the same solution using a lookup table.
+Here’s the same solution using a look-up table.
     
     class FieldCondition : Dictionary<FieldId, ConditionFilter> { }  
     class ConditionFilter : Dictionary<Condition, Func<string, Expression<Func<Part, bool>>>> { }  
@@ -90,32 +87,22 @@ Here’s the same solution using a lookup table.
         return _partsFilter[FieldId.Name][Condition.StartsWith]("spring");  
     }
 
-  
-The interesting bit here is double dictionary declaration:
+The interesting bit here is the double dictionary declaration:
     
     class FieldCondition : Dictionary<FieldId, ConditionFilter> { }  
     class ConditionFilter : Dictionary<Condition, Func<string, Expression<Func<Part, bool>>>> { }
 
-  
-
-
-It looks a little daunting until you take it apart. It actually reads naturally left to right. It’s a dictionary of FieldId returning a dictionary of Condition returning a function that takes a string that returns an expression. The dictionary part is easy enough to understand but the “Function taking a string returning an expression” might be less familiar.
+It looks a little daunting until you take it apart. It actually reads naturally left to right. It’s a dictionary of `FieldId` returning a dictionary of Condition returning a function that takes a string that returns an expression. The dictionary part is easy enough to understand but the “Function taking a string returning an expression” might be less familiar.
     
     Func<string, Expression<Func<Part, bool>>>
 
-  
+If you work in LINQ to SQL for any length of time the `Expression<Func<Part, bool>>` part should be familiar. Because I need to pass a string to the filter for the comparison, I’ve wrapped the expression in a function that takes the string value.
 
-
-If you work in LINQ to SQL for any length of time the Expression<Func<Part, bool>> part should be familiar. Because I need to pass a string to the filter for the comparison, I’ve wrapped the expression in a function that takes the string value.
-
-The final part is constructing the lambda expression to express the filter. A lambda expression is a good choice here because it’s a concise and compact way of communicating intent. In this case, we have a lambda “going into” a lambda. A bit unusual but totally legal (and kind of cool looking).
+The final part is constructing the lambda expression to express the filter. A lambda expression is a good choice here because it’s a concise and compact way of communicating intent. In this case, we have a lambda *"going into"* a lambda. A bit unusual but totally legal (and kind of cool looking).
     
     val => part => part.Name.StartsWith(val)
 
-  
-
-
-In the end, the code is not much smaller so what have we gained here? The first version is imperative where the second version is functional. The first version has control flow, which has more opportunities for subtle bugs. The second version, however, is really just a lookup table of functions to be executed so it is more maintainable. Not only is it easy to retrieve the expression from the lookup table to generate new expressions, it is now possible to work with the lookup table like data.
+In the end, the code is not much smaller so what have we gained here? The first version is imperative where the second version is functional. The first version has control flow, which has more opportunities for subtle bugs. The second version, however, is really just a look-up table of functions to be executed so it is more maintainable. Not only is it easy to retrieve the expression from the look-up table to generate new expressions, it is now possible to work with the look-up table like data.
 
 For instance, if you need to get a list of all expressions that respond to a particular condition, you can extract it from the table:
     
@@ -125,11 +112,7 @@ For instance, if you need to get a list of all expressions that respond to a par
                    let partsFilter = conditionFilter[condition]   
                    select partsFilter(value);   
     }  
-    
 
-  
-
-
-Calling PartsFiltersOfCondition(Condition.Is, “spring”) will return all filters that contain Condition.Is and generate the expression for you.
+Calling `PartsFiltersOfCondition(Condition.Is, “spring”)` will return all filters that contain Condition.Is and generate the expression for you.
 
 Try doing THAT with a switch statement :) 

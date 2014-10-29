@@ -12,11 +12,7 @@ Wix lets you define your own UI’s but it’s a daunting task to say the least.
 
 What I’ve done here is minimal but can serve as a spring board to further modifications. You should be comfortable with working in Wix before taking on UI changes like this.
     
-    xml version="1.0" encoding="UTF-8"?>
-    
-    
-    
-    
+    <xml version="1.0" encoding="UTF-8"?>
     <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
       <Fragment>
         <UI Id="WixUI_InstallWeb">
@@ -44,9 +40,6 @@ What I’ve done here is minimal but can serve as a spring board to further modi
           <Publish Dialog="ExitDialog" Control="Finish" Event="EndDialog" Value="Return" Order="999">1Publish>
     
           <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="InstallWebDlg">1Publish>
-    
-          
-    
           <Publish Dialog="InstallWebDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg">1Publish>
           <Publish Dialog="InstallWebDlg" Control="Next" Event="SetTargetPath" Value="[WIXUI_INSTALLDIR]" Order="1">1Publish>
           <Publish Dialog="InstallWebDlg" Control="Next" Event="DoAction" Value="WixUIValidatePath" Order="2">NOT WIXUI_DONTVALIDATEPATHPublish>
@@ -92,13 +85,13 @@ What I’ve done here is minimal but can serve as a spring board to further modi
       Fragment>
     Wix>
 
-This is the Wix “InstallDir” dialog set modified to accept the a virtual directory. Reference it in you setup as follows:
+This is the Wix `InstallDir` dialog set modified to accept the a virtual directory. Reference it in you setup as follows:
     
     <UIRef Id="WixUI_InstallWeb" />
     <Property Id="WIXUI_INSTALLDIR" Value="INSTALLDIR" />
     <Property Id="WIXUI_VIRTUALDIR" Value="VIRTUALDIR" />
     <Property Id="VIRTUALDIR">[CDATA[simplyweather]]>Property>
 
-The VIRTUALDIR property will contain the specified virtual directory. In this case, it defaults to “simplyweather” unless the user modifies it during the install process. The dialog is modified to allow the user to change it if necessary.
+The `VIRTUALDIR` property will contain the specified virtual directory. In this case, it defaults to “simplyweather” unless the user modifies it during the install process. The dialog is modified to allow the user to change it if necessary.
 
 I’ll likely enhance this later to allow different Web sites (currently, only “Default Web Site” is supported, custom application pools and other settings.

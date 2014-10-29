@@ -32,13 +32,13 @@ A bit harsh and not one of my finer moments. Interestingly, I received an email 
 
 > Hi Jesse, 
 > 
-> Admittitly, my tweet was a bit harsh and I apologize for calling you a dumb ass. You're not and I'm a fan of your Web cast series on using Silverlight.
+> Admittedly, my tweet was a bit harsh and I apologize for calling you a dumb ass. You're not and I'm a fan of your Web cast series on using Silverlight.
 > 
 > What bugged me was that when I arrived for both sessions about 5 minutes early, you were not yet set up to do the presentation. In both sessions, you had issues interfacing with the AV equipment. Part of preparedness in my book is that you be set to go at the scheduled time.
 > 
 > In the Hyper-Video presentation you chatted with the audience and started 10 minutes late because you lost track of the time.
 > 
-> In the Silverlight presentation, you started 15 minutes late because of AV issues. You then proceeded to talk about when you were a boy programming Unix when a full quarter of the alloted time was already gone. I would have thought more urgency would be in order to complete the talk. Perhaps you had this urgency and I misread it because you were so relaxed and unhurried.
+> In the Silverlight presentation, you started 15 minutes late because of AV issues. You then proceeded to talk about when you were a boy programming Unix when a full quarter of the allotted time was already gone. I would have thought more urgency would be in order to complete the talk. Perhaps you had this urgency and I misread it because you were so relaxed and unhurried.
 > 
 > Frankly, I'm not that interested in a speakers history as rule. I quick here's my blog and this is where work is all it takes. 30 seconds tops.
 > 
