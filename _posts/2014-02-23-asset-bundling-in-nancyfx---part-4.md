@@ -11,7 +11,7 @@ Related:
   * [Asset Bundling in NancFx - Part 3](/2014/02/21/asset-bundling-in-nancyfx---part-3)
   * [Asset Bundling in NancFx - Part 4](/2014/02/23/asset-bundling-in-nancyfx---part-4)
 
-Duh! I should have thought of that. I guess I was thinking that because it was assembling files, it wasn't "static content". Andreas suggested implementing it as a _StaticContentProvider_. I couldn't puzzle out just how to do this so I mimicked the [convention used to map folders and files](https://github.com/NancyFx/Nancy/wiki/Managing-static-content) as static content. 
+Duh! I should have thought of that. I guess I was thinking that because it was assembling files, it wasn't "static content". Andreas suggested implementing it as a `StaticContentProvider`. I couldn't puzzle out just how to do this so I mimicked the [convention used to map folders and files](https://github.com/NancyFx/Nancy/wiki/Managing-static-content) as static content. 
 
 To add bundles, override the `ConfigureConventions` method in the `bootstrapper` as follows:
     
