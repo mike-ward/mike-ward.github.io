@@ -27,6 +27,6 @@ Yes, I'm writing a post on how to set the keyboard focus to the first item of a 
 
 You'll see lots of articles about using `FocusManager` on an element. Doesn't work. Focus goes to the control, not the item.
 
-This code recognizes that items loaded for an `ItemSource` are loaded asynchronously and waits until `ItemContainerGenerator` is finished before trying to set keyboard focus.
+This code recognizes that `ItemSource` loads asynchronously and waits until `ItemContainerGenerator` has finished before trying to set keyboard focus.
 
 Reference: [Selecting first item in WPF ListView and keyboard navigation](http://cytivrat.blogspot.com/2011/05/selecting-first-item-in-wpf-listview.html)
