@@ -2,7 +2,7 @@
 layout: post
 title: 'Hartville Tool - Nice'
 ---
-![](http://www.hartvilletool.com/shared/images/navbar//htlogo.jpg)
+![noborder](http://cdn.hartvilletool.com/images/logo.png)
 
 I recently ordered some woodworking items form [Hartville Tool](http://hartvilletool.com) in Ohio. Hartville is a great source for all things woodworking. I ordered on Thursday afternoon and by Friday evening I had my stuff. Incredible! On occasion Hartville has extended special discounts to our local woodworking club ([www.semiww.org](http://www.semiww.org)). Great company.
 

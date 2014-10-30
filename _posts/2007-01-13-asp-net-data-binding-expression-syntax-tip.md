@@ -7,13 +7,13 @@ title: 'ASP.NET Data Binding Expression Syntax Tip'
     <asp:Hyperlink NavigateUrl='<%# Container.ItemPermaLink %>'  
       runat="server">permalink</asp:HyperLink>
 
-This is an example from a Bloget template I'm developing. The **<%# %>** contains a _data binding expression_. The **Container** is the naming container that Bloget is hosted in and is the standard way to access data bound objects in a template. When the template is realized, **Container.ItemPermaLink** will expand to the actual permalink for the item. So far so simple.
+This is an example from a Bloget template I'm developing. The `<%# %>` contains a _data binding expression_. The `Container` is the naming container that Bloget is hosted in and is the standard way to access data bound objects in a template. When the template is realized, `Container.ItemPermaLink` will expand to the actual permalink for the item. So far so simple.
 
 Where I stumbled was when I wanted to build a custom link to Digg, a popular bookmarking site. The format of the URL to submit a link is as follows:
     
     http://digg.com/submit?phase=2&url=<link>&title=<title>
 
-The <link> and <title> portions are replaced by the link and title of the blog article at runtime. The documentation for [Data Binding Expressions](http://msdn2.microsoft.com/en-us/library/ms178366.aspx) and every [example](http://msdn2.microsoft.com/en-us/library/95k0273d.aspx) I could find suggest that only a _data binding expression_ can be contained in the **<%# %>** portion. Well I'm here to say it ain't so! You can actually use C# (or VB) in these expressions. It may be common knowledge, but if it is, I couldn't find it. Armed with this new knowledge, it becomes straightforward to build the link.
+The `<link>` and `<title>` portions are replaced by the link and title of the blog article at run time. The documentation for [Data Binding Expressions](http://msdn2.microsoft.com/en-us/library/ms178366.aspx) and every [example](http://msdn2.microsoft.com/en-us/library/95k0273d.aspx) I could find suggest that only a _data binding expression_ can be contained in the `<%# %>` portion. Well I'm here to say it ain't so! You can actually use C# (or VB) in these expressions. It may be common knowledge, but if it is, I couldn't find it. Armed with this new knowledge, it becomes straightforward to build the link.
     
     <asp:HyperLink NavigateURL='<%# string.Format(  
       "http://digg.com/submit?phase=2&amp;url={0}&amp;title={1}",  

@@ -14,32 +14,30 @@ What's needed is something that will read your OPML file and emit HTML. This is 
 
 Sounds tricky, and it can be, but because OPML is such a simple format, writing an XSL transform to convert it to HTML is also simple. Here's the one I use for this Web site.
 
-<xml version ="1.0"encoding="utf-8"?>  
-<xsl:stylesheet version="1.0" xmlns:xsl=[http://www.w3.org/1999/XSL/Transform](http://www.w3.org/1999/XSL/Transform)>  
-<xsl:output method="html" indent="yes"/>  
-<xsl:template match="opml">  
-<xsl:for-each select="body/outline">  
-<a href="{@htmlUrl}"><xsl:value-of select="@text"/>a><br/>  
-</xsl:for-each>  
-</xsl:template>  
-</xsl:stylesheet>
+    <xml version ="1.0"encoding="utf-8"?>  
+    <xsl:stylesheet version="1.0" xmlns:xsl=[http://www.w3.org/1999/XSL/Transform](http://www.w3.org/1999/XSL/Transform)>  
+    <xsl:output method="html" indent="yes"/>  
+    <xsl:template match="opml">  
+    <xsl:for-each select="body/outline">  
+    <a href="{@htmlUrl}"><xsl:value-of select="@text"/>a><br/>  
+    </xsl:for-each>  
+    </xsl:template>  
+    </xsl:stylesheet>
 
 Most of this code is just boiler plate needed to specify that it is an XSL template. The interesting bit is in the middle of the code.
 
-< a href ="{@htmlUrl}"><xsl:value-of select="@text"/></>a><br/>
+    <a href ="{@htmlUrl}"><xsl:value-of select="@text"/></>a><br/>
 
-Now this isn't so bad. We're just building a link and adding a line break. The **{@htmlUrl}** and **@text** portions are substituion parameters. This template just loops through the OPML file and for each entry it encounters it replaces the **@htmlUrl** parameter with the blog's URL and the **@text** parameter with the blog's title. Changing the format to suit your tastes is easy. Let's say you want to make it bold.
+Now this isn't so bad. We're just building a link and adding a line break. The `{@htmlUrl}` and `@text` portions are substitution parameters. This template just loops through the OPML file and for each entry it encounters it replaces the `@htmlUrl` parameter with the blog's URL and the `@text` parameter with the blog's title. Changing the format to suit your tastes is easy. Let's say you want to make it bold.
 
-**<b><** **a** **href** **=** **"{@htmlUrl}"><xsl:value-of select="@text"/></a></b>**<br/>
+    <a href="{@htmlUrl}"><xsl:value-of select="@text"/></a>
 
 I think you see the point. Save this code to a file and call it something interesting like BlogRoll.xsl.
 
-All that's left is to choose where to put place our blog roll on the page. Here's where the **** server control comes in. As you can see below, the **** server control takes two parameters. The **DocumentSource** is your exported OPML file, and the **TransformSource** is the XSL file you saved. Add this to your page.
+All that's left is to choose where to put place our blog roll on the page. Here's where the  server control comes in. As you can see below, the server control takes two parameters. The `DocumentSource` is your exported OPML file, and the `TransformSource` is the XSL file you saved. Add this to your page.
 
-< asp : Xml ID ="XmlBlogRoll" runat ="server"   
-DocumentSource="~/App_Data/export.xml"   
-TransformSource="~/BlogRoll.xsl" />  
+    <asp:Xml ID="XmlBlogRoll" runat ="server"   
+    DocumentSource="~/App_Data/export.xml"   
+    TransformSource="~/BlogRoll.xsl" />  
   
-
-
 When you display the page, you should see your blog roll. Now this was perhaps a bit of work but now you have a data driven blog roll. Anytime you want to update your blog roll, go to your news reader, export your blog roll to a file, and upload it.

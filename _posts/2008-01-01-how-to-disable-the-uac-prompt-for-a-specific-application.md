@@ -6,12 +6,12 @@ Sometimes, you want to disable UAC prompt for certain applications on a Windows 
 
 From [http://support.microsoft.com/kb/946932](http://support.microsoft.com/kb/946932)
 
-Using the tool and steps below, you may disable UAC prompt for the specific application. This does not disable the User Acount Control feature for the whole computer.
+Using the tool and steps below, you may disable UAC prompt for the specific application. This does not disable the User Account Control feature for the whole computer.
 
   1. Download and install the Application Compatibility Toolkit from this link:   
 Microsoft Application Compatibility Toolkit 5.0   
 [http://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971&displaylang;=en](http://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971&displaylang=en)
-  2. In the Start menu, locate the new folder. Find the shortcut icon for **Compatibility Administrator**. Right click it and clik **Run as administrator**. 
+  2. In the Start menu, locate the new folder. Find the shortcut icon for **Compatibility Administrator**. Right click it and click **Run as administrator**. 
   3. In the left hand pane, right-click on the database under **Custom Databases** and select **Create New,** and select **Application Fix**. 
   4. Enter the name and other details of the application you want to alter behavior on and then browse to it to select it. Click Next. 
   5. Click Next until you are in the **Compatibility Fixes** screen. 
@@ -23,10 +23,10 @@ Microsoft Application Compatibility Toolkit 5.0
 
 Run the command below:
 
-**sdbinst _\_.sdb**
+    sdbinst _\_.sdb
 
-For example, if you saved the .SDB file as **_abc.sdb _**in the **_c:\Windows _**folder, the command should be like this:****
+For example, if you saved the .SDB file as `_abc.sdb _` in the `c:\Windows` folder, the command should be like this:
 
-**sdbinst c:\windows\abc.sdb**
+    sdbinst c:\windows\abc.sdb
 
 It should prompt: Installation of  complete.

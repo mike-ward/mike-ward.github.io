@@ -2,7 +2,7 @@
 layout: post
 title: 'Find your missing USB drive on Windows XP'
 ---
-![](http://www.howtogeek.com/posticons/logov3.png) The How-To Geek as a great article on how to resolve removable drive conflicts on your system.
+The How-To Geek as a great article on how to resolve removable drive conflicts on your system.
 
 > Have you ever plugged in a USB drive or any external device with a hard drive and wondered why you cannot see it in My Computer?
 > 

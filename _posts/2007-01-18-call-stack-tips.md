@@ -2,27 +2,31 @@
 layout: post
 title: 'Call Stack Tips'
 ---
-![Visual Studio 2005 Banner](/cdn/images/blog/WindowsLiveWriter/CallStackTips_CC77/right_bnr_vstudio%5B5%5D.gif) Just in case you've never tried, it - the next time you're looking at a call stack while stopped at a break point in [Visual Studio 2005](http://msdn2.microsoft.com/en-us/vstudio/default.aspx), try_ right clicking_ in the call stack window and investigating some of the context menu options.
+Just in case you've never tried, it - the next time you're looking at a call stack while stopped at a break point in [Visual Studio 2005](http://msdn2.microsoft.com/en-us/vstudio/default.aspx), try _right clicking_ in the call stack window and investigating some of the context menu options.
 
 Here's some that stand out.
 
 Discovering the first one gave me a some good insight into why .NET control events were being fired without my, or my users, instigation. It is especially useful in combo with [Reflector. .NET](http://www.aisto.com/roeder/dotnet/).
 
-**Show External Code  
-**Changes those single line, obtuse call stack phrases "[External Code]" into illuminating exposés of internal .NET assembly method call stacks, complete with cracked message and parameter info. 
+**Show External Code**
 
-**Include Calls To / From Other Threads  
-**Can provide deeper insight into how your breakpoint was reached in a multithreading scenario. 
+Changes those single line, obtuse call stack phrases `[External Code]` into illuminating exposé of internal .NET assembly method call stacks, complete with cracked message and parameter info. 
 
-**The Load Symbols Menu  
-**This section of the menu provides runtime access to the debug symbol configuration. This is specifically useful in mixed mode apps. You should download the **[Debugging Tools For Windows](http://www.microsoft.com/whdc/devtools/debugging/default.mspx)** from Microsoft and follow the installation instructions.
+**Include Calls To / From Other Threads**
+
+Can provide deeper insight into how your break-point was reached in a multithreading scenario. 
+
+**The Load Symbols Menu**
+
+This section of the menu provides run-time access to the debug symbol configuration. This is specifically useful in mixed mode apps. You should download the **[Debugging Tools For Windows](http://www.microsoft.com/whdc/devtools/debugging/default.mspx)** from Microsoft and follow the installation instructions.
 
 Basically, you want to configure VS to download and cache the .PDB files which provide the symbols for the OS DLLs you're using - this capability provides much more accurate and useful stack traces and debug step execution.
 
 You should generally update to the most current version of the 32 bit Debugging Tools for Windows - the current version is **6.6.7.5**, July 18, 2006.
 
-**VS Config  
-**In VS, go to Tools / Options / Debugging / Symbols and add the following to the "Symbol file (.pdb) locations" (note, this is also accessible from the Call Stack window context menu) 
+**VS Config**
+
+In VS, go to Tools / Options / Debugging / Symbols and add the following to the "Symbol file (.pdb) locations" (note, this is also accessible from the Call Stack window context menu) 
 
 [ _http://msdl.microsoft.com/download/symbols_ ](http://msdl.microsoft.com/download/symbols)
 

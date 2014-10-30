@@ -14,6 +14,8 @@ Scientific American has a plan to [wean us off oil and coal by using solar energ
 > 
 > But $420 billion in subsidies from 2011 to 2050 would be required to fund the infrastructure and make it cost-competitive. 
 
-![](http://www.in.gov/energy/images/iStock_000000584982Small.jpg)They quote the price of oil at $60 a barrel in the article and it's now at $105 today. Obviously they have to write these articles months in advance to make publication deadlines.
+![](http://www.in.gov/energy/images/iStock_000000584982Small.jpg)
+
+They quote the price of oil at $60 a barrel in the article and it's now at $105 today. Obviously they have to write these articles months in advance to make publication deadlines.
 
 I looked into adding solar panels on my house. After running the numbers I found it would cost $48,000 to go off grid. I spend about $1000/year in energy costs now. That cost is too high for my budget. As an alternative, I'm looking into buying my power from green, renewable sources. Here in Michigan, [DTE Energy](http://my.dteenergy.com/products/greenCurrents/index.html) offers a option to buy your energy from renewable sources like wind and solar. It costs about 2 cents more per kilowatt/hour for residential customers. 
