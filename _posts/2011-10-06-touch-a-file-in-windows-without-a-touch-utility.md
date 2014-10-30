@@ -2,14 +2,11 @@
 layout: post
 title: 'Touch a File in Windows without a Touch Utility'
 ---
-One of those annoying omissions in Windows is the lack of a Touch utility to update the timestamp of a file. There are dozens of freeware programs available to do this but what if you’re updating something on a corporate system where you don’t have such a utility?
+One of those annoying omissions in Windows is the lack of a Touch utility to update the time stamp of a file. There are dozens of freeware programs available to do this but what if you’re updating something on a corporate system where you don’t have such a utility?
 
 Your can do this from a plain old DOS command as follows:
     
     copy /b Source+,,
-
-  
-
 
 where Source is the name of a file. 
 

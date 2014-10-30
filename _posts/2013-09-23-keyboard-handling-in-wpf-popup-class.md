@@ -2,9 +2,9 @@
 layout: post
 title: 'Keyboard Handling in WPF Popup Class'
 ---
-It's quite a bit of effort to get a Windows Presentation Foundation (WPF) Popup to close when the Escape key is pressed. There are several solutions freely available on the Web, but none of them worked for my use case so I wrote one. 
+It's quite a bit of effort to get a Windows Presentation Foundation (WPF) `Popup` to close when the `Escape` key is pressed. There are several solutions freely available on the Web, but none of them worked for my use case so I wrote one. 
 
-_PopupAllowKeyboardInput_ is implemented as an [attached behavior](http://msdn.microsoft.com/en-us/library/ms749011.aspx). It's MIT licensed.
+`PopupAllowKeyboardInput` is implemented as an [attached behavior](http://msdn.microsoft.com/en-us/library/ms749011.aspx). It's MIT licensed.
 
 [PopupAllowKeyboardInput.cs](https://gist.github.com/blueonion/6672436)
     
@@ -85,10 +85,7 @@ _PopupAllowKeyboardInput_ is implemented as an [attached behavior](http://msdn.m
         }  
     }
 
-  
-
-
-_PopupAllowKeyboardInput_ works even if the Popup Child is a non-focusable item like _Border_ or _TextBlock_. To use this behavior, add it to the Popup declaration and keyboard bindings as follows:
+`PopupAllowKeyboardInput` works even if the `Popup` Child is a non-focusable item like `Border` or `TextBlock`. To use this behavior, add it to the `Popup` declaration and keyboard bindings as follows:
     
     <Popup x:Class="tweetz5.Controls.ShortcutHelp"  
            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
@@ -114,15 +111,12 @@ _PopupAllowKeyboardInput_ works even if the Popup Child is a non-focusable item 
       ...  
     </Popup>
 
-  
+(`controls:PopupAllowKeyboardInput.IsEnabled="True"` is the attached behavior)
 
-
-(_controls:PopupAllowKeyboardInput.IsEnabled="True"_ is the attached behavior)
-
-In the example above, I've bound the Escape key to the standard, "Close" command. The _CloseCommandHandler_ is implemented in the Popup control (not shown).
+In the example above, I've bound the Escape key to the standard, `Close` command. The `CloseCommandHandler` is implemented in the `Popup` control (not shown).
 
 A couple of notes on the code. 
 
-  * Setting, _Focusable = "True"_, on the Popup instance does not work. Using the Popup Child control as focusable does work. 
-  * The _Opened_ event in the Popup class fires before the Child control is visible. The Child control must be visible to receive focus. 
-  * _IsVisibleChanged_ never fires on the Popup instance. This is why the _IsVisibleChanged_ event of the Child control is hooked.
+  * Setting, `Focusable = "True"`, on the `Popup` instance does not work. Using the `Popup` Child control as focusable does work. 
+  * The `Opened` event in the `Popup` class fires before the Child control is visible. The Child control must be visible to receive focus. 
+  * `IsVisibleChanged` never fires on the Popup instance. This is why the `IsVisibleChanged` event of the Child control is hooked.

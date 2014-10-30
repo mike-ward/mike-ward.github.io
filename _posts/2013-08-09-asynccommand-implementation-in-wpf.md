@@ -55,7 +55,4 @@ I found this nifty implementation of a asynchronous command using the new [async
         }  
     }
 
-  
-
-
 Original article and license: [http://www.codeproject.com/Articles/630248/WPF-OpenWeather](http://www.codeproject.com/Articles/630248/WPF-OpenWeather)

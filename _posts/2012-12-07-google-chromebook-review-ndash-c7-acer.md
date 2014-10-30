@@ -8,25 +8,17 @@ I bought the newest model, the C7 Acer.
 
 **Cost**   
 
-
-Shipping Status Quantity Item Price
-
-Shipped
-
-1
-Acer C7 Chromebook
-$199.00
-
-Shipping:
-$13.99
-
-Tax:
-$11.94
-
-Total:
-$224.93
-  
-
+    Acer C7 Chromebook
+    $199.00
+    
+    Shipping:
+    $13.99
+    
+    Tax:
+    $11.94
+    
+    Total:
+    $224.93
 
 So for just under $225 you can get a Chromebook delivered to your door. That fares well with tablets like the the Nook, Kindle and Nexus.
 
@@ -56,7 +48,7 @@ My 13 year old daughter has had no difficulty getting her school work done on he
 
 It streams and plays movies beautifully.
 
-Other applications like Email, Wordprocessing and Calendaring are done online. The Chromebook has links to Google’s services but you can use whatever online services you like.
+Other applications like Email, Word processing and Calendaring are done online. The Chromebook has links to Google’s services but you can use whatever online services you like.
 
 **Can it Print?**
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Simply Weather Gadget &ndash; You can Haz Background Images'
+title: 'Simply Weather Gadget - You can Haz Background Images'
 ---
 In addition to custom colored backgrounds, you can also use an image for the background. It's super tricky to do this so I want you to read these directions carefully.
 

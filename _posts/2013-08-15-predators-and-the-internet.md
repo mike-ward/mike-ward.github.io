@@ -28,7 +28,7 @@ I thought about wiping the disk, installing an operating system and giving them 
 
 A colleague of mine made a great suggestion. Get a Chromebook. 
 
-[![chromebook](/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/chromebook_thumb.jpg)](/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/chromebook_2.jpg)
+[![noborder](/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/chromebook_thumb.jpg)](/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/chromebook_2.jpg)
 
 There's an irony here in that I bought a [Chromebook for my daughter](/blog/post/00801/google-chromebook-review-ndash-c7-acer) about a year ago and it has worked beautifully. Why I didn't think of this for my parents I don't know. We all have our blind spots I suppose.
 

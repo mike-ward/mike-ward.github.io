@@ -8,12 +8,12 @@ Description of [ELMA](https://code.google.com/p/elmah/)H from the web site:
 > 
 > Once ELMAH has been dropped into a running web application and configured appropriately, you get the following facilities without changing a single line of your code:
 
-    * Logging of nearly all unhandled exceptions. 
-    * A web page to remotely view the entire log of recoded exceptions. 
-    * A web page to remotely view the full details of any one logged exception, including colored stack traces. 
-    * In many cases, you can review the original [yellow screen of death](http://en.wikipedia.org/wiki/Yellow_Screen_of_Death#ASP.NET) that ASP.NET generated for a given exception, even with customErrorsmode turned off. 
-    * An e-mail notification of each error at the time it occurs. 
-    * An RSS feed of the last 15 errors from the log.
+* Logging of nearly all unhandled exceptions. 
+* A web page to remotely view the entire log of recoded exceptions. 
+* A web page to remotely view the full details of any one logged exception, including colored stack traces. 
+* In many cases, you can review the original [yellow screen of death](http://en.wikipedia.org/wiki/Yellow_Screen_of_Death#ASP.NET) that ASP.NET generated for a given exception, even with `customErrorsmode` turned off. 
+* An e-mail notification of each error at the time it occurs. 
+* An RSS feed of the last 15 errors from the log.
 
 It’s, “The bee’s knees ”, in my opinion and thanks to the [Nuget](https://nuget.org/packages/Nancy.Elmah) package, a breeze to install.
 
@@ -21,7 +21,7 @@ Open the [package manager console](http://docs.nuget.org/docs/start-here/using-t
     
     PM> Install-Package Nancy.Elmah
 
-Open your Bootstrapper class and add ELMAH to the processing pipeline:
+Open your `Bootstrapper` class and add ELMAH to the processing pipeline:
     
     namespace Nancy.Elmah.Asp.Net.Example  
     {  
@@ -35,20 +35,14 @@ Open your Bootstrapper class and add ELMAH to the processing pipeline:
         }  
     }
 
-  
-
-
 Next, open your Web.config. You can remove the <location> element that the ELMAH installer added near the bottom of the file.
 
-The ELMAH installer modifies the Web.config to configure ELMAH. It **does not** configure where the errors are stored. There are many options including SQL Server and Oracle. I personally like to use files. Here’s an example configuration.
+The ELMAH installer modifies the `Web.config` to configure ELMAH. It **does not** configure where the errors are stored. There are many options including SQL Server and Oracle. I personally like to use files. Here’s an example configuration.
     
     <elmah>  
       <security allowRemoteAccess="true" />  
       <errorLog type="Elmah.XmlFileErrorLog, Elmah" logPath="~/App_Data/Elmah" />  
     </elmah>
-
-  
-
 
 I also enable remote access. It’s convenient but be aware there’s a security risk.
 
@@ -70,7 +64,3 @@ Finally, I discovered a minor bug in Nancy where [some accept headers can raise 
         </test>  
       </errorFilter>  
     </elmah>  
-    
-
-  
-

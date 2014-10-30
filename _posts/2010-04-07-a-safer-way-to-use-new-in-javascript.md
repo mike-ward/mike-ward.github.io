@@ -17,9 +17,6 @@ Typically, you define a constructor and augment its prototype. Borrowing an exam
     var mammal = new Mammal("Rhino");  
     mammal.say_name();
 
-  
-
-
 There are better and easier ways to create objects in JavaScript, but you’ll see this pattern often because it is the language designed way of creating objects. 
 
 In general the use of “**new**” is not recommended by Crockford. The reason why is that if you forget to use “**new**” when creating _mammal_, you’ll end up modifying the global object (_this_ will point to the browser’s global _window_ object). This accidental (and often fatal) modification of the global object is the main reason Crockford does not recommend using “**new**”.

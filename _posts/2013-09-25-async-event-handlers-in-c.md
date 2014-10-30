@@ -2,7 +2,7 @@
 layout: post
 title: 'Async Event Handlers in C#'
 ---
-Recently, C# added a nifty [async/await](http://msdn.microsoft.com/en-us/library/vstudio/hh191443.aspx) facility. I have not used it extensively due to the new and unfamiliar _async/await_ declarations. I'm slowly warming up to it however. Here's a two-liner that speaks volumes to the expressiveness of the _aysnc/await_.
+Recently, C# added a nifty [async/await](http://msdn.microsoft.com/en-us/library/vstudio/hh191443.aspx) facility. I have not used it extensively due to the new and unfamiliar `async/await` declarations. I'm slowly warming up to it however. Here's a two-liner that speaks volumes to the expressiveness of the `aysnc/await`.
     
         hyperlink.ToolTip = link;  
         hyperlink.ToolTipOpening += async (s, e) => hyperlink.ToolTip = await LongUrl.Lookup(link);
@@ -12,9 +12,9 @@ Recently, C# added a nifty [async/await](http://msdn.microsoft.com/en-us/library
 
 This works beautifully. The tooltip on the hyperlink opens immediately with the shortened URL (_link_). The handler then tries to find the original URL that the shortened URL resolves to using an online service (once the long URL is found, it's cached). When the long URL is resolved the tooltip instantly updates.
 
-It can take several seconds to resolve this so a blocking operation is not appropriate. With the _async/await_ keywords, it reads like a synchronous operation, but works asynchronously. 
+It can take several seconds to resolve this so a blocking operation is not appropriate. With the `async/await` keywords, it reads like a synchronous operation, but works asynchronously. 
 
-The _LongUrl.Lookup_ method needs to be marked _async_ as well. Here's the implementation for reference.
+The `LongUrl.Lookup` method needs to be marked `async` as well. Here's the implementation for reference.
     
         public static class LongUrl  
         {  
@@ -64,4 +64,4 @@ The _LongUrl.Lookup_ method needs to be marked _async_ as well. Here's the imple
         }
 
   
-At compile time, the async/await mechanism injects a significant chunk of code in the form of a state machine to handle waiting for a response. In many cases this a fair tradeoff given the economy of expression and "serial-like" layout of code.
+At compile time, the `async/await` mechanism injects a significant chunk of code in the form of a state machine to handle waiting for a response. In many cases this a fair trade-off given the economy of expression and "serial-like" layout of code.
