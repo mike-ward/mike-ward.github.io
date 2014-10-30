@@ -1,21 +1,29 @@
-code {
-  padding: 0 3px;
-  border-radius: 4px;
-  border: solid 1px #ccc;
-  background-color: #f7f7f7;
-  font-family: Consolas, Monaco, monospace, san-serif;
+code, tt {
+  padding: 0.2em 0.3em;
+  white-space: pre;
+  background-color: #f3f3f3;
+  font-size: 85%;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Liberation Mono', Menlo, monospace;
 }
 
-pre.prettyprint {
-  background-color: #f7f7f7;  
-  padding: .5em !important;
-  border: none !important;
+pre {
+  background-color: #f8f8f8;
+  overflow: auto;
+  overflow-y: hidden;
+  width: 97%;
+  padding: 6px 10px;
+  white-space: pre;
   line-height: 1.2;
-
-  code {
-    padding: 0;
-    border: none;
-    line-height: 1.2;
-    font-size: 80%;
-  }
+  font-size: 90%;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Liberation Mono', Menlo, monospace;
+  overflow-x: auto;
+  word-wrap: normal;
 }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  font-size: 90%;
+  background-color: transparent;
+}
+
