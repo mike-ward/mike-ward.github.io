@@ -6,7 +6,7 @@ It's quite a bit of effort to get a Windows Presentation Foundation (WPF) `Popup
 
 `PopupAllowKeyboardInput` is implemented as an [attached behavior](http://msdn.microsoft.com/en-us/library/ms749011.aspx). It's MIT licensed.
 
-[PopupAllowKeyboardInput.cs](https://gist.github.com/blueonion/6672436)
+[PopupAllowKeyboardInput.cs](https://gist.github.com/mike-ward/6672436)
     
     /*   
     Copyright (C) 2013 Mike Ward (http://mike-ward.net)  
