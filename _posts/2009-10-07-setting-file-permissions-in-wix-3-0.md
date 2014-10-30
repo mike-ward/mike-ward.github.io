@@ -11,9 +11,6 @@ I needed my installer to set the folder permissions for the App_Data folder in a
       &quot;[INSTALLDIR]\App_Data&quot;  
       /T /E /G &quot;NT AUTHORITY\Network Service:C&quot;" Return="check" />
 
-  
-
-
 Add this custom action to the install sequence table and you’re golden.
 
 There’s a **util:PermissionEx** custom action in Wix 3 but it seems to only work for “well known” accounts (like Administrators). Maybe there’s a better way but darn if I could come up with it. Feedback appreciated.

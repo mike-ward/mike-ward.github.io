@@ -4,9 +4,9 @@ title: 'Queued Ajax Calls in JQuery'
 ---
 When writing Ajax, you can sometimes get into situations where sending two Ajax calls close together will return results out of order. In other words, the first Ajax call will receive the second Ajax calls’ results. This seems to be a particular problem in IE and Windows Sidebar Gadgets that use IE to display.
 
-Windows Sidebar gadgets are particularly vulnerable in that different instances of gadgets can get each others Ajax data. That’s becasue all gadgets run in the same process, namely sidebar.exe. Argggg! Sometimes I just want to strangle Microsoft. I mean come guys, no one ever thought that two Ajax calls might occur at the same time. LAME!
+Windows Sidebar gadgets are particularly vulnerable in that different instances of gadgets can get each others Ajax data. That’s because all gadgets run in the same process, namely sidebar.exe. Argggg! Sometimes I just want to strangle Microsoft. I mean come guys, no one ever thought that two Ajax calls might occur at the same time. LAME!
 
-OK, enough flames. The first step is to at least cut down on the opportunity of “crosstalk” by queuing the Ajax calls within a gadget. I found a several, “Queued Ajax Plugins” for JQuery. Oddly, I could not get any of them to work in JQuery 1.3. The problem appears to be due to a change in the JQuery.queue() method. Apparently, in JQuery 1.2, queue automatically started a dequeue when the first item was added.
+OK, enough flames. The first step is to at least cut down on the opportunity of `crosstalk` by queuing the Ajax calls within a gadget. I found a several, “Queued Ajax Plugins” for JQuery. Oddly, I could not get any of them to work in JQuery 1.3. The problem appears to be due to a change in the JQuery.queue() method. Apparently, in JQuery 1.2, queue automatically started a dequeue when the first item was added.
 
 I took the simplest of these plugins and modified it to start a dequeue when the first item is added.
 
@@ -40,12 +40,5 @@ Updated: My earlier code was flawed. The code below appears to work much better
         });  
         if (currentAjaxRequest === null) { $(window).dequeue("ajax"); }  
     };  
-    
-
-  
-
-
-  
-
 
 This works just like the JQuery.ajax and uses the same syntax. It’s not perfect, but it’s a start.
