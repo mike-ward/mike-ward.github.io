@@ -4,7 +4,7 @@ title: 'Drag and Drop in WPF'
 ---
 Well in this case, just Drop.
 
-There are plenty of examples on the Web on how to do Drag and Drop in Windows but often they leave out a few essentials. To start, you tell windows that you're a drop target by setting the _AllowDrop_ property and assigning handlers for the _Drop_ and _DragOver_ events.
+There are plenty of examples on the Web on how to do Drag and Drop in Windows but often they leave out a few essentials. To start, you tell windows that you're a drop target by setting the `AllowDrop` property and assigning handlers for the `Drop` and `DragOver` events.
     
     <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"\  
@@ -13,12 +13,8 @@ There are plenty of examples on the Web on how to do Drag and Drop in Windows bu
             DragOver="OnDragOver"  
             ...  
             >  
-    
 
-  
-
-
-Many tutorials have you add a handler to the _DragEnter_ event, but this not correct. _DragEnter_ is useful if you need to allocate a resource, like a brush, to be used as custom indicator. In most circumstances, it’s the _DragOver_ event that requires a handler.
+Many tutorials have you add a handler to the `DragEnter` event, but this not correct. `DragEnter` is useful if you need to allocate a resource, like a brush, to be used as custom indicator. In most circumstances, it’s the `DragOver` event that requires a handler.
 
 The handlers themselves are straight-forward. Here’s one that handles file drops.
     
@@ -55,13 +51,9 @@ The handlers themselves are straight-forward. Here’s one that handles file dro
         var extensions = new[] { ".png", ".jpg", ".jpeg", ".gif" };  
         return extensions.Any(e => extension.Equals(e, StringComparison.OrdinalIgnoreCase));  
     }  
-    
-
-  
-
 
 Here I’m checking that the file extension is a PNG, JPG or GIF. I’m also only interested in handling one file. Your program will have different requirements.
 
-The one “gotcha” that most examples omit is setting the _ea.Handled_ property to **True **(some of Microsoft’s examples miss this). Not doing so usually results in the drop indicator appearing not to work (_DragDropEffects.Copy_ in this case). Worse, if you have multiple drop handlers, they may be inadvertently called (Not that I’ve ever done that).
+The one “gotcha” that most examples omit is setting the `ea.Handled` property to `True` (some of Microsoft’s examples miss this). Not doing so usually results in the drop indicator appearing not to work (`DragDropEffects.Copy` in this case). Worse, if you have multiple drop handlers, they may be inadvertently called (Not that I’ve ever done that).
 
 Pro tip: Always write about something immediately after you’ve learned it but make sure you sound like you’ve been doing it that way for years :)

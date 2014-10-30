@@ -14,13 +14,13 @@ Here's the same example with the video player expressed as an Angular Directive.
 
 [http://bl.ocks.org/mike-ward/6389991](http://bl.ocks.org/mike-ward/6389991)
 
-On line #124 you'll see the definition for the "videoplayer" directive. It's used on line #83.
+On line #124 you'll see the definition for the `videoplayer` directive. It's used on line #83.
 
 `<videoplayer src="{{url}}" width="320" height="240" autoplay controls>`
 
 Angular's Directives allow you to define new HTML tags. It's a neat trick and allows for a declarative approach to DOM manipulations. 
 
-Directives can be quite complex. Fortunately, the "videoplayer" directive is not complex, which makes for a good introduction.
+Directives can be quite complex. Fortunately, the `videoplayer` directive is not complex, which makes for a good introduction.
 
 From the code you can see that adding a Directive requires calling `app.directive()`. The first parameter is the name of the Directive and the second takes a function that returns an object.
 
@@ -36,13 +36,13 @@ The object has several fields.
 
 Directives have scope as indicated by the link function's parameter "scope". Directives can inherit the parent scope (the default), introduce a new scope or even contain an isolated scope. Scope is not used in this example.
 
-The "attrs" parameter contains the attributes declared on the element. In Directives, you can, "observe" changes to attributes. `attrs.$observe()` watches for (observes) changes to the "src" attribute in order to start and stop the video player. Remember that the "src" attribute is bound to "{{url}}" (line #83), so that changes to $scope.url (line #114) change the video player's "src" attribute.
+The `attrs` parameter contains the attributes declared on the element. In Directives, you can, "observe" changes to attributes. `attrs.$observe()` watches for (observes) changes to the `src` attribute in order to start and stop the video player. Remember that the `src` attribute is bound to `{{url}}` (line #83), so that changes to `$scope.url` (line #114) change the video player's `src` attribute.
 
 **Strict Contextual Escaping**
 
 After hooking all this up I found the video player no longer worked. Fortunately, Angular had a descriptive error message in the browser's JavaScript console indicating the problem.
 
-Error: [$sce:insecurl] Blocked loading resource from url not allowed by $sceDelegate policy.
+> Error: [$sce:insecurl] Blocked loading resource from url not allowed by $sceDelegate policy.
 
 What???
 
@@ -50,7 +50,7 @@ For security reasons, Angular doesn't just let you jam a URL into a data-binding
 
 For this example the work-around is straightforward (line #114).
 
-> `$scope.url = $sce.trustAsResourceUrl(item.previewUrl);`
+`$scope.url = $sce.trustAsResourceUrl(item.previewUrl);`
 
 Wrapping the `item.previewUrl` from iTunes in a `$sce.trustAsResourceUrl()` call tells Angular that `item.previewUrl` is a trusted value.
 

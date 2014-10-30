@@ -32,7 +32,7 @@ To restore the default patterns, simply remove all the patterns.
 
 At run-time, VSColorOutput will walk this list in order, testing the line of text against the regular expression. If it matches, the line is given the classification associated with the pattern. No additional patterns are tested for the given line. Therefore, the order of the classifiers is significant.
 
-There are nine VSColors classifications. They are:
+There are nine VSColor classifications. They are:
 
   * Build Text 
   * Build Header 

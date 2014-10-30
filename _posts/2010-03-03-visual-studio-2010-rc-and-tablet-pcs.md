@@ -2,7 +2,9 @@
 layout: post
 title: 'Visual Studio 2010 RC and Tablet PC’s'
 ---
-![](http://i.msdn.microsoft.com/dd582936.VisualStudio_lg(en-us,MSDN.10).png)I’m one of those lucky blokes that got a tablet PC at [PDC 09](http://microsoftpdc.com/) last year. It’s a nice little laptop, similar to the [new 7" tab from T-Mobile](http://mobile-broadband.t-mobile.com/tablets/plus) and has good battery life and a bright screen. I’ve not used the touch interface much. Windows applications feel a bit too uncomfortable on a small touch screen.
+![](http://i.msdn.microsoft.com/dd582936.VisualStudio_lg(en-us,MSDN.10).png)
+
+I’m one of those lucky blokes that got a tablet PC at [PDC 09](http://microsoftpdc.com/) last year. It’s a nice little laptop, similar to the [new 7" tab from T-Mobile](http://mobile-broadband.t-mobile.com/tablets/plus) and has good battery life and a bright screen. I’ve not used the touch interface much. Windows applications feel a bit too uncomfortable on a small touch screen.
 
 I’ve been running [Visual Studio 2010 RC](http://msdn.microsoft.com/en-us/vstudio/dd582936.aspx) on my laptop for a while now. It seems to have a somewhat strained relationship with the tablet features.
 

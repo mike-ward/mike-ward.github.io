@@ -18,7 +18,7 @@ Pure builds on [normalize.css](http://necolas.github.io/normalize.css/).
 
 Pure then provides layout and styling for native HTML elements plus some common UI elements. It’s what you need, without the cruft (their words, not mine, but I tend to agree).
 
-Like Bootstrap and other CSS frameworks, there’s a grid system. Unlike some frameworks there is no fixed number of columns. Instead, Pure uses a “fractional” system for layout. Want a column that is 1/5 (one fifth) of the page. Use : **<div class=”pure-u-1-5”>**. One third is expressed as **“.pure-1-3”**. You can use different column specifications on the same row.
+Like Bootstrap and other CSS frameworks, there’s a grid system. Unlike some frameworks there is no fixed number of columns. Instead, Pure uses a “fractional” system for layout. Want a column that is 1/5 (one fifth) of the page. Use : `<div class="pure-u-1-5">`. One third is expressed as `“.pure-1-3”`. You can use different column specifications on the same row.
 
 Grid columns have no padding or margins. Padding and margins can be added by nesting elements or extending styles. Minimal? Indeed, but it also means you don’t have “reset” the framework’s padding/margins if they don’t suit you. There’s also a responsive grid that does column collapsing. It uses the same “fractional” system with a different wrapper.
 

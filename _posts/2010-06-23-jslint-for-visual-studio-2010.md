@@ -6,13 +6,13 @@ title: 'JSLint for Visual Studio 2010'
 > 
 > JavaScript is a sloppy language, but inside it there is an elegant, better language. `JSLint` helps you to program in that better language and to avoid most of the slop. 
 
-I use this tool whenever I write JavaScript. It finds all sorts problems, many of which can be difficult to spot at runtime. My only gripe is that I have to copy the code from my Visual Studio editor to the Web site and then pick through errors.
+I use this tool whenever I write JavaScript. It finds all sorts problems, many of which can be difficult to spot at run-time. My only gripe is that I have to copy the code from my Visual Studio editor to the Web site and then pick through errors.
 
 There’s a plug-in for VS 2008 that integrates well with Visual Studio, but does not work with Visual Studio 2010. The plug-in model has changed in Visual Studio 2010.
 
 I started writing a Visual Studio 2010 plug-in but soon lost interest. The Visual Studio object model is damn near inscrutable in my opinion.
 
-Next I looked at writing a Resharper plug-in. Again, too hard. The documentation is weak and the object model is complex.
+Next I looked at writing a ReSharper plug-in. Again, too hard. The documentation is weak and the object model is complex.
 
 I finally settled on writing an external tool. Press Ctrl+K, Ctrl+J and the output window will display a report about your code.
     

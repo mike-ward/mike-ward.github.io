@@ -2,23 +2,17 @@
 layout: post
 title: 'Creating Custom Configuration Sections in Web.config'
 ---
-> Most ASP.Net web applications have some amount of configuration. In ASP.Net you can add configuration settings to the Web.config under the _<appSettings>_ section. Here's an example:
+> Most ASP.Net web applications have some amount of configuration. In ASP.Net you can add configuration settings to the `Web.config` under the `<appSettings>` section. Here's an example:
     
     <appSettings>  
         <add key="name" value="Mike" />  
     </appSettings>
 
-  
-
-
 Configuration settings can be retrieved as follows:
     
     ConfigurationManager.AppSettings["name"]
 
-  
-
-
-If you only have a handful of settings, _<appSettings>_ is convenient and easy. However, there is no schema to enforce compliance and specifying collections is awkward. It also quickly becomes unwieldy as the number of settings grows. I've seen projects resort to naming conventions to keep things orderly. There's a better way.
+If you only have a handful of settings, `<appSettings>` is convenient and easy. However, there is no schema to enforce compliance and specifying collections is awkward. It also quickly becomes unwieldy as the number of settings grows. I've seen projects resort to naming conventions to keep things orderly. There's a better way.
 
 Custom configuration sections allow for a more rigorous specification of configuration settings and can include default and required values. IntelliSense support is also enabled. Here's an example of my blog configuration.
     
@@ -59,7 +53,7 @@ Custom configuration sections allow for a more rigorous specification of configu
       </categories>  
     </BlogConfiguration>
 
-To my eye, this is easier to manage. There's a clear indication of what the configuration is for (_<BlogConfiguration>_), there's less, "tag soup" using XML attributes and I clearly can't spell, "Technologies".
+To my eye, this is easier to manage. There's a clear indication of what the configuration is for (`<BlogConfiguration>`), there's less, "tag soup" using XML attributes and I clearly can't spell, "Technologies".
 
 It's relatively straight forward to write one these. To begin with, define a class as follows:
     
@@ -86,14 +80,11 @@ It's relatively straight forward to write one these. To begin with, define a cla
         }  
     }
 
-  
-
-
 I've removed most of the properties for clarity. There's a [gist of this class](https://gist.github.com/blueonion/5453384) available.
 
-The _[[ConfigurationProperty](http://msdn.microsoft.com/en-us/library/system.configuration.configurationproperty.aspx)]_ attribute defines the name of configuration attribute. You can also specify additional attributes including whether the property is required and its default value.
+The [[`ConfigurationProperty`](http://msdn.microsoft.com/en-us/library/system.configuration.configurationproperty.aspx)] attribute defines the name of configuration attribute. You can also specify additional attributes including whether the property is required and its default value.
 
-The _Categories_ configuration requires two classes. One to define a "Category Element" and another to define the collection.
+The `Categories` configuration requires two classes. One to define a "Category Element" and another to define the collection.
     
     public class BlogCategoryConfigurationElement : ConfigurationElement  
     {  
@@ -142,14 +133,11 @@ The _Categories_ configuration requires two classes. One to define a "Category E
         }  
     }
 
-  
+The [`ConfigurationElement`](http://msdn.microsoft.com/en-us/library/system.configuration.configurationelement.aspx) is much like the [`ConfigurationSection`](http://msdn.microsoft.com/en-us/library/system.configuration.configurationsection.aspx). In this case it is used to define the structure of a category. 
 
+The [`ConfigurationElementCollection`](http://msdn.microsoft.com/en-us/library/system.configuration.configurationelementcollection.aspx) is more work. The required elements are an indexer, a factory method to create a new element and a method to retrieve the element's key. Standard fare for collection overrides.
 
-The _[ConfigurationElement](http://msdn.microsoft.com/en-us/library/system.configuration.configurationelement.aspx)_ is much like the _[ConfigurationSection](http://msdn.microsoft.com/en-us/library/system.configuration.configurationsection.aspx)_. In this case it is used to define the structure of a category. 
-
-The _[ConfigurationElementCollection](http://msdn.microsoft.com/en-us/library/system.configuration.configurationelementcollection.aspx)_ is more work. The required elements are an indexer, a factory method to create a new element and a method to retrieve the element's key. Standard fare for collection overrides.
-
-Finally, the Web.config has to be told about the new custom configuration section. This also wires-up IntelliSense support.
+Finally, the `Web.config` has to be told about the new custom configuration section. This also wires-up IntelliSense support.
     
     <configuration>  
       <configSections>  
@@ -158,17 +146,11 @@ Finally, the Web.config has to be told about the new custom configuration sectio
       ...  
     </configuration>
 
-  
-
-
 To reference the configuration in your code:
     
     var blogConfiguration = (BlogConfiguration)ConfigurationManager.GetSection("BlogConfiguration");  
     blog.Title = blogConfiguration.Title;  
     ...
-
-  
-
 
 Notice the use of properties instead of string-based indexers.
 

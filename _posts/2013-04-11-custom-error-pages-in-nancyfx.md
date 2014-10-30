@@ -41,10 +41,7 @@ _Editors Note: See updates at the the end of this post._
         }  
     }
 
-  
-
-
-Notice there isn’t any code to register the new handler. Simply adding a class that implements _IStatusCodeHandler_ is all it takes. 
+Notice there isn’t any code to register the new handler. Simply adding a class that implements `IStatusCodeHandler` is all it takes. 
 
 Let’s look at the individual methods.
     
@@ -53,24 +50,18 @@ Let’s look at the individual methods.
         _rootPathProvider = rootPathProvider;  
     }
 
-  
+`IRootPathProvider` is a standard Nancy interface that has one method, `GetRootPath()` returns the root path of where the web site is installed on the server. Nancy provides a default implementation of this interface.
 
-
-_IRootPathProvider_ is a standard Nancy interface that has one method, _GetRootPath()_. _GetRootPath()_ returns the root path of where the web site is installed on the server. Nancy provides a default implementation of this interface.
-
-Nancy’s IoC container ([TinyIoC](https://github.com/grumpydev/TinyIoC)) does the rest. It locates the _StatusCodeHandler_ class and using constructor injection, creates an instance of _StatusCodeHandler_ with the required _IRootPathProvider_ instance. That’s a mouthful and if you’ve never worked with IoC’s, feels a bit magical. It’s also an excellent example of how IoC’s can simplify your code.
+Nancy’s IoC container ([TinyIoC](https://github.com/grumpydev/TinyIoC)) does the rest. It locates the `StatusCodeHandler` class and using constructor injection, creates an instance of `StatusCodeHandler` with the required `IRootPathProvider` instance. That’s a mouthful and if you’ve never worked with IoC’s, feels a bit magical. It’s also an excellent example of how IoC’s can simplify your code.
     
     public bool HandlesStatusCode(HttpStatusCode statusCode, NancyContext context)  
     {  
         return statusCode == HttpStatusCode.NotFound;  
     }
 
-  
+The rest is easier to understand. The `HandleStatusCode()` method checks if status code is `HttpStatusCode.NotFound`. Returning `true` tells Nancy that our `StatusCodeHandler` will handle the response to this status code.
 
-
-The rest is easier to understand. The _HandleStatusCode()_ method checks if status code is _HttpStatusCode.NotFound_. Returning **true** tells Nancy that our _StatusCodeHandler_ will handle the response to this status code.
-
-And finally, the _Handle()_ method generates the new error page. Easy-Schmeasy.
+And finally, the `Handle()` method generates the new error page. Easy-Schmeasy.
     
     public void Handle(HttpStatusCode statusCode, NancyContext context)  
     {  
@@ -83,9 +74,6 @@ And finally, the _Handle()_ method generates the new error page. Easy-Schmeasy.
             }  
         };  
     }
-
-  
-
 
 The content is streamed from a file which is why I needed the root-path to locate it.
 
@@ -114,13 +102,10 @@ Based on feedback there’s a better way to implement this class. Here’s the u
         }  
     }
 
-  
-
-
 Using this method has a couple of advantages. 
 
-  * No longer requires a reference to _IRootPathProvider_
-  * _RenderView()_ allows the inclusion of model data (not used in this example). The model data could include error details for instance. 
+  * No longer requires a reference to `IRootPathProvider`
+  * `RenderView()` allows the inclusion of model data (not used in this example). The model data could include error details for instance. 
   * Invokes the view engine which allows for template expansions.
 
 Note that the _PageNotFound_ template will have to be located with your other views.

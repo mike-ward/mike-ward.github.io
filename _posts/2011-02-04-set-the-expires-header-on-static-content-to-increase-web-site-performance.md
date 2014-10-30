@@ -10,9 +10,5 @@ Yahoo and Google recommend setting the **Expires** header of a web site’s stat
            httpExpires="Tue, 19 Jan 2038 03:14:07 GMT" />  
       <staticContent>  
     <system.webServer>  
-    
-
-  
-
 
 Just remember that if you change any of your static content, you’ll have to change the file name.
