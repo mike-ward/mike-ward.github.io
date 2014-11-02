@@ -174,7 +174,7 @@ Here's the code:
 
 [https://gist.github.com/mike-ward/9172463](https://gist.github.com/mike-ward/9172463)
 
-Some final thoughts:
+### Some final thoughts
 
 Originally, I started down this path because I couldn't get Microsoft's Asset Bundler or [SquishIt](https://github.com/NancyFx/Nancy/wiki/SquishIt-with-Nancy) to work with the latest version of NancyFx (0.22.2). I've since found out an updated version of SquishIt is in the works to address the compatibility issues with NancyFx.
 
@@ -182,7 +182,7 @@ There's also a package called [Nancy.Cassette](https://github.com/ChrisMH/Casset
 
 And so ends my little experiment in asset bundling. For small projects, my asset bundler is just what I want. It's a single file at just over 100 lines of code making it easy to integrate. And when I need more features, there's always Cassette and SquishIt. My asset bundler may not be the end-all, be-all solution, but I learned a lot doing it and at the end of the day, that's enough for me. 
 
-**Update 3/6/2014**
+### Update 3/6/2014
 
 A commenter asked for CSS and JS minification. I hacked together a quick implementation using sources I found on the Internet. The JS minifier is simplistic and will not perform to the same level as other JavaScript minifiers. On the other hand, the entire bundle/minify package fits in one 150 line file.
 
