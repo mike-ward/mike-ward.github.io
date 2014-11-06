@@ -2,9 +2,9 @@
 layout: post
 title: 'Adding an Expires Header to Static Content in NancyFx'
 ---
-[NancyFx](http://nancyfx.org) is one simplest, fastest ways to build a MVC style web site in ASP.NET. It only takes a few minutes to grok how it works.
+[NancyFx](http://nancyfx.org) is one of the simplest, fastest ways to build a MVC style web site in ASP.NET. It only takes a few minutes to grok how it works.
 
-By default, NancyFx will serve files contained in the /Content folder of your web site. Web analysis tools like [YSlow](http://yslow.org/) and Google’s [PageSpeed](http://developers.google.com/speed/pagespeed/insights/) recommend that static content be served with an `Expires header`. This header allows the browser to cache the content and use it again without generating a web request. This can increase the speed of subsequent page loads significantly depending on the resource.
+By default, NancyFx will serve files contained in the `/Content` folder of your web site. Web analysis tools like [YSlow](http://yslow.org/) and Google’s [PageSpeed](http://developers.google.com/speed/pagespeed/insights/) recommend that static content be served with an `Expires header`. This header allows the browser to cache the content and use it again without generating a web request. This can increase the speed of subsequent page loads significantly depending on the resource.
 
 To override the default response handler for static content, build a new response handler with the required “Expires header” as follows:
     
