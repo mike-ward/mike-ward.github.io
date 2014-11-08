@@ -2,7 +2,17 @@
 layout: page
 title:  Downloads
 ---
-###(a.k.a. The Goods)
+### (a.k.a. The Goods)
+
+
+[Markdown Edit](/download?file=MarkdownEditSetup.exe)
+
+A Windows Desktop Markdown Editor [Read more...](/markdown)
+
+_Version 0.2.0 (Alpha), November 8, 2014_
+
+--------------------------------------
+
 
 [Tweetz Desktop](/download?file=tweetzsetup.exe)
 
