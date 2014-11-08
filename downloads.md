@@ -7,7 +7,7 @@ title:  Downloads
 
 [Markdown Edit](/download?file=MarkdownEditSetup.exe)
 
-A Windows Desktop Markdown Editor [Read more...](/markdown)
+A Windows Desktop Markdown Editor [Read more...](/markdownedit)
 
 _Version 0.2.0 (Alpha), November 8, 2014_
 

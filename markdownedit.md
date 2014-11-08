@@ -5,7 +5,7 @@ title: "Markdown Edit"
 
 Markdown Edit is  a Windows **desktop** Markdown editor with an emphasis on content and keyboard shortcuts. There is minimal window chrome and most functions are accessed through keyboard shortcuts. There is no main menu, status bar, tabbed windows or other distractions.
 
-> Markdown Edit is currently in Alpha. I welcome your feedback and suggestions. Use the `Comments` button at the bottom of the page.
+> Markdown Edit is currently Alpha. I welcome your feedback and suggestions. Use the `Comments` button at the bottom of the page.
 >
 > I need themes! (Dammit Jim!) I'm a programmer, not a designer. Send me some cool themes and I'll include them.
 
@@ -84,5 +84,5 @@ If you create an awesome theme, send it to me and I'll add it to the distributio
 - Syntax highlighting does not recognize multiple-line constructs. It uses regular expressions which don't understand the underlying Markdown constructs. I'm hoping as CommonMark matures that a syntax parser (like PEG) will emerge.
 - I wrote it ;)
 
-<button onclick="load_disqus('deskdrive', 'Desk Drive');" class="pure-button">Comments</button>
+<button onclick="load_disqus('markdownedit', 'Markdown Eit');" class="pure-button">Comments</button>
 <div id="disqus_thread"></div>
