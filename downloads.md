@@ -18,7 +18,7 @@ _Version 0.2.0 (Alpha), November 8, 2014_
 
 Tweetz Desktop is the successor to tweetz 3.1. [Read more...](/tweetz)
 
-_Version 0.8.22, August 30, 2014_
+_Version 0.8.23, November 9, 2014_
 
 --------------------------------------
 
