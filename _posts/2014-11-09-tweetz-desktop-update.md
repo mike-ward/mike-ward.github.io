@@ -2,7 +2,7 @@
 layout: post
 title: "Tweetz Desktop Update"
 ---
-It's been a while since Tweetz Desktop has seen an love. So many projects, so little time...
+It's been a while since Tweetz Desktop has seen any love. So many projects, so little time...
 
 Release Notes:
 
