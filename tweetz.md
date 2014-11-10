@@ -25,7 +25,7 @@ Tweetz shown with dark and light themes
 
 It's easy to translate Tweetz Desktop. Find the file **tweetz.exe.locale** in the install folder. Open it and follow the directions. Make sure to use a text editor like Notepad and not a word processor (like Word). (Optional) If you would like ""Translation by"" credit, include your name and a web address.
 
-**Requires Windows 7 or Windows 8 and .NET 4.5.1 (<http://smallestdotnet.com/>)**
+**Requires Windows 7 or Windows 8 and .NET 4.5.2 (<http://smallestdotnet.com/>)**
 
 **Note to Reviewers:** Please review Tweetz Desktop for what it is and not what it is not. Tweetz Desktop is based on the idea that less is sometimes more. It's not a kitchen sink of features nor will it ever be.
 
