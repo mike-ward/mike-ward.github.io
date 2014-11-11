@@ -32,6 +32,7 @@ Gratuitous Screen Shot
 - **Paste Special** replaces Microsoft Word's smart quotes/hyphens/etc. with plain text equivalents
 - Quickly open recent files
 - Quickly change themes
+- Word Count
 - [Open Source](https://github.com/mike-ward/Markdown-Edit)
 - MIT License
 
