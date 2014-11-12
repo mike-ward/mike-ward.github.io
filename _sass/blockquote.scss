@@ -11,14 +11,3 @@ blockquote > :first-child {
 blockquote > :last-child {
   margin-bottom: 0;
 }
-
-blockquote cite {
-  color: #666;
-  font-size: 14px;
-  display: block;
-  margin-top: 5px;
-
-  &:before {
-    content: "\2014 \2009";
-  }
-}
