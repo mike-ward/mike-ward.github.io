@@ -23,6 +23,8 @@ The default patterns will color build errors in red, warnings in yellow/gold and
 
 Download and open the VSColorOutput.visx file. To uninstall, go the Tools|Extensions page, find VSColorOutput in the "Installed Extensions" and click uninstall. Registry entries are not removed so later installations will reuse these settings.
 
+[Visual Studio Gallery download link](https://visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496)
+
 ## How does it work?
 
 VSColorOutput hooks into the the classifier chain of Visual Studio. This allows VSColorOutput to monitor every line sent to the output window. A list of classifiers, consisting of regular expressions and classifications is checked. The first matching expression determines the classification. If no patterns match, then line is classified as **BuildText**.
