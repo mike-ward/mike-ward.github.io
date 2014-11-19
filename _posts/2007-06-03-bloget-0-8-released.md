@@ -4,7 +4,7 @@ title: 'Bloget 0.8 Released'
 ---
 Another, month, another alpha. Don't know if anyone has noticed by I've been hitting alpha releases at about one per month since October. [Bloget™](/bloget) 0.8 is here and it has some cool new features. 
 
-![Bloget blue sphere](http://www.myotherdrive.com/public/blueonion/Blog/thumb_aqua-sphere.jpg)Perhaps the most useful new feature is the built-in search control. Searching is straightforward to add. Simply add a Bloget search control to your Web page and Bloget does the rest. Of course search results can be customized using templates so you can get just the look you want.
+Perhaps the most useful new feature is the built-in search control. Searching is straightforward to add. Simply add a Bloget search control to your Web page and Bloget does the rest. Of course search results can be customized using templates so you can get just the look you want.
 
 And speaking of customizations, you can now customize the content of your RSS feeds using ASP.NET's powerful template facility. Now you can insert custom content like advertisement scripts directly into your feeds.
 

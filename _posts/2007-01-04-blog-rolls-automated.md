@@ -6,7 +6,7 @@ On many blogs, including this one, you’ll see a list of blogs the blog author 
 
 So when it came time to add a blog roll to this site, I thought about supplying a blog roll control. Except that in ASP.NET they already supply one – almost. 
 
-Enter the **** Web server control. This little gem transforms an XML file to HTML using an XSL transform. Now don't run away just yet if you're not familiar with these terms. We'll go through it a step at a time.
+Enter the `Web server control`. This little gem transforms an XML file to HTML using an XSL transform. Now don't run away just yet if you're not familiar with these terms. We'll go through it a step at a time.
 
 If you're into reading blogs, then you're likely using some kind of [aggregator](http://en.wikipedia.org/wiki/News_aggregator) (a.k.a news reader). I'm a fan of [Bloglines.com](http://bloglines.com) but there are many others including [Google Reader](http://www.google.com/reader), [Yahoo](http://www.yahoo.com), etc. Off line readers exist as well like [Great News](http://www.curiostudio.com/) and [Feed Demon](http://www.newsgator.com/NGOLProduct.aspx?ProdId=FeedDemon). Just about every one of these tools will export the blogs you're reading into an XML file. This file follows a standard format called [OPML](http://www.opml.org/about) (Outline Processor Markup Language). And since it's a standard format and it's in XML, we can do a little processing to turn it into something suitable for display on a Web page.
 

@@ -4,8 +4,6 @@ title: '15 Answers to Creationist Nonsense'
 ---
 This is an article from the [July 2002 issue of Scientific American](http://sciam.com/article.cfm?chanID=sa013&articleID=000D4FEC-7D5B-1D07-8E49809EC588EEDF&pageNumber=1&catID=2) and still remains in my mind one of the best summaries of the issues to date. Anyone interested in the debate between Evolution and Intelligent Design would do well to read this.
 
-![](http://s3.amazonaws.com/BlueOnionSoftware/Blog/sa_logo_black.gif)
-
 To help with answering them, the following list rebuts some of the most common "scientific" arguments raised against evolution. It also directs readers to further sources for information and explains why creation science has no place in the classroom.
 
   1. Evolution is only a theory. It is not a fact or a scientific law

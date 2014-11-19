@@ -11,8 +11,3 @@ If you have dual monitors and would like to make some use of the expanded reales
   5. You can drag and drop source code window tabs to put them in one group or another. 
   6. You can keep splitting to have numerous independent code panes with their own tab groups. Each tab group has its own window list.
 
-**create a new tab group  
-**![](http://www.myotherdrive.com/public/blueonion/Blog/dualvs1.png)
-
-**this image spans two monitors  
-**![](http://www.myotherdrive.com/public/blueonion/Blog/dualvs2.png)

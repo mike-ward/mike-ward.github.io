@@ -22,28 +22,28 @@ This is all well and good, but what if you only need to know the current minute?
 
 Rather than figure all this out every time, here's a quick menu of values that I use regularly.
 
-ItemVariable
-
-Current hour:
-%TIME:~0,2%
-
-Current minute:
-%TIME:~3,2%
-
-Current second:
-%TIME:~6,2%
-
-Current day of week:
-%DATE:~0,3%
-
-Current month:
-%DATE:~4,2%
-
-Current day date:
-%DATE:~7,2%
-
-Current year (2 digit):
-%DATE:~-2%
-
-Current year (4 digit):
-%DATE:~-4%
+    ItemVariable
+    
+    Current hour:
+    %TIME:~0,2%
+    
+    Current minute:
+    %TIME:~3,2%
+    
+    Current second:
+    %TIME:~6,2%
+    
+    Current day of week:
+    %DATE:~0,3%
+    
+    Current month:
+    %DATE:~4,2%
+    
+    Current day date:
+    %DATE:~7,2%
+    
+    Current year (2 digit):
+    %DATE:~-2%
+    
+    Current year (4 digit):
+    %DATE:~-4%

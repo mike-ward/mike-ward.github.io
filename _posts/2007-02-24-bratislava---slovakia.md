@@ -28,4 +28,4 @@ I did get to the old city later in the week and was it worth it. This is a very 
 
 [![](/cdn/images/blog/WindowsLiveWriter/BrataslaviaSlovakia_1817/Bratislava_divadlo.jpg)](/cdn/images/blog/WindowsLiveWriter/BrataslaviaSlovakia_1817/Bratislava_divadlo%5B1%5D.jpg)
 
-I did manage to get some actual work done while I was there. Don't you just hate it when work gets in the way of play? ![smile_wink](http://spaces.live.com/rte/emoticons/smile_wink.gif)
+I did manage to get some actual work done while I was there. Don't you just hate it when work gets in the way of play?

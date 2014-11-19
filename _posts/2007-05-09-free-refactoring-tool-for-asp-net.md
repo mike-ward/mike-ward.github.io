@@ -14,6 +14,4 @@ Ooh, ooh, ooh! I just saw this over on Brad Abrams blog
 
 I've only played with it a few minutes but it looks like a real winner. Check out the [full video here:](http://www.devexpress.com/Products/NET/IDETools/RefactorASP/Presentation/Refactor_for_ASP_NET/)
 
-![](http://www.devexpress.com/Products/NET/IDETools/Refactor/i/collage.png)
-
 Technorati tags: [ASP.NET](http://technorati.com/tags/ASP.NET), [Refactor](http://technorati.com/tags/Refactor), [Visual Studio 2005](http://technorati.com/tags/Visual%20Studio%202005), [Ajax](http://technorati.com/tags/Ajax), [C#](http://technorati.com/tags/C#)
