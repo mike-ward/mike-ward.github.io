@@ -16,5 +16,6 @@ Markdown Edit would not have been possible without the unselfish help of other f
 - [CommonMark.NET](https://github.com/Knagis/CommonMark.NET)
 - [NHunspell](http://www.crawler-lib.net/nhunspell)
 - [Json.NET](http://james.newtonking.com/json)
+- [GitHub](http://github.com)
 
 If you use Markdown Edit, I only ask that you send me feedback, good or bad. Part of the fun of doing this is hearing how it works for you. I tend to forget this myself and have been making an effort to contact the freeware authors of products I use everyday just to let them know their work is appreciated.
