@@ -4,7 +4,7 @@ title: "Markdown Edit"
 ---
 Markdown Edit is  a Windows **desktop** Markdown editor with an emphasis on content and keyboard shortcuts. There is minimal window chrome and most functions are accessed through keyboard shortcuts. There is no main menu, status bar, tabbed windows or other distractions.
 
-> Markdown Edit is currently Alpha. I welcome your feedback and suggestions. Use the `Comments` button at the bottom of the page.
+> Markdown Edit is currently in Beta. I welcome your feedback and suggestions. Use the `Comments` button at the bottom of the page.
 >
 > I need themes! (Dammit Jim!) I'm a programmer, not a designer. Send me some cool themes and I'll include them.
 
@@ -32,8 +32,14 @@ Gratuitous Screen Shot
 - Quickly open recent files
 - Quickly change themes
 - Word Count
+- Auto Save
+- Select previous/next header
 - [Open Source](https://github.com/mike-ward/Markdown-Edit)
 - MIT License
+
+## Auto Save
+
+When Auto Save is enabled `Ctrl+0`, content is saved to the original file location 4 seconds after the last detected change. Unlike some auto-save features, this one will essentially save changes whenever typing is paused.
 
 ## User Settings
 

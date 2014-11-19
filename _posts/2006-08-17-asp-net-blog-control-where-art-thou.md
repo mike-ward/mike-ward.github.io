@@ -51,6 +51,6 @@ And so that's where we'll begin. A blog is really just a collection of articles 
       }   
     }
 
-OK, I left a lot of stuff out like error checking and never mind what the ArticleCollection object is just yet. What's interesting about all this is that all the reading and writing of XML is done in about 4 lines of code. The XML emitted and read by these lines hides all the difficult tasks serializing/deserializing the object to and from XML. You can read more about XmlSerializers in the MSDN online help and else where (just Google it). 
+OK, I left a lot of stuff out like error checking and never mind what the `ArticleCollection` object is just yet. What's interesting about all this is that all the reading and writing of XML is done in about 4 lines of code. The XML emitted and read by these lines hides all the difficult tasks serializing/deserializing the object to and from XML. You can read more about `XmlSerializers` in the MSDN online help and else where (just Google it). 
 
-Next time I'll discuss the mysterious ArticleCollection object and how XmlSerializers work with collections.
+Next time I'll discuss the mysterious `ArticleCollection` object and how `XmlSerializers` work with collections.
