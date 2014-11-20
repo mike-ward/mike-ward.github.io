@@ -1,16 +1,16 @@
 ---
-layout: post
+layout: post  
 title: 'NonContiguousMemoryStream in .NET'
 ---
-System.IO.MemoryStream is one handy little class. One of my favorite uses for memory streams is serialization. I typically serialize to a memory stream first and then copy the stream to a file or other backing store. Why I do this is simple. If the serialization faults, I don't corrupt the backing store image. You can of course accomplish a similar thing using temporary files but I find the speed and convenience of memory streams to be better.
+`System.IO.MemoryStream` is one handy little class. One of my favorite uses for memory streams is serialization. I typically serialize to a memory stream first and then copy the stream to a file or other backing store. Why I do this is simple. If the serialization faults, I don't corrupt the backing store image. You can of course accomplish a similar thing using temporary files but I find the speed and convenience of memory streams to be better.
 
-However, like all things programming, there is a price to be paid. The System.IO.MemoryStream uses a single buffer as a backing store. For small items, this is just fine. But if the stream is large, it's possible to not have enough contiguous memory due to fragmentation. This problem is compounded by the [large heap compaction strategy in .NET](http://msdn.microsoft.com/msdnmag/issues/1200/GCI2/). I've seen situations where memory is exhausted long before the actual physical memory limit is reached.
+However, like all things programming, there is a price to be paid. The K uses a single buffer as a backing store. For small items, this is just fine. But if the stream is large, it's possible to not have enough contiguous memory due to fragmentation. This problem is compounded by the [large heap compaction strategy in .NET](http://msdn.microsoft.com/msdnmag/issues/1200/GCI2/). I've seen situations where memory is exhausted long before the actual physical memory limit is reached.
 
 One way avoid both the contiguous memory limitation as well the the large heap problem in .NET is to allocate the backing store in smaller chunks. As the backing store grows, more chunks are added to the backing store. This can relieve memory pressure by not forcing the heap to compact as often and avoids the large heap compaction issue in .NET by keeping the chunks smaller than 85KB.
 
-NonContigusousMemoryStream is my version of System.IO.MemoryStream that allocates its backing store in 8KB chunks. There's a small performance penalty by using chunks so you'll want to use this class only in situations where large memory streams occur.
+`NonContigusousMemoryStream` is my version of `System.IO.MemoryStream` that allocates its backing store in 8KB chunks. There's a small performance penalty by using chunks so you'll want to use this class only in situations where large memory streams occur.
 
-I wrote several tests designed to progressively allocate and dispose memory streams until memory was exhausted. In these tests, NonContiguousMemoryStream was able to run 3 times as many iterations as using System.IO.MemoryStream. Performance was only 10% slower as compared to System.IO.MemoryStream (up to the point where System.IO.MemoryStream failed).
+I wrote several tests designed to progressively allocate and dispose memory streams until memory was exhausted. In these tests, `NonContiguousMemoryStream` was able to run 3 times as many iterations as using System.IO.MemoryStream. Performance was only 10% slower as compared to `System.IO.MemoryStream` (up to the point where `System.IO.MemoryStream` failed).
 
 Included in the source code is a series of unit tests that exercise all operations of the code. If you plan on using it, I would appreciate a note on how you're using it and any issues you encountered. Otherwise, it's free for any use.
 

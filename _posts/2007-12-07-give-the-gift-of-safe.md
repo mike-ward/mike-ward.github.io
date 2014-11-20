@@ -1,9 +1,7 @@
 ---
-layout: post
+layout: post  
 title: 'Give the Gift of Safe'
 ---
-![](http://www.opendns.com/img/logo/opendns_logo_100.gif)
-
 I know, I'm an [OpenDNS](http://opendns.com) fanboy. It really is a great service.
 
 First, you get to enjoy the brief, funny video Chris put together explaining the benefits of OpenDNS to his skeptical father. If you've ever done family tech support, you're going to recognize every step of the way. ;-)

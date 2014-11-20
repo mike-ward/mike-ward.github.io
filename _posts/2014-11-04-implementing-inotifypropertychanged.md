@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Implementing INotifyPropertyChanged'
 ---
 Writing programs in WPF usually involves implementing `INotifyPropertyChanged`. Implementing this interface the standard way involves a fair-bit of boilerplate code. It's tiresome and error prone. 

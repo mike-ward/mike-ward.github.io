@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'New Notebook, New Operating System'
 ---
 My former laptop had a sudden "issue" that ultimately led me to buy a new laptop. I did the usual research and settled on a Gateway NX570X with Vista Home Premium, 2 GB of memory, 80 GB hard drive, the higher resolution (1680 x 1050) and Bluetooth. Delivered to my door it was $1005. The next closest competitor was about $200 more.

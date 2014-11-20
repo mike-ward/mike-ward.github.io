@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'My Christmas Gadget Wish List'
 ---
 Everyone has a list of gadgets they want. I'm not what you would call a "gadget boy" and yet here I am with a list of gadgets as long as my sleeve. Guess my inner geek is expressing itself more than usual.

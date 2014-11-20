@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title:  "Markdown Edit Beta"
 ---
 [Markdown Edit](http://mike-ward.net/markdownedit) is a Windows Desktop editor for [CommonMark](http://commonmark.org) (a.k.a. Markdown). It emphasizes content and keyboard shortcuts over window-chrome and menus.

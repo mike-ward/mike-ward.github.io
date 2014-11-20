@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'iPod Battery Depot - Nice'
 ---
 Recently I had to replace the battery on my aging iPod. [iPod Battery Depot](http://www.ipodbatterydepot.com) sells replacement batteries for a variety of electronic devices. In the case of the iPod, they sell batteries that are larger than the originals. They also have videos on how to replace the batteries. I ordered my battery and it arrived promptly along with some tools to help pry open the iPod case.

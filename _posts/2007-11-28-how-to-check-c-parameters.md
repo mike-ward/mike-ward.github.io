@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'How to Check C# Parameters'
 ---
 I just downloaded a sample from [The Code Project](http://www.thecodeproject.com) and as usual spent 20 minutes cleaning up the code. Don't get me wrong, I'm grateful for the contributions and use them often. What bothers me is that many of what the industry considers "best practices" are simply ignored in these contributions. One of the most fundamental "best practices" is to check the validity of parameters.
@@ -27,7 +27,7 @@ Strings are a bit more work.
           : new ArgumentException("empty", "item");
     }
 
-I've noticed that Microsoft has started documenting many of their methods that take string arguments as as returning **ArgumentNullException** or **ArgumentException** to help differentiate between the two states. Check the [File.Open](http://msdn2.microsoft.com/En-US/library/b9skfh7s.aspx) documentation for an example. 
+I've noticed that Microsoft has started documenting many of their methods that take string arguments as as returning `ArgumentNullException` or `ArgumentException` to help differentiate between the two states. Check the [File.Open](http://msdn2.microsoft.com/En-US/library/b9skfh7s.aspx) documentation for an example. 
 
 Things can be made more compact by doing the following:
     
@@ -59,16 +59,12 @@ Now you can check arguments as follows:
     Throw.IfNullOrEmpty(myString, "myString");
     Throw.IfNull(myObject, "myObject");
 
-The disadvantage of this method is that all your exceptions originate in **Throw.IfNull** or **Throw.IfNullOrEmpty** so you'll have to look one up the call stack to find the issue.
+The disadvantage of this method is that all your exceptions originate in `Throw.IfNull` or `Throw.IfNullOrEmpty` so you'll have to look one up the call stack to find the issue.
 
 I would prefer a more declarative method. Microsoft could have extended the constraint mechanism to handle this. For example:
 
---------------------------------------------------------------------------------
-    
     void SomeMethod(string item1, object item2)
         where item1 : NotNullOrEmpty, item2 : NotNull // Not valid!
     { ... }
-
---------------------------------------------------------------------------------
 
 Oh well, one can only hope.

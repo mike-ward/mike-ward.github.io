@@ -2,7 +2,9 @@
 layout: post
 title: 'Amazon Elastic Compute Cloud (Amazon EC2) - Limited Beta'
 ---
-![](http://ec1.images-amazon.com/images/G/01/00/10/00/14/19/27/100014192753)Lately, I've been spending time with some of the Web services offered by Amazon (yeah, the same people who sell all those books). They have some interesting services like S3, which I use to host images on this site. I'm working on an S3 browser written in .NET 3.0 I'll release later this year.
+![](http://ec1.images-amazon.com/images/G/01/00/10/00/14/19/27/100014192753)
+
+Lately, I've been spending time with some of the Web services offered by Amazon (yeah, the same people who sell all those books). They have some interesting services like S3, which I use to host images on this site. I'm working on an S3 browser written in .NET 3.0 I'll release later this year.
 
 Other services like [EC2](http://http://www.amazon.com/gp/browse.html?node=201590011) are even more interesting. Here's a description.
 
@@ -58,4 +60,4 @@ $0.13 per GB - data transfer out / month over 50 TB
 
 I really like this service model. It's pay as you go and expandable. I could see "startups" using these services. There's less infrastructure to design and support, high availability and if your idea catches fire, you have instant capacity growth.
 
-Personally, I find myself using online services more and more for my own projects simply because it saves me from having to deal with hardware, computer upgrades, backups, etc. I'm slowly moving all of my family's online stoarge needs to S3. If I could get an online development environment with the same fedality as my desktop environment, I would switch in an instant.
+Personally, I find myself using online services more and more for my own projects simply because it saves me from having to deal with hardware, computer upgrades, backups, etc. I'm slowly moving all of my family's online storage needs to S3. If I could get an online development environment with the same fidelity as my desktop environment, I would switch in an instant.

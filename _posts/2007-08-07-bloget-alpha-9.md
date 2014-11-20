@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: post  
 title: 'Bloget Alpha 9'
 ---
 Bloget alpha 9 is available for download. It also marks the end of the alpha releases. There's an old saying in the software biz that goes something like, "Sometimes you have to just shoot the programmers and ship the darn thing." Well, I'm not going that far but my cat Euclid says it's time. 
 
 So what's new? Mostly little stuff. I've decided to simplify the distribution from the example based format I was using earlier. There is now one file that contains the style sheet and web site. Normally, one uses external style sheets but I wanted to really drive home the point about just how little code it takes to write a fully functional blog using Bloget.
 
-![](http://www.myotherdrive.com/public/blueonion/Blog/thumb_aqua-sphere.jpg) I settled on a theme. It's inspired by [this guy](http://bloggertemplatesbycaz.blogspot.com) but I really only duplicated the look. The style sheet itself was not as compact and simple as I thought it could be so I started from scratch. The theme uses no images for layout so it's super fast. I think it's pretty darn cool that it describes an entire blog in just over a hundred lines of markup.
+I settled on a theme. It's inspired by [this guy](http://bloggertemplatesbycaz.blogspot.com) but I really only duplicated the look. The style sheet itself was not as compact and simple as I thought it could be so I started from scratch. The theme uses no images for layout so it's super fast. I think it's pretty darn cool that it describes an entire blog in just over a hundred lines of markup.
 
 There's an installer now. It's just a Visual Studio generated installer at this point. I've tried it in a number of environments. Sometimes it gets the file permissions correct for the web site and sometimes it does not. Not sure why this is but I'll probably rewrite it in [WiX](http://wix.sourceforge.net/) before the final release.
 

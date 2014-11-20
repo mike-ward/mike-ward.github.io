@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Site Redesign'
 ---
 I was getting tired of the old look. Here's a new look that's a nod to the Web 2.0 designs of late but without the "beta" emblems and rounded corners. I already get points for a silly name.  
@@ -10,7 +10,6 @@ I'm also using [Bloget](/bloget) in its standard mode without any template custo
   
 Bloget is coming along nicely. I've focused on usability in the upcoming release. Basically, if it annoyed me, I fixed it. I've also added some navigation aids in the administration section., started the long process of localization and streamlined the HTML output. There's even a theme that looks like (cough) one of those other popular blog engines.  
   
-
 
 ![](http://www.jetbrains.com/resharper/img/test-tubes.jpg)
 

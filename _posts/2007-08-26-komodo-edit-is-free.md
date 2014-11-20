@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Komodo Edit is Free'
 ---
 [Komodo Edit](http://www.activestate.com/Products/komodo_edit/), from Active State is the editor used in their flagship Komodo IDE product. The editor is now a separate download and is used as an enticement to buy the IDE product. This is a full-featured powerful editor and makes a great notepad replacement. While I prefer the the Visual Studio IDE for code development, often I'm editing other files like configs and XML and don't want to wait for the VS IDE to spool up. Add it to your "Send To" folder and it will always be handy.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: "Markdown Edit Alpha"
 ---
 Sound the Kazoos!

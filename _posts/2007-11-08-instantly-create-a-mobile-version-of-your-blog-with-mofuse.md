@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'Instantly Create a Mobile Version of your Blog with MoFuse'
 ---
-![](http://www.mofuse.com/media/images/logo_tiny.png)This is one easy way to setup mobile content for your blog. Signup, point MoFuse at your feed and add the mobile chicklet to your website. There's an SMS widget as well. See the sidebar for an examples of the chicklet and widget. Integration with Google AdSense is a snap. Include your AdSense publisher ID and Google AdSense ads are inserted into the mobile content automatically. Makes me wonder why [feedburner.com](http://feedburner.com) didn't do this. Check out the [mobile content for this blog](http://blueonionsoftware.mofuse.mobi/).
+This is one easy way to setup mobile content for your blog. Signup, point MoFuse at your feed and add the mobile chicklet to your website. There's an SMS widget as well. See the sidebar for an examples of the chicklet and widget. Integration with Google AdSense is a snap. Include your AdSense publisher ID and Google AdSense ads are inserted into the mobile content automatically. Makes me wonder why [feedburner.com](http://feedburner.com) didn't do this. Check out the [mobile content for this blog](http://blueonionsoftware.mofuse.mobi/).
 
 **What is MoFuse**
 
