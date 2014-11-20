@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: '.Net 3.0 Features'
 ---
 One of the things I'll write about from time to time is programming in Microsoft's .Net Frameworks. The Java, Ruby, Python, crowds will moan. Quite frankly, I don't have much patience for these comments. I've made my living for many years programming Windows and related technologies and I suspect many of you have as well. Love them or hate them, the folks have Microsoft come up with some cool ideas from time to time.

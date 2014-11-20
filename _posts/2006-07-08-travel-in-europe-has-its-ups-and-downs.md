@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Travel in Europe has its Ups and Downs'
 ---
 On occasion, I travel to Europe on business for my day job (Blue Onion Software is my hobby, not my living, bummer). Travel in Europe is really easy compared to what is was say 20 years ago. English is spoken in most major urban areas and if you are the least bit linguistically inclined, you can figure out the signage in short time. 

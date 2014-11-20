@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Welcome to Bloget'
 ---
 Success! Despite my best efforts, you've managed to get Bloget working. Here a few tips to help keep you going.

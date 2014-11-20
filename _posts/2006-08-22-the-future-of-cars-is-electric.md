@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'The Future of Cars is Electric'
 ---
 This is a real interesting read about electric cars from the CEO of [Tesla Motors](http://www.teslamotors.com/), makers of all electric vehicles. 

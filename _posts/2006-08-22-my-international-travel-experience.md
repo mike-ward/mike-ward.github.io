@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'My International Travel Experience'
 ---
 I had the not so desirable luck of traveling immediately after the British announcement about terrorists planning to blow up airplanes with liquid explosives. I was prepared for a much more intense security check. I made sure to comply with the "No Liquids" policy and even went so far as to remove my gel shoe inserts which I sorely missed. I was going to stow them in my checked luggage but since the TSA searches bags I figured why give them an excuse.

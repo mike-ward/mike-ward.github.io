@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'LogMeIn.com - Realiable Remote Access'
 ---
 Need a fast, free way to access your computer remotely? I regularly consult for my wife's home-based business supporting her clients computers which are of course remote. My tool of choice, [LogMeIn.com](http://logmein.com/). This is an amazing service. It works through your Web browser, punches through firewalls like tissue paper, and keeps you informed about the overall health of your remote system. 
