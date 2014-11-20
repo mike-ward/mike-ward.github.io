@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Inserting Quotes in MSBuild Tasks'
 ---
 I've finally got around to cracking open the [MSBuild documentation](http://msdn2.microsoft.com/en-us/library/0k6kkbsd.aspx) and writing a few custom scripts. If you program in Visual Studio 2005, you're using MSBuild and like most things programming, its worth some time to understand the tool. It's fairly straight-forward to learn and I won't repeat the already very good [tutorials](http://msdn.microsoft.com/msdnmag/issues/06/06/InsideMSBuild/default.aspx) available all over the Internet. I did run into one problem that proved irritatingly hard to resolve. Consider the following:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Using Keywords as Identifiers in C#'
 ---
 There are times when keywords and identifiers collide when coding. This is particularly true in code generators but sometimes the keyword really describes the purpose of the identifier (like **default** or **ref** for instance). You can come up with clever naming schemes but there is a simpler way. In C#, you can just prefix the identifier with an @ symbol.

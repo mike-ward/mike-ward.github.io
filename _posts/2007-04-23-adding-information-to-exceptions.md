@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Adding Information to Exceptions'
 ---
 This is an excerpt of a post from Marc Brooks about [Exception Handling in .NET](http://musingmarc.blogspot.com/2005/09/exception-handling-in-net-some-general.html).
@@ -26,4 +26,4 @@ This is an excerpt of a post from Marc Brooks about [Exception Handling in .NET]
 > 
 > [Exception Handling in .NET](http://musingmarc.blogspot.com/2005/09/exception-handling-in-net-some-general.html)
 
-There's the usual recommendations that most seasoned .NET programmers know and understand. However, there are two items here I haven't seen before. The first is the use of the Exception.Data collection. It may be obvious to everyone else but heck if I ever noticed it. And the next tip is icing on the cake. I've often wanted to include the method type and name in my error messages and felt a little dirty just typing the names in. After all, why can't the compiler fill it in for me? Well, the next best thing is demonstrated here using `System.Reflection.MethodBase.GetCurrentMethod()`. Thanks Marc.
+There's the usual recommendations that most seasoned .NET programmers know and understand. However, there are two items here I haven't seen before. The first is the use of the `Exception.Data` collection. It may be obvious to everyone else but heck if I ever noticed it. And the next tip is icing on the cake. I've often wanted to include the method type and name in my error messages and felt a little dirty just typing the names in. After all, why can't the compiler fill it in for me? Well, the next best thing is demonstrated here using `System.Reflection.MethodBase.GetCurrentMethod()`. Thanks Marc.

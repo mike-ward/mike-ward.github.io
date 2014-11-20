@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'The example domain'
 ---
 Interesting tip about example domains.  

@@ -1,14 +1,12 @@
 ---
-layout: post
+layout: post  
 title: 'Passport Tips'
 ---
 My day job requires that I travel frequently. Recently, my passport came up for renewal. Typically, it takes about 2-3 weeks to renew a passport. However, lately it has been running much longer. I sent my passport in for renewal on March 7th and as of today (April 12th) I still do not have it.  
   
 
-
 ![USA Passport](http://z.about.com/d/cruises/1/8/_/Q/3/us_passport.jpg)  
   
-
 
 Because I'm traveling soon, I called to check my status. Good thing I did. They misspelled my name! Instead of Ward they had Wand. Close call. Also, because I'm traveling soon, they expedited my request (for an additional $67 + $15 for overnight).  
   

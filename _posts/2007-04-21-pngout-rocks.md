@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'PNGOUT Rocks'
 ---
 > **PNGOUT** is a free optimizer for [PNG](http://en.wikipedia.org/wiki/PNG) images and is written by [Ken Silverman](http://en.wikipedia.org/wiki/Ken_Silverman). The compression is lossless, meaning that the resulting image will have exactly the same appearance as the source image. This program can often get higher compression than other optimizers by 5-10% [Wikipedia](http://en.wikipedia.org/wiki/PNGOUT)

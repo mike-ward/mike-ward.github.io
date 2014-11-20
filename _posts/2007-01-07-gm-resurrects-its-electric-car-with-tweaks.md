@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'GM Resurrects Its Electric Car (with Tweaks)'
 ---
 [Scientific American](http://www.sciam.com/article.cfm?chanID=sa004&articleID=EE568144-E7F2-99DF-313C5C52D14CAD32) is running an article on GM's new electric car. I'm convinced that the [near to medium term future of cars is electric](/blog?bloget_mode=View&bloget_item=18dd72fd-0854-41c0-a603-7d2379421129). GM's introduction goes one step closer to that vision. And I love the name, "**Volt**".

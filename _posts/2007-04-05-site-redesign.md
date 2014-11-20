@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Site Redesign'
 ---
 I've redesigned the site. The old one was a bit goofy and it jumped around a bit while rendering due to the use of the [Nifty Corners](http://http://www.html.it/articoli/nifty/index.html) script I used for making rounded boxes. This design is very light being mostly text with just a few graphics here and there. CSS is used to render layout without the use of tables. It should load very fast and render consistently across most modern browsers.

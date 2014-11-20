@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Call Stack Tips'
 ---
 Just in case you've never tried, it - the next time you're looking at a call stack while stopped at a break point in [Visual Studio 2005](http://msdn2.microsoft.com/en-us/vstudio/default.aspx), try _right clicking_ in the call stack window and investigating some of the context menu options.
@@ -14,7 +14,7 @@ Changes those single line, obtuse call stack phrases `[External Code]` into illu
 
 **Include Calls To / From Other Threads**
 
-Can provide deeper insight into how your break-point was reached in a multithreading scenario. 
+Can provide deeper insight into how your break-point was reached in a multi-threading scenario. 
 
 **The Load Symbols Menu**
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+
 title: 'Blog Rolls Automated'
 ---
 On many blogs, including this one, you’ll see a list of blogs the blog author subscribes to. This is commonly referred to as a “Blog Roll”. Many blogging engines include builtin support for blog rolls. I considered adding this to Bloget at one point but it runs counter to the Bloget’s design philosophy. Bloget’s design is a bit different than other blogging engines in that it supplies the parts to create a blog, but leaves the implementation up to developer. This “do it yourself” approach has advantages and disadvantages. The advantage of course is that Bloget can be implemented into existing sites with minimal effort. The disadvantage is that you have to supply the Web site pages and layout.

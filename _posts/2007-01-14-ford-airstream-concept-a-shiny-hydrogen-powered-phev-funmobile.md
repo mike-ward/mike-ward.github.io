@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Ford Airstream concept: a shiny, hydrogen-powered PHEV funmobile'
 ---
 [![](/cdn/images/blog/WindowsLiveWriter/FordAirstreamconceptashinyhydrogenpowere_7D5E/fordairstreamconcept_05_thumb.jpg) 
