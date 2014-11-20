@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Chocolate'
 ---
 I love chocolate. I also feel guilty sometimes because I perceive it as unhealthy. Well bucko, this site dispels some of those myths about about the dark side. According to [AllChocalate.com](http://allchocolate.com) chocolate has about as much caffeine per serving as a cup of decaf, doesn't cause acne, hyperactivity, migraines, tooth decay or addiction. He even makes you attractive! (Ok, I threw that one in).

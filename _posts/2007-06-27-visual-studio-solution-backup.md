@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Visual Studio Solution Backup'
 ---
 Most of the projects I develop for myself (a.k.a. Blue Onion Software) are small. Usually less than 20,000 lines. I've thought about using some type of version control but it just seems like more trouble than it's worth. Usually I just copy the entire solution folder to zip and archive it. I do this several times a week.

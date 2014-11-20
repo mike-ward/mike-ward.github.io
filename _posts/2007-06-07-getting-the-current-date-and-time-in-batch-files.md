@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Getting the current date and time in batch files'
 ---
 _I completely stole this article from _[_here_](http://simultaneouspancakes.com/Lessons/archives/2006/04/getting_the_cur.shtml)_. It's such a useful bit of information I'm blogging it so I can "Google" myself later._
