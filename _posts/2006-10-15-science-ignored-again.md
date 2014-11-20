@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Science, Ignored Again'
 ---
 The [New York Times Op/Ed](http://www.nytimes.com/2006/10/14/opinion/14sat1.html?ex=1318478400&en=040978f4d0578e1b&ei=5090&partner=rssuserland&emc=rss) section has a scathing article about the Bush administration rejecting the recommendations of experts inside and outside the government who had urged a significant tightening of federal standards regulating the amount of soot in the air. From the article:

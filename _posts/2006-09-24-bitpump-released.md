@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'BitPump Released'
 ---
 If you've spent anytime in the Freeware world, you have probably encountered [AnalogX](http://www.AnalogX.com) at one time or another. If not, you owe it to yourself to visit this site. This guy has been pumping out freeware for years and it's really good stuff. AnalogX programs are always small, always reliable and just seem to work without much fuss.
@@ -10,8 +10,5 @@ BitPump is a BitTorrent without the hassles. I like it because it uses very litt
 
 I'm running it right now downloading a 1.8 GB file. Here's a screen shot.
 
-![](/Blog/bitpump.png)
-
 [PCalc](http://www.analogx.com/contents/download/program/pcalc.htm) is another AnalogX gem worth considering. It's a programmer's calculator that is really useful. It's one of those programs I keep on every computer.
 
-![](http://www.analogx.com/contents/graphics/pcalc.jpg)

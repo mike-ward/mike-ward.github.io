@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Tip for Finding Memory Leaks in C#'
 ---
 There are many tools and techniques for finding memory leaks in managed code. Some involve sophisticated tools like the [CLR Profiler](http://www.c-sharpcorner.com/Code/2004/Aug/CLRProfiler.asp). While I have found such techniques useful for bugs in the "wild", I have found a simpler technique that smokes out these errors during development. It's really two tips.
@@ -10,6 +10,6 @@ Put break points on your finalizers. If you write classes of any complexity, you
 
 Other interesting articles about Dispose Patterns
 
-[A Closer Look at the Dispose Pattern](http://haacked.com/archive/2005/11/18/ACloserLookAtDisposePattern.aspx)   
-[Dispose, Finalization and Resource Management](http://www.bluebytesoftware.com/blog/PermaLink.aspx?guid=88e62cdf-5919-4ac7-bc33-20c06ae539ae)   
-[The Dispose Pattern, Finalizers and Debug.Assert()](http://www.agileprogrammer.com/oneagilecoder/archive/2005/03/24/3065.aspx)
+- [A Closer Look at the Dispose Pattern](http://haacked.com/archive/2005/11/18/ACloserLookAtDisposePattern.aspx)   
+- [Dispose, Finalization and Resource Management](http://www.bluebytesoftware.com/blog/PermaLink.aspx?guid=88e62cdf-5919-4ac7-bc33-20c06ae539ae)   
+- [The Dispose Pattern, Finalizers and Debug.Assert()](http://www.agileprogrammer.com/oneagilecoder/archive/2005/03/24/3065.aspx)

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'My First Comment Spam'
 ---
 I got my first comment spam the other day. Guess I'm no longer innocent and unknowing. It was rendered harmless because all input to Bloget is HTML encoded which makes the post look silly at best and gives the spammer no reference links. Still it's just a shame that you have to defend against these things.

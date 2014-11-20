@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Pingback Test'
 ---
 Testing [pingback](http://www.quietearth.us/webtools/pingback-tester.php)  

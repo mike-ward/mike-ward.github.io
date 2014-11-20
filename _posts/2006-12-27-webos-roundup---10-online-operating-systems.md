@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'WebOS Roundup - 10 Online Operating Systems'
 ---
 [WebOS’s](http://en.wikipedia.org/wiki/Webtop) (sometimes called Webtops) are online systems designed to resemble a standard PC desktop while making it accessible from anywhere in the world. These virtual desktops look and feel like a Windows desktop (or Linux or Mac) but work through a Web browser making any Web capable computer a portal to your applications and data. None of these systems are mature enough to replace your operating system just yet but they show promise.
@@ -9,8 +9,8 @@ title: 'WebOS Roundup - 10 Online Operating Systems'
 [Craythur.com](http://www.craythur.com/)   
 Works, demo only. Nice feel and fast.
 
-[Desktoptwo](http://desktoptwo.com/) ![](/cdn/images/blog/Blog/smile19.gif)  
-**Update: **A reader commented that he felt my assessment a bit hasty. When tried to login earlier, I got the message below. I went back and indeed, DesktopTwo is really quite good. Possibly better than the others. Thanks for the heads up!
+[Desktoptwo](http://desktoptwo.com/)  
+**Update:** A reader commented that he felt my assessment a bit hasty. When tried to login earlier, I got the message below. I went back and indeed, DesktopTwo is really quite good. Possibly better than the others. Thanks for the heads up!
 
 “output=error&msg;=Could not connect to the database&” (Need I say more?)
 
@@ -20,7 +20,7 @@ Worth a look. Still too early for practical use.
 [Glide](http://www.glidedigital.com/)   
 Free registration requires an SMS capable cell phone to receive the registration code. No thank you…
 
-[Goowy](http://www.goowy.com/) ![](/cdn/images/blog/Blog/smile19.gif)  
+[Goowy](http://www.goowy.com/)  
 Second best experience of the bunch. The best looking in my opinion. Keep an eye on this one.
 
 [Orcaa](http://www.orcaa.com/)   
@@ -36,5 +36,5 @@ Too early to tell. Huge icons.
 Not available yet. Only screen shots  
 Update: The author points out that there is a demo link on the blog page. Tried it. Very nice. Looks like it’s early in development which likely explains some of the slowness I experienced. Should be a contender.
 
-[YouOS](https://www.youos.com/) ![](/cdn/images/blog/Blog/smile19.gif)  
+[YouOS](https://www.youos.com/)  
 Easily the best system going. I like the look of Goowy better but YouOS is further along in development. It has an editor and several Web browsers. Worth a look. 

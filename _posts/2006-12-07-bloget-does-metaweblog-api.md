@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Bloget does MetaWeblog API'
 ---
 And how do I know that you ask? Because this post is coming to you compliments of [blogmailr](http://blogmailr.com). And what is blogmailr you ask? Just a cool little service that allows you to post to your blog using email. It works with any blogging engine that understands the MetaWeblog API. It's all very technical but then that's why you read this blog to begin with.

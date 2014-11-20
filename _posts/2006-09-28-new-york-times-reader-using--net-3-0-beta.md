@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'New York Times Reader Using .Net 3.0 Beta'
 ---
 The New York Times has a new .Net 3.0 new [reader in pre-beta](http://firstlook.nytimes.com/?category_name=times%20reader). That's not a misprint, it's .Net 3.0. It's well worth the rather large .Net 3.0 download to check out this reader. It doesn't have all the eye-candy of other WPF demos. Instead it focuses on being a very good news reader and succeeds.
@@ -13,7 +13,5 @@ Here's how the New Times describes it.
 > Times Reader runs on Microsoft’s new Windows Presentation Foundation (WPF), which is built into the new Vista operating system and is included in the .Net 3.0 Framework service pack for Windows XP. If you are using Windows XP, the installer application will first install Net 3.0 Framework, a process that takes about ten minutes, and then install Times Reader, a process that takes about two minutes.
 > 
 > [Read more …](http://firstlook.nytimes.com/?p=27#more-27)
-
-![](/blog/nytimes.png)
 
 The .Net 3.0 download was painless, didn't require a reboot and has not introduced any stability problems in my system. 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'The Final Frontier: The Limits of Scientific Inquiry are more Visible than Ever'
 ---
 Ten years after the publication of _The End of Science_, John Horgan says the limits of scientific inquiry are more visible than ever.

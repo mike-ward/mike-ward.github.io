@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Election Day'
 ---
 Election day is here. Did you vote? I did and I had to wait in line which is unusual in an off-year election. I'm a Democrat. Not like anyone reading this blog couldn't figure that out. The polling place where I vote is in the meeting hall of a local gun club (of which I'm a member). Talk about feeling out numbered. I'm probably the only thing colored blue within a half a mile of the place. Still, they put up with me mostly because I keep their web site up a running. If you're going to be different at least be useful :)  

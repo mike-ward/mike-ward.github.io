@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Bush Administration Clamps Down On Scientists'
 ---
 Politics aside this is just plain [scary](http://www.huffingtonpost.com/2006/12/13/bush-admin-clamps-down-o_n_36290.html). To paraphrase the great senator Daniel Moynihan, "the Bush Administration is entitled to their own opinions, but they're not entitled to their own facts". 

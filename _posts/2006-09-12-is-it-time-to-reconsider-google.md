@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Is it time to reconsider Google?'
 ---
 In his blog article "[It's time to reconsider Google?](http://news.com.com/2061-12572_3-6114238.html)", Rafe Needleman discusses his experience with different search engines and concludes that Google is no longer the best. Needleman asks: 

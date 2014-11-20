@@ -1,14 +1,14 @@
 ---
-layout: post
+layout: post  
 title: 'Testing ActiveX Controls in C#'
 ---
 Using COM in managed code can seem like uneasy truce at times. Take the AxHost wrapper class for instance. When using ActiveX controls in C#, Visual Studio will generate an AxHost wrapper class that builds a facade around the unmanaged code. Problem is, the constructor for this AxHost wrapper class doesn't actually check if it can create the control. Instead, the wrapper waits until a method is called that requires the actual ActiveX control and only then does it try to create it.
 
-This "lazy" construction technique can cause problems. For instance, if the ActiveX control is not installed, the wrapper will raise an exception. As often as not, this exception occurs in the InitializeComponent() method of a Windows.Form control in an EndInit() call. There's not much you can do at that point but to kill the form and display an error message.
+This "lazy" construction technique can cause problems. For instance, if the ActiveX control is not installed, the wrapper will raise an exception. As often as not, this exception occurs in the `InitializeComponent()` method of a Windows.Form control in an `EndInit()` call. There's not much you can do at that point but to kill the form and display an error message.
 
-Such was the case for me recently. In this particular case the Form and the program could still meaningfully function despite the absence of the ActiveX control. The AxHost wrapper doesn't offer a good way to test if the control can be created. Calling AxHost.CreateControl() directly for instance raises an exception.
+Such was the case for me recently. In this particular case the Form and the program could still meaningfully function despite the absence of the ActiveX control. The AxHost wrapper doesn't offer a good way to test if the control can be created. Calling `AxHost.CreateControl()` directly for instance raises an exception.
 
-About the only sure-fire way I could test if the control was create-able was to create it. The code below does just that. It uses **System.Activator**, one of those little nuggets buried in the .NET framework.
+About the only sure-fire way I could test if the control was create-able was to create it. The code below does just that. It uses `System.Activator`, one of those little nuggets buried in the .NET framework.
 
     bool CanCreateComControl(Guid CLSID_Item)  
     {  

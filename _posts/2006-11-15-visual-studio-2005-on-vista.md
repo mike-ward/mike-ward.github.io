@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Visual Studio 2005 on Vista'
 ---
 Microsoft has posted [guidelines](http://msdn.microsoft.com/vstudio/support/windowsvista/default.aspx) and FAQ's for using Visual Studio 2005 on Vista. Looks like you're out of luck if you're using Visual Studio 2002 or 2003.  

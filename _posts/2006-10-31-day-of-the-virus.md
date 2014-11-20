@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Day of the Virus'
 ---
 I received a call on Thursday from some friends who have a small medical practice. Apparently their computers were acting a little strange. I had helped setup their system 2 years earlier. When I arrived at the office, the situation was not good. The file server would not boot and other systems were barely usable.

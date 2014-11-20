@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Imagine No Religion'
 ---
 The words of John Lennon ring in my ears this morning as I drive to work. Last night, I watched how Muslim's expressed their rage over the Pope's recent comments about the prophet Mohammad's teachings being evil. I am sadly disappointed. Throughout the world, religious leaders are calling for apologies and last night one was forth coming and predictably, it wasn't enough. I saw pictures of protesters in the streets burning effigies and thrusting their fists in the air while calling for death. These people didn't want an apology, they wanted blood.

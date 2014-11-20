@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'The Day the Trackbacks Died'
 ---
 Jeff Atwood over at Coding Horror thinks trackbacks are dead. From the [article](http://www.codinghorror.com/blog/archives/000751.html).
