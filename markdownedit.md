@@ -34,6 +34,7 @@ Gratuitous Screen Shot
 - Word Count
 - Auto Save
 - Select previous/next header
+- Highlight current line
 - [Open Source](https://github.com/mike-ward/Markdown-Edit)
 - MIT License
 
