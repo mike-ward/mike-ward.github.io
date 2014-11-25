@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Standalone Windows Live Writer Installer'
 ---
 For some reason I can not get Windows Live Writer to install on my computer using the integrated Live installer. It just gives me some meaningless error message and dies. What I needed was a standalone installer that didn't require an Internet connection to execute. Well, after much searching, I found links to standalone installers for all the Windows Live programs. Here they are:

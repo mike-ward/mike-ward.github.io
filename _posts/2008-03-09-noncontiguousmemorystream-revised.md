@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'NonContiguousMemoryStream Revised'
 ---
-[Earlier I wrote about a class I designed to combat large heap fragmentation issues with memory streams](/blog/post/2007/12/27/noncontiguousmemorystream-in-net). I've updated the class to correct a bug I recently discovered in the read routine. I've also published the entire solution with additional unit tests.
+[Earlier I wrote about a class I designed to combat large heap fragmentation issues with memory streams](http://mike-ward.net/2007/12/27/noncontiguousmemorystream-in--net/). I've updated the class to correct a bug I recently discovered in the read routine. I've also published the entire solution with additional unit tests.
 
 `MemoryStreams` are darn handy little buggers for caching away results from serialization and file copy operations. However, there's a dark side in that `MemoryStreams` can create additional memory pressure, particularly when stream sizes grow in excess of about 85K. At that point, the .NET run-time allocates from the large memory heap. This heap does not compact like the small memory heap and can lead to fragmentation. Often, this can cause `OutOfMemoryExceptions` long before physical memory is exhausted.
 

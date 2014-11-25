@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'A Solar Grand Plan'
 ---
 Scientific American has a plan to [wean us off oil and coal by using solar energy](http://www.sciam.com/article.cfm?id=a-solar-grand-plan&page=1). It's an interesting read. Here are the key points.

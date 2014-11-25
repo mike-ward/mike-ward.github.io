@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'String.Format Tool in SilverLight'
 ---
 Can't remember how to format a date in universal time using String.Format()? How about scientific format for doubles? [This little SilverLight tool](http://blog.toolico.com/2008/developers-tools/string-format-made-simpl) helps you to quickly build a String.Format() call for any format-enabled type (int, double, DateTime, string) in .NET. Cool!

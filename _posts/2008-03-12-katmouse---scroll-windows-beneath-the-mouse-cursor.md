@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Katmouse - Scroll windows beneath the mouse cursor'
 ---
 The best programs are the ones you install, forget about and use _everyday_. These programs integrate so well into the environment that they become part of your work flow. [Katmouse](http://ehiti.de/katmouse/) is just such a program. Simply put, it allows you to scroll the window beneath the mouse cursor, even if the window does not have input focus. It's a simple behavior that it is instantly useful and requires no memorization to use.

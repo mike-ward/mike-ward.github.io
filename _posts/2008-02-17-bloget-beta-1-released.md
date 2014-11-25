@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Bloget Beta 1 Released!'
 ---
 It's been like forever since the last release of Bloget back in July of 2007. Don't know what Bloget is? Check out this [link](/bloget) for details. 

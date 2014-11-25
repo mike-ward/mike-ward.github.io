@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Input Director - Control Multiple Computers'
 ---
 As I write this I have 3 computers that I use for various purposes. I use to keep a separate keyboard and mouse for each one but I recently found a better way. [Input Director](http://www.inputdirector.com/) a let's you use one keyboard and mouse to control several computers. I've placed the screens side by side and then simply move my mouse from screen to screen. It's like one computer with 4 screens (I have two screens on my primary computer). A real time saver and it fits perfectly into my work-flow.

@@ -1,20 +1,20 @@
 ---
-layout: post
+layout: post  
 title: 'Vista Sidebar Stopwatch Gadget'
 ---
 [Vista has gadgets](http://vista.gallery.microsoft.com/vista/SideBar.aspx?mkt=en-us) similar to what is found on the [Mac](http://www.apple.com/downloads/dashboard/) and in [Yahoo Widgets](http://widgets.yahoo.com/) (formerly Konfabulator). For some reason, they have not been well received which (again) is a bit puzzling to me since they work quite well and are easy to author. The quality of a gadgets themselves is not always up to par with their Mac and Yahoo counterparts but that's not a limitation of the platform. My favorite gadgets are the [NPR Listener](http://gallery.live.com/liveItemDetail.aspx?li=d99b643d-e05c-48e2-a5b4-030d4d5e5d6b&bt=1&pl=1), [AdSense Monitor](http://gallery.live.com/liveItemDetail.aspx?li=3fd2ed33-77fa-46d8-b60e-85f1839be2a1&bt=1) and [Wireless Status Meter](http://gallery.live.com/liveItemDetail.aspx?li=35393b6e-5e43-45ff-95dd-49cfc4303246&bt=1). 
 
 Gadgets are really easy to write. There's no compilation and the installation is as simple as placing the files in a special folder. To illustrate the point, I wrote a simple stopwatch gadget. The gadget is simplicity itself. Click to start, click to stop, double-click to reset. No buttons or countdowns or lap times. Nothing to confuse a user like myself.
 
-I put together a mini tutorial for experienced programmers who are familiar with HTML, XML, JavaScript and just a smig of Document Object Model (DOM) with some notes on some pitfalls I encountered along the way.
+I put together a mini tutorial for experienced programmers who are familiar with HTML, XML, JavaScript and just a smidgen of Document Object Model (DOM) with some notes on some pitfalls I encountered along the way.
 
 First off the requirements.
 
   * Gadgets are special folders containing a Gadget.xml file referred to as the manifest, plus supporting HTML, JavaScript and image files. 
   * The Gadget special folders are located in:
 
-%USERPROFILE%\AppData\Local\Microsoft\Windows Sidebar\Gadgets (for user gadgets)   
-%SYSTEM_ROOT%\Program Files\Windows Sidebar\Gadgets (for global gadgets)
+    %USERPROFILE%\AppData\Local\Microsoft\Windows Sidebar\Gadgets (for user gadgets)   
+    %SYSTEM_ROOT%\Program Files\Windows Sidebar\Gadgets (for global gadgets)
 
   * The folder name must have the extension of ".gadget". 
 
@@ -108,7 +108,7 @@ Ignoring the embedded JavaScript for the moment, you can see that the entire gad
 
 #### Two pitfalls
 
-If you create a new HTML document in Visual Studio it declares a proper DOCTYPE and html tag as follows:
+If you create a new HTML document in Visual Studio it declares a proper DOCTYPE and HTML tag as follows:
     
     DOCTYPE html PUBLIC 
       "-//W3C//DTD XHTML 1.0 Transitional//EN" 

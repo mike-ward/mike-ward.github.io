@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Bloget Multiuser, Multiblog Support'
 ---
 A user recently asked if Bloget supports multiple users and multiple blogs? The short answer is yes. Bloget uses ASP.NET's membership services and as such works with SQL, Active Directory and other providers. Bloget also has a built-in XML provider for those economy hosts that don't provide such services.  

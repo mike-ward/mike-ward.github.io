@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'Is "is" the forgotten C# keyword?'
 ---
-When's the last time you've seen or used the "is" keyword in code? It can often be used instead of the "as" keyword. Here's an example from a Microsoft help file.
+When is the last time you've seen or used the "is" keyword in code? It can often be used instead of the "as" keyword. Here's an example from a Microsoft help file.
     
     // CanExecuteRoutedEventHandler that only returns true if
     // the source is a control.

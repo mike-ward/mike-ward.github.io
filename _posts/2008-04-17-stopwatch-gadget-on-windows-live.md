@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Stopwatch Gadget on Windows Live'
 ---
 I posted my little [Stopwatch Gadget on Windows Live](http://gallery.live.com/LiveItemDetail.aspx?li=a7ca6bd4-15f1-44a5-b6ba-31b2daf75e47) the other day. The response has been interesting. The early adopters gave me high marks averaging 4 and 5 stars. Now that John Q Public has started chiming in the scores have dropped dramatically. My only guess is that they see the gadget as so simple as to not be worthy of a good score.

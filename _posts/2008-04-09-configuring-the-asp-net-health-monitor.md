@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Configuring the ASP.NET Health Monitor'
 ---
 One of the things I really like about programming in .NET and ASP.NET is all the cool built-in functionality in the framework. The ASP.NET health monitor is an excellent example.
@@ -58,6 +58,6 @@ Setting up monitoring involves editing the Web.config file for your Web site. Th
     </mailSettings>
     </system.net>
 
-In addition to the healthmonitoring settings, you'll also need to configure the mail settings as shown. Make sure to change the email and host values as well.
+In addition to the `healthMonitoring` settings, you'll also need to configure the mail settings as shown. Make sure to change the email and host values as well.
 
-When an error is detected, you'll get an email detailing the time of the error, the url, host info and most importantly, a stack trace. There are also ways to configure healthmontoring to write to a database. Custom events and providers are also supported.
+When an error is detected, you'll get an email detailing the time of the error, the URL, host info and most importantly, a stack trace. There are also ways to configure `healthMontoring` to write to a database. Custom events and providers are also supported.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Unique April Fool''s Prank'
 ---
 You'll see a lot of [April Fools' Pranks](http://en.wikipedia.org/wiki/April_Fools%27_Day) on the Web today. This _unique_ spokeshave however, strikes me as a bit more clever than most. This tool is suppose to aid in making tapered dowels. Like most good April Fools' pranks, it's almost believable.

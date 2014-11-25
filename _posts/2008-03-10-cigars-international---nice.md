@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Cigars International - Nice!'
 ---
 ![noborder](http://www.cigarsinternational.com/graphics/cilogo.jpg)

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Make IE6/IE7 more usable with The World Browser'
 ---
   

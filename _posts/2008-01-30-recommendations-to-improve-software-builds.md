@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Recommendations to Improve Software Builds'
 ---
 I recently took over management of our build process for our development team mostly because no one else wanted to touch it. Once I started looking at the build scripts and the issues surrounding them I understood why no one volunteered. It was simply a mess. Sadly, this is not an uncommon occurrence if my experience of the last 20 years is any indication.
@@ -20,7 +20,7 @@ How much more work can your developers get done if their build only took 3 minut
 
 A friction free build is a fast build that makes little demands on the developer and gives consistent results. Every situation is unique but I think some of the changes I made will apply to many situations.
 
-Use a domain specific tool. In our case we were using a perl script to conduct our builds. I suspect this is quite common. While perl is a great general purpose tool, it simply sucks for doing builds. There are better tools like ANT and Visual Build which are designed specifically to do builds. Use them. In our case, I chose MSBUILD since we’re building .NET applications.
+Use a domain specific tool. In our case we were using a perl script to conduct our builds. I suspect this is quite common. While Perl is a great general purpose tool, it simply sucks for doing builds. There are better tools like ANT and Visual Build which are designed specifically to do builds. Use them. In our case, I chose MSBUILD since we’re building .NET applications.
 
 Fix and maintain build dependencies. Said another way, never build anything twice. Seems obvious but it’s surprising how often steps are repeated in a complicated build. Admittedly, this is a tedious process. You have to go through your build logs and look for duplicates. Grep can be of great help here but manually plowing through the logs often leads to better results.
 
@@ -44,15 +44,15 @@ Now that you have a fast build, it’s time to exercise it. “Continuous Integr
 
 Previously, a developer would check in code and have to wait up to 24 hours know if his changes successfully built. I can’t count the number of times a build broke because someone checked their source and forgot about the header file. Worse still, the developer has left for vacation and won’t be available for 2 weeks. Ouch!
 
-There are now tools available that can monitor for changes and conduct builds automatically. The results are then emailed or made available via a local web site. These tools are commonly referred to as “Continuous Integration Servers”. There are a number of CI Servers on the market for various platforms. We went with CruiseControl.NET which is an open source project developed by ThoughtWorks. Other products may be better suited for your needs.
+There are now tools available that can monitor for changes and conduct builds automatically. The results are then emailed or made available via a local web site. These tools are commonly referred to as “Continuous Integration Servers”. There are a number of CI Servers on the market for various platforms. We went with **CruiseControl.NET** which is an open source project developed by ThoughtWorks. Other products may be better suited for your needs.
 
-Setting up a CI Server is not complicated in most cases provided you have a fast build (remember step 1?). In the case of CruiseControl.NET, you run an installation program, configure a few XML files and send out an email letting your developers know where CI Dashboard can be found.
+Setting up a CI Server is not complicated in most cases provided you have a fast build (remember step 1?). In the case of **CruiseControl.NET**, you run an installation program, configure a few XML files and send out an email letting your developers know where CI Dashboard can be found.
 
 The CI Dashboard is a summary view of all the projects being managed by the CI Server. It’s a snapshot of the health of all your builds with links detailed status reports of those builds. Here's a [live example](http://ccnetlive.thoughtworks.com/ccnet/ViewFarmReport.aspx).
 
 Furthermore, should the build break, a list of files updated or added and who added them for the build is available. We jokingly call this the “Blame List” where I work but you can see how valuable this kind of feedback might be.
 
-CI Servers can send emails to those who individuals who modified code for the particular broken. However, if you’re like most developers l know, you’ll ignore these automated messages. Instead, we chose to use a desktop notification program that came with CruiseControl.Net called CCTray. It sits in the tray and is colored green when all builds are good and red when one or more fails.
+CI Servers can send emails to those who individuals who modified code for the particular broken. However, if you’re like most developers l know, you’ll ignore these automated messages. Instead, we chose to use a desktop notification program that came with **CruiseControl.Net** called **CCTray**. It sits in the tray and is colored green when all builds are good and red when one or more fails.
 
 The tray icon has been a great tool and the developers seem to enjoy it. Whenever the icon goes red there is friendly banter back and forth about who broke what and when it might get fixed. Morale has improved considerably.
 
@@ -62,7 +62,7 @@ After a time however, the game became less interesting because keeping the build
 
 Many more tests have to be passed now to constitute a “green” status and yet the team handles it quite well. You can see and feel the difference in both the product and the people.
 
-Just to make the game a bit more interesting I placed an LED sign above my cube that indicates the build status by polling the CI servers every 10 seconds. Thanks to Jeff Attwood’s excellent and library for BetaBrite signs and the open source from CruiseControl.NET I was able to hack together a program to reflect the build status and display it on the sign for all to see. Now development, management and testing see the build status at a glance. It’s a point of pride that we don’t let the sign go red.
+Just to make the game a bit more interesting I placed an LED sign above my cube that indicates the build status by polling the CI servers every 10 seconds. Thanks to Jeff Attwood’s excellent and library for BetaBrite signs and the open source from **CruiseControl.NET** I was able to hack together a program to reflect the build status and display it on the sign for all to see. Now development, management and testing see the build status at a glance. It’s a point of pride that we don’t let the sign go red.
 
 But wait there’s more. When the build is green, the next logical step is to display – BUGS! Our bugs are kept in a database so it was a simple matter to query the bug database and display the number and severity of bugs currently logged against the product. Now the goal is green and zero!
 

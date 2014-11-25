@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Amazon Adds Service Health Dashboard'
 ---
 I use Amazon's S3 service to serve images for this Web site. It's a great service, especially for high volume site (don't I wish) because it scales automatically. It's also a pay as you go service meaning you only pay for what you use. Amazon now has a [Dashboard](http://status.aws.amazon.com/) that shows the current and historical status of these services.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Microsoft: IE8 to support standards from the start'
 ---
 ![](http://media.arstechnica.com/journals/microsoft.media/ie8_beta.jpg) 

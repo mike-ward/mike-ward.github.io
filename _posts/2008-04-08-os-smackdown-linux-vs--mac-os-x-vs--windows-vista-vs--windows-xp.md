@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'OS Smackdown: Linux vs. Mac OS X vs. Windows Vista vs. Windows XP'
 ---
 There's an interesting comparison of operating systems by from Computer World as described by four experts in support of their desktop operating system of choice. It's an interesting read in that only one advocate has an unqualified endorsement. Here's an [excerpt from Preston Gralla's](http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=9075000&pageNumber=4) view point.

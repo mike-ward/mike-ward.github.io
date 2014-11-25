@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'SimpleZip - Generate Zip files with one line of code'
 ---
 .NET doesn't have much in the way of built-in archive support. If you want to Zip up some files you can use the open source [SharpZipLib](http://www.icsharpcode.net/OpenSource/SharpZipLib/) or a commercial package like [Xceed](http://xceed.com/). There's also Zip API's in the J# library but you can't count on the assemblies being installed. A recent article in The Code Project called [SimpleUnzipper](http://www.codeproject.com/KB/cs/Simple_Unzipper.aspx) inspired me to write a counter part aptly named SimpleZip.
@@ -10,7 +10,7 @@ SimpleZip consists of one class with one public method and about 450 lines of co
 
 Its use should be self-explanatory.
 
-The archiveStream is of particular interest in that it does not have to be a seekable stream. To see why this is interesting (and important) it's worth taking a moment to understand a little of the Zip archive structure.
+The `ArchiveStream` is of particular interest in that it does not have to be a seekable stream. To see why this is interesting (and important) it's worth taking a moment to understand a little of the Zip archive structure.
 
 The Zip archive has a simple structure that supports file compression. The basic structure is:
     

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Events and Delegate Shortcuts in C#'
 ---
 The syntax for events and delegates has always struck me as a bit bulky and hard to remember. For instance, to declare an Alarm event seen in many of the Microsoft code samples, you declare a handler type and an event of that handler type as follows:
@@ -15,15 +15,15 @@ It's a bit wordy and there's a naming convention to remember as well. With .NET 
         TEventArgs e
     ) where TEventArgs : EventArgs
 
-Using the EventHandler generic delegate, the Alarm event can now be expressed in one line with a more natural syntax
+Using the `EventHandler` generic delegate, the Alarm event can now be expressed in one line with a more natural syntax
     
     public event EventHandler<AlarmEventArgs> Alarm;
 
-Another nice syntax shortcut introduced in .NET 2.0 is delegate inferencing. Assume we have a class instance _clock_ that has an Alarm event. Here's a .NET 1.1 example of adding an event handler:
+Another nice syntax shortcut introduced in .NET 2.0 is delegate inferencing. Assume we have a class instance `clock` that has an Alarm event. Here's a .NET 1.1 example of adding an event handler:
     
     clock.Alarm += new AlarmEventHandler(someMethodThatHandlesEvent);
 
-The handler _someMethodThatHandlesEvent_ is a method declared elsewhere. In 2.0 the compiler knows the type that _clock.Alarm_ can accept and will new up the correct handler for us. This yields a more natural and readable syntax:
+The handler `someMethodThatHandlesEvent` is a method declared elsewhere. In 2.0 the compiler knows the type that `clock.Alarm` can accept and will new up the correct handler for us. This yields a more natural and readable syntax:
     
     clock.Alarm += someMethodThatHandlesEvent;
 

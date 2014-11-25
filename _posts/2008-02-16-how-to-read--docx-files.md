@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'How to Read .DOCX Files'
 ---
 As much as I like Vista, I dislike Microsoft Office in all it's incarnations. I don't have Microsoft Office on my computer and I suspect it's one of the reasons why my system is so stable. Office is just way to invasive and complex for my liking. Alas, there are those out there that insist on sending me documents in .DOC format or more lately .DOCX formats. .DOCX is the newer Office 2007 format. There are various online and desktop converters that will convert these new .DOCX formats into .DOC formats (Yuck!). Some of the online converters like [Zamzar](http://Zamzar.com) will convert to other more portable formats like PDF. But there's an easier way. [Microsoft makes free "Viewers" for all their Office programs](http://office.microsoft.com/en-us/downloads/HA010449811033.aspx).
