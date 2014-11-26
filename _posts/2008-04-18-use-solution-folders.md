@@ -2,7 +2,7 @@
 layout: post  
 title: 'Use Solution Folders'
 ---
-In reading [Scott Hanselman's blog](http://feeds.feedburner.com/~r/ScottHanselman/~3/272745966/TheWeeklySourceCode24ExtensibilityEditionPlugInsProvidersAttributesAddInsAndModulesInNET.aspx) this morning, I ran across an interesting tid bit.
+In reading [Scott Hanselman's blog](http://feeds.feedburner.com/~r/ScottHanselman/~3/272745966/TheWeeklySourceCode24ExtensibilityEditionPlugInsProvidersAttributesAddInsAndModulesInNET.aspx) this morning, I ran across an interesting tidbit.
 
 > ASIDE: Not enough people use "Solution Folders" in Visual Studio. Seriously, folks, just right-click and "Add | New Solution Folder," start dragging things around and bask in the tidiness
 
