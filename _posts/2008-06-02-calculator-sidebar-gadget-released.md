@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'Calculator Sidebar Gadget Released'
 ---
-Yes, just what the world needs, another calculator gadget! Except this is actually a useful and useable calculator gadget. You don't get pretty buttons or bubble gum skins. Instead, you get a calculator that evaluates expressions and remembers what you enter for later use. Like my Stopwatch gadget, it's no frills and to the point. Here's a screen shot.
+Yes, just what the world needs, another calculator gadget! Except this is actually a useful and usable calculator gadget. You don't get pretty buttons or bubble gum skins. Instead, you get a calculator that evaluates expressions and remembers what you enter for later use. Like my Stopwatch gadget, it's no frills and to the point. Here's a screen shot.
 
 ![](/cdn/images/blog/CalculatorSidebarGadgetReleased_10BE6/image.png)
 
@@ -26,6 +26,6 @@ The recall stack remembers what's in the calculator every time you press enter. 
 
 The calculator sports two sizes. In the docked position, it's 130 pixels wide. Undocked it's 260 pixels wide which gives you a bit more room for seeing longer expressions.
 
-The effort to do all this was minimal. I let the JavaScript engine do all the work by using the **eval()** statement. The only real trick was the recall stack which is not much more than array and an integer. 
+The effort to do all this was minimal. I let the JavaScript engine do all the work by using the `eval()` statement. The only real trick was the recall stack which is not much more than array and an integer. 
 
 Alright, it's not going to set the world on fire but for an evenings doodling it's actually quite useful. You can get it from the [downloads](/downloads) page. Vista only.
