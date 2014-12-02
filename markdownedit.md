@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page  
 title: "Markdown Edit"
 ---
 Markdown Edit is  a Windows **desktop** [CommonMark](http://commonmark.org) (a.k.a. Markdown) editor with an emphasis on content and keyboard shortcuts. There is minimal window chrome and most functions are accessed through keyboard shortcuts. There is no main menu, status bar, tabbed windows or other distractions.
