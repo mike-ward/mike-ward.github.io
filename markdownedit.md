@@ -4,14 +4,12 @@ title: "Markdown Edit"
 ---
 Markdown Edit is  a Windows **desktop** [CommonMark](http://commonmark.org) (a.k.a. Markdown) editor with an emphasis on content and keyboard shortcuts. There is minimal window chrome and most functions are accessed through keyboard shortcuts. There is no main menu, status bar, tabbed windows or other distractions.
 
-> Markdown Edit is currently in Beta. I welcome your feedback and suggestions. Use the `Comments` button at the bottom of the page.
->
 > I need themes! (Dammit Jim!) I'm a programmer, not a designer. Send me some cool themes and I'll include them.
 
 `TL;DR` [Download](http://mike-ward.net/downloads)
 
 Gratuitous Screen Shot  
-![screen shot](https://raw.githubusercontent.com/mike-ward/Markdown-Edit/master/ScreenShot.png)
+![screen shot](https://cdn.rawgit.com/mike-ward/Markdown-Edit/master/ScreenShot.png)
 
 ## Features
 

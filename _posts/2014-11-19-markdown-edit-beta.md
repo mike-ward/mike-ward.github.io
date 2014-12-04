@@ -7,7 +7,7 @@ title:  "Markdown Edit Beta"
 `TL;DR` [Download](http://mike-ward.net/downloads)
 
 Gratuitous Screen Shot  
-![screen shot](https://raw.githubusercontent.com/mike-ward/Markdown-Edit/master/ScreenShot.png)
+![screen shot](https://cdn.rawgit.com/mike-ward/Markdown-Edit/master/ScreenShot.png)
 
 Markdown Edit would not have been possible without the unselfish help of other freeware authors. To paraphrase a famous physicist, "We stand on the shoulders of giants." Thanks goes out to the following in no particular order.
 
