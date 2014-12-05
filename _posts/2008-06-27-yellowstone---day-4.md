@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Yellowstone - Day 4'
 ---
 We left the Bad Lands of South Dakota early and headed for the Interstate. First stop was the National Minuteman Missile Launch Facility. The park service runs tours of the old cold war missile silos and command centers. It's such an important part of history that we had to stop and investigate.
@@ -12,7 +12,7 @@ We then proceeded to the elevator which barely fit the 7 people in our group plu
 
 Once below, we entered the "Capsule". It's a pill shaped room about 30 feet long and suspended on large springs to absorb the shock of a nuclear strike. The door to the room is 7 tons and looks to be about 4 feet thick. There's a funny cartoon modeled after the Domino's PIzza slogan painted on the door promising delivery in 30 minutes or less.
 
-The room is vintage 1960's. Some of the computers look like they had nixie tubes. There was a red box with two locks that contained the launch codes. Each missileer (their name, not mine), has separate codes that only he knows. And unlike the movies, there is no red button. There are two keys spaced 12 feet apart that have to be turned simultaneously. 
+The room is vintage 1960's. Some of the computers look like they had nixie tubes. There was a red box with two locks that contained the launch codes. Each **missileer** (their name, not mine), has separate codes that only he knows. And unlike the movies, there is no red button. There are two keys spaced 12 feet apart that have to be turned simultaneously. 
 
 One thing I didn't know is that it actually takes 4 people, not two to launch a missile. If only the two officers actuate the weapon, it goes into a 2.5 hour count down. Only if 2 other missileers in another control center confirm the launch by the same method is there a launch.
 

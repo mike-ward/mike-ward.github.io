@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Yellowstone - Day 5 and 6'
 ---
 [![CIMG1580](/cdn/images/blog/YellowstoneDay5_14503/CIMG1580_thumb.jpg)](/cdn/images/blog/YellowstoneDay5_14503/CIMG1580.jpg) We slept in late (well for us a least) and didn't get out the door until 8:00 am. We set out for the Wildlife Loop in Custer State Park, SD. No sooner did we drive a few miles when we ran into hundreds of buffalo. They were in the road and in no hurry to move. We were near the South entrance to the park. The younger buffalo were checking out some of the doors of the ranger station.
@@ -14,7 +14,7 @@ In the afternoon we attended some ranger programs. The kids particularly liked m
 
 It rained again that night (I thought this was a desert people!). Fortunately for us our travel trailer was water tight and we experienced no leaks. This is one time when the travel trailer trumps tent camping. We sat dry and protected from the storm and could read and play games. It's great family time.
 
-The next day we left for Thermopolis in Wyoming, famous for their mineral hot springs. Along the way we stopped in Dead Wood, home of Calamity Jane, Wild Bill Hickock and other notable Western figures. It apparently hit bottom in the 1980's and was a dying town. Some one got the idea to introduce gambling shortly afterwards and the downtown has made an amazing comeback. Restored and new structures are carefully monitored to maintain the old West feel of the town. There are numerous hotels, casinos and speciality stores. Definitely touristy but when compared to the 1980 pictures, a vast and welcome improvement.
+The next day we left for Thermopolis in Wyoming, famous for their mineral hot springs. Along the way we stopped in Dead Wood, home of Calamity Jane, Wild Bill Hickock and other notable Western figures. It apparently hit bottom in the 1980's and was a dying town. Some one got the idea to introduce gambling shortly afterwards and the downtown has made an amazing comeback. Restored and new structures are carefully monitored to maintain the old West feel of the town. There are numerous hotels, casinos and specialty stores. Definitely touristy but when compared to the 1980 pictures, a vast and welcome improvement.
 
 The Adams Museum in Dead Wood is well worth the visit. It's free but they accept donations. It's rated as one of the 10 best Western museums in the United States. I'm not sure what that means but it is a very pleasant and thoughtfully presented collection. Among the many artifacts is the first train that was used in the area. It's quaintly small, almost child sized. It could not have pulled more than a dozen cars.
 

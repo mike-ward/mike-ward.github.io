@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'PowerCommands 1.1 for Visual Studio 2008'
 ---
 Not sure how this one got by me but there is a cool set of extensions for Visual Studio 2008 available on [MSDN](http://code.msdn.microsoft.com/PowerCommands).

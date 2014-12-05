@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #4'
 ---
 A little late this week but still fresh...

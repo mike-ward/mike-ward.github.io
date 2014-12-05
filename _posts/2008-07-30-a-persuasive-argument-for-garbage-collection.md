@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'A Persuasive Argument for Garbage Collection'
 ---
 Despite what I perceive as greater program reliability and speed, I find many of the programmers I work with deriding the garbage collector in .Net and wishing for the good old days of explicit memory management. I personally have never looked back. I've never done a very good job of defending this position, in part because it's hard to quantify.

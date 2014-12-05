@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page  
 title: About
 ---
 I suppose I should put something quick and witty about myself here but then I'm neither so that's not going to work.

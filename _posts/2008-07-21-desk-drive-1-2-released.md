@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: post  
 title: 'Desk Drive 1.2 Released'
 ---
 Desk Drive 1.2 introduces two new features. The first feature allows you to hide the tray icon. To get to the settings dialog once the the tray icon is hidden, simply run the program a second time.
 
-[![deskdrive](/cdn/images/blog/DeskDrive1.2Released_1206F/deskdrive_thumb.png)](/cdn/images/blog/DeskDrive1.2Released_1206F/deskdrive.png)
+![deskdrive](/cdn/images/blog/DeskDrive1.2Released_1206F/deskdrive_thumb.png)
 
 The second feature allows you to start Desk Drive automatically when you login to Windows. The source code for this version is also available for download.
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #8'
 ---
 [Opera 9.51](http://www.opera.com/download/) - Opera is the "other" browser that doesn't get as much press as Firefox. It's really fast and is a great alternative.
@@ -32,7 +32,7 @@ title: 'Friday Links #8'
 
 [nCleaner](http://www.makeuseof.com/tag/ncleaner-the-app-that-tells-ccleaner-to-take-a-hike/) - A very nice system cleaning application that competes well with CCleaner.
 
-![](http://www.makeuseof.com/wp-content/uploads/2008/07/ncleanerlogoleft.gif)
+![ncleaner](http://www.makeuseof.com/wp-content/uploads/2008/07/ncleanerlogoleft.gif)
 
 [Firefox Tip](http://www.labnol.org/software/organize/save-multiple-web-pages-as-mht-firefox/3896/) - Save multiple Web pages as MHT files. MHT files save web pages and all embedded graphics in a single file known as a Web archive. IE has supported this for years and now Firefox can do the same with this plugin.
 

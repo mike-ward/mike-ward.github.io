@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page  
 title:  Calendar Gadget®
 ---
 _Version 0.1.0 - October 25, 2008_

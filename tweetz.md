@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page  
 title: Tweetz Desktop
 ---
 Tweetz Desktop is a Windows twitter client designed to sit comfortably in the corner of your desktop. It can optionally display attached images inline (as shown below). Tweetz displays your home, mentions and direct messages in a single view reducing the need to switch time lines. Tweetz supports real time updates, posting with media and keyboard shortcuts. (Press ? to display)

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page  
 title:  Simply Weather
 ---
 Simply Weather is, well, simply the weather. No garish ads or pop-ups. Neat, simple and to the point.

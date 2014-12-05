@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page  
 title: Archive
 ---
 {% for post in site.posts %}

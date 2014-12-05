@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #9'
 ---
 Things were a little crazy yesterday which is why I'm a day late.
-
-![](http://www.evolus.vn/Pencil/Images/logo.png)
 
 [Sketching & GUI Prototyping](http://www.evolus.vn/Pencil/Home.html) - Firefox 3 extension that turns your browser into an excellent sketching tool.
 

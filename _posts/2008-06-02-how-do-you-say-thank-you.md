@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'How do you say Thank You?'
 ---
 A lot of people (as in 99%) come to this site, consume the content, download the software and leave. I've always been a little annoyed by this behavior. If someone handed you a 5 dollar bill, wouldn't you say Thank You?

@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: post  
 title: 'Desk Drive 1.3 Released!'
 ---
 This release of Desk Drive requires your help. I've added the ability to "Localize" Desk Drive without special tools. I wrote an extension to .Net's Resource Manager that pulls resources from an XML file rather than satellite assemblies. If you don't understand what that means, don't worry. All it means is that Desk Drive can be localized to new languages by editing one simple file (DeskDrive.exe.xml).
 
-[![deskdrive](/cdn/images/blog/DeskDrive1.3Released_11570/deskdrive_thumb.png)](/cdn/images/blog/DeskDrive1.3Released_11570/deskdrive.png)
+![deskdrive](/cdn/images/blog/DeskDrive1.3Released_11570/deskdrive_thumb.png)
 
 The format of the file is as follows:
     
