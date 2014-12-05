@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page  
 title:  Freesnap
 ---
 _Version 1.5.3 released 6 June 2009_
