@@ -14,7 +14,7 @@ Adding your own personal events to Calendar is a breeze. With a single, simple a
 
 Change the look and feel of Calendar by altering the colors and fonts. Blend into the desktop with opacity settings. Remove the border to make it appear as part of the desktop. With Calendar, you decide how it looks.
 
-Bolded dates indicate that one or more events occur on that day (colored dates and other emphasis coming soon!). Calendar's unique popup event window allows you see many months worth of events quickly and easily by moving your mouse over the Calendar.
+Bold dates indicate that one or more events occur on that day (colored dates and other emphasis coming soon!). Calendar's unique popup event window allows you see many months worth of events quickly and easily by moving your mouse over the Calendar.
 
 Other handy features include:
 
