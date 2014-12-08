@@ -5,7 +5,7 @@ title:  Downloads
 ### (a.k.a. The Goods)
 
 
-[Markdown Edit Setup](/download?file=MarkdownEditSetup.exe)
+[Markdown Edit Setup](/download?file=MarkdownEditSetup.msi)
 
 *Alternative Chocolatey Install*
 
