@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Changing drive icons in Windows Explorer'
 ---
 A few of you have emailed asking if it is possible to change the icon that [Desk Drive](/deskdrive) puts on the desktop. Well, the answer is yes with qualifications. There is no option in Desk Drive to change drive icons but it can be done a couple of ways from the Windows itself.
@@ -10,7 +10,7 @@ For USB flash drives, create an autorun.inf file in Notepad and add the followin
     label=USB Flash Drive bla bla bla...
     icon=usbstick.ico
 
-Copy both the autorun.inf and icon file to your flash drive. Next time you plug the flash drive in it will show up with the new label and icon. It will also appear the same way in Windows Explorer. Here's an example from my desktop.
+Copy both the `autorun.inf` and icon file to your flash drive. Next time you plug the flash drive in it will show up with the new label and icon. It will also appear the same way in Windows Explorer. Here's an example from my desktop.
 
 ![Example of custom icon on the desktop](/cdn/images/blog/ChangingDriveIcons_DD36/usbstick.png)   
 Example USB icon

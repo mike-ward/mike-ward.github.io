@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #10'
 ---
-![](/cdn/images/links.gif) Interesting finds this week.
+Interesting finds this week.
 
 [Online HTML Form Build Software](http://wufoo.com/) - Wufoo forms helps you create contact forms, online surveys, and invitations so you can collect the data, registrations and online payments you need without writing a single line of code.
 

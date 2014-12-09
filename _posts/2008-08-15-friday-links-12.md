@@ -1,9 +1,7 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #12'
 ---
-![](/cdn/images/links.gif)
-
 [7 Beautiful Themes (Visual Styles) to Customize Windows Vista](http://www.nirmaltv.com/2008/08/07/download-windows-vista-themes/) - Cools Vista themes for, get this, Vista. Who knew?
 
 [What's New in .NET Framework 3.5 Service Pack 1 - WindowsClient.net ](http://windowsclient.net/wpf/wpf35/wpf-whats-new-35sp1.aspx)- Nice summary of new .NET 3.5 service pack features. 

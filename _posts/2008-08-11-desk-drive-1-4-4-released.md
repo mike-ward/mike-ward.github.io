@@ -2,7 +2,7 @@
 layout: post
 title: 'Desk Drive 1.4.4 Released'
 ---
-I was still receiving reports of Desk Drive crashing when "Minimize all windows" was active. I talked about this problem in an earlier post titled "[Using C# to Interact with the Shell Gotcha](/blog/post/2008/08/07/using-c-to-interact-with-the-shell-gotcha)". **Well, I was wrong**. If you develop on a system with a later version of the shell interface, it will bind to that version when using the VS 2008 interop code generator. Said another way, you can't just add a reference to the Shell and let VS do the COM interop.
+I was still receiving reports of Desk Drive crashing when "Minimize all windows" was active. I talked about this problem in an earlier post titled "[Using C# to Interact with the Shell Gotcha](http://mike-ward.net/2008/08/07/using-c-to-interact-with-the-shell-gotcha)". **Well, I was wrong**. If you develop on a system with a later version of the shell interface, it will bind to that version when using the VS 2008 interop code generator. Said another way, you can't just add a reference to the Shell and let VS do the COM interop.
 
 Recall that the reason for the crash is that Windows XP only supports up to IShellDispatch4. Vista added a newer IShellDispatch5 interface to support the 3D Flip task switching feature. When you build under Vista and use Visual Studio's COM interop code generator, it always binds to IShellDispatch5. Even if you cast to IShellDispatch4 as suggested earlier, the generated code first binds to IShellDispatch5 and then to IShellDispatch4. Well, XP does not support IShellDispatch5 which is the cause of the crash when running on XP.
 
@@ -10,11 +10,9 @@ This is like a total bummer. All I really need is a way to tell the code generat
 
 There's an excellent article on Code Guru about [Writing your own COM Interop in C#](http://www.codeguru.com/csharp/csharp/cs_misc/com/article.php/c9065/) that provides most of the code you'll need. It's really not all that different from using COM objects in C++ and in some ways easier. However, the interface itself (IShellDispatch in this case) is not defined anywhere in C#. Defining one by hand is tedious and error prone.
 
-To get an interface definition in C# for IShellDispatch, I fired up [Reflector](http://www.aisto.com/roeder/dotnet/) and loaded the Interop.Shell32.dll assembly that Visual Studio generated earlier.
+To get an interface definition in C# for `IShellDispatch`, I fired up [Reflector](http://www.aisto.com/roeder/dotnet/) and loaded the Interop.Shell32.dll assembly that Visual Studio generated earlier.
 
-[![image](/cdn/images/blog/DeskDrive1.4.4Released_8162/image_thumb.png)](/cdn/images/blog/DeskDrive1.4.4Released_8162/image.png)
-
-(Click to enlarge)
+![image](/cdn/images/blog/DeskDrive1.4.4Released_8162/image_thumb.png)
 
 As you can see, Reflector disassembles the interface into C#. A simple copy and paste and you're there.
 

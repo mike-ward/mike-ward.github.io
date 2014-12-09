@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #11'
 ---
-![](/cdn/images/links.gif) News I found interesting this week.
+News I found interesting this week.
 
 [TextFixer: Text to Capitals, Remove Line Breaks & Whitespaces etc.](http://www.makeuseof.com/dir/textfixer-online-tools-change-modify-text-html/) - TextFixer gives you a bunch of useful web tools to work with text and html code. If you ever need to run some basic operations on text i.e convert text to capitals, remove or convert line breaks to p tags or br tags, remove line tabs and whitespaces, make all letters lowercase, [sort text list in alphabetical order](http://www.makeuseof.com/dir/alphebetizer-put-lists-alphabetical-order/) etc. then TextFixer is the Web site you need.
 
@@ -12,13 +12,13 @@ title: 'Friday Links #11'
 
 [New Tools for Framework Designers Published](http://blogs.msdn.com/brada/archive/2008/08/03/new-tools-for-framework-designers-published.aspx) - You can download the three new tools Deps, Layering, and PotentialCallers here: [http://code.msdn.microsoft.com/fxarch](http://code.msdn.microsoft.com/fxarch)
 
-[The Brightest, Sharpest, Fastest X-Ray Holograms Yet](http://www.lbl.gov/publicinfo/newscenter/pr/2008/ALS-fast-holograms.html) - The pinhole camera, a technique known since ancient times, has inspired a futuristic technology for lensless, three-dimensional imaging. Working at both the Advanced Light Source (ALS) at the U.S. Department of Energy’s Lawrence Berkeley National Laboratory, and at FLASH, the free-electron laser in Hamburg, Germany, an international group of scientists has produced two of the brightest, sharpest x-ray holograms of microscopic objects ever made, thousands of times more efficiently than previous x-ray-holographic methods.
+[The Brightest, Sharpest, Fastest X-Ray Holograms Yet](http://www.lbl.gov/publicinfo/newscenter/pr/2008/ALS-fast-holograms.html) - The pinhole camera, a technique known since ancient times, has inspired a futuristic technology for lens-less, three-dimensional imaging. Working at both the Advanced Light Source (ALS) at the U.S. Department of Energy’s Lawrence Berkeley National Laboratory, and at FLASH, the free-electron laser in Hamburg, Germany, an international group of scientists has produced two of the brightest, sharpest x-ray holograms of microscopic objects ever made, thousands of times more efficiently than previous x-ray-holographic methods.
 
 [Issuu PDF Viewer Makes Your Presentations Look Beautiful](http://www.labnol.org/internet/tools/issuu-pdf-viewer-beautiful-presentations/4104/) - [Issuu](http://issuu.com/), a free web service that converts PDF presentations into good looking Flip magazines.
 
 [Observu: Get an eMail Alert When your Website Goes Down](http://www.makeuseof.com/dir/observu-email-alert-blog/) - Free and simple Web site monitoring service.
 
-![](http://microsoftpdc.com/Images/BlogBling/PDC2008Brain.gif) [100+ PDC Sessions Posted](http://blogs.msdn.com/brada/archive/2008/08/04/100-pdc-sessions-posted.aspx) - Brad Abrams discusses the up coming PDC. I'll be there. Will you?
+[100+ PDC Sessions Posted](http://blogs.msdn.com/brada/archive/2008/08/04/100-pdc-sessions-posted.aspx) - Brad Abrams discusses the up coming PDC. I'll be there. Will you?
 
 [Text Anim: Easily Create Animated Texts](http://www.makeuseof.com/dir/text-anim-easily-create-animated-texts/) - Textanim is a tool to quickly and easily create animated texts. It has a simple interface and also offers many texture options.
 

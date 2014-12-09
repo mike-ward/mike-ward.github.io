@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Launch product after setup finishes in MSI installers'
 ---
 Visual Studio 2008 includes a setup project that can build MSI installers for your products. The authoring interface is a bit clunky but it incorporates most of the features one would want in a robust installer. Furthermore, since it is a Windows MSI Installer, it provides enterprise level options like feature selection and rollback. All in all, its a powerful and useful package.
@@ -10,6 +10,6 @@ But not all is lost. With a bit of JavaScript and a custom build command, you ca
 
 I added Aaron's script and custom build step to Desk Drive's installer. As you can see from the image below, it works quite nicely.
 
-[![launchonexit](/cdn/images/blog/LaunchproductaftersetupfinishesinMSIinst_A0BF/launchonexit_thumb.png)](/cdn/images/blog/LaunchproductaftersetupfinishesinMSIinst_A0BF/launchonexit.png)
+![launchonexit](/cdn/images/blog/LaunchproductaftersetupfinishesinMSIinst_A0BF/launchonexit_thumb.png)
 
 Don't forget to keep those translations coming for Desk Drive. I have English, German, Slovakian, Japanese and Finnish.

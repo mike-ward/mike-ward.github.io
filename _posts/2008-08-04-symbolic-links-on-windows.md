@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Symbolic Links On Windows'
 ---
 Symbolic links to directories are really useful.
