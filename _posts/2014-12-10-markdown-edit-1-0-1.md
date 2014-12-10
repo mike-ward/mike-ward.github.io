@@ -2,7 +2,7 @@
 layout: post  
 title: Markdown Edit 1.0.1
 ---
-### One big change and a couple of smaller ones.
+### One Big Change and a Couple of Smaller Ones
 
 - Switched to using a standard Windows installer (.msi). This has some long term benefits and plays better in corporate environments. The downside is that you'll have to manually uninstall the 1.0 version which used a different installer technology. Sorry for the inconvenience. The good news (sort of) is not many of you downloaded 1.0.
 - Added an **Insert File** command (`Ctrl+Shift+O`). I was toying with adding template documents but concluded inserting a file was more flexible.
