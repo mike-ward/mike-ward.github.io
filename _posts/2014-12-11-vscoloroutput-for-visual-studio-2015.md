@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: 'VSColorOutput for Visual Studio 2015'
+title: 'VSColorOutput for Visual Studio 2015 Preview'
 ---
 I updated the [VSColorOutput](http://mike-ward.net/vscoloroutput) installer a while back to allow installation on the Visual Studio 2015 preview. The binaries have not changed. As far as I can tell it works about as well as it did in VS2013.
 
