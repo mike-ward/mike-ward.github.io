@@ -40,6 +40,6 @@ Why? Because that's the extent of your investment. There are no accessories (oth
 
 And if you ever do lose interest, you can easily sell it. I started out looking for a used machine but found the few that were available were selling for 80% of cost of a new one. I finally gave up and just bought new. Now that I own one, I can see why there are so few available in the after market.
 
-So while the initial investment is high, factored over even say 5 years, you're likely to come out ahead to compare other sports. 
+So while the initial investment is high, factored over even say 5 years, you're likely to come out ahead compared to other sports. 
 
 I'll report back in a few months on my progress. We'll see if my enthusiasm for this new exercise routine wanes.

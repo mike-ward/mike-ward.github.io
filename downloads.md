@@ -7,10 +7,6 @@ title:  Downloads
 
 [Markdown Edit Setup](/download?file=MarkdownEditSetup.msi)
 
-*Alternative Chocolatey Install*
-
-    choco install markdown-edit
-
 A Windows Desktop Markdown Editor [Read more...](/markdownedit)
 
 _Version 1.0.1, December 9, 2014_
@@ -20,10 +16,6 @@ _Version 1.0.1, December 9, 2014_
 
 [Tweetz Desktop Setup](/download?file=tweetzsetup.exe)
 
-*Alternative Chocolatey Install*
-
-    choco install tweetz-desktop
-    
 Tweetz Desktop is the successor to tweetz 3.1. [Read more...](/tweetz)
 
 _Version 0.8.23, November 9, 2014_
@@ -41,10 +33,6 @@ _Version 2.1, December 9, 2013_
 --------------------------------------
 
 [Simply Weather Setup](/download?file=SimplyWeatherSetup.exe) 
-
-*Alternative Chocolatey Install*
-
-    choco install simply-weather
 
 [Simply Weather](/simplyweather) is a windows desktop application that, um, er, displays the weather.
  
