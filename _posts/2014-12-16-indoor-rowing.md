@@ -15,7 +15,7 @@ It wasn't long before I noticed our kids were, "toning-up". It became clear over
 
 If you research rowing machines, you quickly discover that there is a preferred choice - [A Concept 2 Model D](http://www.concept2.com/indoor-rowers/model-d).
 
-![concept2-model-d.jpg](C:/Users/Mike/Documents/GitHub/mike-ward.github.io/cdn/images/blog/indoor-rowing/concept2-model-d.jpg) 
+![concept2-model-d.jpg](http://mike-ward.net/cdn/images/blog/indoor-rowing/concept2-model-d.jpg) 
 
 *This is the same machine that clubs and competitive teams use.*
 
@@ -35,7 +35,7 @@ At work, several people have inquired about the improvement in my physical appea
 
 It costs $950 for a Concept 2 delivered to your home (that includes $50 for shipping). That sounds expensive, but if you stop and do the math, it's actually one of the least expensive exercise regimens short of calisthenics.
 
-![water-resistance.jpg](C:/Users/Mike/Documents/GitHub/mike-ward.github.io/cdn/images/blog/indoor-rowing/water-resistance.jpg) 
+![water-resistance.jpg](http://mike-ward.net/cdn/images/blog/indoor-rowing/water-resistance.jpg) 
 
 *Water Rowers are also a good choice*
 
