@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Desk Drive 1.6.4 Released'
 ---
 [Desk Drive](/deskdrive) 1.6.4 now comes in 32 bit and 64 bit versions. There were no code changes necessary for 64 bit support because Desk Drive is written in C#, however, a 64 bit installer is required to deliver it to 64 bit systems. It’s unfortunate that one installer can’t be distributed that detects both 32 and 64 bit systems and just does the right thing. Maybe with the introduction of [WiX](http://wix.sourceforge.net/) in the next version of [Visual Studio](http://robmensching.com/blog/archive/2007/11/26/Visual-Studio-ships-the-WiX-toolset.aspx) they’ll support this feature.

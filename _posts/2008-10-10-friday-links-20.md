@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #20'
 ---
 [Smushit: Optimize Images For Web Without Losing on Quality | MakeUseOf.com ](http://www.makeuseof.com/dir/smushit-optimize-image-size-loosing-visual-quality/)- a web tool that lets you optimize images for the web and reduce the size without compromising on visual quality.
@@ -30,6 +30,4 @@ title: 'Friday Links #20'
 
 [Is There Anything You Wish CSS Could Do? 15 Designer/Developers Sound Off – ](http://css-tricks.com/is-there-anything-you-wish-css-could-do-15-designerdevelopers-sound-off/)Great collection of wish lists from several developers.
 
-[Sara Ford's WebLog : Did you know… How to edit a .csproj or .vbproj project file within the IDE? - #332](http://blogs.msdn.com/saraford/archive/2008/10/10/did-you-know-how-to-edit-a-csproj-or-vbproj-project-file-within-the-ide-332.aspx) – Sara, you tease…
-
-[Newest Video Phones are Free](http://myacn.com) - The latest video phones from ACN are simply awesome. And they're Free for a limited time. Access through our rep site at [http//:mikejean.acnrep.com](http://mikejean.acnrep.com). This changes everything!
+[Sara Ford's WebLog : Did you know… How to edit a .csproj or .vbproj project file within the IDE? - #332](http://blogs.msdn.com/saraford/archive/2008/10/10/did-you-know-how-to-edit-a-csproj-or-vbproj-project-file-within-the-ide-332.aspx) – Sara, you tease...

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Visual Studio Code Cleanup Macro'
 ---
 Visual Studio has an automation model that enables extensive customization. Mostly, I rely on the built in services since they meet most of my needs. However, there are a few routine things I do when I open a file. They are:
@@ -56,4 +56,4 @@ This sequence is an obvious candidate for a macro and here it is:
     
     End Module
 
-The copyright line is placed on the second line of .xml and .html files because xml parsers and some html validators require the first line to be a directive. I assign this macro to Ctrl+Q where it is immediately accessible. Enjoy.
+The copyright line is placed on the second line of .XML and .HTML files because XML parsers and some HTML validators require the first line to be a directive. I assign this macro to `Ctrl+Q` where it is immediately accessible. Enjoy.

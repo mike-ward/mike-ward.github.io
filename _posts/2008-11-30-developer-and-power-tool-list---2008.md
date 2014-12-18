@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Developer and Power Tool List - 2008'
 ---
 [Scott Hanselman's Ultimate Developer and Power Users Tool List](http://www.hanselman.com/blog/ScottHanselmans2007UltimateDeveloperAndPowerUsersToolListForWindows.aspx) has always been an great read. Here's my list, considerably smaller and surprisingly different. I use fewer programs and feel applications like browsers and IDE's should be included. Most of these applications are free with a few notable exceptions. Your welcome to link to this list but please don’t copy or reuse it in other publications.

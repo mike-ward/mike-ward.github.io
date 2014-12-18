@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #26'
 ---
 Half a year of links! Didn’t think I would maintain the pace but some how I’ve managed.

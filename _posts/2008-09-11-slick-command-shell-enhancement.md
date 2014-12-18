@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Slick Command Shell Enhancement'
 ---
 In Scott Hanselman’s article [”A better PROMPT for CMD.EXE or Cool Prompt Environment Variables and a nice transparent multi-prompt”,](http://www.hanselman.com/blog/ABetterPROMPTForCMDEXEOrCoolPromptEnvironmentVariablesAndANiceTransparentMultiprompt.aspx) he points out several nifty features of the command prompt. In particular, I liked his idea of using “+” to indicate the level in the PUSHD/POPD stack. Recall that PUSHD saves the current directory to an internal stack before changing to the specified directory. Typing POPD takes you back to the previous directory. PUSHD and POPD are a bit long to type so I usually abbreviate them as “pd” and “dp” respectively. Problem is, after years of using “CD” to change directories I find that even these shortcuts don’t quite cut it.

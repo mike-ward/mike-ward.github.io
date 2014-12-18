@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'A lean method for invoking COM in C#'
 ---
 One of the features I wanted to add to Desk Drive was the ability to minimize all windows when it detected a new drive. There's a method in the Windows Shell that is exposed through COM that does this. One way to get at this is to do the following:
@@ -11,7 +11,7 @@ Then do the following somewhere in your code.
     Shell32.ShellClass shell = new Shell32.ShellClass();
     shell.MinimizeAll();
 
-While this is easy for the programmer, it comes at a cost. The IDE generates an assembly named **Interop.Shell32.dll** which must be deployed with the application. Furthermore, the assembly is relatively large (52 KB) considering we're calling only one method.
+While this is easy for the programmer, it comes at a cost. The IDE generates an assembly named `Interop.Shell32.dll` which must be deployed with the application. Furthermore, the assembly is relatively large (52 KB) considering we're calling only one method.
 
 I dislike multiple assemblies for deployments. My ideal distribution is one executable image when I can get away with it. Also, it takes time to load and initialize the interop DLL, not to mention the extra memory overhead. There has to be a better way.
 
@@ -55,13 +55,13 @@ The C# compiler is pretty smart when it comes to COM, provided you give it a few
   * ComImportAttribute
   * GuidAttribute
 
-ComImportAttribute is a bit misleading in that it doesn't really "import" anything. It simply marks the class as a COM type. The GuidAttribute identifies the class/interface from the COM perspective.
+`ComImportAttribute` is a bit misleading in that it doesn't really "import" anything. It simply marks the class as a COM type. The `GuidAttribute` identifies the class/interface from the COM perspective.
 
-Constructing COM classes is remarkably easy. The Guid in this case is the CLSID for the Shell Controls and Automation class. The compiler generates the necessary CoCreateInstance logic in the default constructor. 
+Constructing COM classes is remarkably easy. The GUID in this case is the CLSID for the Shell Controls and Automation class. The compiler generates the necessary `CoCreateInstance` logic in the default constructor. 
 
-Next, we need a definition for the IShellDispatch interface. Again, the class is properly decorated to identify it as a COM object. Because IShellDispatch is a dispatch-only interface, the order of the members doesn't matter. All invocations are done via IDispatch. And since we're only calling MinimizeAll(), we can get away with specifying the one method even though IShellDispatch contains other methods. Don't try this with IUnknown-only or dual interfaces where the order and number of members are used to generate vtables.
+Next, we need a definition for the `IShellDispatch` interface. Again, the class is properly decorated to identify it as a COM object. Because `IShellDispatch` is a dispatch-only interface, the order of the members doesn't matter. All invocations are done via `IDispatch`. And since we're only calling `MinimizeAll()`, we can get away with specifying the one method even though `IShellDispatch` contains other methods. Don't try this with IUnknown-only or dual interfaces where the order and number of members are used to generate vtables.
 
-Finally, it's necessary to tell the compiler you're using a dispatch-only interface by specifying the InterfaceTypeAttribute. Without this, objects will not marshal correctly.
+Finally, it's necessary to tell the compiler you're using a dispatch-only interface by specifying the `InterfaceTypeAttribute`. Without this, objects will not marshal correctly.
 
 One problem in the above example is that the COM objects are never released. I generally wrap these objects in a sealed class that handles the reference counting. Here's an example.
     

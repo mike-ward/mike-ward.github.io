@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #17'
 ---
 [The Weekly Source Code 33 - Microsoft Open Source inside Google Chrome](http://www.hanselman.com/blog/TheWeeklySourceCode33MicrosoftOpenSourceInsideGoogleChrome.aspx) – Scott Hanselman’s regular column examines Google’s new Chrome browser and notes the extensive use of the Windows Template Library.
@@ -8,7 +8,9 @@ title: 'Friday Links #17'
 
 [Microsoft StyleCop - Release: StyleCop 4.3 – ](http://code.msdn.microsoft.com/Release/ProjectReleases.aspx?ProjectName=sourceanalysis&ReleaseId=1425)StyleCop analyzes C# source code to enforce a set of style and consistency rules. I’ve been trying to like this tool but it’s default style rules are way to restrictive in my opinion. Great idea. Guess I just need some time to adjust.
 
-[Stack Overflow](http://stackoverflow.com/) – Stack Overflow is a collaboratively edited question and answer site for programmers — regardless of platform or language.![image](/cdn/images/blog/FridayLinks17_10957/image.png)
+[Stack Overflow](http://stackoverflow.com/) – Stack Overflow is a collaboratively edited question and answer site for programmers — regardless of platform or language.
+
+![image](/cdn/images/blog/FridayLinks17_10957/image.png)
 
 [Moldy bag sure to deter evil sandwich stealers | Appliances and Kitchen Gadgets - CNET Blogs](http://blogs.cnet.com/8301-13553_1-10042096-32.html?part=rss&tag=feed&subj=AppliancesandKitchenGadgets) – Umm.. Yummy… 
 

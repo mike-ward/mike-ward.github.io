@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'The Definitive C# Singleton'
 ---
 It’s looks like it’s not thread safe but the framework actually guarantees that it is.

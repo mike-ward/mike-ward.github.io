@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'Attending CodeMash'
 ---
-[![codemash](/cdn/images/blog/AttendingCodeMash_9068/codemash_thumb.png)](/cdn/images/blog/AttendingCodeMash_9068/codemash.png) What is [CodeMash](http://codemash.org)?
+![codemash](/cdn/images/blog/AttendingCodeMash_9068/codemash_thumb.png)
 
 > CodeMash is a unique event that will educate developers on current practices, methodologies, and technology trends in a variety of platforms and development languages such as Java, .Net, Ruby and PHP.
 

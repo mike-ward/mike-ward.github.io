@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #23'
 ---
 I’m behind this week because of all the [PDC](http://www.microsoftpdc.com) activity.
@@ -24,7 +24,11 @@ I’m behind this week because of all the [PDC](http://www.microsoftpdc.com) act
 
 [Freeware Find: Hugin Photo Stitcher | BittBox ](http://www.bittbox.com/software/freeware-find-hugin-photo-stitcher/)- A very nice free program for stitching multiple images together.
 
-[](http://blogs.msdn.com/brada/archive/2008/10/29/net-framework-4-poster.aspx)[![](http://blogs.msdn.com/blogfiles/brada/WindowsLiveWriter/55ff37220b2c.NETFramework4Poster_67A1/PDC2008-NETFX4_thumb.png)](http://blogs.iis.net/msdeploy/archive/2008/10/29/the-web-deployment-tool-beta-2-is-now-available.aspx)[Brad Abrams : .NET Framework 4 Poster](http://blogs.msdn.com/brada/archive/2008/10/29/net-framework-4-poster.aspx) - a very cool poster that shows off the new stuff in .NET Framework 3.5 SP1 and .NET Framework 4. 
+[poster](http://blogs.msdn.com/brada/archive/2008/10/29/net-framework-4-poster.aspx)
+
+[![](http://blogs.msdn.com/blogfiles/brada/WindowsLiveWriter/55ff37220b2c.NETFramework4Poster_67A1/PDC2008-NETFX4_thumb.png)](http://blogs.iis.net/msdeploy/archive/2008/10/29/the-web-deployment-tool-beta-2-is-now-available.aspx)
+
+[Brad Abrams : .NET Framework 4 Poster](http://blogs.msdn.com/brada/archive/2008/10/29/net-framework-4-poster.aspx) - a very cool poster that shows off the new stuff in .NET Framework 3.5 SP1 and .NET Framework 4. 
 
 [The Web Deployment Tool Beta 2 is now available!: Microsoft Web Deployment Team Blog](http://blogs.iis.net/msdeploy/archive/2008/10/29/the-web-deployment-tool-beta-2-is-now-available.aspx) - In addition to our existing functionality of server synchronization and migration, they’ve added web application packaging and deployment with integration with IIS Manager and the upcoming Visual Studio 2010!
 

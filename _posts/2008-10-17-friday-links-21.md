@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #21'
 ---
 [FeedIcon20: Generate Feed Icons For Your Website or Blog | MakeUseOf.com](http://www.makeuseof.com/dir/feedicon20-add-feed-subscription-icons-website/) – Produces a feed icon by simply entering the URL of the feed. Simple and efficient.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #25'
 ---
 [Ballmer: No on WebKit, yes on app store | Latest Microsoft News - CNET News](http://news.cnet.com/8301-10805_3-10090118-75.html?part=rss&subj=news&tag=2547-1_3-0-5) - Despite acknowledging that WebKit's open-source nature is "interesting," Microsoft's chief executive elaborated on why he says the software giant is sticking--at least for now--with its [Trident rendering engine](http://news.cnet.com/Microsoft-brandishes-its-Trident/2100-1001_3-239879.html) for Internet Explorer.
@@ -34,7 +34,7 @@ title: 'Friday Links #25'
 
 [xkcd - A Webcomic – Terminology](http://xkcd.com/503/) – He’s not the only one.
 
-![](http://imgs.xkcd.com/comics/terminology.png)
+![xkcd](http://imgs.xkcd.com/comics/terminology.png)
 
 [Download the Jarte Word Processor](http://www.jarte.com/download.html) - noun (est. 2001) 1. A free word processor based on the Microsoft WordPad word processing engine built into Windows. 2. A fast starting, easy to use word processor that expands well beyond the WordPad feature set. 3. A small, portable word processor whose documents are fully compatible with Word and WordPad. I like it.
 

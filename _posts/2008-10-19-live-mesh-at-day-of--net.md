@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Live Mesh at Day of .Net'
 ---
 I spent the morning at the Ann Arbor [Day of .Net](http://www.dayofdotnet.org/) (AADoDN). What are Day of .Net events you ask?

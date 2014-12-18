@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #16'
 ---
 [![image](/cdn/images/blog/FridayLinks16_907F/image_thumb.png)](/cdn/images/blog/FridayLinks16_907F/image.png)

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Singletons Revisited'
 ---
 [Earlier I wrote](/2008/09/24/the-definitive-c-singleton) about how easy it was to write thread-safe, lazily constructed singletons in C#. To recap:
@@ -49,4 +49,4 @@ Calling the members of this class is much more natural.
     Console.WriteLine(Stuff.GreenStuff);
     Console.WriteLine(Stuff.RedStuff);
 
-From the caller’s point of view, “Stuff” appears to be static. The messiness of the instance member is hidden from the callers.
+From the caller’s point of view, `Stuff` appears to be static. The messiness of the instance member is hidden from the callers.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Desk Drive 1.6.6 Released'
 ---
 [Desk Drive](/deskdrive) 1.6.6 adds language support for Dutch (Netherlands). The Dutch (Belgium) release a few days ago proved to be quite popular. The Netherlands may be small but they sure are mighty when it comes to downloading Desk Drive.

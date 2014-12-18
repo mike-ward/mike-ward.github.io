@@ -6,7 +6,7 @@ title: 'Managing Money – Rule #2'
 
 This is the second article in my occasional Managing Money Series.
 
-  * [Managing Money](/blog/post/2008/11/12/managing-money)
+  * [Managing Money](/2008/11/12/managing-money)
 
 In the previous article I discussed the importance of measuring what you spend. Hopefully, you’ve made use of some the free or very expensive programs available to do this. If you have, you have probably already seen a few areas where you can save some money. It’s now time for Rule #2.
 

@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #18'
 ---
-![logo](http://www.makeuseof.com/wp-content/uploads/2008/09/sliderocketlogo.png)[Make Beautiful Online Presentations With Sliderocket | MakeUseOf.com](Make Beautiful Online Presentations With Sliderocket | MakeUseOf.com (http://www.makeuseof.com/tag/ make-beautiful-online- presentations-with- sliderocket/)) - Web app that allows you to do pretty much everything you can hope to do with a presentation and much more.
+![logo](http://www.makeuseof.com/wp-content/uploads/2008/09/sliderocketlogo.png)
+
+[Make Beautiful Online Presentations With Sliderocket | MakeUseOf.com](Make Beautiful Online Presentations With Sliderocket | MakeUseOf.com (http://www.makeuseof.com/tag/ make-beautiful-online- presentations-with- sliderocket/)) - Web app that allows you to do pretty much everything you can hope to do with a presentation and much more.
 
 [Ping - Technology Doesn’t Dumb Us Down. It Frees Our Minds. - NYTimes.com – ](http://www.nytimes.com/2008/09/21/technology/21ping.html?ref=technology)Excellent article rebutting a recent Atlantic article on how technology makes us dumb. Great read.
 
