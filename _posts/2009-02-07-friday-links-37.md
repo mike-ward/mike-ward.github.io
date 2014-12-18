@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #37'
 ---
 [How to Use the Mailto Syntax – Examples](http://www.labnol.org/internet/email/learn-mailto-syntax/6748/) – You can add multiple recipients, blind copies and even subjects, all in one compact syntax.
@@ -33,8 +33,6 @@ title: 'Friday Links #37'
 [Antibody Software – WizMouse](http://antibody-software.com/web/software/software/wizmouse-makes-your-mouse-wheel-work-on-the-window-under-the-mouse/) – Like [KatMouse](http://ehiti.de/katmouse/) (one of my favs), but can work on older legacy programs that don’t have mouse wheel support.
 
 [Jajah adds calling and texting to iPod Touch | Wireless - CNET News](http://news.cnet.com/8301-1035_3-10157705-94.html?part=rss&subj=news&tag=2547-1_3-0-5) – A bit of a stretch but it goes to show you the ingenuity of people.
-
-![silverlightDatagrid01](http://www.wintellect.com/CS/blogs/rrobinson/WindowsLiveWriter/AnotherAnnoyingUIRant1_113D2/silverlightDatagrid01_thumb.jpg)
 
 [Rik Robinson's Blog : Another Annoying UI Rant #1](http://www.wintellect.com/CS/blogs/rrobinson/archive/2009/02/06/another-annoying-ui-rant-1.aspx) – A fix for the last column bug in the Silverlight2 Data Grid. 
 

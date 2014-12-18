@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Enabling WCF Services on IIS 7.0'
 ---
 Out of the box, IIS 7.0 (Windows Server 2008) does not support WCF Services. Perhaps this is another one of those security issues that Windows Server 2008 and IIS 7.0 lock down by default. Annoyingly, the error displayed on the browser does not offer many clues as to what went wrong.

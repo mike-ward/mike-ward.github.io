@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #38'
 ---
 [Duck Typing with dynamic in C# 4.0 - Bill Blogs in C#](http://srtsolutions.com/blogs/billwagner/archive/2009/02/06/duck-typing-with-dynamic-in-c-4-0.aspx) – Interesting use of the dynamic keyword (C# 4.0) with generics and extension methods.

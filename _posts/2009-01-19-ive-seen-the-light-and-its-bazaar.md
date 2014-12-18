@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'I’ve seen the light and it’s Bazaar'
 ---
 ![Bazaar](http://bazaar-vcs.org/htdocs/bazaarNew/css/logo.png)

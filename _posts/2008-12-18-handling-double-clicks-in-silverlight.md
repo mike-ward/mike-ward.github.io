@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'Handling Double Clicks in Silverlight'
 ---
 Silverlight has no event for handling double-clicks. Here’s an [excellent article](http://weblogs.asp.net/aboschin/archive/2008/03/17/silverlight-2-0-a-double-click-manager.aspx) detailing a way to add double click detection and handling by Andrea Boschin. While the code is acceptable, I couldn’t resist refactoring the code a bit to make a few improvements and add testability.
-
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http%3a%2f%2fblueonionsoftware.com%2fblog.aspx%3fp%3da9f50eb2-4c32-4be5-a71d-3fc75a785787)](http://www.dotnetkicks.com/kick/?url=http%3a%2f%2fblueonionsoftware.com%2fblog.aspx%3fp%3da9f50eb2-4c32-4be5-a71d-3fc75a785787)
 
 Here’s the original code.
     

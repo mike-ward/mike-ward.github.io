@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #33'
 ---
 Arrived home late from [CodeMash 2009](http://codemash.org/) so I’m a day late posting. A very good conference. I’m thinking of volunteering for next year but more on that later.

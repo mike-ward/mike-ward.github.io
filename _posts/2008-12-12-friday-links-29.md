@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #29'
 ---
 [Head First Design Patterns : Steve Smith's Blog](http://stevesmithblog.com/blog/head-first-design-patterns/) – According to the reviewer, this seemingly light-weight book is actually a serious programming book. Who knew?
@@ -15,8 +15,6 @@ title: 'Friday Links #29'
 [Google Code Blog: Native Client: A Technology for Running Native Code on the Web ](http://google-code-updates.blogspot.com/2008/12/native-client-technology-for-running.html)- These components make it possible to build applications that run in a web browser but incorporate native code modules. Is this Google’s challenge to Adobe Air and Silverlight?
 
 [Closeup of mouse image - Engelbart's demo, 40 years later - CNET News](http://news.cnet.com/2300-1041_3-6248261-1.html?part=rss&tag=6248261&subj=news) – Hard to believe this humble little device started the “revolution”.
-
-![Closeup of mouse](http://i.i.com.com/cnwk.1d/i/ne/p/2008/Closeup-of-mouse_550x370.jpg)
 
 [Oxite: Microsoft’s new Blogging and CMS Platform](http://www.labnol.org/internet/blogging/oxite-microsoft-blogging-platform/5900/) – A Microsoft built CMS targeted at developers. Casual users should stick with [Wordpress](http://wordpress.org).
 

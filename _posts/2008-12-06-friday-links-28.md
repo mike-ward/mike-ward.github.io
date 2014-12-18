@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #28'
 ---
 [Friday Fun: Solve Puzzles to Help Out Scientists](http://lifehacker.com/5099746/solve-puzzles-to-help-out-scientists) - Foldit attempts to predict the structure of a protein by taking advantage of humans' puzzle-solving intuitions and having people play competitively to fold the best proteins. Improve your problem solving skills and the world at the same time.

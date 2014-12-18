@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Vista Weather Gadget'
 ---
 Vista Sidebar Gadgets are handy and useful little applications that reside on your desktop. Weather gadgets are a very popular category and yet I’ve never found one I can live with for any length of time. It seems like most of these gadgets are more about the “gadget” or “branding” than the weather. My weather gadget doesn’t sport any fancy graphics relying instead (gasp!) on words. Here are few examples:

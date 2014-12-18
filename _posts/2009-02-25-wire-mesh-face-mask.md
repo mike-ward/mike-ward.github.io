@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: post  
 title: 'Wire Mesh Face Mask'
 ---
 Woodworking requires good tools and I’m always looking for a new “shop-aid” to feed my gadget habit. I bought one of these wire mesh face masks a while back and find I use it often.
 
-![](http://www.garrettwade.com/images/250/19R0601.jpg)
+![mask](http://www.garrettwade.com/images/250/19R0601.jpg)
 
 I put it on and sometimes find a few minutes later that I’ve forgotten to take it off. It's lighter than other shields. If you wear glasses, this is a really nice alternative to goggles. Never fogs, even in my sometimes very cold garage. And you don’t get the “space helmet” feeling full plastic masks can create.
 

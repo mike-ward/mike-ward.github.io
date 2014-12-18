@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #35'
 ---
-[![image](/cdn/images/blog/FridayLinks35_10705/image_thumb.png)](/cdn/images/blog/FridayLinks35_10705/image.png)
+![image](/cdn/images/blog/FridayLinks35_10705/image_thumb.png)
 
 [Open Wide. Now Wider… - Gadgetwise Blog - NYTimes.com](http://gadgetwise.blogs.nytimes.com/2009/01/16/open-wide-now-wider/) – Phillips new 56-inch [Cinema 21:9 TV](http://www.cinematicviewingexperience.com), a 1080p LCD HDTV is a super-wide aspect ratio designed to exactly fit the dimensions of wide screen movies.
 

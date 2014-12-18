@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #39'
 ---
 [Tesla Motors to show off electric sedan next month | Green Tech - CNET News](http://news.cnet.com/8301-11128_3-10161459-54.html?part=rss&subj=news&tag=2547-1_3-0-5) – A “street drivable” prototype of the Model S Sedan will be demoed next month.
@@ -31,7 +31,5 @@ title: 'Friday Links #39'
 [WPF patterns : MVC, MVP or MVVM](http://www.orbifold.net/default/?p=550) – Since XAML, things have become a bit complicated in trying to conceptualize MVC architectures for Windows applications. This article discusses a pattern that we use at my day job to unit test our Silverlight code.
 
 **Pick of the Week**
-
-![](http://www.emeditor.com/themes/orange/images/logo.gif)
 
 [EmEditor Free](http://www.softpedia.com/get/Office-tools/Text-editors/EmEditor-Free.shtml) is the [only freeware editor that meets all four of my criteria](/blog/post/2008/03/30/the-best-free-text-editor) for a great text editor. It’s going on 3 years old and I still find it the best thing going. Just the right balance of features and ease of use.

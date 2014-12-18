@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Parallels Workstation for Windows &amp; Linux - Free'
 ---
 Don’t know how long this one is going to last but you can get a free commercial version of Parallels Workstation. Check out the link below.

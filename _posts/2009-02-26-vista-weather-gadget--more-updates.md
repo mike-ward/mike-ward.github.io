@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: post  
 title: 'Vista Weather Gadget – More Updates'
 ---
 In keeping with updating early and often, here’s the latest release of my weather gadget for Windows Vista. Some more layout fixes and a few bug fixes. Here’s another look.
 
-[![image](/cdn/images/blog/VistaWeatherGadgetMoreUpdates_12CEE/image_thumb.png)](/cdn/images/blog/VistaWeatherGadgetMoreUpdates_12CEE/image.png)
+![image](/cdn/images/blog/VistaWeatherGadgetMoreUpdates_12CEE/image_thumb.png)
 
 Gadgets are essentially little HTML pages but you can’t rely too much on Web standards being adhered to. For instance, I thought by adding a style to the table cells to hide overflows, I would avoid cells wrapping. Nope, doesn’t work. I found the only way to prevent this was to use a fixed table layout and specify the cell widths and heights. Bummer but that’s how it is. Heck, you can’t even put a DOCTYPE header in the file without breaking the gadget. It’s this weird, not quite adhering to standards that makes gadget development peculiar.
 

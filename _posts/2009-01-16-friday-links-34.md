@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #34'
 ---
 [Asynchronous Fire and Forget With Lambdas](http://haacked.com/archive/2009/01/09/asynchronous-fire-and-forget-with-lambdas.aspx) – Check out the comments. Writing good multithreaded code is never as easy as it seems.

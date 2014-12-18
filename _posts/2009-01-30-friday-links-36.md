@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #36'
 ---
-![](http://pomonahistorical.org/12times/britney.jpg)
+![girl](http://pomonahistorical.org/12times/britney.jpg)
 
 [Folding Paper in Half Twelve Times](http://pomonahistorical.org/12times.htm) - In one day Britney was the first person to set the record for folding paper in half 9, 10, 11 or 12 times. The task was commonly known to be impossible. Smart and pretty. This is just killing me. 
 

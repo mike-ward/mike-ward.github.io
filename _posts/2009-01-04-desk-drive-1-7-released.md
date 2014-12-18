@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: post  
 title: 'Desk Drive 1.7 Released'
 ---
-![tinytags](/cdn/images/blog/DeskDrive1.7Released_BE05/tinytags.png) Just in time to welcome in the new year, [Desk Drive](/deskdrive) 1.7 adds three new translations and a cool little feature suggested by one of our users.
+![tinytags](/cdn/images/blog/DeskDrive1.7Released_BE05/tinytags.png) 
+
+Just in time to welcome in the new year, [Desk Drive](/deskdrive) 1.7 adds three new translations and a cool little feature suggested by one of our users.
 
 Version 1.7 adds additional information to the shortcut label of removable drives (i.e. USB sticks) indicating the total size and free space available on that drive. The example image below shows a 1GB flash drive with 500MB of free space. 
 

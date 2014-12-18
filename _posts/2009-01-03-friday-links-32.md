@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #32'
 ---
 [The Best Websites for Kids Packed inside a Browser – Kido’Z](http://www.labnol.org/home/kids/best-websites-for-kids-browser/6251/) – With that new computer, they have to go somewhere.

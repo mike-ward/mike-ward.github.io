@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #31'
 ---
 [Brad Abrams : Silverlight 2 DataGrid December 2008 Release ](http://blogs.msdn.com/brada/archive/2008/12/19/silverlight-2-datagrid-december-2008-release.aspx)- This updated DataGrid contains almost 30 fixes to the top issues that we heard, including:

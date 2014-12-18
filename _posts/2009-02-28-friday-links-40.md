@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #40'
 ---
 [The Laptop Buying Guide For 2009 | MakeUseOf.com](http://www.makeuseof.com/tag/the-laptop-buying-guide-for-2009/) - You can grab the full MakeUseOf Laptop Buying Guide in PDF format [here](http://makeuseof.com/downloads/guides/Laptop-Buying-Guide.pdf). It’s a nice summary. Give it your Father-in-Law the next time he asks for you a “recommendation”.
@@ -48,7 +48,7 @@ title: 'Friday Links #40'
 
 [WinBubble 1.76, "Customization and Tweaks, Not Just for Geek's But For ALL" – UnlockForUs](http://unlockforus.blogspot.com/2007/11/winbubbles-features-gap.html) – A kinder, gentler tweak program for Vista.
 
-![](http://tbn0.google.com/images?q=tbn:nhLY8ooGs-Z-AM:http://freshwater.976-tuna.com/e107_images/icons/firer.png)** **
+![fire dude](http://tbn0.google.com/images?q=tbn:nhLY8ooGs-Z-AM:http://freshwater.976-tuna.com/e107_images/icons/firer.png)
 
 **Pick of the Week**
 

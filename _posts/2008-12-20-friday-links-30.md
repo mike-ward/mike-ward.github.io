@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #30'
 ---
 [Dilbert comic strip for 12/14/2008](http://dilbert.com/strips/comic/2008-12-14/)
 
-![](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/30000/4000/800/34813/34813.strip.sunday.gif)
+![dilbert](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/30000/4000/800/34813/34813.strip.sunday.gif)
 
 [Silverlight 3 - What we Know So Far & What We Can Predict](http://silverlighthack.com/post/2008/12/11/Silverlight-3-What-we-Know-So-Far-What-We-Can-Predict-(Part-1-of-2).aspx) – MPEG-4, 3D Support and hardware acceleration. I’m loving it.
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Twitter’s reach greater than you think'
 ---
 In a rash moment, I tweeted the following a while at [Codemash 2009](http://www.codemash.org/):
@@ -82,4 +82,4 @@ Tiny phone, tiny message.
 
 Jesse does not follow me on Twitter and yet my “tweet” somehow got back to him. I’ll be more careful of what I say on this very public forum in the future. 
 
-In retrospect, I should have emailed him directly and kept my Twitter mouth shut. While I’m much better than I use to be, there are times when I can still be a hot head. Age continues to mellow me fortunately.
+In retrospect, I should have emailed him directly and kept my Twitter mouth shut. While I'm much better than I use to be, there are times when I can still be a hot head. Age continues to mellow me fortunately.

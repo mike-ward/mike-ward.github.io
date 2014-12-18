@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Marvin’s Marvelous Mechanical Museum'
 ---
 Yesterday, the family and I went to a really [interesting little museum](http://marvin3m.com/). Well, that’s what they call it but it’s more of an arcade.
@@ -26,7 +26,7 @@ Some of are gruesome depicting torture and executions (not in a scary way howeve
 
 ![I wasted way too many quarters on this one.](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/CIMG2634.jpg)
 
-[![Simple but addictive](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/CIMG2635_thumb.jpg)](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/CIMG2635.jpg)
+![Simple but addictive](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/CIMG2635_thumb.jpg)
 
 ![Odd](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/CIMG2636.jpg)
 
@@ -36,7 +36,7 @@ Some of are gruesome depicting torture and executions (not in a scary way howeve
 
 ![Some are very intricate](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/CIMG2639.jpg)
 
-[![I remember this one as well at some county fair](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/CIMG2618_thumb.jpg)](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/CIMG2618.jpg)
+![I remember this one as well at some county fair](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/CIMG2618_thumb.jpg)
 
 ![The place is stuffed](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/CIMG2620.jpg)
 
@@ -56,8 +56,6 @@ Some of are gruesome depicting torture and executions (not in a scary way howeve
 
 Most are whimsical and all are kid safe. There was a mechanized music machine that was just a marvel of ingenuity.
 
-[![](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/video1a72c5b3916e.jpg)
-
-](http://video.msn.com/video.aspx?vid=756289ef-b612-4ea9-9178-796dcf44a3cd&from=writer)
+![image](/cdn/images/blog/MarvinsMarvelousMechanicalMuseum_9E37/video1a72c5b3916e.jpg)
 
 In addition to all the arcade games, there is a treasure trove of old time circus and magician posters (Alexander, he knows all!). Lots of old time airplane models and other contraptions. Most amusements are a quarter with some of the cooler ones (like Kill R Watt Challenge) are 50 cents. It’s a fun way to spend an afternoon with the family.
