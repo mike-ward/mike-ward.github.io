@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #58'
 ---
 **Programming Computers**
@@ -44,7 +44,9 @@ title: 'Friday Links #58'
 
 **Stuff I just Dig**
 
-![greenbox_rocks](/cdn/images/blog/FridayLinks58_894A/greenbox_rocks.jpg)[Zero-power wasted, green phone charger](http://www.riccibitti.com/greenbox/greenbox.htm) - A greenbox works like a fridge light: it powers the charger only when you open it. Close the box, and its hidden switch disconnects the charger from the mains.
+![greenbox_rocks](/cdn/images/blog/FridayLinks58_894A/greenbox_rocks.jpg)
+
+[Zero-power wasted, green phone charger](http://www.riccibitti.com/greenbox/greenbox.htm) - A greenbox works like a fridge light: it powers the charger only when you open it. Close the box, and its hidden switch disconnects the charger from the mains.
 
 [Universal Chargers are a Good Start: 5 More Things That Need Conformity](http://www.pcworld.com/article/167578/universal_chargers_are_a_good_start_5_more_things_that_need_conformity.html) - Starting next year, Apple, Nokia, Motorola, Samsung, and RIM [will begin making handsets with a standard phone charger based](http://www.reuters.com/article/marketsNews/idCALT4437920090629?rpc=44) on the [micro-USB connector](http://en.wikipedia.org/wiki/Micro_usb#Mini_and_micro).
 

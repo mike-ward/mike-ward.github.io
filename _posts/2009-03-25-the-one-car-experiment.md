@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'The One Car Experiment'
 ---
 Last November when the lease came up on our Chevy Trail Blazer, we did something a bit unusual. We turned in the vehicle and elected not to lease another.
@@ -18,11 +18,11 @@ I have the fortunate circumstance of living only 5 miles from work. Most days, a
 
 If I had any hesitation, it was because I thought there might be a stigma attached to only having one car. As far as I can tell, most people seem to accept our “one car-ness” without judgment. Apparently, my motivations are believable.
 
-And what are those motivations? Well, it’s really two or maybe three. 
+And what are those motivations? Well, it's really two or maybe three. 
 
 Reason one is the money. I figure conservatively between lease payments, insurance, gas, licensing and maintenance that we save $500 per month. That’s like half a mortgage payment for many people.
 
-Reason two is that it’s the right thing to do. With all the talk of global warming and carbon emissions and energy and (insert your favorite cause here) lowering our consumption of energy is good for the planet. Consider that takes about as much energy to produce a car as it will use in energy during its service lifetime. Even before you drive that new car, a huge cost in energy and resources has already been expended.
+Reason two is that it's the right thing to do. With all the talk of global warming and carbon emissions and energy and (insert your favorite cause here) lowering our consumption of energy is good for the planet. Consider that takes about as much energy to produce a car as it will use in energy during its service lifetime. Even before you drive that new car, a huge cost in energy and resources has already been expended.
 
 Reason three is that I want a plug-in electric (not a hybrid). I’m voting with my dollars here. I’ve told everyone who will listen that I would buy a plug-in electric tomorrow should one become available with a dealership nearby to service it. Gasoline is like so 90’s.
 

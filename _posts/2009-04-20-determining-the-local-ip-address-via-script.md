@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Determining the local IP address via script'
 ---
 Why determining the local IP address should be such a monumental task in Windows is anyone’s guess. Here’s some JavaScript code I cobbled together from a couple of different sources for an installer script I’m writing.
@@ -19,6 +19,6 @@ Why determining the local IP address should be such a monumental task in Windows
         return ip;
     }
 
-It works but isn't pretty. Surely there must be an easier way? (I’m not running in a browser so no “Remote_Server” header is available).
+It works but isn't pretty. Surely there must be an easier way? (I’m not running in a browser so no **Remote_Server** header is available).
 
 Signed: Irritated

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Simply Weather goes international'
 ---
 Simply Weather is a Vista/Windows 7 Sidebar Gadget that brings you the weather in a simple, no nonsense format. It neatly fits in the sidebar and displays the current conditions and 3 day forecast in compact, easy to read format. It also has 5 different display formats and, as of version 1.2, supports many different languages/cultures. Here’s the standard display format.
@@ -26,7 +26,11 @@ Simply Weather also monitors for weather alerts. When a weather alert is detecte
 
 There are multiple display formats. To switch between the different views, hold down the shift key and click on the gadget.
 
-![](/cdn/images/blog/IcanhazFrenchSimplyWeathergoesinternatio_101CA/image_6.png) ![](/cdn/images/blog/IcanhazFrenchSimplyWeathergoesinternatio_101CA/image_7.png)  ![](/cdn/images/blog/IcanhazFrenchSimplyWeathergoesinternatio_101CA/image_8.png) ![](/cdn/images/blog/IcanhazFrenchSimplyWeathergoesinternatio_101CA/image_9.png) ![](/cdn/images/blog/IcanhazFrenchSimplyWeathergoesinternatio_101CA/image_10.png)
+![1](/cdn/images/blog/IcanhazFrenchSimplyWeathergoesinternatio_101CA/image_6.png) 
+![2](/cdn/images/blog/IcanhazFrenchSimplyWeathergoesinternatio_101CA/image_7.png)
+![3](/cdn/images/blog/IcanhazFrenchSimplyWeathergoesinternatio_101CA/image_8.png)
+![4](/cdn/images/blog/IcanhazFrenchSimplyWeathergoesinternatio_101CA/image_9.png)
+![5](/cdn/images/blog/IcanhazFrenchSimplyWeathergoesinternatio_101CA/image_10.png)
 
 I typically run 3 or 4 gadgets at a time and use the larger format for my home town and the smaller formats for the other locations. There are also 4 different color backgrounds to choose from.
 

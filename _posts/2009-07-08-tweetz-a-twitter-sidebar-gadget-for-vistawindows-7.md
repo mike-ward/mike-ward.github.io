@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'TweetZ, A twitter sidebar gadget for Vista/Windows 7'
 ---
 I’m what you might call a casual [twitter](http://twitter.com/) user. I follow a few dozen people and tweet 3 or 4 times a day. For a long time, I was content to use the Twitter Web site. I tried several clients including twhirl, TweetDeck and others. They all do a great job but I wanted something a bit more diminutive. Of the several sidebar gadgets available, I found [Twadget](http://arsecandle.org/twadget/) to be the most useful but it had a few annoying quirks. I started fixing some issues and of course, being me, ended up modifying it into entirely new gadget.

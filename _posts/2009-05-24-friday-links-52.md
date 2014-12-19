@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #52'
 ---
 Hey, it’s been a year of links already. Hard to believe. To celebrate the event I’m posting 2 days late this week. OK, I’m kidding, the holiday messed with my schedule so I’m a bit behind. Seeing as it has been one year, I thought I try grouping the links by topic. Let me know what you think.
@@ -48,7 +48,9 @@ Hey, it’s been a year of links already. Hard to believe. To celebrate the even
 
 **On the Web**
 
-![wolframalpha](/cdn/images/blog/FridayLinks52_570F/wolframalpha.png)[Fun with Knowledge Computation at Wolfram|Alpha | Smarterware](http://smarterware.org/1538/fun-with-computations-at-wolframalpha) - What’s the unemployment rate of San Diego versus New York? How many football fields would fit between the Earth and the sun? What’s the likelihood of getting 2 heads in 10 coin flips? As of tonight, one web search engine can calculate all that for you on the fly and more.
+![wolframalpha](/cdn/images/blog/FridayLinks52_570F/wolframalpha.png)
+
+[Fun with Knowledge Computation at Wolfram|Alpha | Smarterware](http://smarterware.org/1538/fun-with-computations-at-wolframalpha) - What’s the unemployment rate of San Diego versus New York? How many football fields would fit between the Earth and the sun? What’s the likelihood of getting 2 heads in 10 coin flips? As of tonight, one web search engine can calculate all that for you on the fly and more.
 
 [Wolfram Alpha Google :: Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/12006) - Just do a search on Google and the Wolfram Alpha result for that search will appear on the right side. Very cool and useful.
 
@@ -56,6 +58,8 @@ Hey, it’s been a year of links already. Hard to believe. To celebrate the even
 
 [Microsoft dumps 3-app limit from Windows 7 Starter](http://www.downloadsquad.com/2009/05/22/microsoft-dumps-3-app-limit-on-windows-7-starter/) – File this one under, “The incredible lameness of being.”
 
-![](/cdn/images/blog/FridayLinks49_12B63/images.jpg) Pick of the Week
+![fire dude](/cdn/images/blog/FridayLinks49_12B63/images.jpg) 
+
+**Pick of the Week**
 
 [AxCrypt](http://www.axantum.com/AxCrypt/) - Forget password vaults. Put all your important information in a text file and encrypt it with AxCrypt. It will encrypt any document and also has a self-extracting feature so you can send to others without them needing the software. Integrates with the shell. Open source and uses the latest AES standards for encryption.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #62'
 ---
 **Programming Computers**
@@ -36,7 +36,9 @@ title: 'Friday Links #62'
 
 **On the Web**
 
-![6a00d83451e0d569e20115723c07e4970b-800wi](/cdn/images/blog/FridayLinks62_7A31/6a00d83451e0d569e20115723c07e4970b800wi.jpg)[Plastic Logic e-book reader will connect to AT Apple tablet computer reported](http://blogs.consumerreports.org/electronics/2009/07/plastic-logic-ereader-att-mac-apple-tablet-computer.html) - Plastic Logic, the [new e-book reader](http://www.plasticlogic.com/ereader/index.php) expected to debut in early 2010, [announced](http://www.plasticlogic.com/news/prReaderWirelesslyConnectATTJul222009.php) that AT&T; will provide mobile wireless connectivity for the device, which boasts a touch screen—which neither the [Kindle 2](http://blogs.consumerreports.org/electronics/2009/02/the-kindle-2-a-review-of-a-fine-device.html) nor[Kindle DX](http://blogs.consumerreports.org/electronics/2009/06/amazon-kindle-dx-review-consumer-reports-buying-advice-ereaders-electronic-books-ebooks-digital-books-first-look-kindledx-kin.html) have. 
+![6a00d83451e0d569e20115723c07e4970b-800wi](/cdn/images/blog/FridayLinks62_7A31/6a00d83451e0d569e20115723c07e4970b800wi.jpg)
+
+[Plastic Logic e-book reader will connect to AT Apple tablet computer reported](http://blogs.consumerreports.org/electronics/2009/07/plastic-logic-ereader-att-mac-apple-tablet-computer.html) - Plastic Logic, the [new e-book reader](http://www.plasticlogic.com/ereader/index.php) expected to debut in early 2010, [announced](http://www.plasticlogic.com/news/prReaderWirelesslyConnectATTJul222009.php) that AT&T; will provide mobile wireless connectivity for the device, which boasts a touch screen—which neither the [Kindle 2](http://blogs.consumerreports.org/electronics/2009/02/the-kindle-2-a-review-of-a-fine-device.html) nor[Kindle DX](http://blogs.consumerreports.org/electronics/2009/06/amazon-kindle-dx-review-consumer-reports-buying-advice-ereaders-electronic-books-ebooks-digital-books-first-look-kindledx-kin.html) have. 
 
 [Leaked: prototypes and concepts of the Microsoft Store - Ars Technica](http://arstechnica.com/microsoft/news/2009/07/leaked-prototypes-and-concepts-of-the-microsoft-store.ars?utm_source=rss&utm_medium=rss&utm_campaign=rss?utm_source=microblogging&utm_medium=arstch&utm_term=Main%20Account&utm_campaign=microblogging) - Even though Microsoft's retail stores have been confirmed by Redmond a few times over, we still don't know very much about them. We now know more than Microsoft probably wants, thanks to a 140-slide PowerPoint document leaked to [Gizmodo](http://gizmodo.com/5322328/leak-inside-the-microsoft-store-with-wall+sized-screens-and-the-answers-bar/gallery/?skyline=true&s=I). 
 

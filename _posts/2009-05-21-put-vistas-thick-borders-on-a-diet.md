@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Put Vista’s thick borders on a diet'
 ---
 I’ve never been a fan of thick borders of Vista’s Aero theme. It’s always struck me as a bit cartoonish. The height of the title bar is also larger than I like. The other night I went spelunking around to see if I could do something about it. To my surprise it’s not only possible, but is easy to do. Here’s a comparison of before and after.

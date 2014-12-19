@@ -1,12 +1,14 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #48'
 ---
 [Native JSON Parsing: What does it mean? - Rick Strahl's Web Log](http://west-wind.com/weblog/posts/729630.aspx) - Quick tests confirm that the performance gain from using native JSON serialization is significantly faster than using the json2 JavaScript library.
 
 [Lifehacker - SkiniTunes is a Mini Interface for Your iTunes Collection – iTunes](http://lifehacker.com/5218759/skinitunes-is-a-mini-interface-for-your-itunes-collection) – A more compact frontend for iTunes.
 
-![madscientist](/cdn/images/blog/FridayLinks48_A307/madscientist.gif)[6 Cool Websites To Unleash The Mad Scientist Within You | MakeUseOf.com](http://www.makeuseof.com/tag/unleash-the-mad-scientist-within-you/) - Unleash the mad scientist within.
+![madscientist](/cdn/images/blog/FridayLinks48_A307/madscientist.gif)
+
+[6 Cool Websites To Unleash The Mad Scientist Within You | MakeUseOf.com](http://www.makeuseof.com/tag/unleash-the-mad-scientist-within-you/) - Unleash the mad scientist within.
 
 [Visual Studio Tip: Open XAML in code only mode | Corey Schuman](http://www.85turns.com/2009/04/23/visual-studio-tip-open-xaml-in-code-only-mode/) – No more annoying waiting for the IDE to update the preview mode. FTW
 
@@ -22,7 +24,7 @@ title: 'Friday Links #48'
 
 [Peli's Farm - Stubs: Comparison with other mocking frameworks](http://blog.dotnetwiki.org/2009/04/23/StubsComparisonWithOtherMockingFrameworks.aspx) - [Stubs](http://blog.dotnetwiki.org/ct.ashx?id=7c5d5cdd-7ebc-4a3d-8fb1-e84b187343b2&url=http%3a%2f%2fresearch.microsoft.com%2fstubs) is a lightweight stub framework that is entirely based on delegates. We designed it so that it brings as little overhead as possible, and as a side effect, is very effective with [Pex](http://blog.dotnetwiki.org/ct.ashx?id=7c5d5cdd-7ebc-4a3d-8fb1-e84b187343b2&url=http%3a%2f%2fresearch.microsoft.com%2fpex). Cool idea.
 
-[Another List of 5 Great and Useful Visual Studio Shortcuts | Dev102.com](http://www.dev102.com/2009/04/22/another-list-of-5-great-and-useful-visual-studio-shortcuts/) – These are one’s I didn’t know about (well, OK, I knew about Ctrl-K, CtrlX).
+[Another List of 5 Great and Useful Visual Studio Shortcuts | Dev102.com](http://www.dev102.com/2009/04/22/another-list-of-5-great-and-useful-visual-studio-shortcuts/) – These are one’s I didn’t know about (well, OK, I knew about `Ctrl-K`, `CtrlX`).
 
 [Here It Comes to Save the Day!!! - Gadgetwise Blog - NYTimes.com ](http://gadgetwise.blogs.nytimes.com/2009/04/20/super-mouse/)- It’s not for the casual gamer — or the casual anyone—but the $500 SpacePilot Pro, arriving courtesy of Logitech subsidiary 3Dconnexion, is full of wow for designers and engineers who work in three-dimensional computerized environments.
 

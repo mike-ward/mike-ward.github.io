@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'jQuery Delay Function'
 ---
 Oddly, jQuery does not have delay function. The usual technique, from what I gather, is to use the animate function. Most examples use the opacity property as an animation target.

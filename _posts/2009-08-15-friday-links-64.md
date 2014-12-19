@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #64'
 ---
 **Programming Computers**
-
-****
 
 [ZipStorer - A Pure C# Class to Store Files in Zip](http://zipstorer.codeplex.com/) - Small C# class to store and extract uncompressed and deflated files in new or existing Zip files, without any external library. Check out my [SimpleZip](http://www.codeproject.com/KB/cs/SimpleZip.aspx) as an even more lightweight (and less featured) alternative.
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #41'
 ---
 [Caving into bullies](http://www.lessig.org/blog/2009/02/caving_into_bullies_aka_here_w.html) - So here we go again -- How long till we can buy Alice's Adventures in Wonderland and be told that this book "cannot be read aloud"?
@@ -16,7 +16,7 @@ title: 'Friday Links #41'
 
 [Kindle app for iPhone and iPod Touch in iTunes Store – MobileRead – ](http://www.mobileread.com/forums/showthread.php?t=41015)It’s actually a decent ebook reader from the few minutes I played with it. Not a Kindle killer but definitely a nice addition. Here’s a [good comparison](http://news.cnet.com/8301-17938_105-10187912-1.html?part=rss&subj=news&tag=2547-1_3-0-5) of the Kindle vs. iPhone.
 
-![Project Logo](http://projects.nikhilk.net/cdn/Projects/SilverlightFX/Logo.png)[Silverlight.FX](http://projects.nikhilk.net/SilverlightFX) - Silverlight.FX is a light-weight application framework for building Rich Internet Applications with Silverlight 2. It focuses on providing building blocks and controls that allows applications to be naturally well-architected.
+[Silverlight.FX](http://projects.nikhilk.net/SilverlightFX) - Silverlight.FX is a light-weight application framework for building Rich Internet Applications with Silverlight 2. It focuses on providing building blocks and controls that allows applications to be naturally well-architected.
 
 [Firefox 3.1 renamed Firefox 3.5](http://www.downloadsquad.com/2009/03/05/firefox-3-1-renamed-firefox-3-5/) - The development team has decided that "3.1" doesn't adequately describe the significance of this the upcoming release, so the next major version of Firefox [will be called Firefox 3.5](https://wiki.mozilla.org/Firefox3.1/StatusMeetings/2009-03-04#Firefox_3.1_Development).
 
@@ -32,7 +32,7 @@ title: 'Friday Links #41'
 
 [5 Tools To Check The Speed Of Your USB Flash Drive (Windows) | MakeUseOf.com](http://www.makeuseof.com/tag/5-lightweight-tools-to-check-the-speed-of-your-usb-flash-drive-windows/) – Nice collection of tools to test the speed of your USB flash drive.
 
-![](http://tbn0.google.com/images?q=tbn:nhLY8ooGs-Z-AM:http://freshwater.976-tuna.com/e107_images/icons/firer.png)
+![fire dude](http://tbn0.google.com/images?q=tbn:nhLY8ooGs-Z-AM:http://freshwater.976-tuna.com/e107_images/icons/firer.png)
 
 **Pick of the Week**
 

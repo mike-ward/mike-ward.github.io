@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #42'
 ---
 [Nikhil Kothari's Weblog : Specialized Layout Panels for Silverlight](http://www.nikhilk.net/Silverlight-Layout-Panels-1.aspx) - An overview of some layout panels in Silverlight.FX: XGrid, FormPanel, HStackPanel, VStackPanel and TilePanel - specialized for simplifying layout.
@@ -44,6 +44,8 @@ title: 'Friday Links #42'
 
 [Amazanian](http://www.amazanian.com/search_amazon_prime.cfm?searchtext=kindle&category=All&primeonly=on&go2.x=0&go2.y=0&prodname=&title=&manufacturer=&publisher=&brand=&author=&actor=&artist=&musiclabel=) – Search engine specifically for searching Amazon.com. Results are more comprehensive and compact resulting in less paging.
 
-**![](http://tbn0.google.com/images?q=tbn:nhLY8ooGs-Z-AM:http://freshwater.976-tuna.com/e107_images/icons/firer.png)Pick of the Week**
+**![fire dude](http://tbn0.google.com/images?q=tbn:nhLY8ooGs-Z-AM:http://freshwater.976-tuna.com/e107_images/icons/firer.png)
+
+**Pick of the Week**
 
 [JZip](http://www.jzip.com/) - Freeware version that competes openly with WinZip. I like the folder view. Based on 7-zip engine and has been solid for me. If you have a few dollars to donate, these guys are worth your nickel.

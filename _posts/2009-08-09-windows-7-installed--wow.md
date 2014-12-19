@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Windows 7 Installed – Wow!'
 ---
 It’s a little weird, but I just installed Windows 7 and, well, er, um, I’m done.

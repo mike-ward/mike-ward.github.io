@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'The Incredible Shrinking Browser Window'
 ---
 So what’s my beef with Web browsers? It’s all the wasted space at the top of the damn things. Internet Explorer is perhaps the biggest offender. It’s default configuration is very wasteful (I couldn’t figure out how to reset my customization in IE8 so a borrowed a screen shot). I don’t about you, but the default IE8 layout is one only a Mother could love. Check out the amount of wasted vertical space.

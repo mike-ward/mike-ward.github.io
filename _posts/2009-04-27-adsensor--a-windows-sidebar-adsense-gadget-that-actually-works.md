@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: post  
 title: 'AdSensor – A Windows Sidebar AdSense Gadget (that actually works)'
 ---
 AdSense gadgets are far and few between and the majority of them simply don’t work. I finally found something that did work but it was not to my liking. So after a bit of heavy refactoring I’ve come up with what I feel is a useful AdSense gadget. Like my other gadgets, Simply Weather, Stop Watch and Calculator, AdSensor is simple, functional and compact.
 
-So without further ado, here’s a screenshot of my AdSense Vista Sidebar gadget.
+So without further ado, here’s a screen-shot of my AdSense Vista Sidebar gadget.
 
 ![adsensor](/cdn/images/blog/AdsensorAGoogleAdSenseGadgetthatactually_8F79/adsensor.png)
 

@@ -1,9 +1,7 @@
 ---
-layout: post
+layout: post  
 title: 'Kindle 2 is a winner'
 ---
-![The Kindle Store: More Than 275,000 Books](http://g-ecx.images-amazon.com/images/G/01/kindle/turing/photos/earths-biggest-selection-450px._V251249388_.jpg)
-
 I’ve been using my Kindle 2 for about two months now. The verdict, it’s a winner. It’s not perfect but easily good enough for most reading tasks.
 
 To be clear, the Kindle 2 is still what I would consider an early adopter device. It’s expensive, a bit limited in rendering and some formats like newspapers and periodicals don’t quite work yet. The lack of a touch screen is at times annoying.
@@ -34,8 +32,6 @@ What I don’t like about the Kindle 2
   * It’s not optimal for newspapers and periodicals 
 
 As I mentioned earlier, the Kindle is an early adopter device. That said, it’s a very good device. It’s proven to be very reliable and will run for weeks between charges if you turn the wireless off. The quality of the hardware and the feel is on par with Apple products.
-
-![Built-in Dictionary with Instant Lookup](http://g-ecx.images-amazon.com/images/G/01/kindle/turing/photos/feat-dictionary-300px._V251264268_.jpg) ![Adjustable text size for comfortable reading](http://g-ecx.images-amazon.com/images/G/01/kindle/turing/photos/feat-text-size-300px._V251264265_.gif)
 
 The cover is mandatory in my opinion. It’s a bit of a turn off that the cover is an additional $30. There’s a metal attachment bar along the spine of the cover that attaches to integral mounts on the left side of the Kindle. It makes for a secure connection. The cover can flip behind to device so you can hold it with one hand.
 

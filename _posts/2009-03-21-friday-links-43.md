@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #43'
 ---
-![Silverlight 3](http://storage.timheuer.com/timsl3mock.png)[A guide to Silverlight 3 new features](http://timheuer.com/blog/archive/2009/03/18/silverlight-3-whats-new-a-guide.aspx) – The boys at Redmond have been busy indeed. This guide boils it down at the developer level to articulate some of the core changes and relevant issues.
+![Silverlight 3](http://storage.timheuer.com/timsl3mock.png)
+
+[A guide to Silverlight 3 new features](http://timheuer.com/blog/archive/2009/03/18/silverlight-3-whats-new-a-guide.aspx) – The boys at Redmond have been busy indeed. This guide boils it down at the developer level to articulate some of the core changes and relevant issues.
 
 [JetBrains ReSharper 4.5 Beta Released - Must Have Visual Studio 2008](http://davidhayden.com/blog/dave/archive/2009/03/17/JetBrainsReSharper45BetaReleasedMustHaveVisualStudio2008AddIn.aspx) - JetBrains just released ReSharper 4.5 Beta which is mostly about increasing performance and lowering the memory consumption, which is particularly noticeable on large projects.
 
@@ -22,9 +24,11 @@ title: 'Friday Links #43'
 
 [Practical Family Nutrition: "Fiber" the Newest Label Scam](http://practicalfamilynutrition.blogspot.com/2009/03/fiber-newest-label-scam.html) – My favorite food quote - “The real whole food knows what it’s doing”. Sound advice about nutrition.
 
-![](http://www.makeuseof.com/wp-content/uploads/2009/02/firebuglogo.gif)[How To Install Firebug In Browsers Other Than Firefox | MakeUseOf.com](http://www.makeuseof.com/tag/install-firebug-for-browsers-other-than-firefox/) - [Firebug Lite](http://getfirebug.com/lite.html) makes it possible to put Firebug into any web browser! You should be able to use it with Internet Explorer, Opera, Safari, Chrome, and any other browser that supports JavaScript. Firebug Lite is written in JavaScript.
+![logo](http://www.makeuseof.com/wp-content/uploads/2009/02/firebuglogo.gif)
 
-![](http://cache.gawker.com/assets/images/lifehacker/2009/03/2009-03-13_210941.png)[Downloads: Iconix Truemark Email Identification Verifies Senders, Defeats Phishers](http://lifehacker.com/5169903/iconix-truemark-email-identification-verifies-senders-defeats-phishers) - Windows only: Truemark Email Identification is a simple tool in the defense against fraudulent emails. Whether you're in desktop or web-based email, you're given instant visual verification that an email is legitimate.
+[How To Install Firebug In Browsers Other Than Firefox | MakeUseOf.com](http://www.makeuseof.com/tag/install-firebug-for-browsers-other-than-firefox/) - [Firebug Lite](http://getfirebug.com/lite.html) makes it possible to put Firebug into any web browser! You should be able to use it with Internet Explorer, Opera, Safari, Chrome, and any other browser that supports JavaScript. Firebug Lite is written in JavaScript.
+
+[Downloads: Iconix Truemark Email Identification Verifies Senders, Defeats Phishers](http://lifehacker.com/5169903/iconix-truemark-email-identification-verifies-senders-defeats-phishers) - Windows only: Truemark Email Identification is a simple tool in the defense against fraudulent emails. Whether you're in desktop or web-based email, you're given instant visual verification that an email is legitimate.
 
 [Kirill Osenkov : Visual Studio 2010 Screencast: C# 4.0 Language + IDE + WPF Shell + Editor](http://blogs.msdn.com/kirillosenkov/archive/2009/03/13/visual-studio-2010-screencast-c-4-0-language-ide-wpf-shell-editor.aspx) - 30-minutes video (screencast) showing the new features in the language and the IDE on a recent internal build of Visual Studio 2010, which has the WPF UI enabled.
 
@@ -38,6 +42,8 @@ title: 'Friday Links #43'
 
 [Installing Internet Explorer 8 | The Download Blog - Download.com](http://download.cnet.com/8301-2007_4-10200277-12.html?part=rss&subj=news&tag=2547-1_3-0-5) - CNet installs the final build of Microsoft's latest browser, and captures the (looong) download process and their first impressions of some of the featured highlights in [pictures](http://download.cnet.com/2300-2137_4-10000568-1.html).
 
-![](http://tbn0.google.com/images?q=tbn:nhLY8ooGs-Z-AM:http://freshwater.976-tuna.com/e107_images/icons/firer.png) **Pick of the Week**
+![fire dude](http://tbn0.google.com/images?q=tbn:nhLY8ooGs-Z-AM:http://freshwater.976-tuna.com/e107_images/icons/firer.png) 
+
+**Pick of the Week**
 
 [Volumemouse](http://www.nirsoft.net/utils/volumouse.html) - Simple idea. Place your mouse cursor over the taskbar and move the scroll wheel on your mouse, adjust your volume. Simple, brilliant and always there.

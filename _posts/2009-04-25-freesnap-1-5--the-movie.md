@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: post  
 title: 'FreeSnap 1.5 – The Movie'
 ---
 OK, not really, but there is a video someone posted on YouTube.
 
-[http://www.youtube.com/watch?v=owdJ8SlsBtY](http://www.youtube.com/watch?v=owdJ8SlsBtY)
+<http://www.youtube.com/watch?v=owdJ8SlsBtY>
 
 One of the fun things about publishing software is finding out who is using it and how. What’s interesting about this video is that it’s promoting FreeSnap as a Windows 7 style keyboard enhancement. Pretty cool considering I wrote the program way back in 2002.
 

@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #51'
 ---
 [Top 10 improvements for a future Kindle - MobileRead Forums](http://www.mobileread.com/forums/showthread.php?t=46449) – I really like my Kindle but it’s not without it faults. 
 
-![kindling10](/cdn/images/blog/FridayLinks51_12C3B/kindling10.jpg)[Carve your own wooden Kindling device - MobileRead Forums](http://www.mobileread.com/forums/showthread.php?t=46855) – I have no good reason to want one of these but I want it anyways. I love the name (I’m amused easily). The [ebay auction](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=170331750580) question and answer is hilarious.
+![kindling10](/cdn/images/blog/FridayLinks51_12C3B/kindling10.jpg)
+
+[Carve your own wooden Kindling device - MobileRead Forums](http://www.mobileread.com/forums/showthread.php?t=46855) – I have no good reason to want one of these but I want it anyways. I love the name (I’m amused easily). The [ebay auction](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=170331750580) question and answer is hilarious.
 
 [New York Times launches Adobe AIR-based TimesReader 2.0](http://www.downloadsquad.com/2009/05/11/new-york-times-launches-adobe-air-based-timesreader-2-0/) – The times ditches their highly touted WPF reader in favor of a version that works on other platforms like Mac and Linux.
 
@@ -38,6 +40,8 @@ title: 'Friday Links #51'
 
 [Pixel Lab | Design & Development](http://pixellab.cc/#Home) - This is one of the better Silverlight showcase sites I’ve seen. Clean, restrained and yet entertaining.
 
-![](/cdn/images/blog/FridayLinks49_12B63/images.jpg) Pick of the Week
+![fire dude](/cdn/images/blog/FridayLinks49_12B63/images.jpg) 
 
-[Paint.NET](http://www.getpaint.net/) - A paint program I can actually use and understand. It's not photoshop but for the rest of us it's likely good enough. (and it's free!)
+**Pick of the Week**
+
+[Paint.NET](http://www.getpaint.net/) - A paint program I can actually use and understand. It's not Photoshop but for the rest of us it's likely good enough. (and it's free!)

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #57'
 ---
 **Programming Computers**
@@ -48,9 +48,9 @@ title: 'Friday Links #57'
 
 [XML Aficionado: Wireless charging…](http://www.xmlaficionado.com/2009/06/wireless-charging.html) - [WildCharge](http://www.wildcharge.com) has announced that they will begin shipping their [WildCharge](http://www.wildcharge.com/index.cfm/fuseaction/product.display/Product_ID/509) Skin for the iPhone in July: the skin is a protective gel cover for the iPhone that also includes the contact module and charges the iPhone once it is placed on the [WildCharger Charge Pad](http://www.wildcharge.com/index.cfm/fuseaction/product.display/Product_ID/511).
 
-[Map Label on Package](http://kk.org/ct2/2009/06/map-label-on-package.php) – From KK LIfe Stream - “I thought this was pretty clever. I just received a package from FedEx. On its label was printed a map to my house. So instead of installing a GPS in every truck, FedEx prints out a map label. If the driver can't find the delivery place, they just look on the package itself. Brilliant!”
+[Map Label on Package](http://kk.org/ct2/2009/06/map-label-on-package.php) – From KK Life Stream - “I thought this was pretty clever. I just received a package from FedEx. On its label was printed a map to my house. So instead of installing a GPS in every truck, FedEx prints out a map label. If the driver can't find the delivery place, they just look on the package itself. Brilliant!”
 
-![](/cdn/images/blog/FridayLinks57_CD8D/fedexlabelmapsm1.jpg)
+![label](/cdn/images/blog/FridayLinks57_CD8D/fedexlabelmapsm1.jpg)
 
 [Toolmonger » Blog Archive » FYI: Why Tape Measure Claws Move Around](http://toolmonger.com/2009/06/26/fyi-why-tape-measure-claws-move-around/) – Only a tool geek like me would find this cool. Today a friend asked me a question that the folks at Stanley tell me they hear all the time: why does the claw — you know, the little catch at the end of your short tape measure — move back and forth? Is it just poorly attached? The short answer: no, the loose claw is no accident of manufacture. It’s loose on purpose.
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Car GPS Mounts'
 ---
 Having recently bought a TomTom GPS, I was unsatisfied with the “suction” mount. It worked but occasionally failed and the GPS unit was too far way being on the wind shield. There a number of after market mounts ranging from more advanced “suction” mounts to mounts that attach permanently to the dash (or seat post).

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #56'
 ---
 **Programming Computers**
@@ -24,7 +24,9 @@ title: 'Friday Links #56'
 
 [Riversimple to Unveil Open Source Car in London This Month](http://ostatic.com/blog/riversimple-to-unveil-open-source-car-in-london-this-month) - The company plans to unveil its first car in London later this month, a small two-seater that weighs roughly 700 pounds. If you agree to lease one for 20 years (yes, 20), Riversimple will [throw in the cost of fuel ](http://www.autobloggreen.com/2009/06/10/riversimple-urban-car-hydrogen-car-revealed/)for the lifetime of the lease.
 
-![Hywind: Siemens und StatoilHydro installieren erste schwimmende Windenergieanlage / Hywind: Siemens and StatoilHydro install first floating wind turbine](/cdn/images/blog/FridayLinks56_E4BF/FloatingturbineSiemens.jpg) [First floating wind turbine buoyed off Norway | Green Tech](http://news.cnet.com/8301-11128_3-10263462-54.html?part=rss&subj=news&tag=2547-1_3-0-5) - [Siemens](http://w1.siemens.com/press/en/pressrelease/2009/renewable_energy/ere200906064.htm) and energy company StatoilHydro installed what they call the first large-scale floating turbine. The [Hywind turbine](http://news.cnet.com/8301-11128_3-9950231-54.html) will still have a ballast that is tied to the sea floor with cables.
+![Hywind: Siemens und StatoilHydro installieren erste schwimmende Windenergieanlage / Hywind: Siemens and StatoilHydro install first floating wind turbine](/cdn/images/blog/FridayLinks56_E4BF/FloatingturbineSiemens.jpg) 
+
+[First floating wind turbine buoyed off Norway | Green Tech](http://news.cnet.com/8301-11128_3-10263462-54.html?part=rss&subj=news&tag=2547-1_3-0-5) - [Siemens](http://w1.siemens.com/press/en/pressrelease/2009/renewable_energy/ere200906064.htm) and energy company StatoilHydro installed what they call the first large-scale floating turbine. The [Hywind turbine](http://news.cnet.com/8301-11128_3-9950231-54.html) will still have a ballast that is tied to the sea floor with cables.
 
 [CT Scan Nearly As Good As Regular Colonoscopy / Science News](http://www.sciencenews.org/view/generic/id/44724/title/CT_scan_nearly__as_good_as_regular_colonoscopy) – Having just had one of these the CT option would have been much more pleasant.
 

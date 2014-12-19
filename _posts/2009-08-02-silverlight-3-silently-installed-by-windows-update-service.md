@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Silverlight 3 Silently Installed by Windows Update Service'
 ---
 I logged into my laptop this morning and noticed the little tray icon that indicates Windows Update ran. Checking the install history I found this:

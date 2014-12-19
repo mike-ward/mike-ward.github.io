@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #45'
 ---
 [Live Smooth Streaming – Design Thoughts - Sam Zhang's Blog](http://blogs.iis.net/samzhang/archive/2009/03/27/live-smooth-streaming-design-thoughts.aspx) - In summary, the pull model we designed for IIS Live Smooth Streaming is very different than how the traditional live streaming push model works. With this model, the server becomes a very lean stateless server with better performance, scalability, and manageability. The client has more control over different aspects of streaming/playback and is better equipped to handle all the challenges to offer a great user experience.
@@ -22,7 +22,9 @@ title: 'Friday Links #45'
 
 [Microsoft exits the encyclopedia biz, kills Encarta](http://www.downloadsquad.com/2009/03/30/microsoft-exits-the-encyclopedia-biz-kills-encarta/) – I wasn’t aware it was still around.
 
-![download](/cdn/images/blog/FridayLinks45_10EBE/download.jpg)[U.S. unveils Orion spacecraft to take crew to Mars | Science | Reuters](http://www.reuters.com/article/scienceNews/idUSTRE52T6XH20090330) - NASA gave visitors to the National Mall in Washington a peek at a full-size mock-up of the spacecraft designed to carry U.S. astronauts back to the moon and then on to Mars one day.
+![download](/cdn/images/blog/FridayLinks45_10EBE/download.jpg)
+
+[U.S. unveils Orion spacecraft to take crew to Mars | Science | Reuters](http://www.reuters.com/article/scienceNews/idUSTRE52T6XH20090330) - NASA gave visitors to the National Mall in Washington a peek at a full-size mock-up of the spacecraft designed to carry U.S. astronauts back to the moon and then on to Mars one day.
 
 [Firefox slow? Limit history size for speed improvement](http://www.downloadsquad.com/2009/03/31/firefox-slow-limit-history-size-for-speed-improvement/) – This is one improvement that really does work.
 
@@ -32,12 +34,16 @@ title: 'Friday Links #45'
 
 [Presentations -> Null References: The Billion Dollar Mistake](http://www.qconlondon.com/london-2009/presentation/Null+References:+The+Billion+Dollar+Mistake) - My goal was to ensure that all use of references should be absolutely safe, with checking performed automatically by the compiler. But I couldn't resist the temptation to put in a null reference, simply because it was so easy to implement. This has led to innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years.
 
-![plasticlogic](/cdn/images/blog/FridayLinks45_10EBE/plasticlogic.jpg)[Detroit Newspapers to test Plastic Logic Readers this year – MobileRead](http://www.mobileread.com/forums/showthread.php?t=43840) - The Plastic Logic Reader isn't scheduled for general availability until next year, so it isn't clear how many devices will be in the "test". Still, a subscription to these newspapers may be a way for Detroit residents to get early access to a Plastic Logic Reader.
+![plasticlogic](/cdn/images/blog/FridayLinks45_10EBE/plasticlogic.jpg)
+
+[Detroit Newspapers to test Plastic Logic Readers this year – MobileRead](http://www.mobileread.com/forums/showthread.php?t=43840) - The Plastic Logic Reader isn't scheduled for general availability until next year, so it isn't clear how many devices will be in the "test". Still, a subscription to these newspapers may be a way for Detroit residents to get early access to a Plastic Logic Reader.
 
 [Visual Studio will not ship the WiX toolset](http://robmensching.com/blog/posts/2009/4/1/Visual-Studio-will-not-ship-the-WiX-toolset-contributes-only) – This is a real disappointment. WiX is just way better than the lame setup projects Visual Studio currently ships with.
 
 [Twitter Blog: The Discovery Engine Is Coming](http://blog.twitter.com/2009/04/discovery-engine-is-coming.html) - A few weeks ago we started testing Twitter Search in the web interface for a subset of folks. We had the search box way up near the top of the page and the results on a separate page. It turns out that's not the awesome way to do it. The best way to experience Twitter Search is when it's a natural part of your normal Twitter experience.
 
-![](http://tbn0.google.com/images?q=tbn:nhLY8ooGs-Z-AM:http://freshwater.976-tuna.com/e107_images/icons/firer.png)**Pick of the Week**
+![fire dude](http://tbn0.google.com/images?q=tbn:nhLY8ooGs-Z-AM:http://freshwater.976-tuna.com/e107_images/icons/firer.png)
+
+**Pick of the Week**
 
 [Power Toys for Visual Studio](http://msdn.microsoft.com/en-us/vs2005/aa718340.aspx) - Resource Refactoring - Takes the hassle out of moving string constants to the resource section of your Visual Studio Project.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Simply Weather Gadget Updated'
 ---
 I started getting reports this morning that the weather icons were not showing in Simply Weather, my Windows Vista Sidebar gadget. Sure enough, when I got home I discovered that Google had changed the relative path to the weather icons. Why they didn’t notify me of this change is a mystery :).

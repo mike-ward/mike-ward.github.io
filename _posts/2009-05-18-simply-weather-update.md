@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Simply Weather Update'
 ---
 I’ve updated my Windows Vista Sidebar gadget, “Simply Weather”. Many of you have sent overwhelmingly positive feedback on how fun and useful, “Simply Weather” is. The 20,000 plus downloads over the last month are also a ringing endorsement.

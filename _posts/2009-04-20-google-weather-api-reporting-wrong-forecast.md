@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Google Weather API reporting wrong forecast'
 ---
 Google Weather API is reporting the current conditions but yesterday’s forecast. Hopefully the matter will be resolved shortly. Here’s an example of the data stream.

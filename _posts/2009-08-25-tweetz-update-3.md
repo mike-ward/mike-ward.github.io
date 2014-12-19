@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post  
 title: 'tweetz Update #3'
 ---
-Ok, I’m losing track of updates so I started numbering them. New changes include:
+OK, I’m losing track of updates so I started numbering them. New changes include:
 
   * Favorites tab is active. It only updates when you click the tab. 
   * User page is active. Currently only for the logged in user but I’ll be following up shortly shortcuts to other users. 

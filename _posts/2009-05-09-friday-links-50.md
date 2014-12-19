@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: 'Friday Links #50'
 ---
 [Digital Recovery of Moon Images](http://kk.org/ct2/2009/05/digital-recovery-of-moon-image.php) - Behind the counter of an abandoned McDonalds lie 48,000 lbs of 70mm tape the only copy of extremely high-resolution images of the moon. Those images include a high-resolution version of “Earthrise,” the first picture of the Earth from the Moon’s vantage point. Hard to believe we almost lost them.
@@ -12,7 +12,9 @@ title: 'Friday Links #50'
 
 [Don't clean your HDTV with Windex: Consumer Reports Electronics Blog](http://blogs.consumerreports.org/electronics/2009/05/dont-clean-your-hdtv-with-windex.html?EXTKEY=I72RSE0) - Avoid commercial cleaners. Alcohol and ammonia, found in window cleaners, can wreak havoc on your expensive flat-screen. Don’t use cleaners that have them.
 
-![NUnit.org](http://nunit.com/img/logo.gif)[NUnit 2.5 RTM - Andrew Stopford's Weblog](http://weblogs.asp.net/astopford/archive/2009/05/05/nunit-2-5-rtm.aspx) - NUnit 2.5 [has loads of new goodies](http://nunit.com/blogs/?p=66), parameterized tests (like MbUnit) and Theories (like JUnit and XUnit.net).
+![NUnit.org](http://nunit.com/img/logo.gif)
+
+[NUnit 2.5 RTM - Andrew Stopford's Weblog](http://weblogs.asp.net/astopford/archive/2009/05/05/nunit-2-5-rtm.aspx) - NUnit 2.5 [has loads of new goodies](http://nunit.com/blogs/?p=66), parameterized tests (like MbUnit) and Theories (like JUnit and XUnit.net).
 
 [Kindle DX sports bigger screen, bigger price](http://www.macworld.com/article/140443/kindle_dx.html) - Kindle DX sports a 9.7-inch screen that uses the same e-ink technology as the Kindle and Kindle 2.
 
@@ -28,6 +30,8 @@ title: 'Friday Links #50'
 
 [Axum](http://msdn.microsoft.com/en-us/devlabs/dd795202.aspx) - Axum is an incubation technology on Microsoft's Parallel Computing Platform designed to make parallel applications safer, more scalable, and easier to write. It's a .NET language that builds upon the principles of isolation, agents, message-passing and data flow.
 
-![](/cdn/images/blog/FridayLinks49_12B63/images.jpg) **Pick of the Week**
+![fire dude](/cdn/images/blog/FridayLinks49_12B63/images.jpg) 
+
+**Pick of the Week**
 
 [Windows Clippings](http://weblogs.asp.net/kennykerr/archive/2005/09/30/426280.aspx) – I use it for all my screen shots. Captures shadow around window in Vista. Check out the Snipper tool in Vista as well.
