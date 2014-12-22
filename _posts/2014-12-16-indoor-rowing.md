@@ -29,9 +29,9 @@ For reasons I don't fully understand, rowing is meditative in a way I've not exp
 
 What surprises me the most is how effective the workouts are. Core strength has improved and my sciatic nerve pain (a back related nerve pain in the buttocks and leg) has been reduced by 90%. That's not a typo - 90%. The improvement in my mobility noticeable. I get up out of chairs easily and stairways are no longer obstacle to overcome. In general, I move around more.
 
-My strength training has seen improvement as well. For months I've been plateaued. This is common in strength training, but my progress was glacial as of late. Now I'm seeing small and regular improvements in the form of increased repetitions. Who knows, I might even have to add a weight plate or two in the near future.
+My strength training has seen improvement as well. For months I've been plateaued. This is common in strength training, but my progress was glacial as of late. Now I see small and regular improvements in the form of increased repetitions. Who knows, I might even have to add a weight plate or two in the near future.
 
-At work, several people have inquired about the improvement in my physical appearance. I suspect what they are seeing is an improvement in posture, not so much weight loss or muscle gain, but hey, I'll take it. When I tell them that I'm rowing they're intrigued, until we get to price of rowing machine.
+At work, several people have inquired about the improvement in my physical appearance. I suspect what they see is an improvement in posture, not so much weight loss or muscle gain, but hey, I'll take it. When I tell them that I'm rowing they're intrigued, until we get to price of rowing machine.
 
 It costs $950 for a Concept 2 delivered to your home (that includes $50 for shipping). That sounds expensive, but if you stop and do the math, it's actually one of the least expensive exercise regimens short of calisthenics.
 
@@ -41,7 +41,7 @@ It costs $950 for a Concept 2 delivered to your home (that includes $50 for ship
 
 Why? Because that's the extent of your investment. There are no accessories (other than special apparatus for serious competitive rowers). No special shoes (I use slippers), clothing, or memberships. And unlike treadmills or other exercise apparatus, Concept 2's (and other quality rowers) don't break. There are stories about these machines being used regularly for 20 years with no maintenance.
 
-So while the initial investment is high, factored over say 5 years, you're likely to come out ahead compared to other regimens. 
+So, while the initial investment is high, factored over say 5 years, you're likely to come out ahead compared to other regimens. 
 
 And if you ever do lose interest, you can easily sell it. I started out looking for a used machine but found the few that were available were selling for 80% of cost of a new one. I finally gave up and just bought new. Now that I own one, I can see why there are so few available in the aftermarket.
 
