@@ -4,10 +4,10 @@ title: 'Indoor Rowing'
 ---
 Over the years, I've tried several exercise regimens with varying results.
 
-- Running - Great while it lasted but my knees went bust in my late 20's.
-- Cycling - At one time I rode 22 miles a day to work and back. Other than running Cross Country in High School, this was the best shape I have ever been in. Riding in traffic is risky however. As I got older, I lost my nerve.
-- Indoor Cycling - In theory this should be as effective but I found it required much more discipline than I could muster. Frankly, it's mind numbing - for me at least.
-- Calisthenics and Strength Training - Very effective. Several years ago I herniated a disk in my back that required surgery. The old-school routine of rhythmical movements with and without weights proved effective. It requires discipline but is effective (and humbling).
+  - Running - Great while it lasted but my knees went bust in my late 20's.
+  - Cycling - At one time I rode 22 miles a day to work and back. Other than running Cross Country in High School, this was the best shape I have ever been in. Riding in traffic is risky however. As I got older, I lost my nerve.
+  - Indoor Cycling - In theory this should be as effective but I found it required much more discipline than I could muster. Frankly, it's mind numbing - for me at least.
+  - Calisthenics and Strength Training - Very effective. Several years ago I herniated a disk in my back that required surgery. The old-school routine of rhythmical movements with and without weights proved effective. It requires discipline but is effective (and humbling).
 
 And now to [indoor rowing](http://www.wikiwand.com/en/Indoor_rower). Earlier this year, my kids started High School. One day they announced they wanted to join Crew (Competitive Rowing). I wasn't even aware the school had such a sport (a club sport in this case). My wife and I require that our kids participate in some kind of regular exercise program. We're not particular as long as it's regular and aerobic.
 
