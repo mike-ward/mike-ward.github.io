@@ -25,11 +25,8 @@ Here's a simple one I often use:
 There are special keywords that can be used in snippets.
 
   - `$END$` - Sets the cursor position after insertion
-
   - `$DATE$` - Insert the current date and time.
-  
   - `$DATE("format")$` - Inserts a date with the given format. See <http://www.dotnetperls.com/datetime-format> for a list of support formats.
-  
   - `\n` - insert a new line
 
 ### Custom Key Bindings
@@ -39,24 +36,17 @@ Press `F10` to edit the key bindings. Make your changes and save. The changes ta
 ### Other Changes
 
   - Changed the inline code block and link highlighting in the *Paper* theme.
-  
   - Bold, Italic and Inline Code Block shortcuts will automatically select the current word if there is no selection
-  
   - Remove`F5` date insertion in favor of snippets
-  
   - Add syntax highlighting for lists
-  
   - Bug fixes
 
 
 ### Tips
 
   - Try using "Century Gothic" if installed. I think it's one of the best fonts for text editing.
-  
   - Indent your lists 2 spaces. They wrap nicely and look better in plain text.
-  
   - Use `F12' to turn off preview and focus on just writing text.
-  
   - Most settings are saved in plain text files making them easy to share with others.
   
 Available on the [Downloads Page](http://mike-ward.net/download)
