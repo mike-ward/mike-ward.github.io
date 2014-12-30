@@ -20,6 +20,8 @@ Gratuitous Screen Shot
 - User preferences stored in a text file for easy sharing
 - Full screen covers task-bar
 - Keyboard shortcuts for bold, italic, headers, etc.
+- User defined snippets improve the speed and proficiency of writing documents.
+- User defined key bindings
 - Modern UI look and feel
 - **Not** a Windows Store App
 - Synchronized scrolling
@@ -38,21 +40,72 @@ Gratuitous Screen Shot
 
 ## Auto Save
 
-When Auto Save is enabled `Alt+S`, content is saved to the original file location 4 seconds after the last detected change. Unlike some auto-save features, this one will essentially save changes whenever typing is paused.
+When Auto Save is enabled (`Alt+S`), content is saved whenever you pause typing for 4 or more seconds.
 
-## User Settings
+
+## Settings
 
 User settings are stored in a text file in the `AppData` folder. Placing settings in a plain file allows sharing of settings on different installations.
 
 Typically, this folder is located at `C:\Users\<USER>\AppData\Roaming\Markdown Edit\user_settings.json`. Pressing `F9` will open this file in the system's Notepad editor. It should look something like this:
 
+    {
+        "EditorBackground": "#F7F4EF",
+        "EditorForeground": "Black",
+        "EditorFontFamily": "Segoe UI",
+        "EditorFontSize": 14.0
+    }
+
 When you change settings and save this file, Markdown Edit will immediately update to reflect the changes.
 
 Colors can be defined as RBG values, like the `EditorBackground` setting, or using the predefined names (like the `EditorForground` setting). Acceptable predefined names are listed [here](http://msdn.microsoft.com/en-us/library/system.windows.media.colors(v=vs.110).aspx).
 
-If you delete this file, Markdown Edit will restore it.
+If you delete this file, Markdown Edit will restore it with the default settings.
 
-## User Template
+
+## Snippets
+
+Snippets allow the quick insertion of words or phrases by typing a trigger word and then the `TAB` key. This can improve the speed and proficiency of writing documents. Snippets are stored in a text file that can be edited by pressing `F6`.
+
+Snippets are activated by typing the trigger word and pressing `TAB`.
+
+Snippets consist of a single line starting with:
+
+  - a single trigger word (can include non alpha-numerics)
+  - one or more spaces
+  - text that will replace the word
+  
+Example
+
+    mde  [Markdown Edit](http://mike-ward.net/markdown)
+    
+With this snippet defined, open Markdown Edit and type
+
+    mde[TAB]
+
+Where `[TAB]` is the tab key.
+
+The `mde` text is replaced by
+
+    [Markdown Edit](http://mike-ward.net/markdown)
+    
+Snippets can contain special keywords.
+
+  - $END$ - Positions the cursor after insertion. For instance
+
+        mde  [Markdown $END$ Edit](http://mike-ward.net/markdown)
+
+    positions the cursor between *Markdown* and *Edit*
+  
+  - $DATE$ - is replaced with the current date and time
+  
+  - $DATE("format")$ - format is any valid .NET date format (<http://www.dotnetperls.com/datetime-format>)
+  
+  - `\n` - insert a new line
+  
+If you delete this file, Markdown Edit will restore it with the default snippets.
+
+## Templates
 
 You can change the appearance of the preview view by changing the user template file. User templates work similar to user settings. The template file is stored in the `AppData` Folder as `user_template.html`. It can be quickly accessed by pressing `F8`. Edit it as you see fit. 
 
@@ -62,7 +115,8 @@ A `<div>` with an ID of `contents` is required. This is where the translated mar
 
 When you change settings and save this file, Markdown Edit will immediately update to reflect the changes.
 
-Delete it and Markdown Edit will create a new one.
+If you delete this file, Markdown Edit will restore the default template.
+
 
 ## Spell Checking
 
@@ -71,6 +125,7 @@ Pressing `F7` will toggle spell checking. Spell checking is done as you type. Ri
 The custom dictionary is a simple text file. It stored in the same folder as the user settings and user templates. It can be accessed and edited  by pressing `Shift+F7`.
 
 Markdown Edit ships with dictionaries for many languages. Set the dictionary by pressing `F9`. The dictionaries are stored in the installation folder under `Spell Check\Dictionaries`.
+
 
 ## Themes
 
@@ -82,12 +137,20 @@ Themes are located in the installation directory under `\Themes`.
 
 If you create an awesome theme, send it to me and I'll add it to the distribution. I'm a lousy artist. :)
 
+
+## Key Bindings
+
+You can change most of the key bindings. Press `F10', make your changes and save. The changes take effect immediately.
+
+If you delete this file, Markdown Edit will create a new one with default bindings.
+
+
 ## Limitations
 
-- Only supports CommonMark
-- Single document Interface
-- Syntax highlighting does not recognize multiple-line constructs. It uses regular expressions which don't understand the underlying Markdown constructs. I'm hoping as CommonMark matures that a syntax parser (like PEG) will emerge.
-- I wrote it ;)
+  - Only supports CommonMark
+  - Single document Interface
+  - Syntax highlighting does not recognize multiple-line constructs. It uses regular expressions which don't understand the underlying Markdown constructs. I'm hoping as CommonMark matures that a syntax parser (like PEG) will emerge.
+  - I wrote it ;)
 
 <button onclick="load_disqus('markdownedit', 'Markdown Eit');" class="pure-button">Comments</button>
 <div id="disqus_thread"></div>

@@ -1,7 +1,6 @@
 ---
 layout: post  
 title: 'Markdown Edit 1.1.0 Released'  
-published: false
 ---
 Version 1.1.0 is all about the keyboard.
 
@@ -39,7 +38,7 @@ Press `F10` to edit the key bindings. Make your changes and save. The changes ta
 
 ### Other Changes
 
-  - Changed the inline code block highlighting in the *Paper* theme.
+  - Changed the inline code block and link highlighting in the *Paper* theme.
   
   - Bold, Italic and Inline Code Block shortcuts will automatically select the current word if there is no selection
   
@@ -48,5 +47,16 @@ Press `F10` to edit the key bindings. Make your changes and save. The changes ta
   - Add syntax highlighting for lists
   
   - Bug fixes
+
+
+### Tips
+
+  - Try using "Century Gothic" if installed. I think it's one of the best fonts for text editing.
+  
+  - Indent your lists 2 spaces. They wrap nicely and look better in plain text.
+  
+  - Use `F12' to turn off preview and focus on just writing text.
+  
+  - Most settings are saved in plain text files making them easy to share with others.
   
 Available on the [Downloads Page](http://mike-ward.net/download)
