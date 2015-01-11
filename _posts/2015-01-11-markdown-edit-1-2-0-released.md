@@ -53,6 +53,6 @@ I attended a presentation at [Codemash](http://codemash.org) about how to run an
 
 Contributor guidelines sounds way more formal than it is. It's just a list of ways to contribute to the project.
 
-Available on the [Downloads Page](http://mike-ward.net/download).
+Available on the [Downloads Page](http://mike-ward.net/downloads).
 
 
