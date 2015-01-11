@@ -11,7 +11,7 @@ title: 'Markdown Edit 1.2.0 Released'
   - Mission Statement and Contributor Guidelines added
 
 ***
-Enough already! Let me download the darn thing. [Downloads Page](http://mike-ward.net/download)
+Enough already! Let me download the darn thing. [Downloads Page](http://mike-ward.net/downloads)
 ***
 
 ### Snippets
