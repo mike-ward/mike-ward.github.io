@@ -41,7 +41,7 @@ The list of default snippets is extended. If you're upgrading from an earlier ve
 
 List continuations supply the next list marker when composing unordered or ordered lists. This is particularly handy when creating numbered lists. It's automatic and requires no keyboard shortcut. 
 
-Start as list as usual. When you're ready to add the next list item, simply press `Enter`. The next list marker will automatically be added after the new line.
+Start a list as usual. When you're ready to add the next list item, simply press `Enter`. The next list marker will automatically be added after the new line.
 
 ### Scroll to Last Position
 
