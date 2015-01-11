@@ -4,7 +4,7 @@ title:  Calendar Gadget®
 ---
 _Version 0.1.0 - October 25, 2008_
 
-Calendar Gadget is skinable, customizable calendar application for your desktop. With Calendar Gadget you can make beautiful calendars for any occassion. Calendar Gadget features include:
+Calendar Gadget is skinable, customizable calendar application for your desktop. With Calendar Gadget you can make beautiful calendars for any occasion. Calendar Gadget features include:
 
 - Fully interactive calendar designer. No more tedious dialogs and configuration files. Simply drag and drop controls onto your calendar, customize some behaviors, and you're done.
 - Calendar designs are stored in a single XML file. Skin distribution is as easy as copying a file.
@@ -20,6 +20,6 @@ Calendar Gadget is skinable, customizable calendar application for your desktop.
 - Show appointments with mouse-overs, in calendar, agenda view, and summaries
 - Single executable. No other files necessary!
 - Support for multiple profiles
-- Localization support (mutliple-languages limited to on screen controls, perhaps someone would like to do some translations?)
+- Localization support (multiple-languages limited to on screen controls, perhaps someone would like to do some translations?)
 
 ![noborder](/cdn/images/calendargadget/collage.png)
