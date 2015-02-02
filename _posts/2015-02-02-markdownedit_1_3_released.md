@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: 'Markdown Edit 1.3 Released'
+title: 'Markdown Edit 1.3.0 Released'
 ---
 This release of [Markdown Edit](http://mike-ward.net/markdownedit) adds a settings dialog for common settings. The original key-bindings for opening the settings files still work. The settings dialog is provided for those who  prefer a GUI interface.
 
