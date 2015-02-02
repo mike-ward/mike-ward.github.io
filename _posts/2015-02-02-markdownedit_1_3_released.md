@@ -8,7 +8,7 @@ To open the settings dialog, click the, "Gear" icon in the title bar. A panel wi
 
 ![screen shot](http://mike-ward.net/cdn/images/blog/2015-02-02-markdownedit_1_3_released/settingsflyout.png) 
 
-The dialog presents only the most routinely changed settings. To access all settings, you'll still need to edit the settings files directly. This is a calculated guess on my part. Settings dialogs can be imposing and confusing. The goal was to expose only those settings that are routinely changed.
+The dialog presents only the most routinely changed settings. This is a calculated guess on my part. To access all settings, you'll still need to edit the settings files directly. Settings dialogs can be imposing and confusing. The goal was to expose only those settings that are routinely changed.
 
 There is also a small enhancement to numbered lists. Inserting a new item in a numbered list will renumber the subsequent items in the list. This only works on insert. If you delete an item in a numbered list it will not renumber the items. You can join and split lines to renumber if required.
 
