@@ -42,7 +42,7 @@ _Version 0.2.2, September 16, 2014_
 
 [FreeSnap.msi](/download?file=FreeSnap.msi)  
 [FreeSnap64.msi](/download?file=FreeSnap64.msi)  
-[FreeSnapSource.zip](/download?file=FreeSnapSource.zip) 
+[FreeSnapSource.zip](https://github.com/mike-ward/FreeSnap) 
 
 Move and resize windows with your keypad. Now available in 32 and 64 bit versions.
 
