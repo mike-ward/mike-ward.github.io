@@ -41,16 +41,17 @@ Colors are set in the Tools|Options|Fonts and Colors|Text Editor dialog. VSColor
 
 There are nine VSColor classifications. They are:
 
-* Build Text
-* Build Header
-* Log Information
-* Log Warning
-* Log Error
-* Log Custom1
-* Log Custom2
-* Log Custom3
-* Log Custom4
-* The names reflect their intended use but are entirely arbitrary in actual use.
+  * Build Text
+  * Build Header
+  * Log Information
+  * Log Warning
+  * Log Error
+  * Log Custom1
+  * Log Custom2
+  * Log Custom3
+  * Log Custom4
+
+The names reflect their intended use but are entirely arbitrary in actual use.
 
 Build Text is the default classification for any line that does not match the other patterns. Its default color is "Gray". I've found this helps to highlight the other classified lines.
 
@@ -82,5 +83,7 @@ At run-time, VSColorOutput will walk this list in order, testing the line of tex
 VSColorOutput is open source. It's hosted on Codeplex at
 [GitHub](https://github.com/mike-ward/VSColorOutput)
 
-<a href="https://github.com/mike-ward/VSColorOutput"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+<a href="https://github.com/mike-ward/VSColorOutput">
+
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
 
