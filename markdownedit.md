@@ -149,7 +149,7 @@ If you delete this file, Markdown Edit will create a new one with default bindin
 
   - Only supports CommonMark
   - Single document Interface
-  - Syntax highlighting does not recognize multiple-line constructs. It uses regular expressions which don't understand the underlying Markdown constructs. I'm hoping as CommonMark matures that a syntax parser (like PEG) will emerge.
+  - <s>Syntax highlighting does not recognize multiple-line constructs. It uses regular expressions which don't understand the underlying Markdown constructs. I'm hoping as CommonMark matures that a syntax parser (like PEG) will emerge.</s>
   - I wrote it ;)
 
 <button onclick="load_disqus('markdownedit', 'Markdown Eit');" class="pure-button">Comments</button>
