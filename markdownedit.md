@@ -9,7 +9,8 @@ Markdown Edit is  a Windows **desktop** [CommonMark](http://commonmark.org) (a.k
 `TL;DR` [Download](http://mike-ward.net/downloads)
 
 Gratuitous Screen Shot  
-![screen shot](https://cdn.rawgit.com/mike-ward/Markdown-Edit/master/ScreenShot.png)
+
+![markdown-edit-screenshot.png](http://mike-ward.net/cdn/images/markdown-edit/markdown-edit-screenshot.png) 
 
 ## Features
 
