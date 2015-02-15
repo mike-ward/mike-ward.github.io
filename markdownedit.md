@@ -10,7 +10,7 @@ Markdown Edit is  a Windows **desktop** [CommonMark](http://commonmark.org) (a.k
 
 Gratuitous Screen Shot  
 
-![markdown-edit-screenshot.png](http://mike-ward.net/cdn/images/markdown-edit/markdown-edit-screenshot.png) 
+<a href="http://mike-ward.net/cdn/images/markdown-edit/markdown-edit-screenshot.png" target="_blank">![markdown-edit-screenshot.png](http://mike-ward.net/cdn/images/markdown-edit/markdown-edit-screenshot.png "Gratuitous Screen Shot")</a> 
 
 ## Features
 
