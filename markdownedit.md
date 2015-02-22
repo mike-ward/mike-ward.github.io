@@ -6,7 +6,10 @@ Markdown Edit is  a Windows **desktop** [CommonMark](http://commonmark.org) (a.k
 
 > I need themes! (Dammit Jim!) I'm a programmer, not a designer. Send me some cool themes and I'll include them.
 
-`TL;DR` [Download](http://mike-ward.net/downloads)
+`TL;DR` 
+
+- [Download via HTTP](http://mike-ward.net/downloads) or 
+- install via [Chocolatey](https://chocolatey.org/packages/markdown-edit) using `choco inst markdown-edit`
 
 Gratuitous Screen Shot  
 
