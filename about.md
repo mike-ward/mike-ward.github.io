@@ -9,7 +9,7 @@ There's not much that doesn't interest me as along has it doesn't involve religi
 
 ![noborder](/cdn/images/about/family.jpg "The Dolphin's name is Dexter")
 
-Mike-Ward.Net is a personal project.
+[Mike-Ward.Net](http://mike-ward.net) is a personal project.
 It gives me a place to try new technologies out, learn how to express myself through words and code and is my home on the Web.
 Look around, read the blog, try the software and please send feedback.
 
