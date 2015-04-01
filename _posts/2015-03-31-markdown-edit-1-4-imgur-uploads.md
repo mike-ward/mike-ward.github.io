@@ -11,31 +11,11 @@ Uploading and hosting images for Markdown documents just got a whole lot easier.
 
 Don't believe me? I have video!
 
-<object id="scPlayer"  width="700" height="400" type="application/x-shockwave-flash" data="http://content.screencast.com/users/Mike-Ward/folders/Jing/media/5b296dea-20d4-4c2a-99d3-a2100e9d6f11/jingswfplayer.swf" >
- <param name="movie" value="http://content.screencast.com/users/Mike-Ward/folders/Jing/media/5b296dea-20d4-4c2a-99d3-a2100e9d6f11/jingswfplayer.swf" />
- <param name="quality" value="high" />
- <param name="bgcolor" value="#FFFFFF" />
- <param name="flashVars" value="thumb=http://content.screencast.com/users/Mike-Ward/folders/Jing/media/5b296dea-20d4-4c2a-99d3-a2100e9d6f11/FirstFrame.jpg&containerwidth=1579&containerheight=808&content=http://content.screencast.com/users/Mike-Ward/folders/Jing/media/5b296dea-20d4-4c2a-99d3-a2100e9d6f11/2015-03-29_0836.swf&blurover=false" />
- <param name="allowFullScreen" value="true" />
- <param name="scale" value="showall" />
- <param name="allowScriptAccess" value="always" />
- <param name="base" value="http://content.screencast.com/users/Mike-Ward/folders/Jing/media/5b296dea-20d4-4c2a-99d3-a2100e9d6f11/" />
- Unable to display content. Adobe Flash is required.
-</object> 
+<iframe src="https://player.vimeo.com/video/123839969" width="500" height="256" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 But wait, there's more. You can also paste images from the clipboard.
 
-<object id="scPlayer"  width="700" height="400" type="application/x-shockwave-flash" data="http://content.screencast.com/users/Mike-Ward/folders/Jing/media/f55c4964-925c-417f-9a80-bafadc162e9f/jingswfplayer.swf" >
- <param name="movie" value="http://content.screencast.com/users/Mike-Ward/folders/Jing/media/f55c4964-925c-417f-9a80-bafadc162e9f/jingswfplayer.swf" />
- <param name="quality" value="high" />
- <param name="bgcolor" value="#FFFFFF" />
- <param name="flashVars" value="thumb=http://content.screencast.com/users/Mike-Ward/folders/Jing/media/f55c4964-925c-417f-9a80-bafadc162e9f/FirstFrame.jpg&containerwidth=1251&containerheight=826&content=http://content.screencast.com/users/Mike-Ward/folders/Jing/media/f55c4964-925c-417f-9a80-bafadc162e9f/2015-03-31_copy_paste_image.swf&blurover=false" />
- <param name="allowFullScreen" value="true" />
- <param name="scale" value="showall" />
- <param name="allowScriptAccess" value="always" />
- <param name="base" value="http://content.screencast.com/users/Mike-Ward/folders/Jing/media/f55c4964-925c-417f-9a80-bafadc162e9f/" />
- Unable to display content. Adobe Flash is required.
-</object> 
+<iframe src="https://player.vimeo.com/video/123839970" width="500" height="330" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 I've also added some buttons to the title bar to open and save documents.
 
