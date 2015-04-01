@@ -22,3 +22,5 @@ I've also added some buttons to the title bar to open and save documents.
 ![Clipboard](http://i.imgur.com/7DrzAVo.png)
 
 Available on the [Downloads Page](http://mike-ward.net/downloads).
+
+*Just noticed this is my 1,000th post!* 
