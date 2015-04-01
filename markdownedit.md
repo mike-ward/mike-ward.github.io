@@ -17,6 +17,7 @@ Gratuitous Screen Shot
 
 ## Features
 
+  - Drag and Drop image uploads
   - Syntax highlighting editor
   - Side-by-side HTML preview
   - Quickly show/hide preview
