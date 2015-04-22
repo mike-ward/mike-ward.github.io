@@ -56,4 +56,4 @@ margins are a waste of screen real estate. So now you get a choice.
 As usual, Markdown Edit is a availble on the [Downloads
 Page](http://mike-ward.net/downloads).
 
-I just loves me those pretty formatted documents.
+I just loves me some pretty formatted documents.
