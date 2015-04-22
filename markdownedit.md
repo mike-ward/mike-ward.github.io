@@ -18,6 +18,7 @@ Gratuitous Screen Shot
 ## Features
 
   - [Drag and Drop image uploads](http://mike-ward.net/2015/03/31/markdown-edit-1-4-imgur-uploads/)
+  - Document Formatting. Make your Markdown beautiful
   - Syntax highlighting editor
   - Side-by-side HTML preview
   - Quickly show/hide preview

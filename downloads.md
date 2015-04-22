@@ -9,7 +9,7 @@ title:  Downloads
 
 A Windows Desktop Markdown Editor [Read more...](/markdownedit)
 
-_Version 1.4,2 April 6, 2015_
+_Version 1.5 April 21, 2015_
 
 --------------------------------------
 
