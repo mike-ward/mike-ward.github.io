@@ -22,13 +22,11 @@ _Version 0.8.23, November 9, 2014_
 
 --------------------------------------
 
-[DeskDriveSetup.exe (Version 2.1)](/download?file=DeskDriveSetup.exe)  
-[DeskDriveSetup.exe (Version 1.8.5)](/download?file=DeskDriveSetup185.exe)  
-[DeskDriveSetup64.exe (Version 1.8.5)](/download?file=DeskDriveSetup64.exe)  
+[DeskDriveSetup.exe (Version 2.1.1)](/download?file=DeskDriveSetup.exe)  
 
 Automatic drive/media shortcuts for your desktop ([Desk Drive](/deskdrive))
 
-_Version 2.1, December 9, 2013_
+_Version 2.1.1, April 26, 2015_
 
 --------------------------------------
 

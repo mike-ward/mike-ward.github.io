@@ -4,8 +4,6 @@ title: Desk Drive
 ---
 Automatic drive/media shortcuts for your desktop
 
-_December 9, 2013 - [Version 2.1 Released](/2013/12/09/desk-drive-2-1/)_
-
 Desk Drive™ solves a really annoying problem.
 You pop a USB thumb drive or DVD into your computer and then you have to open Window's Explorer and find the mapped drive or folder.
 Desk Drive adds a desktop icon pointing to the drive automatically.
@@ -22,8 +20,6 @@ The Desk Drive installer includes offers to install other programs which require
 Some of you have asked for an off-line installer for use in corporate environments.
 You can now purchase one at <https://sites.fastspring.com/mikeward/instant/deskdrive>.
 ***
-
-[http://www.spellchecker.net/grammar/](http://www.spellchecker.net/grammar/) - Spellchecker.net provides grammar and spell checking service, it's totally free and easy to use.
 
 Help me localize Desk Drive!
 The distribution contains a file named `DeskDrive.exe.xml` that contains localized strings and instructions.
