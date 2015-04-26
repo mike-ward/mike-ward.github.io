@@ -15,12 +15,6 @@ Desk Drive sits quietly in the system tray.
 Configuration (image at right) is just a click away and allows you to specify which types of media to monitor.
 So simple, it just works. Download it today!
 
-***
-The Desk Drive installer includes offers to install other programs which requires on-line access.
-Some of you have asked for an off-line installer for use in corporate environments.
-You can now purchase one at <https://sites.fastspring.com/mikeward/instant/deskdrive>.
-***
-
 Help me localize Desk Drive!
 The distribution contains a file named `DeskDrive.exe.xml` that contains localized strings and instructions.
 Add your language to the file, send it to me, and I'll include it in the next release. Thanks!

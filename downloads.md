@@ -89,10 +89,3 @@ Simple and functional. One of the first .Net programs I ever wrote (kinda shows 
 Still, it's proven popular over the year and I still use it daily.
 
 _Last update: Version 2.2.2, October 21, 2008_
-
---------------------------------------
-
-Some installers incorporate Install Monetizer to recommend additional software to install. 
-You may decline to install the recommended software without affecting the installation. 
-
-[More Information](/installmonetizer)
