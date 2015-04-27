@@ -5,7 +5,7 @@ layout: default
   <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-  <button onclick="load_disqus('{{ page.url }}', '{{ page.title }}');" class="pure-button blog-comment-button">Comments</button>
+  <button onclick="load_disqus('{{ page.url }}', '{{ page.title }}');" class="pure-button blog-comment-button">View/Add Comments</button>
   <div id="disqus_thread"></div>
 </div>
 
