@@ -15,7 +15,7 @@ distractions.
 
 -   [Download via HTTP](http://mike-ward.net/downloads) or
 -   install via [Chocolatey](https://chocolatey.org/packages/markdown-edit)
-    using `choco inst markdown-edit`
+    using `choco install markdown-edit`
 
 Gratuitous Screen Shot
 
