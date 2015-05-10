@@ -8,6 +8,10 @@ There is minimal window chrome and most functions are accessed through keyboard
 shortcuts. There is no main menu, status bar, tabbed windows or other
 distractions.
 
+> Markdown Edit is ready for translations. Go
+> [here](http://mike-ward.net/2015/05/03/markdown-edit-1-6-ready-to-translate/)
+> to find out how.
+
 > I need themes! (Dammit Jim!) I'm a programmer, not a designer. Send me some
 > cool themes and I'll include them.
 
