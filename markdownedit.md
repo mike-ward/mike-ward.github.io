@@ -38,11 +38,10 @@ Features
 -   Quickly show/hide preview
 -   [CommonMark](http://commonmark.org) standard Markdown engine
 -   User preferences stored in a text file for easy sharing
--   Full screen covers task-bar
--   Keyboard shortcuts for bold, italic, headers, etc.
+-   Full screen covers task-bar (optional)
+-   Keyboard shortcuts for bold, italic, headers, lists, block quotes, etc.
 -   User defined snippets improve the speed and proficiency of writing
     documents.
--   User defined key bindings
 -   Modern UI look and feel
 -   **Not** a Windows Store App
 -   Synchronized scrolling
@@ -59,6 +58,8 @@ Features
 -   Highlight current line
 -   [Open Source](https://github.com/mike-ward/Markdown-Edit)
 -   MIT License
+
+*Markdown Edit's help has a more complete list of features/shortcuts*
 
 Auto Save
 ---------
@@ -192,15 +193,6 @@ Themes are located in the installation directory under `\Themes`.
 
 If you create an awesome theme, send it to me and I'll add it to the
 distribution. I'm a lousy artist. :)
-
-Key Bindings
-------------
-
-You can change most of the key bindings. Press \`F10', make your changes and
-save. The changes take effect immediately.
-
-If you delete this file, Markdown Edit will create a new one with default
-bindings.
 
 Limitations
 -----------
