@@ -87,11 +87,9 @@ more...](/2008/08/13/deskview---changes-your-desktop-icons-from-large-to-small)
 
 --------------------------------------------------------------------------------
 
-[CalendarSetup.exe](/download?file=CalendarSetup.exe)  
-[CalendarSetup64.exe](/download?file=CalendarSetup64.exe)  
-[CalendarSource.zip](/download?file=CalendarSource.zip)
+[CalendarSetup.msi](/download?file=CalendarSetup.msi)
 
 Simple and functional. One of the first .Net programs I ever wrote (kinda shows
-too). Still, it's proven popular over the year and I still use it daily.
+too). Still, it's proven popular over the years and I still use it daily.
 
-*Last update: Version 2.2.2, October 21, 2008*
+*Last update: Version 2.2.3, June 21, 2015*
