@@ -92,4 +92,4 @@ more...](/2008/08/13/deskview---changes-your-desktop-icons-from-large-to-small)
 Simple and functional. One of the first .Net programs I ever wrote (kinda shows
 too). Still, it's proven popular over the years and I still use it daily.
 
-*Last update: Version 2.2.3, June 21, 2015*
+*Last update: Version 2.2.4, June 24, 2015*
