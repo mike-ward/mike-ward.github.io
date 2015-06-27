@@ -20,7 +20,7 @@ Tweetz Desktop is the successor to tweetz 3.1. [Read more...](/tweetz)
 
 --------------------------------------------------------------------------------
 
-[DeskDriveSetup.exe (Version 2.1.1)](/download?file=DeskDriveSetup.exe)
+[DeskDriveSetup.msi (Version 2.1.2)](/download?file=DeskDriveSetup.msi)
 
 Automatic drive/media shortcuts for your desktop ([Desk Drive](/deskdrive))
 
