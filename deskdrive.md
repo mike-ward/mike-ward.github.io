@@ -27,25 +27,26 @@ Thanks!
 ### Languages
 
 -   English
--   French
--   Italian
--   German
--   Spanish
--   Galician
--   Chinese
--   Traditional Chinese
--   Japanese
--   Portugese (Brazilian)
--   Finnish
--   Slovenian
 -   Arabic (Syrian)
+-   Chinese
 -   Croatian
+-   Czech
 -   Dutch (Belgium)
 -   Dutch (Netherlands)
--   Russian
--   Polish
+-   Finnish
+-   French
+-   Galician
+-   German
 -   Hungarian
+-   Italian
+-   Japanese
 -   Korean
+-   Polish
+-   Portuguese (Brazilian)
+-   Russian
+-   Slovenian
+-   Spanish
+-   Traditional Chinese
 
 [Download Desk Drive](/downloads)
 
