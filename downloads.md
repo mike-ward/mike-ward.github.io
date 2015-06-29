@@ -28,12 +28,12 @@ Automatic drive/media shortcuts for your desktop ([Desk Drive](/deskdrive))
 
 --------------------------------------------------------------------------------
 
-[Simply Weather Setup](/download?file=SimplyWeatherSetup.exe)
+[Simply Weather Setup](/download?file=SimplyWeatherSetup.msi)
 
 [Simply Weather](/simplyweather) is a windows desktop application that, um, er,
 displays the weather.
 
-*Version 0.2.2, September 16, 2014*
+*Version 1.0.0, June 29, 2015*
 
 --------------------------------------------------------------------------------
 
