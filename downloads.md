@@ -48,6 +48,25 @@ versions.
 
 --------------------------------------------------------------------------------
 
+[CalendarSetup.msi](/download?file=CalendarSetup.msi)
+
+Simple and functional. One of the first .Net programs I wrote (kinda shows too).
+Still, it's proven popular over the years. I use it daily.
+
+*Last update: Version 2.2.4, June 24, 2015*
+
+--------------------------------------------------------------------------------
+
+[Deskview.zip (10K)](/download?file=Deskview.zip)
+
+Deskview changes your desktop icons from large to small (and back again). It's a
+perfect complement to Desk Drive. [Read
+more...](/2008/08/13/deskview---changes-your-desktop-icons-from-large-to-small)
+
+--------------------------------------------------------------------------------
+
+### No Longer Supported
+
 [Bloget Beta 1](/download?file=bloget.zip)  
 [Bloget Source Code](/download?file=Bloget_Source_Beta_1.zip)
 
@@ -76,20 +95,3 @@ ones. You can read more about
 [here](/2008/10/26/calendar-gadget-alpha-released).
 
 *Version 0.1.0, October 25, 2008*
-
---------------------------------------------------------------------------------
-
-[Deskview.zip (10K)](/download?file=Deskview.zip)
-
-Deskview changes your desktop icons from large to small (and back again). It's a
-perfect complement to Desk Drive. [Read
-more...](/2008/08/13/deskview---changes-your-desktop-icons-from-large-to-small)
-
---------------------------------------------------------------------------------
-
-[CalendarSetup.msi](/download?file=CalendarSetup.msi)
-
-Simple and functional. One of the first .Net programs I ever wrote (kinda shows
-too). Still, it's proven popular over the years and I still use it daily.
-
-*Last update: Version 2.2.4, June 24, 2015*
