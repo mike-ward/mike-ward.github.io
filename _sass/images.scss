@@ -3,6 +3,6 @@ img {
   max-width: 100%;
 }
 
-img[alt="noborder"] {
+img[alt="noborder"], img[title="noborder"] {
   border-style: none;
 }
