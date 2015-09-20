@@ -37,6 +37,7 @@ Features
 -   Side-by-side HTML preview
 -   Quickly show/hide preview
 -   [CommonMark](http://commonmark.org) standard Markdown engine
+-   GitHub Flavored Markdown supported
 -   User preferences stored in a text file for easy sharing
 -   Full screen covers task-bar (optional)
 -   Keyboard shortcuts for bold, italic, headers, lists, block quotes, etc.
@@ -197,7 +198,7 @@ distribution. I'm a lousy artist. :)
 Limitations
 -----------
 
--   Only supports CommonMark
+-   <s>Only supports CommonMark</s>
 -   Single document Interface
 -   <s>Syntax highlighting does not recognize multiple-line constructs. It uses
     regular expressions which don't understand the underlying Markdown
