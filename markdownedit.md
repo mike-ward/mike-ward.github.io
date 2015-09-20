@@ -129,6 +129,8 @@ The `mde` text is replaced by
 
 Snippets can contain special keywords.
 
+-   $CLIPBOARD$ - is replaced with clipboard contents (text only)
+
 -   $END$ - Positions the cursor after insertion. For instance
 
         mde  [Markdown $END$ Edit](http://mike-ward.net/markdown)
