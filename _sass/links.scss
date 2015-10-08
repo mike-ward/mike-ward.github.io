@@ -7,3 +7,14 @@ a, a:link, a:visited {
     text-decoration: underline;
   }
 }
+
+.post a, .post a:link, .post a:visited {
+  color: #222;
+  text-decoration: none;
+  margin-bottom: 1px solid black;
+
+  &:hover {
+    color: #222;
+    text-decoration: none;
+  }
+}
