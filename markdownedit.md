@@ -33,6 +33,7 @@ Features
 -   [Document
     Formatting](http://mike-ward.net/2015/04/20/markdown-edit-1-5-released/).
     Make your Markdown beautiful
+-   Convert `.docx` files to markdown using simple drag & drop
 -   Syntax highlighting editor
 -   Side-by-side HTML preview
 -   Quickly show/hide preview
