@@ -1,18 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Slackey);
 
 html, body {
   font-size: 1.0em;
   line-height: 1.5;
-  font-family: sans-serif;
+  font-family: 'open-sans', sans-serif;
+}
+
+h1 {
+  font-family: 'slackey';
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: oblique;
-}
-
-h1 {
-  font-family: 'slackey';
 }
 
 strong {
