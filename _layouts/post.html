@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="post">
-  <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+  <h2 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
   <button onclick="load_disqus('{{ page.url }}', '{{ page.title }}');" class="pure-button blog-comment-button">View/Add Comments</button>
