@@ -1,14 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Slackey);
 
 html, body {
   font-size: 1.0em;
   line-height: 1.5;
-  font-family: 'work sans',sans-serif;
+  font-family: sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: oblique;
+}
+
+h1 {
+  font-family: 'slackey';
 }
 
 strong {
