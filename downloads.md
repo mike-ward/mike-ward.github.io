@@ -4,13 +4,14 @@ title:  Downloads
 ---
 ### (a.k.a. The Goods)
 
-[Markdown Edit Setup](/download?file=MarkdownEditSetup.msi)
+[Markdown Edit
+Setup](https://github.com/mike-ward/Markdown-Edit/releases/latest)
 
-A Windows Desktop Markdown Editor [Read more...](/markdownedit)
+A Windows Desktop Markdown Editor [Read more...](/http://markdownedit.com)
 
-*Version 1.13.0, November 1, 2015*
+*Version 1.14.0, November 10, 2015*
 
---------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 [Tweetz Desktop Setup](/download?file=tweetzsetup.exe)
 
@@ -18,24 +19,25 @@ Tweetz Desktop is the successor to tweetz 3.1. [Read more...](/tweetz)
 
 *Version 0.8.23, November 9, 2014*
 
---------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 [DeskDriveSetup.msi](/download?file=DeskDriveSetup.msi)
 
-Automatic drive/media shortcuts for your desktop ([Desk Drive](/deskdrive))
+Automatic drive/media shortcuts for your desktop ([Desk
+Drive](/deskdrive))
 
 *Version 2.1.2, June 27, 2015*
 
---------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 [Simply Weather Setup](/download?file=SimplyWeatherSetup.msi)
 
-[Simply Weather](/simplyweather) is a windows desktop application that, um, er,
-displays the weather.
+[Simply Weather](/simplyweather) is a windows desktop application that,
+um, er, displays the weather.
 
 *Version 1.0.0, June 29, 2015*
 
---------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 [FreeSnap.msi](/download?file=FreeSnap.msi)  
 [FreeSnap64.msi](/download?file=FreeSnap64.msi)  
@@ -46,33 +48,34 @@ versions.
 
 *Version 1.5.3, June 6, 2009*
 
---------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 [CalendarSetup.msi](/download?file=CalendarSetup.msi)
 
-Simple and functional. One of the first .Net programs I wrote (kinda shows too).
-Still, it's proven popular over the years. I use it daily.
+Simple and functional. One of the first .Net programs I wrote (kinda
+shows too). Still, it's proven popular over the years. I use it daily.
 
 *Last update: Version 2.2.4, June 24, 2015*
 
---------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 [Deskview.zip (10K)](/download?file=Deskview.zip)
 
-Deskview changes your desktop icons from large to small (and back again). It's a
-perfect complement to Desk Drive. [Read
+Deskview changes your desktop icons from large to small (and back
+again). It's a perfect complement to Desk Drive. [Read
 more...](/2008/08/13/deskview---changes-your-desktop-icons-from-large-to-small)
 
---------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 ### No Longer Supported
 
 [Bloget Beta 1](/download?file=bloget.zip)  
 [Bloget Source Code](/download?file=Bloget_Source_Beta_1.zip)
 
-Includes a sample Web site and the binary (note the singular form of binary)
+Includes a sample Web site and the binary (note the singular form of
+binary)
 
---------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 [CalendarGadget.msi](/download?file=CalendarGadget.msi)
 
@@ -88,10 +91,10 @@ Includes a sample Web site and the binary (note the singular form of binary)
 -   [todayis.cgs](/download?file=cg/todayis.cgs)  
 -   [scenic.cgs (~10 MB)](/download?file=cg/scenic.cgs)
 
-This is an alpha version so your mileage may vary. The .cgs files are calendar
-skins. Once downloaded, you can just drag and drop them on the Calendar. There's
-a built in designer that allows you to edit the existing skins or create new
-ones. You can read more about
+This is an alpha version so your mileage may vary. The .cgs files are
+calendar skins. Once downloaded, you can just drag and drop them on the
+Calendar. There's a built in designer that allows you to edit the
+existing skins or create new ones. You can read more about
 [here](/2008/10/26/calendar-gadget-alpha-released).
 
 *Version 0.1.0, October 25, 2008*
