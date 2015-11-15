@@ -7,9 +7,9 @@ title:  Downloads
 [Markdown Edit
 Setup](https://github.com/mike-ward/Markdown-Edit/releases/latest)
 
-A Windows Desktop Markdown Editor [Read more...](/http://markdownedit.com)
+A Windows Desktop Markdown Editor [Read more...](http://markdownedit.com)
 
-*Version 1.14.0, November 10, 2015*
+*Version 1.15.0, November 15, 2015*
 
 ------------------------------------------------------------------------
 
