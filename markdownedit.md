@@ -2,6 +2,9 @@
 layout: page  
 title: "Markdown Edit"
 ---
+
+**Checkout the new web site for Markdown Edit! <http://markdownedit.com>**
+
 Markdown Edit is a Windows **desktop**
 [CommonMark](http://commonmark.org) (a.k.a. Markdown) editor with an
 emphasis on content and keyboard shortcuts. There is minimal window
@@ -26,8 +29,6 @@ is no main menu, status bar, tabbed windows or other distractions.
 -   install via
     [Chocolatey](https://chocolatey.org/packages/markdown-edit) using
     `choco install markdown-edit`
-
-Gratuitous Screen Shot
 
 <a href="http://mike-ward.net/cdn/images/markdown-edit/markdown-edit-screenshot.png" target="_blank">![markdown-edit-screenshot.png](http://mike-ward.net/cdn/images/markdown-edit/markdown-edit-screenshot.png "Gratuitous Screen Shot")</a>
 
