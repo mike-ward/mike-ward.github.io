@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-![noborder](/cdn/images/vscoloroutput/vscoloroutputlogo.png)
+![noborder](./cdn/images/vscoloroutput/vscoloroutputlogo.png)
 
 A Visual Studio extension to colorize your build and debug output
 
@@ -24,7 +24,7 @@ The default patterns will color build errors in red, warnings in yellow/gold and
 successful build messages in green.
 
 ![screen shot of VSColorOutput build
-output](cdn/images/vscoloroutput/vscoloroutput.png)
+output](./cdn/images/vscoloroutput/vscoloroutput.png)
 
 Installation
 ------------
@@ -64,7 +64,7 @@ category of the "Fonts and Colors" dialog but, interestingly, Visual Studio does
 not support adding colors to this category.
 
 ![screen shot of VSColorOutput colors
-dialog](cdn/images/vscoloroutput/vscoloroutputcolors.png)
+dialog](./cdn/images/vscoloroutput/vscoloroutputcolors.png)
 
 There are nine VSColor classifications. They are:
 
@@ -93,10 +93,10 @@ the .NET form <http://msdn.microsoft.com/en-us/library/hs600312.aspx>, which
 varies slightly from those used by Ruby, JavaScript, Python, etc.
 
 ![screen shot of VSColorOutput options
-dialog](cdn/images/vscoloroutput/vscoloroutputoptions.png)
+dialog](./cdn/images/vscoloroutput/vscoloroutputoptions.png)
 
 ![screen shot of VSColorOutput patterns
-dialog](cdn/images/vscoloroutput/vscoloroutputpatterns.png)
+dialog](./cdn/images/vscoloroutput/vscoloroutputpatterns.png)
 
 At run-time, VSColorOutput will walk this list in order, testing the line of
 text against the regular expression. If it matches, the line is given the
