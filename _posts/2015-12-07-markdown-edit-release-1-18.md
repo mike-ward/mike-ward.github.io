@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: "Markdown Edit - Release 1.18"
 ---
 
