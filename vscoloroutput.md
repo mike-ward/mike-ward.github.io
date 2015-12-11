@@ -124,7 +124,7 @@ Other Features
 Open Source
 -----------
 
-VSColorOutput is open source. It's hosted on Codeplex at
+VSColorOutput is open source. It's hosted on GitHub at
 [GitHub](https://github.com/mike-ward/VSColorOutput)
 
 <a href="https://github.com/mike-ward/VSColorOutput">
