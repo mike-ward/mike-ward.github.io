@@ -3,9 +3,6 @@ layout: post
 title: "VSColorOutput 2.0"
 ---
 
-**Note: Settings are now stored in an external file. Settings from
-previous versions will not be migrated**
-
 What's changed:
 
 -   Works with all themes (finally)!
