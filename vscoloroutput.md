@@ -94,9 +94,6 @@ edit the patterns. Patterns are regular expressions. The regular expressions use
 the .NET form <http://msdn.microsoft.com/en-us/library/hs600312.aspx>, which
 varies slightly from those used by Ruby, JavaScript, Python, etc.
 
-![screen shot of VSColorOutput options
-dialog](/cdn/images/vscoloroutput/vscoloroutputoptions.png)
-
 ![screen shot of VSColorOutput patterns
 dialog](/cdn/images/vscoloroutput/vscoloroutputpatterns.png)
 
