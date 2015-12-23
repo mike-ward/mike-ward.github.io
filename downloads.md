@@ -30,6 +30,14 @@ Drive](/deskdrive))
 
 ------------------------------------------------------------------------
 
+[VSColorOutput](https://www.visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496)
+
+Visual Studio extension that colors output for build and debug windows.
+
+*Version 2.0.4, December 23, 2015*
+
+------------------------------------------------------------------------
+
 [Simply Weather Setup](/download?file=SimplyWeatherSetup.msi)
 
 [Simply Weather](/simplyweather) is a windows desktop application that,
