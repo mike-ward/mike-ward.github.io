@@ -32,8 +32,7 @@ Installation
 
 Download and open the VSColorOutput.visx file. To uninstall, go the
 Tools|Extensions page, find VSColorOutput in the "Installed Extensions"
-and click uninstall. Registry entries are not removed so later
-installations will reuse these settings.
+and click uninstall.
 
 [Visual Studio Gallery download
 link](https://visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496)
@@ -60,10 +59,7 @@ highlighted lines in the build window as well. I found this made it much
 easier to visually parse the output and quickly locate items of
 interest.
 
-Colors are set in the `Tools|Options|VSColorOutput` dialog. Logically,
-it makes sense to add these to the "Output" category of the "Fonts and
-Colors" dialog but, interestingly, Visual Studio does not support adding
-colors to this category.
+Colors are set in the `Tools|Options|VSColorOutput` dialog.
 
 ![screen shot of VSColorOutput colors
 dialog](/cdn/images/vscoloroutput/vscoloroutputcolors.png)
@@ -110,22 +106,22 @@ classifiers is significant.
 Other Features
 --------------
 
--   Stop Build On First Error  
+-   **Stop Build On First Error**  
     Pretty much does what it says. A real time saver on larger projects.
 
--   Show Elapsed Build Time  
+-   **Show Elapsed Build Time**  
     If you build from the command line, MSBuild tells you how long the
     build takes. Building within Visual Studio does not. Why?
     Don't know. It's always bugged me so I fixed it.
 
--   Show Debug Window when Debug Starts  
+-   **Show Debug Window when Debug Starts**  
     Visual Studio has a "Show Build Window when Build Starts". Now you
     have one for the debug session. If you run your debugger output in a
     tiled window, this won't have much affect. If you run it in a tabbed
     window (like I do) then this setting will activate the debug window
     saving you a few mouse clicks.
 
--   Settings stored in separate file  
+-   **Settings stored in separate file**  
     Stored in `%APPDATA%/VSColorOutput/vscoloroutput.json`. Share them
     with friends and family (and other developers too).
 
