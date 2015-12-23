@@ -110,20 +110,24 @@ classifiers is significant.
 Other Features
 --------------
 
--   Stop Build On First Error
--   Pretty much does what it says. A real time saver on larger projects.
+-   Stop Build On First Error  
+    Pretty much does what it says. A real time saver on larger projects.
 
--   Show Elapsed Build Time
--   If you build from the command line, MSBuild tells you how long the
+-   Show Elapsed Build Time  
+    If you build from the command line, MSBuild tells you how long the
     build takes. Building within Visual Studio does not. Why?
     Don't know. It's always bugged me so I fixed it.
 
--   Show Debug Window when Debug Starts
--   Visual Studio has a "Show Build Window when Build Starts". Now you
+-   Show Debug Window when Debug Starts  
+    Visual Studio has a "Show Build Window when Build Starts". Now you
     have one for the debug session. If you run your debugger output in a
     tiled window, this won't have much affect. If you run it in a tabbed
     window (like I do) then this setting will activate the debug window
     saving you a few mouse clicks.
+
+-   Settings stored in separate file  
+    Stored in `%APPDATA%/VSColorOutput/vscoloroutput.json`. Share them
+    with friends and family (and other developers too).
 
 Open Source
 -----------
