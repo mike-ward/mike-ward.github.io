@@ -5,9 +5,10 @@ layout: page
 
 A Visual Studio extension to colorize your build and debug output
 
-> Not only is this extension a must install for me and all the people in my dev
-> dept, stop on first error has save countless hours of our development time
-> with our large projects, one of which has over 90 projects.
+> Not only is this extension a must install for me and all the people in
+> my dev dept, stop on first error has save countless hours of our
+> development time with our large projects, one of which has over 90
+> projects.
 >
 > Mitch Ferrer  
 > Application Architect  
@@ -16,12 +17,12 @@ A Visual Studio extension to colorize your build and debug output
 What is it?
 -----------
 
-VSColorOutput can change the color of a line emitted to the output window based
-on specified rules. The rules consist of regular expressions. Rules map to
-classifications which in turn map to colors.
+VSColorOutput can change the color of a line emitted to the output
+window based on specified rules. The rules consist of regular
+expressions. Rules map to classifications which in turn map to colors.
 
-The default patterns will color build errors in red, warnings in yellow/gold and
-successful build messages in green.
+The default patterns will color build errors in red, warnings in
+yellow/gold and successful build messages in green.
 
 ![screen shot of VSColorOutput build
 output](/cdn/images/vscoloroutput/vscoloroutput.png)
@@ -30,9 +31,9 @@ Installation
 ------------
 
 Download and open the VSColorOutput.visx file. To uninstall, go the
-Tools|Extensions page, find VSColorOutput in the "Installed Extensions" and
-click uninstall. Registry entries are not removed so later installations will
-reuse these settings.
+Tools|Extensions page, find VSColorOutput in the "Installed Extensions"
+and click uninstall. Registry entries are not removed so later
+installations will reuse these settings.
 
 [Visual Studio Gallery download
 link](https://visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496)
@@ -40,33 +41,34 @@ link](https://visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7
 How does it work?
 -----------------
 
-VSColorOutput hooks into the the classifier chain of Visual Studio. This allows
-VSColorOutput to monitor every line sent to the output window. A list of
-classifiers, consisting of regular expressions and classifications is checked.
-The first matching expression determines the classification. If no patterns
-match, then line is classified as **BuildText**.
+VSColorOutput hooks into the the classifier chain of Visual Studio. This
+allows VSColorOutput to monitor every line sent to the output window. A
+list of classifiers, consisting of regular expressions and
+classifications is checked. The first matching expression determines the
+classification. If no patterns match, then line is classified as
+**BuildText**.
 
-From here, Visual Studio does the heavy lifting of mapping the classification to
-a color. Colors are stored in the registry.
+From here, Visual Studio does the heavy lifting of mapping the
+classification to a color. Colors are stored in the registry.
 
 Usage
 -----
 
-I originally wrote VSColorOutput to highlight trace output while debugging. It's
-still the primary reason I use it. I discovered it also highlighted lines in the
-build window as well. I found this made it much easier to visually parse the
-output and quickly locate items of interest.
+I originally wrote VSColorOutput to highlight trace output while
+debugging. It's still the primary reason I use it. I discovered it also
+highlighted lines in the build window as well. I found this made it much
+easier to visually parse the output and quickly locate items of
+interest.
 
-Colors are set in the Tools|Options|Fonts and Colors|Text Editor dialog.
-VSColorOutput colors start with "VSColor" so they group together in the list and
-are easy to locate. Logically, it makes sense to add these to the "Output"
-category of the "Fonts and Colors" dialog but, interestingly, Visual Studio does
-not support adding colors to this category.
+Colors are set in the `Tools|Options|VSColorOutput` dialog. Logically,
+it makes sense to add these to the "Output" category of the "Fonts and
+Colors" dialog but, interestingly, Visual Studio does not support adding
+colors to this category.
 
 ![screen shot of VSColorOutput colors
 dialog](/cdn/images/vscoloroutput/vscoloroutputcolors.png)
 
-There are nine VSColor classifications. They are:
+These are the VSColorOutput classifications. They are:
 
 -   Build Text
 -   Build Header
@@ -77,28 +79,33 @@ There are nine VSColor classifications. They are:
 -   Log Custom2
 -   Log Custom3
 -   Log Custom4
+-   Find File Name
+-   Find Search Term
 
-The names reflect their intended use but are entirely arbitrary in actual use.
+The names reflect their intended use but are entirely arbitrary in
+actual use.
 
-Build Text is the default classification for any line that does not match the
-other patterns. Its default color is "Gray". I've found this helps to highlight
-the other classified lines.
+Build Text is the default classification for any line that does not
+match the other patterns. Its default color is "Gray". I've found this
+helps to highlight the other classified lines.
 
 Creating Patterns
 -----------------
 
-The Tools|Options|VSColorOutput dialog contains settings. You can add, delete or
-edit the patterns. Patterns are regular expressions. The regular expressions use
-the .NET form <http://msdn.microsoft.com/en-us/library/hs600312.aspx>, which
-varies slightly from those used by Ruby, JavaScript, Python, etc.
+The `Tools|Options|VSColorOutput` dialog contains settings. You can add,
+delete or edit the patterns. Patterns are regular expressions. The
+regular expressions use the .NET form
+<http://msdn.microsoft.com/en-us/library/hs600312.aspx>, which varies
+slightly from those used by Ruby, JavaScript, Python, etc.
 
 ![screen shot of VSColorOutput patterns
 dialog](/cdn/images/vscoloroutput/vscoloroutputpatterns.png)
 
-At run-time, VSColorOutput will walk this list in order, testing the line of
-text against the regular expression. If it matches, the line is given the
-classification associated with the pattern. No additional patterns are tested
-for the given line. Therefore, the order of the classifiers is significant.
+At run-time, VSColorOutput will walk this list in order, testing the
+line of text against the regular expression. If it matches, the line is
+given the classification associated with the pattern. No additional
+patterns are tested for the given line. Therefore, the order of the
+classifiers is significant.
 
 Other Features
 --------------
@@ -107,16 +114,16 @@ Other Features
 -   Pretty much does what it says. A real time saver on larger projects.
 
 -   Show Elapsed Build Time
--   If you build from the command line, MSBuild tells you how long the build
-    takes. Building within Visual Studio does not. Why? Don't know. It's always
-    bugged me so I fixed it.
+-   If you build from the command line, MSBuild tells you how long the
+    build takes. Building within Visual Studio does not. Why?
+    Don't know. It's always bugged me so I fixed it.
 
 -   Show Debug Window when Debug Starts
--   Visual Studio has a "Show Build Window when Build Starts". Now you have one
-    for the debug session. If you run your debugger output in a tiled window,
-    this won't have much affect. If you run it in a tabbed window (like I do)
-    then this setting will activate the debug window saving you a few mouse
-    clicks.
+-   Visual Studio has a "Show Build Window when Build Starts". Now you
+    have one for the debug session. If you run your debugger output in a
+    tiled window, this won't have much affect. If you run it in a tabbed
+    window (like I do) then this setting will activate the debug window
+    saving you a few mouse clicks.
 
 Open Source
 -----------
