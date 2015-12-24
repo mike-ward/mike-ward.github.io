@@ -48,7 +48,8 @@ classification. If no patterns match, then line is classified as
 **BuildText**.
 
 From here, Visual Studio does the heavy lifting of mapping the
-classification to a color. Colors are stored in the registry.
+classification to a color. Colors are stored in a separate file
+(`%AppData%/VSColorOutput/vscoloroutput.json`).
 
 Usage
 -----
@@ -64,22 +65,7 @@ Colors are set in the `Tools|Options|VSColorOutput` dialog.
 ![screen shot of VSColorOutput colors
 dialog](/cdn/images/vscoloroutput/vscoloroutputcolors.png)
 
-These are the VSColorOutput classifications. They are:
-
--   Build Text
--   Build Header
--   Log Information
--   Log Warning
--   Log Error
--   Log Custom1
--   Log Custom2
--   Log Custom3
--   Log Custom4
--   Find File Name
--   Find Search Term
-
-The names reflect their intended use but are entirely arbitrary in
-actual use.
+The names reflect their intended use but are arbitrary in actual use.
 
 Build Text is the default classification for any line that does not
 match the other patterns. Its default color is "Gray". I've found this
@@ -122,7 +108,7 @@ Other Features
     saving you a few mouse clicks.
 
 -   **Settings stored in separate file**  
-    Stored in `%APPDATA%/VSColorOutput/vscoloroutput.json`. Share them
+    Stored in `%AppData%/VSColorOutput/vscoloroutput.json`. Share them
     with friends and family (and other developers too).
 
 Open Source
