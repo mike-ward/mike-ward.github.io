@@ -48,7 +48,7 @@ classification. If no patterns match, then line is classified as
 **BuildText**.
 
 From here, Visual Studio does the heavy lifting of mapping the
-classification to a color. Colors are stored in a separate file
+classification to a color. Settings are stored in a separate file
 (`%AppData%/VSColorOutput/vscoloroutput.json`).
 
 Usage
