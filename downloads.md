@@ -5,11 +5,11 @@ title:  Downloads
 ### (a.k.a. The Goods)
 
 [Markdown Edit
-Setup](https://github.com/mike-ward/Markdown-Edit/releases/latest)
+Setup](https://www.visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496)
 
 A Windows Desktop Markdown Editor [Read more...](http://markdownedit.com)
 
-*Version 1.18, December 7, 2015*
+*Version 1.19, January 17, 2016*
 
 ------------------------------------------------------------------------
 
