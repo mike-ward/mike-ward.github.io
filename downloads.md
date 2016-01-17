@@ -5,7 +5,7 @@ title:  Downloads
 ### (a.k.a. The Goods)
 
 [Markdown Edit
-Setup](https://www.visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496)
+Setup](https://github.com/mike-ward/Markdown-Edit/releases/latest)
 
 A Windows Desktop Markdown Editor [Read more...](http://markdownedit.com)
 
