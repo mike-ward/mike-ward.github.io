@@ -9,7 +9,7 @@ Setup](https://github.com/mike-ward/Markdown-Edit/releases/latest)
 
 A Windows Desktop Markdown Editor [Read more...](http://markdownedit.com)
 
-*Version 1.19, January 17, 2016*
+*Version 1.20, January 23, 2016*
 
 ------------------------------------------------------------------------
 
