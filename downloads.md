@@ -17,7 +17,7 @@ A Windows Desktop Markdown Editor [Read more...](http://markdownedit.com)
 
 Tweetz Desktop is the successor to tweetz 3.1. [Read more...](/tweetz)
 
-*Version 0.8.23, November 9, 2014*
+*Version 0.9, January 30, 2016*
 
 ------------------------------------------------------------------------
 

@@ -19,6 +19,7 @@ Tweetz shown with dark and light themes
 -   French - translation by [Michael Lauzon](https://twitter.com/mlauzon)
 -   German - translation by [Tobias
     Fichtner](https://twitter.com/tobiasfichtner)
+-   Greek - translation by [geogeo.gr](www.geogeo.gr)
 -   Italian - translation by [Gian Luca Boccaletti](https://twitter.com/Bokka80)
 -   Japanese - translation by Akira Tsujimoto
 -   Portuguese - translation by [Alefe Souza](http://twitter.com/alefesouza5)
@@ -27,6 +28,7 @@ Tweetz shown with dark and light themes
 -   Spanish - translation by Rufo Mola
 -   Swedish - translation by [Vesal
     Kariminejad](https://twitter.com/TranceMastrOnyx)
+-   Turkish - translation by [Arda Kilicdagi](https://twitter.com/ardadev)
 -   Ukrainian - translation by [Alexey Rudoy](https://twitter.com/Alex_Rudoy/)
 
 It's easy to translate Tweetz Desktop. Find the file **tweetz.exe.locale** in
