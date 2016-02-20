@@ -26,12 +26,16 @@ PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=REE
 
 *size: 6.25 inches long, 1 inch high*
 
+------------------------------------------------------------------------
+
 [Donate to Markdown Edit with
 PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XGGZ8BEED7R62 "donate")
 
 *I'm still working on a logo and stickers. It will likely be a few
 months (at least) but I'll honor your $25 donation with stickers once I
 get them.*
+
+------------------------------------------------------------------------
 
 [Donate with
 PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=39X5GA75FT23L "donate")
