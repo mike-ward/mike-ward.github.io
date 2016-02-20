@@ -14,3 +14,12 @@ a, a:link, a:visited {
   text-decoration: none;
   border-bottom: solid #ccc 1px;;
 }
+
+a[title=donate] {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
