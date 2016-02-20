@@ -22,7 +22,7 @@ have a verified address. Leave a comment if you don't want stickers.
 [Donate to VSColorOutput with
 PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=REEP6X7DSPMZU "donate")
 
-![noborder](.\cdn\images\vscoloroutput\vscoloroutput-sticker.png)
+![noborder](http://mike-ward.net/cdn/images/vscoloroutput/vscoloroutput-sticker.png)
 
 *size: 6.25 inches long, 1 inch high*
 
@@ -40,4 +40,4 @@ get them.*
 [Donate with
 PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=39X5GA75FT23L "donate")
 
-![noborder](cdn/images/donate.png)
+![noborder](http://mike-ward.net/cdn/images/donate.png)
