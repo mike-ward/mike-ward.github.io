@@ -22,7 +22,7 @@ have a verified address. Leave a comment if you don't want stickers.
 [Donate to VSColorOutput with
 PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=REEP6X7DSPMZU "donate")
 
-![clipboard](http://i.imgur.com/qUtyQlc.png)
+![vscoloroutput-sticker.png](.\cdn\images\vscoloroutput\vscoloroutput-sticker.png)
 
 [Donate to Markdown Edit with
 PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XGGZ8BEED7R62 "donate")
