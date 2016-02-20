@@ -24,6 +24,8 @@ PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=REE
 
 ![noborder](.\cdn\images\vscoloroutput\vscoloroutput-sticker.png)
 
+*size: 6.25 inches long, 1 inch high*
+
 [Donate to Markdown Edit with
 PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XGGZ8BEED7R62 "donate")
 
