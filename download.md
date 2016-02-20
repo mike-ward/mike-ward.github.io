@@ -7,7 +7,7 @@ title:  "Thanks for Downloading! (it should start shortly)"
 
 Like what I'm doing? Show your appreciation by donating. What happens to the money? Some of it is donated to makers of software and tools I use. The rest goes to equipment funding and software licensing.
 
-[Donate with PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XGGZ8BEED7R62)
+[Donate with PayPal](http://mike-ward.net/donate/ "donate")
 
 ## Fund this Site
 
