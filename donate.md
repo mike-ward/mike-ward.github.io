@@ -14,7 +14,7 @@ choose to donate. Your support is greatly appreciated.
 **Do you like stickers?**
 
 Donate $25 and get a couple of product stickers (pictured below). Want
-more than two? They're an additional $5 each. You're PayPal account must
+more than two? They're an additional $5 each. Your PayPal account must
 have a verified address. Leave a comment if you don't want stickers.
 
 ------------------------------------------------------------------------
