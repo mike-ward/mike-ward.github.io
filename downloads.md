@@ -34,7 +34,7 @@ Drive](/deskdrive))
 
 Visual Studio extension that colors output for build and debug windows.
 
-*Version 2.2.3, January 22, 2016*
+*Version 2.4, April 8, 2016*
 
 ------------------------------------------------------------------------
 
