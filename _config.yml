@@ -27,3 +27,6 @@ github:
 
 sass:
     style:        ':compressed'
+
+gems:
+  - jekyll-seo-tag
