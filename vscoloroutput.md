@@ -74,9 +74,11 @@ helps to highlight the other classified lines.
 Creating Patterns
 -----------------
 
-The `Tools|Options|VSColorOutput` dialog contains settings. You can add,
-delete or edit the patterns. Patterns are regular expressions. The
-regular expressions use the .NET form
+The *RegExClassification Collection Editor* dialog contains the
+classification pattern settings. It can be opened via
+`Tools|Options|VSColorOutput|General|RegEx Patterns [...]` dialog
+contains settings. You can add, delete or edit the patterns. Patterns
+are regular expressions. The regular expressions use the .NET form
 <http://msdn.microsoft.com/en-us/library/hs600312.aspx>, which varies
 slightly from those used by Ruby, JavaScript, Python, etc.
 
