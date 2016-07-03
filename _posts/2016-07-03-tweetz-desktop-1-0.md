@@ -26,7 +26,8 @@ I noticed that twitter has updated their API to allow 140-second videos.
 At some point soon I'll add this capability.
 
 Twitter has also announced a relaxing of the 140 character limit. It's
-not clear to me if what the rules are yet or if there will be API
+not clear to me what the rules are yet or whether there will be API
 support.
 
-Availble at: <http://mike-ward.net/downloads>
+Availble at:
+<https://github.com/mike-ward/tweetz-desktop/releases/download/1.0/TweetzSetup.exe>
