@@ -1,7 +1,6 @@
 ---
 layout: post  
 title: Tweetz Desktop 1.0 
-published: false
 ---
 
 Tweetz has been "finished" for quite some time now so I decided to call
@@ -31,4 +30,4 @@ not clear to me what the rules are yet or whether there will be API
 support.
 
 Availble at:
-<https://github.com/mike-ward/tweetz-desktop/releases/download/1.0/TweetzSetup.exe>
+<https://github.com/mike-ward/tweetz-desktop/releases/latest>
