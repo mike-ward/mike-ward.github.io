@@ -9,7 +9,8 @@ Setup](https://github.com/mike-ward/Markdown-Edit/releases/latest)
 
 A Windows Desktop Markdown Editor [Read more...](http://markdownedit.com)
 
-*Version 1.28, June 19, 2016*
+[![Release](https://img.shields.io/github/release/mike-ward/Markdown-Edit.svg?style=flat-square)](https://github.com/mike-ward/Markdown-Edit/releases/latest)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mike-ward/Markdown-Edit/master/LICENSE.txt)
 
 ------------------------------------------------------------------------
 
