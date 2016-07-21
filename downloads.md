@@ -57,7 +57,7 @@ versions.
 
 ------------------------------------------------------------------------
 
-[CalendarSetup.msi](/download?file=CalendarSetup.msi)
+[CalendarSetup.msi](https://github.com/mike-ward/Calendar/releases/latest)
 
 Simple and functional. One of the first .Net programs I wrote (kinda
 shows too). Still, it's proven popular over the years. I use it daily.
