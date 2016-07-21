@@ -22,7 +22,7 @@ Tweetz Desktop is the successor to tweetz 3.1. [Read more...](/tweetz)
 
 ------------------------------------------------------------------------
 
-[DeskDriveSetup.msi](/download?file=DeskDriveSetup.msi)
+[DeskDriveSetup.msi](https://github.com/mike-ward/DeskDrive/releases/latest)
 
 Automatic drive/media shortcuts for your desktop ([Desk
 Drive](/deskdrive))
@@ -39,7 +39,7 @@ Visual Studio extension that colors output for build and debug windows.
 
 ------------------------------------------------------------------------
 
-[Simply Weather Setup](/download?file=SimplyWeatherSetup.msi)
+[Simply Weather Setup](https://github.com/mike-ward/Simply-Weather/releases/latest)
 
 [Simply Weather](/simplyweather) is a windows desktop application that,
 um, er, displays the weather.
@@ -48,9 +48,7 @@ um, er, displays the weather.
 
 ------------------------------------------------------------------------
 
-[FreeSnap.msi](/download?file=FreeSnap.msi)  
-[FreeSnap64.msi](/download?file=FreeSnap64.msi)  
-[FreeSnapSource.zip](https://github.com/mike-ward/FreeSnap)
+[FreeSnap.msi](https://github.com/mike-ward/FreeSnap/releases/latest)  
 
 Move and resize windows with your keypad. Now available in 32 and 64 bit
 versions.
