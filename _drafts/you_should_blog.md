@@ -1,7 +1,7 @@
 ---
 layout: post  
 title: GitHub Pages
----
+...
 > `TL;DR`
 >
 > 1. GitHub Pages serves static Web content only
