@@ -46,7 +46,7 @@ Points of interest:
 
 Let's get slightly more ambitious and process some form data. This
 example includes an input box. As you type in it, the contents are
-echoed to a `<span>` element.
+echoed to a text element.
 
     const inputEcho = {
       controller: () => ({
@@ -58,22 +58,21 @@ echoed to a `<span>` element.
           oninput: m.withAttr('value', ctrl.youSaid),
           value: ctrl.youSaid()
         }),
-        m.trust(' You said: '),
-        m('span', ctrl.youSaid())
+        ' You Said: ',
+        ctrl.youSaid()
       ])  
     }
 
     m.mount(document.body, inputEcho);
 
-[CodePen](https://codepen.io/mikeward/pen/RRYNqj?editors=1111)
+[CodePen](https://codepen.io/mikeward/pen/RRYNqj?editors=0010)
 
 Points of interest:
 
 -   Components can have an optional controller.
 -   The `controller` is passed to the view.
 -   Virtual elements can have children.
--   Use [`m.trust`](http://mithriljs.org/mithril.trust.html) to put in
-    literal, uninterpreted content.
+-   Literal strings are, um, err literal strings.
 -   [`m.withAttr`](http://mithriljs.org/mithril.withAttr.html) is an
     event handler factory. It returns a method that can be bound to a
     DOM element's event listener.
@@ -103,8 +102,8 @@ characters into a list.
           oninput: m.withAttr('value', ctrl.youSaid),
           value: ctrl.youSaid()
         }),
-        m.trust(' You said: '),
-        m('span', ctrl.youSaid()),
+        ' You said: ',
+        ctrl.youSaid(),
         m('ul', ctrl.youSaid().split('').map(c => m('li', c)))
       ])
     }
@@ -128,12 +127,12 @@ Let's add a button to reset everything.
       
       view: ctrl => m('div', [
         m('button', { onclick: () => ctrl.youSaid('') }, 'Clear'),
-        m.trust('&nbsp;'),
+        ' ',
         m('input', {
           oninput: m.withAttr('value', ctrl.youSaid),
           value: ctrl.youSaid()
         }),
-        m.trust(' You said: '),
+        ' You said: ',
         m('span', ctrl.youSaid()),
         m('ul', ctrl.youSaid().split('').map(c => m('li', c)))
       ])
@@ -152,7 +151,7 @@ additional components. Let's separate the `button` control into a new
 component.
 
     const clearButton = {
-      view: (_, args) => 
+      view: ({}, args) => 
         m('button', { onclick: () => args.clickAction() }, 'Clear')  
     }
 
@@ -163,13 +162,13 @@ component.
       
       view: ctrl => m('div', [
         m(clearButton, { clickAction: () => ctrl.youSaid('') }),
-        m.trust('&nbsp;'),
+        ' ',
         m('input', {
           oninput: m.withAttr('value', ctrl.youSaid),
           value: ctrl.youSaid()
         }),
-        m.trust(' You said: '),
-        m('span', ctrl.youSaid()),
+        ' You said: ',
+        ctrl.youSaid(),
         m('ul', ctrl.youSaid().split('').map(c => m('li', c)))
       ])
     }
