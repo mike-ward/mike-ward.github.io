@@ -38,8 +38,8 @@ Points of interest:
     Mithril application.
 
 A one-line "Hello World" program is fun but are hardly illustrative
-Mithril capabilities. Here's a more conical example with, "Hello World"
-embedded in an `<h1>` tag.
+Mithril capabilities. Here's a more canonical example with, "Hello
+World" embedded in an `<h1>` tag.
 
     const helloWorld = {
       view: () => m('h1', 'Hello World')
@@ -77,7 +77,7 @@ the input box, the contents are echoed back.
 
     m.mount(document.body, helloWorld);
 
-[CodePen](https://codepen.io/mikeward/pen/RRYNqj?editors=0010)
+[CodePen](https://codepen.io/mikeward/pen/EyZqZx/?editors=0010)
 
 Points of interest:
 
