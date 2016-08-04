@@ -177,8 +177,7 @@ component.
 
 Points of interest:
 
--   Components can include components.
--   Properties can be passed to components.
+-   Components can include components (`m(clearButton)`).
 -   Constructing new components requires little ceremony.
 
 If we remove `youSaid` dependency from the `clearButton`, it becomes a
@@ -211,6 +210,7 @@ reusable component.
 
 Points of interest:
 
+-   Properties can be passed to components.
 -   Components are easily parameterized. Again, no special syntax, just
     JavaScript
 
@@ -299,7 +299,7 @@ Points of interest:
 Other random things I really like about Mithril
 
 -   Mithril has a concise high-level utility for working with web
-    services called `m.request`. If even supports JSONP.
+    services called `m.request`. It even supports JSONP.
 
 -   It also contains a routing system (`m.route()`) to help create
     Single Page Applications (SPA).
