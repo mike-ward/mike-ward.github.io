@@ -1,6 +1,6 @@
 ---
 layout: post  
-title:  'Exploring Mithril, A Javascript Framework for Building Brilliant Applications'  
+title:  'Exploring Mithril, A JavaScript Framework for Building Brilliant Applications'  
 ...
 
 [Mithril](http://mithriljs.org/) is a JavaScript framework for writing
@@ -21,96 +21,97 @@ React like frameworks.*
 OK, so what does it look like? Assuming that `mithril.js` is already
 loaded on the page:
 
+    m.mount(document.body, { view: () => 'hello world' });
+
+[CodePen](https://codepen.io/mikeward/pen/vKzojg/?editors=0010)
+
+Points of interest:
+
+-   Components are plain old JavaScript objects. They're not inherited
+    from a base class.
+-   A component only needs a `view` method that returns a virtual
+    element or in this case a string.
+-   Components are loaded via
+    [`m.mount()`](http://mithriljs.org/mithril.mount.html) (similar to
+    other frameworks).
+-   There's very little boiler plate required to bootstrap a
+    Mithril application.
+
+A one-line "Hello World" program is fun but are hardly illustrative
+Mithril capabilities. Here's a more conical example with, "Hello World"
+embedded in an `<h1>` tag.
+
     const helloWorld = {
       view: () => m('h1', 'Hello World')
     }
 
     m.mount(document.body, helloWorld);
 
-[CodePen](https://codepen.io/mikeward/pen/pbOvZQ)
+[CodePen](https://codepen.io/mikeward/pen/WxgVyy/?editors=0010)
 
 Points of interest:
 
--   Components are plain old JavaScript objects. They're not inherited
-    from a base class.
--   A component only needs a `view` method that returns a
-    virtual element.
 -   Virtual elements are constructed using
-    [`m(...)`](http://mithriljs.org/mithril.html)
+    [`m()`](http://mithriljs.org/mithril.html)
+-   Virtual elements can have children elements.
 -   Components are referred to by value (not strings).
 -   There is no markup-like template language. Templates are expressed
     as functions (like React, Elm, Vue, etc.)
--   Components are loaded via
-    [`m.mount(...)`](http://mithriljs.org/mithril.mount.html) (similar
-    to other frameworks).
 
 Let's get slightly more ambitious and process some form data. This
-example includes an input box. As you type in it, the contents are
-echoed to a text element.
+example extends our component to include an input box. As you type in
+the input box, the contents are echoed back.
 
-    const inputEcho = {
-      controller: () => ({
-        youSaid: m.prop('')
-      }),
-      
-      view: ctrl => m('div', [
+    let youSaid = '';
+
+    const helloWorld = {
+      view: () => [
+        m('h1', 'Hello World'),
         m('input', {
-          oninput: m.withAttr('value', ctrl.youSaid),
-          value: ctrl.youSaid()
+          value: youSaid,
+          oninput: e => youSaid = e.target.value
         }),
-        ' You Said: ',
-        ctrl.youSaid()
-      ])  
+        ' You said: ' + youSaid
+      ]
     }
 
-    m.mount(document.body, inputEcho);
+    m.mount(document.body, helloWorld);
 
 [CodePen](https://codepen.io/mikeward/pen/RRYNqj?editors=0010)
 
 Points of interest:
 
--   Components can have an optional controller.
--   The `controller` is passed to the view.
--   Virtual elements can have children.
+-   Virtual elements can have children. Multiple children elements are
+    expressed as an array
 -   Literal strings are, um, err literal strings.
--   [`m.withAttr`](http://mithriljs.org/mithril.withAttr.html) is an
-    event handler factory. It returns a method that can be bound to a
-    DOM element's event listener.
+-   Components simply reflect the state of the model.
+-   Mithril does not have an eventing system. Use DOM events.
 -   Redrawing occurs automatically for mounted components on events
     (`oninput` in this case).
--   I'm keeping state in the component to keep things simple.
+-   For the sake of brevity I'm using a simple global data model,
+    `youSaid`.
 
-The [`m.prop`](http://mithriljs.org/mithril.prop.html) function is not
-required. It's a convenience function that generates a getter and
-setter. Why not use JavaScript properties? There's an [explanation in
-the
-docs,](https://lhorie.github.io/mithril-blog/the-uniform-access-principle.html)
-but in short, JavaScript properties are not implemented properly.
+Next let's look at how Mithril handles iteration. We'll take the example
+above and have it split the input into an array of characters and put
+those characters into a list.
 
-Another thing I'm usually interested in when investigating a new
-framework is how it handles iteration. Let's take the example above and
-have it split the input into an array of characters and put those
-characters into a list.
+    let youSaid = '';
 
-    const inputEcho = {
-      controller: () => ({
-        youSaid: m.prop('')
-      }),
-      
-      view: ctrl => m('div', [
+    const helloWorld = {
+      view: () => [
+        m('h1', 'Hello World'),
         m('input', {
-          oninput: m.withAttr('value', ctrl.youSaid),
-          value: ctrl.youSaid()
+          value: youSaid,
+          oninput: e => youSaid = e.target.value
         }),
-        ' You said: ',
-        ctrl.youSaid(),
-        m('ul', ctrl.youSaid().split('').map(c => m('li', c)))
-      ])
+        ' You said: ' + youSaid,
+        m('ul', youSaid.split('').map(c => m('li', c)))
+      ]
     }
 
-    m.mount(document.body, inputEcho);
+    m.mount(document.body, helloWorld);
 
-[CodePen](https://codepen.io/mikeward/pen/xOakAb?editors=0011)
+[CodePen](https://codepen.io/mikeward/pen/BzOXqY/?editors=0010)
 
 Points of interest:
 
@@ -120,96 +121,190 @@ Points of interest:
 
 Let's add a button to reset everything.
 
-    const inputEcho = {
-      controller: () => ({
-        youSaid: m.prop('')
-      }),
-      
-      view: ctrl => m('div', [
-        m('button', { onclick: () => ctrl.youSaid('') }, 'Clear'),
+    let youSaid = '';
+
+    const helloWorld = {
+      view: () => [
+        m('h1', 'Hello World'),
+        m('button', { onclick: () => youSaid = '' }, 'Clear'),
         ' ',
         m('input', {
-          oninput: m.withAttr('value', ctrl.youSaid),
-          value: ctrl.youSaid()
+          value: youSaid,
+          oninput: e => youSaid = e.target.value
         }),
-        ' You said: ',
-        m('span', ctrl.youSaid()),
-        m('ul', ctrl.youSaid().split('').map(c => m('li', c)))
-      ])
+        ' You said: ' + youSaid,
+        m('ul', youSaid.split('').map(c => m('li', c)))
+      ]
     }
 
-    m.mount(document.body, inputEcho);
+    m.mount(document.body, helloWorld);
 
-[CodePen](https://codepen.io/mikeward/pen/qNrbxk?editors=0011)
+[CodePen](https://codepen.io/mikeward/pen/VjGoVm/?editors=0010)
 
 Points of interest:
 
--   Mithril does not have an eventing system. Use DOM events.
+-   Mithril does not have an eventing system. Use DOM events (I know, I
+    said it twice).
 
 If a component has several distinct parts I like to break it up into
 additional components. Let's separate the `button` control into a new
 component.
 
+    let youSaid = '';
+
     const clearButton = {
-      view: ({}, args) => 
-        m('button', { onclick: () => args.clickAction() }, 'Clear')  
+      view: () => m('button', 
+        { onclick: () => youSaid = '' }, 'Clear')
     }
 
-    const inputEcho = {
-      controller: () => ({
-        youSaid: m.prop('')
-      }),
-      
-      view: ctrl => m('div', [
-        m(clearButton, { clickAction: () => ctrl.youSaid('') }),
+    const helloWorld = {
+      view: () => [
+        m('h1', 'Hello World'),
+        m(clearButton),
         ' ',
         m('input', {
-          oninput: m.withAttr('value', ctrl.youSaid),
-          value: ctrl.youSaid()
+          value: youSaid,
+          oninput: e => youSaid = e.target.value
         }),
-        ' You said: ',
-        ctrl.youSaid(),
-        m('ul', ctrl.youSaid().split('').map(c => m('li', c)))
-      ])
+        ' You said: ' + youSaid,
+        m('ul', youSaid.split('').map(c => m('li', c)))
+      ]
     }
 
-    m.mount(document.body, inputEcho);
+    m.mount(document.body, helloWorld);
 
-[CodePen](https://codepen.io/mikeward/pen/YWOVRJ?editors=0010)
+[CodePen](https://codepen.io/mikeward/pen/akaZPO/?editors=00100)
 
 Points of interest:
 
 -   Components can include components.
 -   Properties can be passed to components.
--   Controllers also receive the same properties argument (not
-    shown here).
 -   Constructing new components requires little ceremony.
--   Parameterizing the `clickAction` encourages the reuse of
-    `clearButton`
 
-And when it comes to HTTP requests, Mithril has you covered as well.
-Like the rest of Mithril, it's straightforward, concise and surprisingly
-complete. It even supports JSONP. Here's an example from the
-documentation.
+If we remove `youSaid` dependency from the `clearButton`, it becomes a
+reusable component.
 
-    //model
-    var User = {}
+    let youSaid = '';
 
-    User.listEven = function() {
-        return m.request({method: "GET", url: "/user"}).then(function(list) {
-            return list.filter(function(user) {return user.id % 2 == 0});
-        });
+    const clearButton = {
+      view: (_, args) => m('button', 
+        { onclick: args.clickAction }, 'Clear')
     }
 
-    //controller
-    var controller = function() {
-        return {users: User.listEven()}
+    const helloWorld = {
+      view: () => [
+        m('h1', 'Hello World'),
+        m(clearButton, { clickAction: () => youSaid = ''}),
+        ' ',
+        m('input', {
+          value: youSaid,
+          oninput: e => youSaid = e.target.value
+        }),
+        ' You said: ' + youSaid,
+        m('ul', youSaid.split('').map(c => m('li', c)))
+      ]
     }
 
-There's also a routing API. It does what you expect a routing API to do.
-I did not test routing.
+    m.mount(document.body, helloWorld);
+
+[CodePen](https://codepen.io/mikeward/pen/wWEVRj/?editors=0010)
+
+Points of interest:
+
+-   Components are easily parameterized. Again, no special syntax, just
+    JavaScript
+
+For that matter, why not make `helloWorld` a reusable component? We'll
+do this is two steps. Step 1:
+
+    let youSaid = m.prop('');
+
+    const clearButton = {
+      view: (_, args) => 
+        m('button', { onclick: args.clickAction }, 'Clear')
+    }
+
+    const helloWorld = {
+      view: () => [
+        m('h1', 'Hello World'),
+        m(clearButton, { clickAction: () => youSaid('')}),
+        ' ',
+        m('input', {
+          value: youSaid(),
+          oninput: e => youSaid(e.target.value)
+        }),
+        ' You said: ' + youSaid(),
+        m('ul', youSaid().split('').map(c => m('li', c)))
+      ]
+    }
+
+    m.mount(document.body, helloWorld);
+
+[CodePen](https://codepen.io/mikeward/pen/zBJgbY/?editors=0010)
+
+Points of interest:
+
+-   `youSaid` has been changed to a getter/setter function. To retrieve
+    the current value use `youSaid()`. To set it use `youSaid(value)`.
+-   [`m.prop()`](http://mithriljs.org/mithril.prop.html) is a simple
+    helper method that creates a getter/setter function. It does not
+    trigger redraws or otherwise participate in Mithril's
+    rendering logic. It's just a factory method (don't over think it)
+-   It's standard practice to use `m.prop()` in Mithril programs.
+    Although not required it is helpful in many uses cases. You can read
+    more about the design motovation behind `m.prop()` in [Mithril's
+    blog](https://lhorie.github.io/mithril-blog/the-uniform-access-principle.html).
+-   You may be wondering what the `_` parameter in `view` is for.
+    Mithril components can have an optional controller function which is
+    later passed to the view via the first parameter. We're not using
+    controllers in these examples so I'm using an `_` to indicate it's
+    not used.
+
+Lastly, let's get rid of the global reference and inject `youSaid` into
+the `helloWorld` component. Step 2:
+
+    const clearButton = {
+      view: (_, args) => 
+        m('button', { onclick: args.clickAction }, 'Clear')
+    }
+
+    const helloWorld = {
+      view: (_, args) => [
+        m('h1', 'Hello World'),
+        m(clearButton, { clickAction: () => args.model('')}),
+        ' ',
+        m('input', {
+          value: args.model(),
+          oninput: e => args.model(e.target.value)
+        }),
+        ' You said: ' + args.model(),
+        m('ul', args.model().split('').map(c => m('li', c)))
+      ]
+    }
+
+    m.mount(document.body, m(helloWorld, {
+      model: m.prop('')
+    }));
+
+[CodePen](https://codepen.io/mikeward/pen/YWOmgk/?editors=0010)
+
+Points of interest:
+
+-   `helloWorld` is no longer relies on a global model
+-   Mithril's constructs encourage reuse (actually, it makes it
+    downright fun).
+-   See if you can parameterize the "clear" action by adding a
+    `clearAction` to `helloWorld`
 
 Other random things I really like about Mithril
+
+-   Mithril has a concise high-level utility for working with web
+    services called `m.request`. If even supports JSONP.
+
+-   It also contains a routing system (`m.route()`) to help create
+    Single Page Applications (SPA).
+
+-   There's a simple but effective promise system to handle asynchrony.
 
 -   The documentation is outstanding. It's written by hand, not
     generated from code. The author has done a great job explaining how
