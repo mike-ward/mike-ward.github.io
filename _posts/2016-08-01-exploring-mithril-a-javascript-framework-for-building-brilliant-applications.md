@@ -7,6 +7,10 @@ title:  'Exploring Mithril, A JavaScript Framework for Building Brilliant Applic
 web site front ends. It's similar to React but is easier to understand,
 faster and much much smaller (7.8K compressed).
 
+> *Note: I'm using the current stable release of Mithril (v0.2.4).
+> Version 1.0 is coming soon. It will introduce a few minor changes.
+> I'll post a follow up about v1.0 here when that happens*
+
 What's surprising is despite its tiny size, it's a more potent solution
 than React. It provides a templating engine with a virtual DOM
 differencing implementation for performant rendering, utilities for
@@ -15,8 +19,8 @@ HTTP requests and componentization. Just enough functionality to hit
 that sweet of generating forms and making service requests without
 having to, "Download the Internet."
 
-*Note: I'm assuming you have a passing familiarity with React or other
-React like frameworks.*
+> *Note: I'm assuming you have a passing familiarity with React or other
+> React like frameworks.*
 
 OK, so what does it look like? Assuming that `mithril.js` is already
 loaded on the page:
@@ -260,8 +264,8 @@ Points of interest:
     controllers in these examples so I'm using an `_` to indicate it's
     not used.
 
-Lastly, let's get rid of the global reference and inject `youSaid` into
-the `helloWorld` component. Step 2:
+Let's get rid of the global reference and inject `youSaid` into the
+`helloWorld` component. Step 2:
 
     const clearButton = {
       view: (_, args) => 
@@ -290,11 +294,60 @@ the `helloWorld` component. Step 2:
 
 Points of interest:
 
--   `helloWorld` is no longer relies on a global model
+-   `helloWorld` no longer relies on a global model
 -   Mithril's constructs encourage reuse (actually, it makes it
     downright fun).
--   See if you can parameterize the "clear" action by adding a
-    `clearAction` to `helloWorld`
+
+Just for fun, let's break the other parts into components.
+
+    const clearButton = {
+      view: (_, args) => 
+        m('button', { onclick: args.clickAction }, 'Clear')
+    }
+
+    const inputEcho = {
+      view: (_, args) => m('span', [
+        m('input', {
+          value: args.model(),
+          oninput: e => args.model(e.target.value)
+        }),
+        ' You said: ' + args.model()
+        ])
+    }
+
+    const repeater = {
+      view: (_, args) => 
+        m('ul', args.model().split('').map(c => m('li', c)))
+    }
+
+    const helloWorld = {
+      view: () =>  
+        m('h1', 'Hello World')
+    }
+
+    const demo = {
+      view: (_, args) => m('div', [
+        m(helloWorld),
+        m(clearButton, { clickAction: args.reset }),
+        ' ',
+        m(inputEcho, { model: args.model }),
+        m(repeater, { model: args.model })
+      ])
+    }
+
+    const youSaid = m.prop('');
+
+    m.mount(document.body, m(demo, { 
+      model: youSaid,
+      reset: () => youSaid('')
+    }))
+
+[CodePen](https://codepen.io/mikeward/pen/EydmQN?editors=0010)
+
+Points of Interest:
+
+-   It's easy to reason about and refactor components in Mithril.
+-   Composition using components fits nicely with rendering HTML.
 
 Other random things I really like about Mithril
 
