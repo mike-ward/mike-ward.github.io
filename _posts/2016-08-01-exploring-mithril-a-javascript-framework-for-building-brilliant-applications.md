@@ -86,7 +86,7 @@ the input box, the contents are echoed back.
 Points of interest:
 
 -   Virtual elements can have children. Child elements are expressed as
-    an array
+    an array.
 -   Literal strings are, um, err, literal strings.
 -   Components simply reflect the state of the model.
 -   Mithril does not have an eventing system. Use DOM events.
@@ -255,7 +255,7 @@ Points of interest:
     trigger redraws or otherwise participate in Mithril's
     rendering logic. It's just a factory method (don't over think it)
 -   It's standard practice to use `m.prop()` in Mithril programs.
-    Although not required it is helpful in many uses cases. You can read
+    Although not required it is helpful in many use-cases. You can read
     more about the design motovation behind `m.prop()` in [Mithril's
     blog](https://lhorie.github.io/mithril-blog/the-uniform-access-principle.html).
 -   You may be wondering what the `_` parameter in `view` is for.
