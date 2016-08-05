@@ -41,7 +41,7 @@ Points of interest:
 -   There's very little boiler plate required to bootstrap a
     Mithril application.
 
-A one-line "Hello World" program is fun but are hardly illustrative
+A one-line "Hello World" program is fun but are hardly illustrative of
 Mithril capabilities. Here's a more canonical example with, "Hello
 World" embedded in an `<h1>` tag.
 
@@ -57,7 +57,7 @@ Points of interest:
 
 -   Virtual elements are constructed using
     [`m()`](http://mithriljs.org/mithril.html)
--   Virtual elements can have children elements.
+-   Virtual elements can have child elements.
 -   Components are referred to by value (not strings).
 -   There is no markup-like template language. Templates are expressed
     as functions (like React, Elm, Vue, etc.)
@@ -85,9 +85,9 @@ the input box, the contents are echoed back.
 
 Points of interest:
 
--   Virtual elements can have children. Multiple children elements are
-    expressed as an array
--   Literal strings are, um, err literal strings.
+-   Virtual elements can have children. Child elements are expressed as
+    an array
+-   Literal strings are, um, err, literal strings.
 -   Components simply reflect the state of the model.
 -   Mithril does not have an eventing system. Use DOM events.
 -   Redrawing occurs automatically for mounted components on events
