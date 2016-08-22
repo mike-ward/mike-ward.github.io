@@ -1,26 +1,25 @@
-# Dependencies
-markdown:         kramdown
-
-# Permalinks
 permalink:        pretty
-
-# Setup
-title:            'Mike-Ward.Net'
-tagline:          '.NET, Technology, Life, Whatever...'
+title:            Mike-Ward.Net
+tagline:          .NET, Technology, Life, Whatever...
 description:      'Mike Ward''s personal blog. Author of Markdown Edit, VSColorOutput, Tweetz, Desk Drive and more'
 url:              http://mike-ward.net
-baseurl:          '/'
+author:           Mike Ward
 paginate:         10
+version:          '1.0.0'
 
 author:
   name:           'Mike Ward'
   email:          'mike@mike-ward.net'
   url:            'https://twitter.com/mikeward_aa'
+  twitter:        mikeward_aa
+  github:         mike-ward
+  location:       Ann Arbor, MI  USA
 
-gems:
-  - jekyll-sitemap
+twitter:
+  username:       mikeward_aa
 
-version:          '1.0.0'
+author:
+  twitter:        mikeward_aa
 
 github:
   repo:           'https://github.com/mike-ward'
@@ -30,3 +29,4 @@ sass:
 
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
