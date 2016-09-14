@@ -47,7 +47,7 @@ allows VSColorOutput to monitor every line sent to the output window. A
 list of classifiers, consisting of regular expressions and
 classifications is checked. The first matching expression determines the
 classification. If no patterns match, then the line is classified as
-`BuildText`.
+`Build Text`.
 
 From here, Visual Studio does the heavy lifting of mapping the
 classification to a color. Settings are stored in a separate file
