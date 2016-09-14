@@ -2,7 +2,7 @@
 layout: page
 ...
 
-![logo](http://mike-ward.net/cdn/images/vscoloroutput/vscoloroutputlogo.png)
+![noborder](http://mike-ward.net/cdn/images/vscoloroutput/vscoloroutputlogo.png)
 
 A Visual Studio extension to colorize your build and debug output
 
