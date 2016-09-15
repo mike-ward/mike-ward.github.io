@@ -8,7 +8,9 @@ layout: page
      style="border: none">
 </p>
 
-A Visual Studio extension to colorize your build and debug output
+<p style="text-align: center; font-weight: bold">
+  A Visual Studio extension to colorize your build and debug output
+</p>
 
 > Not only is this extension a must install for me and all the people in
 > my dev dept, stop on first error has save countless hours of our
