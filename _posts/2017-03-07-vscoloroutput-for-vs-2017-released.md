@@ -3,7 +3,7 @@ layout: post
 title:  "VSColorOutput for VS 2017 Released"  
 ...
 
-![Logo](http://mike-ward.net/cdn/images/vscoloroutput/vscoloroutputlogo.png)
+![noborder](http://mike-ward.net/cdn/images/vscoloroutput/vscoloroutputlogo.png)
 
 [Version
 2.5](https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput)
