@@ -36,6 +36,8 @@ Example:
 
 And the result:
 
+---
+
 <table>
 <tr>
 <th> Server
@@ -59,6 +61,7 @@ And the result:
 <td> Some printer
 </table>
 
+---
 
 I picked up this tip from
 <https://talk.commonmark.org/t/tables-in-pure-markdown/81/124>.
