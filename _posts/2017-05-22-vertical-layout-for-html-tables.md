@@ -58,5 +58,7 @@ And the result:
 <td> 192.168.1.50
 <td> Some printer
 </table>
+
+
 I picked up this tip from
 <https://talk.commonmark.org/t/tables-in-pure-markdown/81/124>.
