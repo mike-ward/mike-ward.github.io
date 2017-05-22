@@ -57,5 +57,6 @@ And the result:
 <td> DFHSDDFFXYZKENLONGNAME
 <td> 192.168.1.50
 <td> Some printer
+</tr>
 </table>
 
