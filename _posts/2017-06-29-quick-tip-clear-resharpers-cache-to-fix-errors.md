@@ -8,7 +8,7 @@ particularly like how it can simplify boolean expressions. It's always
 reminding me there are new features in the language (C\# and JavaScript)
 that can improve my code.
 
-But every once in a while it ReSharper loses its mind...
+But every once in a while ReSharper loses its mind...
 
 By that I mean it starts flagging items as errors that are not. It seems
 to happen in JavaScript more than C\#. Clearly, the ReSharper engine is
