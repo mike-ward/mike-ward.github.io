@@ -5,7 +5,7 @@ title:  "Quick Tip - Clear ReSharper's Cache to Fix False Errors"
 
 I rely on ReSharper to spot errors and suggest code refactorings. I
 particularly like how it can simplify boolean expressions. It's always
-reminding me that are new features in the language (C\# and JavaScript)
+reminding me there are new features in the language (C\# and JavaScript)
 that can improve my code.
 
 But every once in a while it ReSharper loses its mind...
