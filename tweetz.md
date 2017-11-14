@@ -43,7 +43,7 @@ would like ""Translation by"" credit, include your name and a web address.
 it is not. Tweetz Desktop is based on the idea that less is sometimes more. It's
 not a kitchen sink of features nor will it ever be.
 
-[Download Tweetz Desktop](/downloads)
+[Download Tweetz Desktop](<https://github.com/mike-ward/tweetz-desktop/releases/latest>)
 
 <button onclick="load_disqus('tweetzdesktop', 'Tweetz Desktop');" class="pure-button">Comments</button>
 <div id="disqus_thread"></div>
