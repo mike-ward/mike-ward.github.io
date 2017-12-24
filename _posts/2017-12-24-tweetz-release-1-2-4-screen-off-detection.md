@@ -298,7 +298,8 @@ namespace tweetz5.Utilities.PowerManagment
 {
     internal static class PowerManager
     {
-        internal static Guid MonitorPowerStatus = new Guid(0x02731015, 0x4510, 0x4526, 0x99, 0xe6, 0xe5, 0xa1, 0x7e, 0xbd, 0x1a, 0xea);
+        internal static Guid MonitorPowerStatus = 
+            new Guid(0x02731015, 0x4510, 0x4526, 0x99, 0xe6, 0xe5, 0xa1, 0x7e, 0xbd, 0x1a, 0xea);
 
         public static void RegisterMonitorStatusChange(Window window)
         {
