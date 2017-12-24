@@ -302,7 +302,8 @@ namespace tweetz5.Utilities.PowerManagment
 
         public static void RegisterMonitorStatusChange(Window window)
         {
-            PowerManagementNativeMethods.RegisterPowerSettingNotification(new WindowInteropHelper(window).Handle, ref MonitorPowerStatus, 0);
+            PowerManagementNativeMethods.RegisterPowerSettingNotification(
+                new WindowInteropHelper(window).Handle, ref MonitorPowerStatus, 0);
         }
 
         public static int MonitorStatus(IntPtr wParam, IntPtr lParam)
@@ -313,7 +314,8 @@ namespace tweetz5.Utilities.PowerManagment
             var pData = new IntPtr(lParam.ToInt64() + Marshal.SizeOf(ps));
             var monitorStatus = -1;
 
-            if (ps.PowerSetting == MonitorPowerStatus && ps.DataLength == Marshal.SizeOf(typeof(int)))
+            if (ps.PowerSetting == MonitorPowerStatus && 
+                ps.DataLength == Marshal.SizeOf(typeof(int)))
             {
                 monitorStatus = (int)Marshal.PtrToStructure(pData, typeof(int));
             }
