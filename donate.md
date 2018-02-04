@@ -11,6 +11,9 @@ choose to donate. Your support is greatly appreciated.
 
 ------------------------------------------------------------------------
 
+Donate with PayPal
+------------------
+
 [Donate with
 PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=39X5GA75FT23L "donate")
 
