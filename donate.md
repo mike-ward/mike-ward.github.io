@@ -17,7 +17,10 @@ PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=39X
 ------------------------------------------------------------------------
 
 Donate with Fundly
+------------------
 
 <a href='https://fundly.com/mike-ward-net#donate'><img src='//fundly.com/assets/widgets/donate_now.png' title='Mike-Ward.Net'></a>
+
+------------------------------------------------------------------------
 
 ![noborder](http://mike-ward.net/cdn/images/donate.png)
