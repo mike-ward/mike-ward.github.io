@@ -11,33 +11,11 @@ choose to donate. Your support is greatly appreciated.
 
 ------------------------------------------------------------------------
 
-**Do you like stickers?**
-
-Donate $25 and get a couple of product stickers (pictured below). Want
-more than two? They're an additional $5 each. Your PayPal account must
-have a verified address. Leave a comment if you don't want stickers.
-
-------------------------------------------------------------------------
-
-[Donate to VSColorOutput with
-PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=REEP6X7DSPMZU "donate")
-
-![noborder](http://mike-ward.net/cdn/images/vscoloroutput/vscoloroutput-sticker.png)
-
-*size: 6.25 inches long, 1 inch high*
-
-------------------------------------------------------------------------
-
-[Donate to Markdown Edit with
-PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XGGZ8BEED7R62 "donate")
-
-*I'm still working on a logo and stickers. It will likely be a few
-months (at least) but I'll honor your $25 donation with stickers once I
-get them.*
-
-------------------------------------------------------------------------
-
 [Donate with
 PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=39X5GA75FT23L "donate")
 
 ![noborder](http://mike-ward.net/cdn/images/donate.png)
+
+Donate with Fundly
+
+<a href='https://fundly.com/mike-ward-net#donate'><img src='//fundly.com/assets/widgets/donate_now.png' title='Mike-Ward.Net'></a>
