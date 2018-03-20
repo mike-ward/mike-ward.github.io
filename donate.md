@@ -23,8 +23,8 @@ Bitcoin
 -------
 
 <button 
-    onclick="window.open('https://greenaddress.it/pay/GA254L7kc1DM1qsBsWbXSk9M7CFTNt/'", '_blank')"
-    style="font-size:larger; font-weight:bold">Donate with Bitcoin</button>
+    onclick="window.open('https://greenaddress.it/pay/GA254L7kc1DM1qsBsWbXSk9M7CFTNt/', '_blank')"
+    style="font-size:larger; font-weight:bold; padding: .5em 1em">Donate with Bitcoin</button>
 
 ------------------------------------------------------------------------
 
