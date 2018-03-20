@@ -19,6 +19,13 @@ PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=39X
 
 ------------------------------------------------------------------------
 
+Donate with Bitcoin
+-------------------
+
+[Donate with Bitcoin](https://greenaddress.it/pay/GA254L7kc1DM1qsBsWbXSk9M7CFTNt/)
+
+------------------------------------------------------------------------
+
 Donate with Fundly
 ------------------
 
