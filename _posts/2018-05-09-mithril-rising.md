@@ -25,10 +25,43 @@ having to, "Download the Internet."
 OK, so what does it look like? Assuming that `mithril.js` is already
 loaded on the page:
 
-    m.mount(document.body, { view: () => 'hello world' });
+<script src="https://flems.io/flems.html" type="text/javascript" charset="utf-8"></script>
 
+<script>
+function Example(id, code) {
+  Flems(document.getElementById(id), {
+    files: [{
+        name: 'app.js',
+        content: code
+    }],
+    links: [{
+        name: 'mithril',
+        type: 'script',
+        url: 'https://unpkg.com/mithril'
+    }],
+    middle        : 55,
+    selected      : '.js',
+    color         : 'rgb(38,50,56)',
+    theme         : 'material',
+    resizeable    : true,
+    editable      : true,
+    toolbar       : true,
+    fileTabs      : true,
+    linkTabs      : true,
+    shareButton   : true,
+    reloadButton  : true,
+    console       : true,
+    autoReload    : true,
+    autoHeight    : false
+  })
+}
+</script>
 
-<iframe style="{width: 75em; height: 15em" src="https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgCsEAaEAYwHs0AXGWvAAmca3y0oFdaAKAE0rlOOWvgBGlPgE8SjYIwBuEGAHdEjHgEpGAXgB8jAOQALGFCiVGKygCcofQ4wC+mgNwAdNCCcBdMlAg0AGsEFHRsXEQQLAgaYxtoEDJOOzxjGhoABzhEAHpc7kyggHN8KixcmLiEqAABAEZ8RoA2Stj46CJSEBopTMiQOHIEzJpvEnCcPCqOqABaOBobGGwkkBSoNIzsvIK0ItLyturoBaWVrAam-AAGXMXl7C613v68IZGxpwmQTCmozIpGDkODdDZbLI5fKFEplSgVQHLEFwK43W65MScaB8XKImBzGJoMqgl59AaLKSwbw+JxAA"></iframe>
+<div id="hello1"></div>
+<script>
+  Example('hello1', 
+  'm.render(document.body, m("h1", "Hello world"))');
+</script>
 
 Points of interest:
 
@@ -46,13 +79,15 @@ A one-line "Hello World" program is fun but are hardly illustrative of
 Mithril capabilities. Here's a more canonical example with, "Hello
 World" embedded in an `<h1>` tag.
 
-    const helloWorld = {
-      view: () => m('h1', 'Hello World')
-    }
-
-    m.mount(document.body, helloWorld);
-
-[CodePen](https://codepen.io/mikeward/pen/WxgVyy/?editors=0010)
+<div id="hello2"></div>
+<script>Example('hello2', [
+"const helloWorld = {",
+"  view: () => m('h1', 'Hello World')",
+"}",
+" ",
+"m.mount(document.body, helloWorld);"
+].join('\n'))
+</script>
 
 Points of interest:
 
