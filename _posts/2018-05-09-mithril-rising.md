@@ -50,17 +50,19 @@ function Example(id, code) {
     linkTabs      : true,
     shareButton   : true,
     reloadButton  : true,
-    console       : true,
+    console       : false,
     autoReload    : true,
-    autoHeight    : false
+    autoHeight    : false,
   })
 }
 </script>
 
-<div id="hello1"></div>
+<div id="hello1" style="height: 15em; border: 1px solid"></div>
 <script>
-  Example('hello1', 
-  'm.render(document.body, m("h1", "Hello world"))');
+  Example('hello1', [
+  'm.render(document.body, m("h1", "Hello world"))',
+  ' ',
+  ].join('\n'))
 </script>
 
 Points of interest:
@@ -79,13 +81,13 @@ A one-line "Hello World" program is fun but are hardly illustrative of
 Mithril capabilities. Here's a more canonical example with, "Hello
 World" embedded in an `<h1>` tag.
 
-<div id="hello2"></div>
+<div id="hello2" style="height: 15em; border: 1px solid"></div>
 <script>Example('hello2', [
 "const helloWorld = {",
 "  view: () => m('h1', 'Hello World')",
 "}",
 " ",
-"m.mount(document.body, helloWorld);"
+"m.mount(document.body, helloWorld);",
 ].join('\n'))
 </script>
 
@@ -102,22 +104,27 @@ Let's get slightly more ambitious and process some form data. This
 example extends our component to include an input box. As you type in
 the input box, the contents are echoed back.
 
-    let youSaid = '';
 
-    const helloWorld = {
-      view: () => [
-        m('h1', 'Hello World'),
-        m('input', {
-          value: youSaid,
-          oninput: e => youSaid = e.target.value
-        }),
-        ' You said: ' + youSaid
-      ]
-    }
+<div id="yousaid1" style="height: 25em; border: 1px solid"></div>
+<script>
+  Example('yousaid1', [
+    "let youSaid = ''",
+    " ",
+    "const helloWorld = {",
+    "  view: () => [",
+    "    m('h1', 'Hello World'),",
+    "    m('input', {",
+    "      value: youSaid,",
+    "      oninput: e => youSaid = e.target.value",
+    "    }),",
+    "    ' You said: ' + youSaid",
+    "  ]",
+    "}",
+    " ",
+    "m.mount(document.body, helloWorld);"
+  ].join('\n'))
+</script>
 
-    m.mount(document.body, helloWorld);
-
-[CodePen](https://codepen.io/mikeward/pen/EyZqZx/?editors=0010)
 
 Points of interest:
 
