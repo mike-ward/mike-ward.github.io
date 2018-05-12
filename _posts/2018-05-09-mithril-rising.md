@@ -34,11 +34,23 @@ function Example(id, code) {
         name: 'app.js',
         content: code
     }],
-    links: [{
+    links: [
+      {
         name: 'mithril',
         type: 'script',
         url: 'https://unpkg.com/mithril'
-    }],
+      },
+      {
+        name: 'mithril-stream',
+        type: 'script',
+        url: 'https://unpkg.com/mithril-stream'
+      },
+      {
+        name: 'purecss',
+        type: 'css',
+        url: 'https://unpkg.com/purecss'
+      }
+    ],
     middle        : 55,
     selected      : '.js',
     color         : 'rgb(38,50,56)',
@@ -50,18 +62,17 @@ function Example(id, code) {
     linkTabs      : true,
     shareButton   : true,
     reloadButton  : true,
-    console       : false,
+    console       : true,
     autoReload    : true,
     autoHeight    : false,
   })
 }
 </script>
 
-<div id="hello1" style="height: 15em; border: 1px solid"></div>
+<div id="hello1" style="height: 15em; border: 1px solid lightgray"></div>
 <script>
   Example('hello1', [
-  'm.render(document.body, m("h1", "Hello world"))',
-  ' ',
+  "m.render(document.body, m('h1', 'Hello world'))",
   ].join('\n'))
 </script>
 
@@ -81,7 +92,7 @@ A one-line "Hello World" program is fun but are hardly illustrative of
 Mithril capabilities. Here's a more canonical example with, "Hello
 World" embedded in an `<h1>` tag.
 
-<div id="hello2" style="height: 15em; border: 1px solid"></div>
+<div id="hello2" style="height: 15em; border: 1px solid lightgray"></div>
 <script>Example('hello2', [
 "const helloWorld = {",
 "  view: () => m('h1', 'Hello World')",
@@ -105,7 +116,7 @@ example extends our component to include an input box. As you type in
 the input box, the contents are echoed back.
 
 
-<div id="yousaid1" style="height: 25em; border: 1px solid"></div>
+<div id="yousaid1" style="height: 30em; border: 1px solid lightgray"></div>
 <script>
   Example('yousaid1', [
     "let youSaid = ''",
@@ -142,23 +153,11 @@ Next let's look at how Mithril handles iteration. We'll take the example
 above and have it split the input into an array of characters and put
 those characters into a list.
 
-    let youSaid = '';
-
-    const helloWorld = {
-      view: () => [
-        m('h1', 'Hello World'),
-        m('input', {
-          value: youSaid,
-          oninput: e => youSaid = e.target.value
-        }),
-        ' You said: ' + youSaid,
-        m('ul', youSaid.split('').map(c => m('li', c)))
-      ]
-    }
-
-    m.mount(document.body, helloWorld);
-
-[CodePen](https://codepen.io/mikeward/pen/BzOXqY/?editors=0010)
+<div id="yousaid2" style="height: 30em; border: 1px solid lightgray"></div>
+<script>
+  Example('yousaid2', [
+  ].join('\n'))
+</script>
 
 Points of interest:
 
@@ -168,23 +167,11 @@ Points of interest:
 
 Let's add a button to reset everything.
 
-    let youSaid = '';
-
-    const helloWorld = {
-      view: () => [
-        m('h1', 'Hello World'),
-        m('button', { onclick: () => youSaid = '' }, 'Clear'),
-        ' ',
-        m('input', {
-          value: youSaid,
-          oninput: e => youSaid = e.target.value
-        }),
-        ' You said: ' + youSaid,
-        m('ul', youSaid.split('').map(c => m('li', c)))
-      ]
-    }
-
-    m.mount(document.body, helloWorld);
+<div id="yousaid3" style="height: 30em; border: 1px solid lightgray"></div>
+<script>
+  Example('yousaid3', [
+  ].join('\n'))
+</script>
 
 [CodePen](https://codepen.io/mikeward/pen/VjGoVm/?editors=0010)
 
@@ -197,30 +184,11 @@ If a component has several distinct parts I like to break it up into
 additional components. Let's separate the `button` control into a new
 component.
 
-    let youSaid = '';
-
-    const clearButton = {
-      view: () => m('button', 
-        { onclick: () => youSaid = '' }, 'Clear')
-    }
-
-    const helloWorld = {
-      view: () => [
-        m('h1', 'Hello World'),
-        m(clearButton),
-        ' ',
-        m('input', {
-          value: youSaid,
-          oninput: e => youSaid = e.target.value
-        }),
-        ' You said: ' + youSaid,
-        m('ul', youSaid.split('').map(c => m('li', c)))
-      ]
-    }
-
-    m.mount(document.body, helloWorld);
-
-[CodePen](https://codepen.io/mikeward/pen/akaZPO/?editors=00100)
+<div id="yousaid4" style="height: 30em; border: 1px solid lightgray"></div>
+<script>
+  Example('yousaid4', [
+  ].join('\n'))
+</script>
 
 Points of interest:
 
@@ -230,28 +198,11 @@ Points of interest:
 If we remove `youSaid` dependency from the `clearButton`, it becomes a
 reusable component.
 
-    let youSaid = '';
-
-    const clearButton = {
-      view: (_, args) => m('button', 
-        { onclick: args.clickAction }, 'Clear')
-    }
-
-    const helloWorld = {
-      view: () => [
-        m('h1', 'Hello World'),
-        m(clearButton, { clickAction: () => youSaid = ''}),
-        ' ',
-        m('input', {
-          value: youSaid,
-          oninput: e => youSaid = e.target.value
-        }),
-        ' You said: ' + youSaid,
-        m('ul', youSaid.split('').map(c => m('li', c)))
-      ]
-    }
-
-    m.mount(document.body, helloWorld);
+<div id="yousaid5" style="height: 30em; border: 1px solid lightgray"></div>
+<script>
+  Example('yousaid5', [
+  ].join('\n'))
+</script>
 
 [CodePen](https://codepen.io/mikeward/pen/wWEVRj/?editors=0010)
 
@@ -264,31 +215,11 @@ Points of interest:
 For that matter, why not make `helloWorld` a reusable component? We'll
 do this is two steps. Step 1:
 
-    let youSaid = m.prop('');
-
-    const clearButton = {
-      view: (_, args) => 
-        m('button', { onclick: args.clickAction }, 'Clear')
-    }
-
-    const helloWorld = {
-      view: () => [
-        m('h1', 'Hello World'),
-        m(clearButton, { clickAction: () => youSaid('')}),
-        ' ',
-        m('input', {
-          value: youSaid(),
-          oninput: e => youSaid(e.target.value)
-        }),
-        ' You said: ' + youSaid(),
-        m('ul', youSaid().split('').map(c => m('li', c)))
-      ]
-    }
-
-    m.mount(document.body, helloWorld);
-
-[CodePen](https://codepen.io/mikeward/pen/zBJgbY/?editors=0010)
-
+<div id="yousaid6" style="height: 30em; border: 1px solid lightgray"></div>
+<script>
+  Example('yousaid6', [
+  ].join('\n'))
+</script>
 Points of interest:
 
 -   `youSaid` has been changed to a getter/setter function. To retrieve
@@ -310,30 +241,11 @@ Points of interest:
 Let's get rid of the global reference and inject `youSaid` into the
 `helloWorld` component. Step 2:
 
-    const clearButton = {
-      view: (_, args) => 
-        m('button', { onclick: args.clickAction }, 'Clear')
-    }
-
-    const helloWorld = {
-      view: (_, args) => [
-        m('h1', 'Hello World'),
-        m(clearButton, { clickAction: () => args.model('')}),
-        ' ',
-        m('input', {
-          value: args.model(),
-          oninput: e => args.model(e.target.value)
-        }),
-        ' You said: ' + args.model(),
-        m('ul', args.model().split('').map(c => m('li', c)))
-      ]
-    }
-
-    m.mount(document.body, m(helloWorld, {
-      model: m.prop('')
-    }));
-
-[CodePen](https://codepen.io/mikeward/pen/YWOmgk/?editors=0010)
+<div id="yousaid7" style="height: 30em; border: 1px solid lightgray"></div>
+<script>
+  Example('yousaid7', [
+  ].join('\n'))
+</script>
 
 Points of interest:
 
@@ -343,54 +255,67 @@ Points of interest:
 
 Just for fun, let's break the other parts into components.
 
-    const clearButton = {
-      view: (_, args) => 
-        m('button', { onclick: args.clickAction }, 'Clear')
-    }
+<div id="yousaid8" style="height: 70em; border: 1px solid lightgray"></div>
+<script>
+  Example('yousaid8', [
+    "const clearButton = {",
+    "  view: v => ",
+    "    m('button', { onclick: v.attrs.clickAction }, 'Clear')",
+    "}",
+    "",
+    "const inputEcho = {",
+    "  view: v => m('span', [",
+    "    m('input', {",
+    "      value: v.attrs.model(),",
+    "      oninput: e => v.attrs.model(e.target.value)",
+    "    }),",
+    "    ' You said: ' + v.attrs.model()",
+    "    ])",
+    "}",
+    "",
+    "const repeater = {",
+    "  view: v => ",
+    "    m('ul', v.attrs.model().split('').map(c => m('li', c)))",
+    "}",
+    "",
+    "const helloWorld = {",
+    "  view: () =>  ",
+    "    m('h1', 'Hello World')",
+    "}",
+    "",
+    "const demo = {",
+    "  view: v => m('div', [",
+    "    m(helloWorld),",
+    "    m(clearButton, { clickAction: v.attrs.reset }),",
+    "    ' ',",
+    "    m(inputEcho, { model: v.attrs.model }),",
+    "    m(repeater, { model: v.attrs.model })",
+    "  ])",
+    "}",
+    "",
+    "const app = model => ({",
+    "  view: () => m(demo, { ",
+    "    model: model,",
+    "    reset: () => model('')",
+    "  })",
+    "})",
+    "",
+    "m.mount(document.body, app(m.stream('123')))"
+  ].join('\n'))
+</script>
 
-    const inputEcho = {
-      view: (_, args) => m('span', [
-        m('input', {
-          value: args.model(),
-          oninput: e => args.model(e.target.value)
-        }),
-        ' You said: ' + args.model()
-        ])
-    }
-
-    const repeater = {
-      view: (_, args) => 
-        m('ul', args.model().split('').map(c => m('li', c)))
-    }
-
-    const helloWorld = {
-      view: () =>  
-        m('h1', 'Hello World')
-    }
-
-    const demo = {
-      view: (_, args) => m('div', [
-        m(helloWorld),
-        m(clearButton, { clickAction: args.reset }),
-        ' ',
-        m(inputEcho, { model: args.model }),
-        m(repeater, { model: args.model })
-      ])
-    }
-
-    const youSaid = m.prop('');
-
-    m.mount(document.body, m(demo, { 
-      model: youSaid,
-      reset: () => youSaid('')
-    }))
-
-[CodePen](https://codepen.io/mikeward/pen/EydmQN?editors=0010)
 
 Points of Interest:
 
 -   It's easy to reason about and refactor components in Mithril.
 -   Composition using components fits nicely with rendering HTML.
+
+So what's this `m.stream('123')` in the last line? Mithril has an
+opt-in functional stream library! If you're not familiar with
+functional streams (I wasn't) they're worth the effort to learn.
+For purposes of this example you can think of them as simple
+*getters/setters*. However, streams can do so much more. I'll
+talk about streams in a future article.
 
 Other random things I really like about Mithril
 
@@ -457,9 +382,76 @@ framework. It demonstrates, in a bit more structured way, forms
 processing, table generation, micro-service requests, column sorting and
 even a fun little video player.
 
-[Mithril iTunes Browser](https://github.com/mike-ward/mithril-itunes)
-
-![screen shot](http://i.imgur.com/KSdGCtq.png)
+<div id="iTunes" style="height: 99em; border: 1px solid lightgray"></div>
+<script>
+  Example('iTunes', [
+    "const model = {",
+    "  query: '',",
+    "  tracks: [],",
+    "}",
+    "",
+    "const actions = ({",
+    "  setQuery: q => ",
+    "    model.query = q,",
+    "",
+    "  search: () => ", 
+    "    m.request({",
+    "      dataType: 'jsonp',",
+    "      url: 'https://itunes.apple.com/search',",
+    "      data: { term: model.query, media: 'musicVideo' }",
+    "    })",
+    "    .then(data => { model.tracks = data.results })",
+    "})",
+    "",
+    "const title = {",
+    "  view: () => m('h2', 'iTunes Sampler')",
+    "}",
+    "",
+    "const findForm = {",
+    "  view: () => m('.pure-form', ",
+    "    m('input.pure-input-rounded', {",
+    "      oninput: m.withAttr('value', actions.setQuery), ",
+    "      value: model.query }),",
+    "    m('button.pure-button', { onclick: actions.search }, 'Search')",
+    "  )",
+    "}",
+    "",
+    "const headerRow = () => ",
+    "  m('tr', [ ",
+    "    ['Track', 'Artist', 'Price'].map(h => m('th', h)) ",
+    "  ])",
+    "",
+    "const trackRows = tracks => ",
+    "  tracks.map(track => m('tr', [",
+    "    m('td', m('img', {src: track.artworkUrl100}), track.trackName),",
+    "    m('td', track.artistName),",
+    "    m('td', track.trackPrice)",
+    "  ]))",
+    "",
+    "const tracksList = {",
+    "  view: () => ",
+    "    m('table.pure-table.trackslist', ",
+    "      m('thead', [ headerRow() ]),",
+    "      m('tbody', [ trackRows(model.tracks) ])",
+    "    )",
+    "}",
+    "",
+    "const iTunes = {",
+    "  oninit: () => { ",
+    "    actions.setQuery('Rick Astley'); ",
+    "    actions.search() ",
+    "  },",
+    "",
+    "  view: () => m('div', [",
+    "    m(title),",
+    "    m(findForm),",
+    "    m(tracksList)",
+    "  ])",
+    "}",
+    "",
+    "m.mount(document.body, iTunes);"
+  ].join('\n'))
+</script>
 
 The only (JavaScript) dependency is Mithril. It's written in Typescript
 because that's the way I, “Rick Roll”.
