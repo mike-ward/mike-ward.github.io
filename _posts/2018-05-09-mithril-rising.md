@@ -28,12 +28,18 @@ loaded on the page:
 <script src="https://flems.io/flems.html" type="text/javascript" charset="utf-8"></script>
 
 <script>
-function Example(id, code) {
+function Example(id, code, css) {
   Flems(document.getElementById(id), {
-    files: [{
-        name: 'app.js',
+    files: [
+      {
+        name: '.js',
         content: code
-    }],
+      },
+      {
+        name: '.css',
+        content: css || ''
+      }
+    ],
     links: [
       {
         name: 'mithril',
@@ -450,8 +456,14 @@ even a fun little video player.
     "}",
     "",
     "m.mount(document.body, iTunes);"
+  ].join('\n'),
+  [
+    "html { margin: 2em; }",
+    ".trackslist { margin-top: 2em; }",
+    ".pure-button { margin-left: 1em; }",
+    "h2 { text-align: center}",
+    "img { margin-right: 1em; float: left; }"
   ].join('\n'))
 </script>
 
-The only (JavaScript) dependency is Mithril. It's written in Typescript
-because that's the way I, “Rick Roll”.
+Yep, you've just been “Rick Rolled”.
