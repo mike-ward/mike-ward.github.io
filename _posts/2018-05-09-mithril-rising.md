@@ -81,21 +81,21 @@ function Example(id, code, css) {
   "m.render(document.body, m('h1', 'Hello world'))",
   ].join('\n'))
 </script>
-Points of interest:
+Points of Interest:
 
--   Components are plain old JavaScript objects. They're not inherited
-    from a base class.
--   A component only needs a `view` method that returns a virtual
-    element or in this case a string.
--   Components are loaded via
-    [`m.mount()`](http://mithriljs.org/mithril.mount.html) (similar to
-    other frameworks).
--   There's very little boiler plate required to bootstrap a Mithril
-    application.
+-   The `m()` function generates a `vnode`. Vnodes are virtual DOM
+    objects that Mithril uses to build and update the Web page.
+-   `m.render()` is a low-level function. Typically you use the
+    `m.mount()` as you'll see in the next example.
+-   Text *vnodes* can be expressed as a simple string. Try replacing
+    `m('h1', 'Hello world')` with `'Hello World'` above (examples are
+    editable!)
+
+Points of interest:
 
 A one-line "Hello World" program is fun but are hardly illustrative of
 Mithril capabilities. Here's a more canonical example with, "Hello
-World" embedded in a component.
+World" as a component.
 
 <div id="hello2" style="height: 15em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>Example('hello2', [
@@ -108,16 +108,24 @@ World" embedded in a component.
 </script>
 Points of interest:
 
--   Virtual elements are constructed using
-    [`m()`](http://mithriljs.org/mithril.html)
--   Virtual elements can have child elements.
--   Components are referred to by value (not strings).
--   There is no markup-like template language. Templates are expressed
-    as functions (like React, Elm, Vue, etc.)
+-   Components are dead-simple JavaScript objects. They're not inherited
+    from a base class or otherwise encumbered.
+-   A component only needs a `view` method that returns a *vnode*.
+-   Components are loaded via
+    [`m.mount()`](http://mithriljs.org/mithril.mount.html) (similar to
+    other frameworks).
+-   Components that are *mounted* will be redrawn automatically by the
+    framework after DOM events are triggred.
+-   Components can have life-cycle methods (more on this later). Mithril
+    will call a component's defined life-cycle methods if *mounted*.
+    `m.render()` does not particpate in Mithril's autoredraw system or
+    life-cycle methods.
+-   There's very little boiler plate required to bootstrap a Mithril
+    application.
 
 Let's get slightly more ambitious and process some form data. This
 example extends our component to include an input box. As you type in
-the input box, the contents are echoed back.
+the input box, the contents are echoed to the Web page.
 
 <div id="yousaid1" style="height: 30em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
@@ -140,10 +148,10 @@ the input box, the contents are echoed back.
 </script>
 Points of interest:
 
--   Virtual elements can have children. Child elements are expressed as
-    an array or comma separated list of parameters.
--   **Try it**: Remove the brackets in the example above.
--   Literal strings are, um, err, literal strings.
+-   *vnodes* can have children. Child elements are expressed as an array
+    or comma separated list of parameters.
+-   **Try it**: Remove the square brackes brackets from line 4 and 11.
+-   Text nodes can be expressed as strings.
 -   There is no two-way binding. Components simply reflect the state of
     the model.
 -   Mithril does not have an eventing system. Use DOM events.
@@ -156,7 +164,7 @@ Next let's look at how Mithril handles iteration. We'll take the example
 above and have it split the input into an array of characters and put
 those characters into a list.
 
-<div id="yousaid2" style="height: 30em; border: 1px solid lightgray; margin-bottom: 1em"></div>
+<div id="yousaid2" style="height: 45em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
   Example('yousaid2', [
     "let youSaid = '123';",
@@ -168,169 +176,179 @@ those characters into a list.
     "      value: youSaid,",
     "      oninput: e => youSaid = e.target.value",
     "    }),",
-    "    ' You said: ' + youSaid,",
-    "    m('ul', youSaid.split('').map(c => m('li', c)))",
+    "    ' You said: ' + youSaid)",
+    "}",
+    "",
+    "const listEcho = {",
+    "  view: () =>  m('ul',", 
+    "    youSaid.split('').map(c => m('li', c))",
     "  )",
     "}",
     "",
-    "m.mount(document.body, helloWorld);"
-  ].join('\n'))
+    "const app = {",
+    "  view: () => m('div',",
+    "    m(helloWorld),",
+    "    m(listEcho))",
+    "}",
+    "",
+    "m.mount(document.body, app);"
+].join('\n'))
 </script>
 Points of interest:
 
 -   No special iteration constructs are required. Standard JavaScript
     works just fine.
 -   JavaScript is often less verbose than markup.
+-   Mithril naturally lends itself to building components by
+    composition.
 
-Let's add a button to reset everything.
+Let's add a button to reset the model (youSaid).
 
-<div id="yousaid3" style="height: 35em; border: 1px solid lightgray; margin-bottom: 1em"></div>
+<div id="yousaid3" style="height: 58em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
   Example('yousaid3', [
     "let youSaid = '123';",
     "",
-    "const helloWorld = {",
+    "const helloWorld = { view: () =>",
+    "  m('h1', 'Hello World')",
+    "}",
+    "",
+    "const resetButton = {",
+    "  view: () => m('button', ",
+    "    { onclick: () => youSaid = '' },", 
+    "    'Reset')",
+    "}",
+    "",
+    "const inputEcho = {",
     "  view: () => m('div',",
-    "    m('h1', 'Hello World'),",
-    "    m('button', { onclick: () => youSaid = '' }, 'Clear'),",
-    "    ' ',",
+    "    m(resetButton),",
     "    m('input', {",
     "      value: youSaid,",
     "      oninput: e => youSaid = e.target.value",
     "    }),",
-    "    ' You said: ' + youSaid,",
-    "    m('ul', youSaid.split('').map(c => m('li', c)))",
+    "    ' You said: ' + youSaid)",
+    "}",
+    "",
+    "const listEcho = {",
+    "  view: () =>  m('ul', ",
+    "    youSaid.split('').map(c => m('li', c))",
     "  )",
     "}",
     "",
-    "m.mount(document.body, helloWorld);"
-  ].join('\n'))
-</script>
-Points of interest:
-
--   Mithril does not have an eventing system. Use DOM events (I know, I
-    said it twice).
-
-If a component has several distinct parts I like to break it up into
-additional components. Let's separate the `button` control into a new
-component.
-
-<div id="yousaid4" style="height: 40em; border: 1px solid lightgray; margin-bottom: 1em"></div>
-<script>
-  Example('yousaid4', [
-    "let youSaid = '123';",
-    "",
-    "const clearButton = {",
-    "  view: () => m('button',", 
-    "    { onclick: () => youSaid = '' }, 'Clear')",
-    "}",
-    "",
-    "const helloWorld = {",
+    "const app = {",
     "  view: () => m('div',",
-    "    m('h1', 'Hello World'),",
-    "    m(clearButton),",
-    "    ' ',",
-    "    m('input', {",
-    "      value: youSaid,",
-    "      oninput: e => youSaid = e.target.value",
-    "    }),",
-    "    ' You said: ' + youSaid,",
-    "    m('ul', youSaid.split('').map(c => m('li', c)))",
-    "  )",
+    "    m(helloWorld),",
+    "    m(inputEcho),",
+    "    m(listEcho))",
     "}",
     "",
-    "m.mount(document.body, helloWorld);"
+    "m.mount(document.body, app);"
   ].join('\n'))
 </script>
 Points of interest:
 
--   Components can include components (`m(clearButton)`).
--   Constructing new components requires little ceremony.
+-   At this point, it makes sense to break the `helloWorld`
+    functionality into multiple components.
+-   Mithril's low-ceremony components promote small, consise components.
+-   More complex components are a composition of simpler components.
 
-If we remove `youSaid` dependency from the `clearButton`, it becomes a
-reusable component.
+In this last example, I want to remove the global `youSaid` model.
+Instead, I'll pass the model down to the components through Mithri'sl
+vnode object.
 
-<div id="yousaid5" style="height: 40em; border: 1px solid lightgray; margin-bottom: 1em"></div>
-<script>
-  Example('yousaid5', [
-    "let youSaid = '123';",
-    "",
-    "const clearButton = {",
-    "  view: v => m('button',", 
-    "    { onclick: v.attrs.clickAction }, 'Clear')",
-    "}",
-    "",
-    "const helloWorld = {",
-    "  view: () => m('div',",
-    "    m('h1', 'Hello World'),",
-    "    m(clearButton, { clickAction: () => youSaid = ''}),",
-    "    ' ',",
-    "    m('input', {",
-    "      value: youSaid,",
-    "      oninput: e => youSaid = e.target.value",
-    "    }),",
-    "    ' You said: ' + youSaid,",
-    "    m('ul', youSaid.split('').map(c => m('li', c)))",
-    "  )",
-    "}",
-    "",
-    "m.mount(document.body, helloWorld);"
-  ].join('\n'))
-</script>
-Points of interest:
-
--   Properties can be passed to components.
--   Components are easily parameterized. Again, no special syntax, just
-    JavaScript
-
-For that matter, why not make `helloWorld` a reusable component?
-
-<div id="yousaid6" style="height: 42em; border: 1px solid lightgray; margin-bottom: 1em"></div>
+<div id="yousaid6" style="height: 55em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
   Example('yousaid6', [
-    "const clearButton = {",
-    "  view: v => m('button',",
-    "    { onclick: v.attrs.clickAction }, 'Clear')",
+    "const helloWorld = { view: () =>",
+    "  m('h1', 'Hello World')",
     "}",
     "",
-    "const helloWorld = {",
+    "const resetButton = {",
+    "  view: v => m('button', ",
+    "    { onclick: () => v.attrs.model('') },", 
+    "    'Reset')",
+    "}",
+    "",
+    "const inputEcho = {",
     "  view: v => m('div',",
-    "    m('h1', 'Hello World'),",
-    "    m(clearButton, { clickAction: () => v.attrs.model('') }),",
-    "    ' ',",
+    "    m(resetButton, { model: v.attrs.model }),",
     "    m('input', {",
     "      value: v.attrs.model(),",
     "      oninput: e => v.attrs.model(e.target.value)",
     "    }),",
-    "    ' You said: ' + v.attrs.model(),",
-    "    m('ul', v.attrs.model().split('').map(c => m('li', c)))",
-    "   )",
-    " }",
+    "    ' You said: ' + v.attrs.model())",
+    "}",
     "",
-    "const app = mdl => ({ ",
-    "  view: () => m(helloWorld, { model: mdl })",
-    "});",
+    "const listEcho = {",
+    "  view: v =>  m('ul', ",
+    "    v.attrs.model().split('').map(c => m('li', c))",
+    "  )",
+    "}",
+    "",
+    "const app = mdl => ({",
+    "  view: () => m('div',",
+    "    m(helloWorld),",
+    "    m(inputEcho, { model: mdl }),",
+    "    m(listEcho, { model: mdl }))",
+    "})",
+    "",
+    "m.mount(document.body, app(m.stream('123')));",
+  ].join('\n'))
+</script>
+Points of interest:
+
+-   The `view` method takes one parameter, a reference to its vnode.
+-   `vnode.attrs` contains any attributes attached to the component.
+-   `vnode` has other useful fields including `state` which persists
+-   across redraws.
+-   Mithril includes a functional stream library (e.g.
+    `m.stream('123')`. In this example I'm using it as a simple
+    *getter/setter*. Streams are powerful, reactive object (think
+    computed properties on steroids for instance).
+-   Streams are not required in Mithril (or this example), but they're
+    so darn useful, I couldn't resist introducing them here.
+
+And just to drive the point home about the expressiveness of writing
+your markup in JavaScript, check out the `app` component in the next
+example.
+
+<div id="yousaid7" style="height: 55em; border: 1px solid lightgray; margin-bottom: 1em"></div>
+<script>
+  Example('yousaid7', [
+    "const helloWorld = { view: () =>",
+    "  m('h1', 'Hello World')",
+    "}",
+    "",
+    "const resetButton = {",
+    "  view: v => m('button', ",
+    "    { onclick: () => v.attrs.model('') },", 
+    "    'Reset')",
+    "}",
+    "",
+    "const inputEcho = {",
+    "  view: v => m('div',",
+    "    m(resetButton, { model: v.attrs.model }),",
+    "    m('input', {",
+    "      value: v.attrs.model(),",
+    "      oninput: e => v.attrs.model(e.target.value)",
+    "    }),",
+    "    ' You said: ' + v.attrs.model())",
+    "}",
+    "",
+    "const listEcho = {",
+    "  view: v =>  m('ul', ",
+    "    v.attrs.model().split('').map(c => m('li', c))",
+    "  )",
+    "}",
+    "",
+    "const app = mdl => ({",
+    "  view: () => m('div', [helloWorld, inputEcho, listEcho]",
+    "    .map(c => m(c, { model: mdl })))",
+    "})",
     "",
     "m.mount(document.body, app(m.stream('123')));"
   ].join('\n'))
 </script>
-
-Points of interest:
-
--   `youSaid` has been changed to a stream function. To retrieve
-    the current value use `youSaid()`. To set it use `youSaid(value)`.
--   So what's this `m.stream('123')`? Mithril has an
-    opt-in functional stream library! If you're not familiar with
-    functional streams (I wasn't), they're worth the effort to learn. For
-    purposes of this example you can think of them as simple
-    *getters/setters*. Streams can do so much more (they're reactive),
-    but are beyond the scope of this article.
--   You may be wondering what the `_` parameter in `view` is for.
-    Mithril components can have an optional controller function which is
-    later passed to the view via the first parameter. We're not using
-    controllers in these examples so I'm using an `_` to indicate it's
-    not used.
-
 Other random things I really like about Mithril
 
 -   Mithril has a concise high-level utility for working with web
@@ -345,28 +363,27 @@ Other random things I really like about Mithril
     generated from code. The author has done a great job explaining how
     the API's work and the motivation behind why it works as it does.
 
--   It's fast. It most cases it's much faster than React. You can see
+-   It's performant. It many cases it's faster than React. You can see
     the [benchmarks](http://mithriljs.org/benchmarks.html) on the web
     site. [Repaint Rate
     Challenge](https://mathieuancelin.github.io/js-repaint-perfs/) also
     has some interesting benchmarks. Like all benchmarks, take them with
-    a grain a salt. My take away is that framework performance is not an
-    issue.
+    a grain a salt. My take away is that framework performance is on as
+    good or better than the big 3 (Angular, React, Vue).
 
 -   The [Gitter](https://gitter.im/lhorie/mithril.js) chat group is
     helpful and friendly.
 
--   If you like using JSX, there's an [MSX
-    tool](http://mithriljs.org/tools.html) for Mithril that does the
-    same thing.
+-   You can use JSX if you like. I'm not a JSX fan because I find
+    Mithril's hypertext functionallity is more expressive. JSX can be
+    handled in Babel, Webpack, Parcel, etc.
 
 -   [Templates can be
     compiled](http://mithriljs.org/optimizing-performance.html) for that
     last bit of performance tweaking.
 
--   Works great with Typescript. Mithril has a [type definition
-    file](https://github.com/lhorie/mithril.js/blob/next/mithril.d.ts)
-    in the respository.
+-   Works great with Typescript. Mithril has a type definitions at
+    npmjs.org.
 
 -   Supports ancient versions of Internet Explorer (with additional
     work)
