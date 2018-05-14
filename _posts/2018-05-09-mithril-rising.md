@@ -83,8 +83,8 @@ function Example(id, code, css) {
 Points of Interest:
 
 -   The [`m()`](https://mithril.js.org/hyperscript.html) function
-    generates a [`vnode`](https://mithril.js.org/vnodes.html). Vnodes
-    are Javascript data structure that describes a DOM tree, Mithril
+    generates a [`vnode`](https://mithril.js.org/vnodes.html). `Vnodes`
+    are Javascript data structures that describe a DOM tree. Mithril
     uses `vnodes` to build and update Web pages.
 -   [`m.render()`](https://mithril.js.org/render.html) is a low-level
     function. Typically you use the
