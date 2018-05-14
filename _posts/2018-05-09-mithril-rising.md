@@ -88,8 +88,8 @@ Points of Interest:
     Web page.
 -   [`m.render()`](https://mithril.js.org/render.html) is a low-level
     function. Typically you use the
-    [m.mount()](https://mithril.js.org/mount.html) as you'll see in the
-    next example.
+    [`m.mount()`](https://mithril.js.org/mount.html) as you'll see in
+    the next example.
 -   Text `vnodes` can be expressed as a simple string. Try replacing
     `m('h1', 'Hello world')` with `'Hello World'` above (examples are
     editable!)
@@ -153,9 +153,8 @@ Points of interest:
     or comma separated list of parameters.
 -   **Try it**: Remove the square brackes brackets from lines 4 and 11.
 -   Text nodes are expressed as strings.
--   There is no two-way binding. Components simply reflect the state of
-    the model.
--   Mithril does not have an eventing system. Use DOM events.
+-   There is no builtin two-way binding. Components simply reflect the
+    state of the model.
 -   Redrawing occurs automatically for mounted components on events
     (`oninput` in this case).
 -   For the sake of brevity I'm using a simple global data model,
@@ -248,14 +247,14 @@ Let's add a button to reset the model (`youSaid`).
 </script>
 Points of interest:
 
--   Moved the `input` functionality into a new component. `helloWorld`
-    was doing too many things.
+-   Moved the `input` functionality into a new component.
+-   Added a `resetButton` component to demonstrate event handling.
 -   Mithril's low-ceremony components promote small, consise components.
 -   More complex components are a composition of other components.
 
 In the next example, I want to remove the global references to the
 `youSaid` model. Instead, I'll pass the model down to the components
-through Mithril's vnode object.
+through Mithril's `vnode` object.
 
 <div id="yousaid6" style="height: 55em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
@@ -300,7 +299,7 @@ Points of interest:
 
 -   The `view` method takes one parameter, a reference to its `vnode`.
 -   `vnode.attrs` contains any attributes attached to the component.
--   `vnode` has other useful fields including `state`, which persists
+-   `vnode` has other useful fields including `state`, that persist
 -   across redraws.
 -   Mithril includes a functional stream library (e.g.
     `m.stream('123')`. In this example I'm using it as a simple
