@@ -1,7 +1,7 @@
 ---
 layout: post  
 title:  'Mithril Rising'  
-published: false
+published: true
 ...
 
 This is a follow up to a post a wrote last year about Mithril v0.24. It
@@ -14,12 +14,11 @@ web site front ends. It's similar to React but is easier to understand,
 faster and much much smaller (8K compressed).
 
 What's surprising is despite its tiny size, it's a more potent solution
-than React. It provides a templating engine with a virtual DOM
-differencing implementation for performant rendering, utilities for
-high-level modeling via functional composition, support for routing,
-HTTP requests and componentization. Just enough functionality to hit
-that sweet of generating forms and making service requests without
-having to, "Download the Internet."
+than React. It uses a virtual DOM differencing implementation for
+performant rendering, utilities for high-level modeling via functional
+composition, support for routing, HTTP requests and componentization.
+Just enough functionality to hit that sweet of generating forms and
+making service requests without having to, "Download the Internet."
 
 > *Note: I'm assuming you have a passing familiarity with React or other
 > React like frameworks.*
@@ -83,11 +82,15 @@ function Example(id, code, css) {
 </script>
 Points of Interest:
 
--   The `m()` function generates a `vnode`. Vnodes are virtual DOM
-    objects that Mithril uses to build and update the Web page.
--   `m.render()` is a low-level function. Typically you use the
-    `m.mount()` as you'll see in the next example.
--   Text *vnodes* can be expressed as a simple string. Try replacing
+-   The [`m()`](https://mithril.js.org/hyperscript.html) function
+    generates a [`vnodes`](https://mithril.js.org/vnodes.html). Vnodes
+    are virtual DOM objects that Mithril uses to build and update the
+    Web page.
+-   [`m.render()`](https://mithril.js.org/render.html) is a low-level
+    function. Typically you use the
+    [m.mount()](https://mithril.js.org/mount.html) as you'll see in the
+    next example.
+-   Text `vnodes` can be expressed as a simple string. Try replacing
     `m('h1', 'Hello world')` with `'Hello World'` above (examples are
     editable!)
 
@@ -108,18 +111,16 @@ World" as a component.
 </script>
 Points of interest:
 
+-   A JavaScript object only needs a `view` method that returns a
+    *vnode* to be recognized as a component.
 -   Components are dead-simple JavaScript objects. They're not inherited
     from a base class or otherwise encumbered.
--   A component only needs a `view` method that returns a *vnode*.
 -   Components are loaded via
-    [`m.mount()`](http://mithriljs.org/mithril.mount.html) (similar to
-    other frameworks).
+    [`m.mount()`](http://mithril.js.org/mount.html) (similar to other
+    frameworks).
 -   Components that are *mounted* will be redrawn automatically by the
     framework after DOM events are triggred.
--   Components can have life-cycle methods (more on this later). Mithril
-    will call a component's defined life-cycle methods if *mounted*.
-    `m.render()` does not particpate in Mithril's autoredraw system or
-    life-cycle methods.
+-   Components can have life-cycle methods (similar to Reach).
 -   There's very little boiler plate required to bootstrap a Mithril
     application.
 
@@ -148,10 +149,10 @@ the input box, the contents are echoed to the Web page.
 </script>
 Points of interest:
 
--   *vnodes* can have children. Child elements are expressed as an array
+-   *Vnodes* can have children. Child elements are expressed as an array
     or comma separated list of parameters.
--   **Try it**: Remove the square brackes brackets from line 4 and 11.
--   Text nodes can be expressed as strings.
+-   **Try it**: Remove the square brackes brackets from lines 4 and 11.
+-   Text nodes are expressed as strings.
 -   There is no two-way binding. Components simply reflect the state of
     the model.
 -   Mithril does not have an eventing system. Use DOM events.
@@ -160,9 +161,9 @@ Points of interest:
 -   For the sake of brevity I'm using a simple global data model,
     `youSaid`.
 
-Next let's look at how Mithril handles iteration. We'll take the example
-above and have it split the input into an array of characters and put
-those characters into a list.
+Next, let's look at how Mithril handles iteration. We'll take the
+example above and split the input into an array of characters and render
+it as an unordered list.
 
 <div id="yousaid2" style="height: 45em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
@@ -202,7 +203,7 @@ Points of interest:
 -   Mithril naturally lends itself to building components by
     composition.
 
-Let's add a button to reset the model (youSaid).
+Let's add a button to reset the model (`youSaid`).
 
 <div id="yousaid3" style="height: 58em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
@@ -247,14 +248,14 @@ Let's add a button to reset the model (youSaid).
 </script>
 Points of interest:
 
--   At this point, it makes sense to break the `helloWorld`
-    functionality into multiple components.
+-   Moved the `input` functionality into a new component. `helloWorld`
+    was doing too many things.
 -   Mithril's low-ceremony components promote small, consise components.
--   More complex components are a composition of simpler components.
+-   More complex components are a composition of other components.
 
-In this last example, I want to remove the global `youSaid` model.
-Instead, I'll pass the model down to the components through Mithri'sl
-vnode object.
+In the next example, I want to remove the global references to the
+`youSaid` model. Instead, I'll pass the model down to the components
+through Mithril's vnode object.
 
 <div id="yousaid6" style="height: 55em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
@@ -297,16 +298,16 @@ vnode object.
 </script>
 Points of interest:
 
--   The `view` method takes one parameter, a reference to its vnode.
+-   The `view` method takes one parameter, a reference to its `vnode`.
 -   `vnode.attrs` contains any attributes attached to the component.
--   `vnode` has other useful fields including `state` which persists
+-   `vnode` has other useful fields including `state`, which persists
 -   across redraws.
 -   Mithril includes a functional stream library (e.g.
     `m.stream('123')`. In this example I'm using it as a simple
-    *getter/setter*. Streams are powerful, reactive object (think
+    *getter/setter*. Streams are powerful, reactive objects (think
     computed properties on steroids for instance).
 -   Streams are not required in Mithril (or this example), but they're
-    so darn useful, I couldn't resist introducing them here.
+    so darn useful, I couldn't resist using them.
 
 And just to drive the point home about the expressiveness of writing
 your markup in JavaScript, check out the `app` component in the next
@@ -352,9 +353,11 @@ example.
 Other random things I really like about Mithril
 
 -   Mithril has a concise high-level utility for working with web
-    services called `m.request`. It even supports JSONP.
+    services called [`m.request`](https://mithril.js.org/request.html).
+    It even supports JSONP.
 
--   It also contains a routing system (`m.route()`) to help create
+-   It also contains a routing system
+    ([`m.route()`](https://mithril.js.org/route.html)) to help create
     Single Page Applications (SPA).
 
 -   There's a simple but effective promise system to handle asynchrony.
@@ -363,9 +366,7 @@ Other random things I really like about Mithril
     generated from code. The author has done a great job explaining how
     the API's work and the motivation behind why it works as it does.
 
--   It's performant. It many cases it's faster than React. You can see
-    the [benchmarks](http://mithriljs.org/benchmarks.html) on the web
-    site. [Repaint Rate
+-   It's performant. It many cases it's faster than React. [Repaint Rate
     Challenge](https://mathieuancelin.github.io/js-repaint-perfs/) also
     has some interesting benchmarks. Like all benchmarks, take them with
     a grain a salt. My take away is that framework performance is on as
@@ -378,12 +379,8 @@ Other random things I really like about Mithril
     Mithril's hypertext functionallity is more expressive. JSX can be
     handled in Babel, Webpack, Parcel, etc.
 
--   [Templates can be
-    compiled](http://mithriljs.org/optimizing-performance.html) for that
-    last bit of performance tweaking.
-
 -   Works great with Typescript. Mithril has a type definitions at
-    npmjs.org.
+    [npmjs.org](https://www.npmjs.com/package/@types/mithril).
 
 -   Supports ancient versions of Internet Explorer (with additional
     work)
@@ -410,8 +407,7 @@ without overwhelming you with details.
 Finally, I've put together an example of a rudimentary iTunes browser.
 This is the standard little toy application I write when I explore a new
 framework. It demonstrates, in a bit more structured way, forms
-processing, table generation, micro-service requests, column sorting and
-even a fun little video player.
+processing, table generation, micro-service requests.
 
 <div id="iTunes" style="height: 99em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
