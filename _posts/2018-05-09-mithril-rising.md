@@ -205,7 +205,7 @@ Points of interest:
 
 Let's add a button to reset the model (`youSaid`).
 
-<div id="yousaid3" style="height: 65em; border: 1px solid lightgray; margin-bottom: 1em"></div>
+<div id="yousaid3" style="height: 80em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
   Example('yousaid3', [
     "let youSaid = '123';",
@@ -409,7 +409,7 @@ This is the standard little toy application I write when I explore a new
 framework. It demonstrates, in a bit more structured way, forms
 processing, table generation, micro-service requests.
 
-<div id="iTunes" style="height: 120em; border: 1px solid lightgray; margin-bottom: 1em"></div>
+<div id="iTunes" style="height: 150em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
   Example('iTunes', [
     "const model = {",
