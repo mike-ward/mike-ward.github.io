@@ -13,18 +13,18 @@ rewriting and extending my earlier post.
 Web site front ends. It's similar to React but is easier to understand,
 faster and much much smaller (8K compressed).
 
-What's surprising is despite its tiny size, it's a more potent solution
-than React. It uses a virtual DOM differencing implementation for
-performant rendering, utilities for high-level modeling via functional
-composition, support for routing, HTTP requests and componentization.
-Just enough functionality to hit that sweet of generating forms and
-making service requests without having to, "Download the Internet."
+What's surprising is despite its tiny size, Mithril is a more potent
+solution than React. Mithril uses a virtual DOM differencing
+implementation for performant rendering, utilities for high-level
+modeling via functional composition, support for routing, HTTP requests
+and componentization. Just enough functionality to hit that sweet of
+generating forms and making service requests without having to,
+"Download the Internet."
 
 > *Note: I'm assuming you have a passing familiarity with React or other
 > React like frameworks.*
 
-OK, so what does it look like? Assuming that `mithril.js` is already
-loaded on the page:
+OK, so what does it look like? 
 
 <script src="https://flems.io/flems.html" type="text/javascript" charset="utf-8"></script>
 <script>
