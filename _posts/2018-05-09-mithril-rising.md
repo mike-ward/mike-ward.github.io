@@ -4,13 +4,13 @@ title:  'Mithril Rising'
 published: true
 ...
 
-This is a follow up to a post a wrote last year about Mithril v0.24. It
-has since been updated to a v1.0 release. There are a number of small
-changes and some awesome new stuff so I'm rewriting and extending my
-earlier post.
+This is a follow up to a post a wrote last year about Mithril v0.24. At
+the time of this writing, Mithril's current release is v:1.1.6. There
+are a number of small changes and some awesome new stuff so I'm
+rewriting and extending my earlier post.
 
 [Mithril](https://mithril.js.org/) is a JavaScript framework for writing
-web site front ends. It's similar to React but is easier to understand,
+Web site front ends. It's similar to React but is easier to understand,
 faster and much much smaller (8K compressed).
 
 What's surprising is despite its tiny size, it's a more potent solution
