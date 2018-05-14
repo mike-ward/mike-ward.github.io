@@ -24,7 +24,7 @@ generating forms and making service requests without having to,
 > *Note: I'm assuming you have a passing familiarity with React or other
 > React like frameworks.*
 
-OK, so what does it look like? 
+OK, so what does it look like?
 
 <script src="https://flems.io/flems.html" type="text/javascript" charset="utf-8"></script>
 <script>
@@ -84,8 +84,8 @@ Points of Interest:
 
 -   The [`m()`](https://mithril.js.org/hyperscript.html) function
     generates a [`vnode`](https://mithril.js.org/vnodes.html). Vnodes
-    are virtual DOM objects that Mithril uses to build and update the
-    Web page.
+    are Javascript data structure that describes a DOM tree, Mithril
+    uses `vnodes` to build and update Web pages.
 -   [`m.render()`](https://mithril.js.org/render.html) is a low-level
     function. Typically you use the
     [`m.mount()`](https://mithril.js.org/mount.html) as you'll see in
@@ -149,7 +149,7 @@ the input box, the contents are echoed to the Web page.
 </script>
 Points of interest:
 
--   *Vnodes* can have children. Child elements are expressed as an array
+-   `Vnodes` can have children. Child elements are expressed as an array
     or comma separated list of `vnodes`.
 -   **Try it**: Remove the square brackes brackets from lines 4 and 11.
 -   Text nodes are expressed as strings.
