@@ -83,14 +83,14 @@ function Example(id, code, css) {
 Points of Interest:
 
 -   The [`m()`](https://mithril.js.org/hyperscript.html) function
-    generates a [`vnodes`](https://mithril.js.org/vnodes.html). Vnodes
+    generates a [`vnode`](https://mithril.js.org/vnodes.html). Vnodes
     are virtual DOM objects that Mithril uses to build and update the
     Web page.
 -   [`m.render()`](https://mithril.js.org/render.html) is a low-level
     function. Typically you use the
     [`m.mount()`](https://mithril.js.org/mount.html) as you'll see in
     the next example.
--   Text `vnodes` can be expressed as a simple string. Try replacing
+-   Text `vnodes` can be expressed as simple strings. Try replacing
     `m('h1', 'Hello world')` with `'Hello World'` above (examples are
     editable!)
 
@@ -112,7 +112,7 @@ World" as a component.
 Points of interest:
 
 -   A JavaScript object only needs a `view` method that returns a
-    *vnode* to be recognized as a component.
+    `vnode` to be recognized as a component.
 -   Components are dead-simple JavaScript objects. They're not inherited
     from a base class or otherwise encumbered.
 -   Components are loaded via
@@ -150,7 +150,7 @@ the input box, the contents are echoed to the Web page.
 Points of interest:
 
 -   *Vnodes* can have children. Child elements are expressed as an array
-    or comma separated list of parameters.
+    or comma separated list of `vnodes`.
 -   **Try it**: Remove the square brackes brackets from lines 4 and 11.
 -   Text nodes are expressed as strings.
 -   There is no builtin two-way binding. Components simply reflect the
@@ -249,7 +249,7 @@ Points of interest:
 
 -   Moved the `input` functionality into a new component.
 -   Added a `resetButton` component to demonstrate event handling.
--   Mithril's low-ceremony components promote small, consise components.
+-   Mithril's low-ceremony components promote small, concise components.
 -   More complex components are a composition of other components.
 
 In the next example, I want to remove the global references to the
@@ -406,7 +406,7 @@ without overwhelming you with details.
 Finally, I've put together an example of a rudimentary iTunes browser.
 This is the standard little toy application I write when I explore a new
 framework. It demonstrates, in a bit more structured way, forms
-processing, table generation, micro-service requests.
+processing, table generation and service requests.
 
 <div id="iTunes" style="height: 180em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
