@@ -9,7 +9,7 @@ has since been updated to a v1.0 release. There are a number of small
 changes and some awesome new stuff so I'm rewriting and extending my
 earlier post.
 
-[Mithril](http://mithriljs.org/) is a JavaScript framework for writing
+[Mithril](https://mithril.js.org/) is a JavaScript framework for writing
 web site front ends. It's similar to React but is easier to understand,
 faster and much much smaller (8K compressed).
 
