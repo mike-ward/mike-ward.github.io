@@ -309,42 +309,43 @@ Points of interest:
     so darn useful, I couldn't resist using them.
 
 And just to drive the point home about the expressiveness of writing
-your markup in JavaScript, check out the `app` component in the next
-example.
+your markup in JavaScript, the last example demonstrates *ES6 destructuring*
+and additional mapping in the `app` component.
 
 <div id="yousaid7" style="height: 55em; border: 1px solid lightgray; margin-bottom: 1em"></div>
 <script>
   Example('yousaid7', [
-    "const helloWorld = { view: () =>",
-    "  m('h1', 'Hello World')",
-    "}",
+    "  const helloWorld = { view: () =>",
+    "    m('h1', 'Hello World')",
+    "  }",
     "",
-    "const resetButton = {",
-    "  view: v => m('button', ",
-    "    { onclick: () => v.attrs.model('') },", 
-    "    'Reset')",
-    "}",
+    "  const resetButton = {",
+    "    view: ({attrs: {model}}) => m('button',", 
+    "      { onclick: () => model('') },",
+    "      'Reset')",
+    "  }",
     "",
-    "const inputEcho = {",
-    "  view: v => m('div',",
-    "    m(resetButton, { model: v.attrs.model }),",
-    "    m('input', {",
-    "      value: v.attrs.model(),",
-    "      oninput: e => v.attrs.model(e.target.value)",
-    "    }),",
-    "    ' You said: ' + v.attrs.model())",
-    "}",
+    "  const inputEcho = {",
+    "    view: ({attrs: {model}}) => m('div',",
+    "      m(resetButton, { model: model }),",
+    "      m('input', {",
+    "        value: model(),",
+    "        oninput: e => model(e.target.value)",
+    "      }),",
+    "      ' You said: ' + model())",
+    "  }",
     "",
-    "const listEcho = {",
-    "  view: v =>  m('ul', v.attrs.model().split('')",
-    "    .map(c => m('li', c))",
-    "  )",
-    "}",
+    "  const listEcho = {",
+    "    view: ({attrs: {model}}) =>  m('ul', model()",
+    "      .split('')",
+    "      .map(c => m('li', c))",
+    "    )",
+    "  }",
     "",
-    "const app = mdl => ({",
-    "  view: () => m('div', [helloWorld, inputEcho, listEcho]",
-    "    .map(c => m(c, { model: mdl })))",
-    "})",
+    "  const app = model => ({",
+    "    view: () => m('div', [helloWorld, inputEcho, listEcho]",
+    "      .map(c => m(c, { model })))",
+    "  })",
     "",
     "m.mount(document.body, app(m.stream('123')));"
   ].join('\n'))
