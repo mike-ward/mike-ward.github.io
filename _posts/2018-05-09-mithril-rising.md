@@ -491,7 +491,7 @@ for (var i = 0; i < examples.length; ++i) {
   var ex = examples[i];
   if (ex.parentNode.tagName !== 'PRE') continue;
   var html = ex.textContent;
-  ex.style.height = '50em';
+  ex.style.height = '55em';
   ex.style.display = 'block';
   ex.style.resize = 'both';
   ex.style.overflow = 'auto';
