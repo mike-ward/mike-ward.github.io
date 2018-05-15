@@ -477,7 +477,7 @@ function Example(el, code, css) {
     reloadButton  : true,
     console       : true,
     autoReload    : true,
-    autoHeight    : true,
+    autoHeight    : false,
   })
 }
 
@@ -487,6 +487,7 @@ for (var i = 0; i < examples.length; ++i) {
   var ex = examples[i];
   if (ex.parentNode.tagName !== 'PRE') continue;
   var html = ex.textContent;
+  ex.style.height = '30em'
   Example(ex, html);
 }
 </script>
