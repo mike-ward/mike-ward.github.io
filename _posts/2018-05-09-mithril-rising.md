@@ -26,7 +26,8 @@ generating forms and making service requests without having to,
 
 OK, so what does it look like?
 
-    m.render(document.body, m('h1', 'Hello world'))
+    m.render(document.body, 
+      m('h1', 'Hello world'))
 
 Points of Interest:
 
@@ -44,9 +45,9 @@ Points of Interest:
 
 Points of interest:
 
-A one-line "Hello World" program is fun but are hardly illustrative of
-Mithril capabilities. Here's a more canonical example with, "Hello
-World" as a component.
+A one-line (well, it could be one line) "Hello World" program is fun but
+are hardly illustrative of Mithril capabilities. Here's a more canonical
+example with, "Hello World" as a component.
 
     const helloWorld = {
       view: () => m('h1', 'Hello World')
@@ -74,7 +75,7 @@ example extends our component to include an input box. As you type in
 the input box, the contents are echoed to the Web page.
 
     let youSaid = '123'
-    
+
     const helloWorld = {
       view: () => m('div', [
         m('h1', 'Hello World'),
@@ -106,7 +107,7 @@ example above and split the input into an array of characters and render
 it as an unordered list.
 
     let youSaid = '123';
-    
+
     const helloWorld = {
       view: () => m('div',
         m('h1', 'Hello World'),
@@ -116,20 +117,20 @@ it as an unordered list.
         }),
         ' You said: ' + youSaid)
     }
-    
+
     const listEcho = {
       view: () =>  m('ul', youSaid
         .split('')
         .map(c => m('li', c))
       )
     }
-    
+
     const app = {
       view: () => m('div',
         m(helloWorld),
         m(listEcho))
     }
-    
+
     m.mount(document.body, app);
 
 Points of interest:
@@ -143,17 +144,17 @@ Points of interest:
 Let's add a button to reset the model (`youSaid`).
 
     let youSaid = '123';
-    
+
     const helloWorld = { view: () =>
       m('h1', 'Hello World')
     }
-    
+
     const resetButton = {
       view: () => m('button', 
         { onclick: () => youSaid = '' },
         'Reset')
     }
-    
+
     const inputEcho = {
       view: () => m('div',
         m(resetButton),
@@ -163,21 +164,21 @@ Let's add a button to reset the model (`youSaid`).
         }),
         ' You said: ' + youSaid)
     }
-    
+
     const listEcho = {
       view: () =>  m('ul', youSaid
         .split('')
         .map(c => m('li', c))
       )
     }
-    
+
     const app = {
       view: () => m('div',
         m(helloWorld),
         m(inputEcho),
         m(listEcho))
     }
-    
+
     m.mount(document.body, app);
 
 Points of interest:
@@ -194,13 +195,13 @@ through Mithril's `vnode` object.
     const helloWorld = { view: () =>
       m('h1', 'Hello World')
     }
-    
+
     const resetButton = {
       view: v => m('button', 
         { onclick: () => v.attrs.model('') },
         'Reset')
     }
-    
+
     const inputEcho = {
       view: v => m('div',
         m(resetButton, { model: v.attrs.model }),
@@ -210,21 +211,21 @@ through Mithril's `vnode` object.
         }),
         ' You said: ' + v.attrs.model())
     }
-    
+
     const listEcho = {
       view: v =>  m('ul', v.attrs.model()
         .split('')
         .map(c => m('li', c))
       )
     }
-    
+
     const app = mdl => ({
       view: () => m('div',
         m(helloWorld),
         m(inputEcho, { model: mdl }),
         m(listEcho, { model: mdl }))
     })
-    
+
     m.mount(document.body, app(m.stream('123')));
 
 Points of interest:
@@ -248,13 +249,13 @@ and additional mapping in the `app` component.
       const helloWorld = { view: () =>
         m('h1', 'Hello World')
       }
-    
+
       const resetButton = {
         view: ({attrs: {model}}) => m('button',
           { onclick: () => model('') },
           'Reset')
       }
-    
+
       const inputEcho = {
         view: ({attrs: {model}}) => m('div',
           m(resetButton, { model: model }),
@@ -264,20 +265,20 @@ and additional mapping in the `app` component.
           }),
           ' You said: ' + model())
       }
-    
+
       const listEcho = {
         view: ({attrs: {model}}) =>  m('ul', model()
           .split('')
           .map(c => m('li', c))
         )
       }
-    
+
       const app = model => ({
         view: () => m('div',
           [helloWorld, inputEcho, listEcho]
           .map(c => m(c, { model })))
       })
-    
+
     m.mount(document.body, app(m.stream('123')));
 
 Other random things I really like about Mithril
@@ -343,11 +344,11 @@ processing, table generation and service requests.
       query: '',
       tracks: [],
       }
-    
+
     const actions = ({
       setQuery: q => 
         model.query = q,
-    
+
       search: () => 
         m.request({
           dataType: 'jsonp',
@@ -356,11 +357,11 @@ processing, table generation and service requests.
         })
         .then(data => { model.tracks = data.results })
       })
-    
+
     const title = {
       view: () => m('h2', 'iTunes Sampler')
       }
-    
+
     const findForm = {
       view: () => m('.pure-form', 
         m('input.pure-input-rounded', {
@@ -369,19 +370,19 @@ processing, table generation and service requests.
         m('button.pure-button', { onclick: actions.search }, 'Search')
         )
       }
-    
+
     const headerRow = () => 
       m('tr', [ 
         ['Track', 'Artist', 'Price'].map(h => m('th', h)) 
       ])
-    
+
     const trackRows = tracks => 
       tracks.map(track => m('tr', [
         m('td', m('img', {src: track.artworkUrl100}), track.trackName),
         m('td', track.artistName),
         m('td', track.trackPrice)
       ]))
-    
+
     const tracksList = {
       view: () => 
         m('table.pure-table.trackslist', 
@@ -389,20 +390,20 @@ processing, table generation and service requests.
           m('tbody', [ trackRows(model.tracks) ])
         )
       }
-    
+
     const iTunes = {
       oninit: () => { 
         actions.setQuery('Rick Astley');
         actions.search()
       },
-    
+
       view: () => m('div',
         m(title),
         m(findForm),
         m(tracksList)
         )
       }
-    
+
     m.mount(document.body, iTunes);
 
 Yep, you've just been “Rick Rolled”.
