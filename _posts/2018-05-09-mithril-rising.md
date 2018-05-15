@@ -444,7 +444,11 @@ function Example(el, code, css) {
       },
       {
         name: '.css',
-        content: css || ''
+        content: 
+          '.trackslist { margin-top: 2em; }' +
+          '.pure-button { margin-left: 1em; }' +
+          'h2 { text-align: center}' +
+          'img { margin-right: 1em; float: left; }'
       }
     ],
     links: [
@@ -487,7 +491,7 @@ for (var i = 0; i < examples.length; ++i) {
   var ex = examples[i];
   if (ex.parentNode.tagName !== 'PRE') continue;
   var html = ex.textContent;
-  ex.style.height = '30em';
+  ex.style.height = '50em';
   ex.style.display = 'block';
   Example(ex, html);
 }
