@@ -26,60 +26,8 @@ generating forms and making service requests without having to,
 
 OK, so what does it look like?
 
-<script src="https://flems.io/flems.html" type="text/javascript" charset="utf-8"></script>
-<script>
-function Example(id, code, css) {
-  Flems(document.getElementById(id), {
-    files: [
-      {
-        name: '.js',
-        content: code
-      },
-      {
-        name: '.css',
-        content: css || ''
-      }
-    ],
-    links: [
-      {
-        name: 'mithril',
-        type: 'script',
-        url: 'https://unpkg.com/mithril'
-      },
-      {
-        name: 'mithril-stream',
-        type: 'script',
-        url: 'https://unpkg.com/mithril-stream'
-      },
-      {
-        name: 'purecss',
-        type: 'css',
-        url: 'https://unpkg.com/purecss'
-      }
-    ],
-    middle        : 55,
-    selected      : '.js',
-    color         : 'rgb(38,50,56)',
-    theme         : 'material',
-    resizeable    : true,
-    editable      : true,
-    toolbar       : true,
-    fileTabs      : true,
-    linkTabs      : true,
-    shareButton   : true,
-    reloadButton  : true,
-    console       : true,
-    autoReload    : true,
-    autoHeight    : false,
-  })
-}
-</script>
-<div id="hello1" style="height: 15em; border: 1px solid lightgray; margin-bottom: 1em"></div>
-<script>
-  Example('hello1', [
-  "m.render(document.body, m('h1', 'Hello world'))",
-  ].join('\n'))
-</script>
+    m.render(document.body, m('h1', 'Hello world'))
+
 Points of Interest:
 
 -   The [`m()`](https://mithril.js.org/hyperscript.html) function
@@ -100,15 +48,12 @@ A one-line "Hello World" program is fun but are hardly illustrative of
 Mithril capabilities. Here's a more canonical example with, "Hello
 World" as a component.
 
-<div id="hello2" style="height: 15em; border: 1px solid lightgray; margin-bottom: 1em"></div>
-<script>Example('hello2', [
-"const helloWorld = {",
-"  view: () => m('h1', 'Hello World')",
-"}",
-"",
-"m.mount(document.body, helloWorld);",
-].join('\n'))
-</script>
+    const helloWorld = {
+      view: () => m('h1', 'Hello World')
+    }
+
+    m.mount(document.body, helloWorld);
+
 Points of interest:
 
 -   A JavaScript object only needs a `view` method that returns a
@@ -128,25 +73,21 @@ Let's get slightly more ambitious and process some form data. This
 example extends our component to include an input box. As you type in
 the input box, the contents are echoed to the Web page.
 
-<div id="yousaid1" style="height: 30em; border: 1px solid lightgray; margin-bottom: 1em"></div>
-<script>
-  Example('yousaid1', [
-    "let youSaid = '123'",
-    "",
-    "const helloWorld = {",
-    "  view: () => m('div', [",
-    "    m('h1', 'Hello World'),",
-    "    m('input', {",
-    "      value: youSaid,",
-    "      oninput: e => youSaid = e.target.value",
-    "    }),",
-    "    ' You said: ' + youSaid",
-    "  ])",
-    "}",
-    "",
-    "m.mount(document.body, helloWorld);"
-  ].join('\n'))
-</script>
+    let youSaid = '123'
+    
+    const helloWorld = {
+      view: () => m('div', [
+        m('h1', 'Hello World'),
+        m('input', {
+          value: youSaid,
+          oninput: e => youSaid = e.target.value
+        }),
+        ' You said: ' + youSaid
+      ])
+    }
+
+    m.mount(document.body, helloWorld);
+
 Points of interest:
 
 -   `Vnodes` can have children. Child elements are expressed as an array
@@ -164,36 +105,33 @@ Next, let's look at how Mithril handles iteration. We'll take the
 example above and split the input into an array of characters and render
 it as an unordered list.
 
-<div id="yousaid2" style="height: 45em; border: 1px solid lightgray; margin-bottom: 1em"></div>
-<script>
-  Example('yousaid2', [
-    "let youSaid = '123';",
-    "",
-    "const helloWorld = {",
-    "  view: () => m('div',",
-    "    m('h1', 'Hello World'),",
-    "    m('input', {",
-    "      value: youSaid,",
-    "      oninput: e => youSaid = e.target.value",
-    "    }),",
-    "    ' You said: ' + youSaid)",
-    "}",
-    "",
-    "const listEcho = {",
-    "  view: () =>  m('ul', youSaid.split('')", 
-    "    .map(c => m('li', c))",
-    "  )",
-    "}",
-    "",
-    "const app = {",
-    "  view: () => m('div',",
-    "    m(helloWorld),",
-    "    m(listEcho))",
-    "}",
-    "",
-    "m.mount(document.body, app);"
-].join('\n'))
-</script>
+    let youSaid = '123';
+    
+    const helloWorld = {
+      view: () => m('div',
+        m('h1', 'Hello World'),
+        m('input', {
+          value: youSaid,
+          oninput: e => youSaid = e.target.value
+        }),
+        ' You said: ' + youSaid)
+    }
+    
+    const listEcho = {
+      view: () =>  m('ul', youSaid
+        .split('')
+        .map(c => m('li', c))
+      )
+    }
+    
+    const app = {
+      view: () => m('div',
+        m(helloWorld),
+        m(listEcho))
+    }
+    
+    m.mount(document.body, app);
+
 Points of interest:
 
 -   No special iteration constructs are required. Standard JavaScript
@@ -204,47 +142,44 @@ Points of interest:
 
 Let's add a button to reset the model (`youSaid`).
 
-<div id="yousaid3" style="height: 56em; border: 1px solid lightgray; margin-bottom: 1em"></div>
-<script>
-  Example('yousaid3', [
-    "let youSaid = '123';",
-    "",
-    "const helloWorld = { view: () =>",
-    "  m('h1', 'Hello World')",
-    "}",
-    "",
-    "const resetButton = {",
-    "  view: () => m('button', ",
-    "    { onclick: () => youSaid = '' },", 
-    "    'Reset')",
-    "}",
-    "",
-    "const inputEcho = {",
-    "  view: () => m('div',",
-    "    m(resetButton),",
-    "    m('input', {",
-    "      value: youSaid,",
-    "      oninput: e => youSaid = e.target.value",
-    "    }),",
-    "    ' You said: ' + youSaid)",
-    "}",
-    "",
-    "const listEcho = {",
-    "  view: () =>  m('ul', youSaid.split('')",
-    "    .map(c => m('li', c))",
-    "  )",
-    "}",
-    "",
-    "const app = {",
-    "  view: () => m('div',",
-    "    m(helloWorld),",
-    "    m(inputEcho),",
-    "    m(listEcho))",
-    "}",
-    "",
-    "m.mount(document.body, app);"
-  ].join('\n'))
-</script>
+    let youSaid = '123';
+    
+    const helloWorld = { view: () =>
+      m('h1', 'Hello World')
+    }
+    
+    const resetButton = {
+      view: () => m('button', 
+        { onclick: () => youSaid = '' },
+        'Reset')
+    }
+    
+    const inputEcho = {
+      view: () => m('div',
+        m(resetButton),
+        m('input', {
+          value: youSaid,
+          oninput: e => youSaid = e.target.value
+        }),
+        ' You said: ' + youSaid)
+    }
+    
+    const listEcho = {
+      view: () =>  m('ul', youSaid
+        .split('')
+        .map(c => m('li', c))
+      )
+    }
+    
+    const app = {
+      view: () => m('div',
+        m(helloWorld),
+        m(inputEcho),
+        m(listEcho))
+    }
+    
+    m.mount(document.body, app);
+
 Points of interest:
 
 -   Moved the `input` functionality into a new component.
@@ -256,45 +191,42 @@ In the next example, I want to remove the global references to the
 `youSaid` model. Instead, I'll pass the model down to the components
 through Mithril's `vnode` object.
 
-<div id="yousaid6" style="height: 55em; border: 1px solid lightgray; margin-bottom: 1em"></div>
-<script>
-  Example('yousaid6', [
-    "const helloWorld = { view: () =>",
-    "  m('h1', 'Hello World')",
-    "}",
-    "",
-    "const resetButton = {",
-    "  view: v => m('button', ",
-    "    { onclick: () => v.attrs.model('') },", 
-    "    'Reset')",
-    "}",
-    "",
-    "const inputEcho = {",
-    "  view: v => m('div',",
-    "    m(resetButton, { model: v.attrs.model }),",
-    "    m('input', {",
-    "      value: v.attrs.model(),",
-    "      oninput: e => v.attrs.model(e.target.value)",
-    "    }),",
-    "    ' You said: ' + v.attrs.model())",
-    "}",
-    "",
-    "const listEcho = {",
-    "  view: v =>  m('ul', v.attrs.model().split('')",
-    "    .map(c => m('li', c))",
-    "  )",
-    "}",
-    "",
-    "const app = mdl => ({",
-    "  view: () => m('div',",
-    "    m(helloWorld),",
-    "    m(inputEcho, { model: mdl }),",
-    "    m(listEcho, { model: mdl }))",
-    "})",
-    "",
-    "m.mount(document.body, app(m.stream('123')));",
-  ].join('\n'))
-</script>
+    const helloWorld = { view: () =>
+      m('h1', 'Hello World')
+    }
+    
+    const resetButton = {
+      view: v => m('button', 
+        { onclick: () => v.attrs.model('') },
+        'Reset')
+    }
+    
+    const inputEcho = {
+      view: v => m('div',
+        m(resetButton, { model: v.attrs.model }),
+        m('input', {
+          value: v.attrs.model(),
+          oninput: e => v.attrs.model(e.target.value)
+        }),
+        ' You said: ' + v.attrs.model())
+    }
+    
+    const listEcho = {
+      view: v =>  m('ul', v.attrs.model()
+        .split('')
+        .map(c => m('li', c))
+      )
+    }
+    
+    const app = mdl => ({
+      view: () => m('div',
+        m(helloWorld),
+        m(inputEcho, { model: mdl }),
+        m(listEcho, { model: mdl }))
+    })
+    
+    m.mount(document.body, app(m.stream('123')));
+
 Points of interest:
 
 -   The `view` method takes one parameter, a reference to its `vnode`.
@@ -313,45 +245,41 @@ your markup in JavaScript, the last example demonstrates [ES6
 destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring)
 and additional mapping in the `app` component.
 
-<div id="yousaid7" style="height: 55em; border: 1px solid lightgray; margin-bottom: 1em"></div>
-<script>
-  Example('yousaid7', [
-    "  const helloWorld = { view: () =>",
-    "    m('h1', 'Hello World')",
-    "  }",
-    "",
-    "  const resetButton = {",
-    "    view: ({attrs: {model}}) => m('button',", 
-    "      { onclick: () => model('') },",
-    "      'Reset')",
-    "  }",
-    "",
-    "  const inputEcho = {",
-    "    view: ({attrs: {model}}) => m('div',",
-    "      m(resetButton, { model: model }),",
-    "      m('input', {",
-    "        value: model(),",
-    "        oninput: e => model(e.target.value)",
-    "      }),",
-    "      ' You said: ' + model())",
-    "  }",
-    "",
-    "  const listEcho = {",
-    "    view: ({attrs: {model}}) =>  m('ul', model()",
-    "      .split('')",
-    "      .map(c => m('li', c))",
-    "    )",
-    "  }",
-    "",
-    "  const app = model => ({",
-    "    view: () => m('div',",
-    "      [helloWorld, inputEcho, listEcho]",
-    "      .map(c => m(c, { model })))",
-    "  })",
-    "",
-    "m.mount(document.body, app(m.stream('123')));"
-  ].join('\n'))
-</script>
+      const helloWorld = { view: () =>
+        m('h1', 'Hello World')
+      }
+    
+      const resetButton = {
+        view: ({attrs: {model}}) => m('button',
+          { onclick: () => model('') },
+          'Reset')
+      }
+    
+      const inputEcho = {
+        view: ({attrs: {model}}) => m('div',
+          m(resetButton, { model: model }),
+          m('input', {
+            value: model(),
+            oninput: e => model(e.target.value)
+          }),
+          ' You said: ' + model())
+      }
+    
+      const listEcho = {
+        view: ({attrs: {model}}) =>  m('ul', model()
+          .split('')
+          .map(c => m('li', c))
+        )
+      }
+    
+      const app = model => ({
+        view: () => m('div',
+          [helloWorld, inputEcho, listEcho]
+          .map(c => m(c, { model })))
+      })
+    
+    m.mount(document.body, app(m.stream('123')));
+
 Other random things I really like about Mithril
 
 -   Mithril has a concise high-level utility for working with web
@@ -411,83 +339,72 @@ This is the standard little toy application I write when I explore a new
 framework. It demonstrates, in a bit more structured way, forms
 processing, table generation and service requests.
 
-<div id="iTunes" style="height: 180em; border: 1px solid lightgray; margin-bottom: 1em"></div>
-<script>
-  Example('iTunes', [
-    "const model = {",
-    "  query: '',",
-    "  tracks: [],",
-    "  }",
-    "",
-    "const actions = ({",
-    "  setQuery: q => ",
-    "    model.query = q,",
-    "",
-    "  search: () => ", 
-    "    m.request({",
-    "      dataType: 'jsonp',",
-    "      url: 'https://itunes.apple.com/search',",
-    "      data: { term: model.query, media: 'musicVideo' }",
-    "    })",
-    "    .then(data => { model.tracks = data.results })",
-    "  })",
-    "",
-    "const title = {",
-    "  view: () => m('h2', 'iTunes Sampler')",
-    "  }",
-    "",
-    "const findForm = {",
-    "  view: () => m('.pure-form', ",
-    "    m('input.pure-input-rounded', {",
-    "      oninput: m.withAttr('value', actions.setQuery), ",
-    "      value: model.query }),",
-    "    m('button.pure-button', { onclick: actions.search }, 'Search')",
-    "    )",
-    "  }",
-    "",
-    "const headerRow = () => ",
-    "  m('tr', [ ",
-    "    ['Track', 'Artist', 'Price'].map(h => m('th', h)) ",
-    "  ])",
-    "",
-    "const trackRows = tracks => ",
-    "  tracks.map(track => m('tr', [",
-    "    m('td', m('img', {src: track.artworkUrl100}), track.trackName),",
-    "    m('td', track.artistName),",
-    "    m('td', track.trackPrice)",
-    "  ]))",
-    "",
-    "const tracksList = {",
-    "  view: () => ",
-    "    m('table.pure-table.trackslist', ",
-    "      m('thead', [ headerRow() ]),",
-    "      m('tbody', [ trackRows(model.tracks) ])",
-    "    )",
-    "  }",
-    "",
-    "const iTunes = {",
-    "  oninit: () => { ",
-    "    actions.setQuery('Rick Astley');",
-    "    actions.search()",
-    "  },",
-    "",
-    "  view: () => m('div',",
-    "    m(title),",
-    "    m(findForm),",
-    "    m(tracksList)",
-    "    )",
-    "  }",
-    "",
-    "m.mount(document.body, iTunes);"
-  ].join('\n'),
-  [
-    "html { margin: 2em; }",
-    ".trackslist { margin-top: 2em; }",
-    ".pure-button { margin-left: 1em; }",
-    "h2 { text-align: center}",
-    "img { margin-right: 1em; float: left; }"
-  ].join('\n'))
-</script>
+    const model = {
+      query: '',
+      tracks: [],
+      }
+    
+    const actions = ({
+      setQuery: q => 
+        model.query = q,
+    
+      search: () => 
+        m.request({
+          dataType: 'jsonp',
+          url: 'https://itunes.apple.com/search',
+          data: { term: model.query, media: 'musicVideo' }
+        })
+        .then(data => { model.tracks = data.results })
+      })
+    
+    const title = {
+      view: () => m('h2', 'iTunes Sampler')
+      }
+    
+    const findForm = {
+      view: () => m('.pure-form', 
+        m('input.pure-input-rounded', {
+          oninput: m.withAttr('value', actions.setQuery), 
+          value: model.query }),
+        m('button.pure-button', { onclick: actions.search }, 'Search')
+        )
+      }
+    
+    const headerRow = () => 
+      m('tr', [ 
+        ['Track', 'Artist', 'Price'].map(h => m('th', h)) 
+      ])
+    
+    const trackRows = tracks => 
+      tracks.map(track => m('tr', [
+        m('td', m('img', {src: track.artworkUrl100}), track.trackName),
+        m('td', track.artistName),
+        m('td', track.trackPrice)
+      ]))
+    
+    const tracksList = {
+      view: () => 
+        m('table.pure-table.trackslist', 
+          m('thead', [ headerRow() ]),
+          m('tbody', [ trackRows(model.tracks) ])
+        )
+      }
+    
+    const iTunes = {
+      oninit: () => { 
+        actions.setQuery('Rick Astley');
+        actions.search()
+      },
+    
+      view: () => m('div',
+        m(title),
+        m(findForm),
+        m(tracksList)
+        )
+      }
+    
+    m.mount(document.body, iTunes);
+
 Yep, you've just been “Rick Rolled”.
 
 ### About [FLEMS.IO](https://flems.io)
@@ -515,3 +432,62 @@ type by hovering over it in the sidebar and using the up & down arrows.
 Flems.io is based on the Open Source [Flems
 module](https://github.com/porsager/flems) which you can use for easy
 self hosting or embedding.
+
+<script src="https://flems.io/flems.html" type="text/javascript" charset="utf-8"></script>
+<script>
+function Example(el, code, css) {
+  Flems(el, {
+    files: [
+      {
+        name: '.js',
+        content: code
+      },
+      {
+        name: '.css',
+        content: css || ''
+      }
+    ],
+    links: [
+      { 
+        name: 'mithril',
+        type: 'script',
+        url: 'https://unpkg.com/mithril'
+      },
+      {
+        name: 'mithril-stream',
+        type: 'script',
+        url: 'https://unpkg.com/mithril-stream'
+      },
+      {
+        name: 'purecss',
+        type: 'css',
+        url: 'https://unpkg.com/purecss'
+      }
+    ],
+    middle        : 55,
+    selected      : '.js',
+    color         : 'rgb(38,50,56)',
+    theme         : 'material',
+    resizeable    : true,
+    editable      : true,
+    toolbar       : true,
+    fileTabs      : true,
+    linkTabs      : true,
+    shareButton   : true,
+    reloadButton  : true,
+    console       : true,
+    autoReload    : true,
+    autoHeight    : false,
+  })
+}
+
+examples = document.getElementsByTagName('code');
+
+for (var i = 0; i < examples.length; ++i) {
+  var ex = examples[i];
+  if (ex.parentNode.tagName !== 'PRE') continue;
+  var html = ex.textContent;
+  Example(ex, html);
+}
+</script>
+
