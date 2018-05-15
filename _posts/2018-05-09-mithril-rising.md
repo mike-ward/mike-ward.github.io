@@ -493,6 +493,8 @@ for (var i = 0; i < examples.length; ++i) {
   var html = ex.textContent;
   ex.style.height = '50em';
   ex.style.display = 'block';
+  ex.style.resize = 'both';
+  ex.style.overflow = 'auto';
   Example(ex, html);
 }
 </script>
