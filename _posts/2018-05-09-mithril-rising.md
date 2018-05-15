@@ -487,7 +487,8 @@ for (var i = 0; i < examples.length; ++i) {
   var ex = examples[i];
   if (ex.parentNode.tagName !== 'PRE') continue;
   var html = ex.textContent;
-  ex.style.height = '30em'
+  ex.style.height = '30em';
+  ex.style.display = 'block';
   Example(ex, html);
 }
 </script>
