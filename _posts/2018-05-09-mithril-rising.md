@@ -120,7 +120,7 @@ Points of interest:
     frameworks).
 -   Components that are *mounted* will be redrawn automatically by the
     framework after DOM events are triggred.
--   Components can have life-cycle methods (similar to Reach).
+-   Components can have life-cycle methods (similar to React).
 -   There's very little boiler plate required to bootstrap a Mithril
     application.
 
