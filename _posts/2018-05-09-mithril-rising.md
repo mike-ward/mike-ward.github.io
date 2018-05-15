@@ -445,10 +445,10 @@ function Example(el, code, css) {
       {
         name: '.css',
         content: 
-          '.trackslist { margin-top: 2em; }' +
-          '.pure-button { margin-left: 1em; }' +
-          'h2 { text-align: center}' +
-          'img { margin-right: 1em; float: left; }'
+          '.trackslist { margin-top: 2em; }\n' +
+          '.pure-button { margin-left: 1em; }\n' +
+          'h2 { text-align: center}\n' +
+          'img { margin-right: 1em; float: left; }\n'
       }
     ],
     links: [
