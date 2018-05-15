@@ -309,7 +309,8 @@ Points of interest:
     so darn useful, I couldn't resist using them.
 
 And just to drive the point home about the expressiveness of writing
-your markup in JavaScript, the last example demonstrates *ES6 destructuring*
+your markup in JavaScript, the last example demonstrates [ES6
+destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring)
 and additional mapping in the `app` component.
 
 <div id="yousaid7" style="height: 55em; border: 1px solid lightgray; margin-bottom: 1em"></div>
