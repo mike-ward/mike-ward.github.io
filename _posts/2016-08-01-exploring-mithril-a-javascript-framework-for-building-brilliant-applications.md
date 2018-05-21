@@ -3,6 +3,9 @@ layout: post
 title:  'Exploring Mithril, A JavaScript Framework for Building Brilliant Applications'  
 ...
 
+**This article is outdated!** See [Mithril Rising
+](http://mike-ward.net/2018/05/09/mithril-rising/)
+
 [Mithril](http://mithriljs.org/) is a JavaScript framework for writing
 web site front ends. It's similar to React but is easier to understand,
 faster and much much smaller (7.8K compressed).
