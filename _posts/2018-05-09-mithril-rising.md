@@ -482,7 +482,7 @@ function Example(el, code, css) {
     reloadButton  : true,
     console       : true,
     autoReload    : true,
-    autoHeight    : false,
+    autoHeight    : true,
   })
 }
 
