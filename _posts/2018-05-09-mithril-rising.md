@@ -211,7 +211,7 @@ through Mithril's `vnode` object.
           value: v.attrs.model(),
           oninput: e => v.attrs.model(e.target.value)
         }),
-        m('p'. ' You said: ' + v.attrs.model())
+        m('p', ' You said: ' + v.attrs.model())
       )
     }
 
