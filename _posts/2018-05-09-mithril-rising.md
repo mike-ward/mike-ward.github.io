@@ -4,7 +4,7 @@ title:  'Mithril Rising'
 published: true
 ...
 
-This is a follow up to a post a wrote last year about Mithril v0.24. At
+This is a follow up to a post I wrote last year about Mithril v0.24. At
 the time of this writing, Mithril's current release is v:1.1.6. There
 are a number of small changes and some awesome new stuff so I'm
 rewriting and extending my earlier post.
