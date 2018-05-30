@@ -83,7 +83,7 @@ the input box, the contents are echoed to the Web page.
           value: youSaid,
           oninput: e => youSaid = e.target.value
         }),
-        ' You said: ' + youSaid
+        m('p', 'You said: ' + youSaid)
       ])
     }
 
@@ -115,7 +115,7 @@ it as an unordered list.
           value: youSaid,
           oninput: e => youSaid = e.target.value
         }),
-        ' You said: ' + youSaid)
+        m('p', 'You said: ' + youSaid)
     }
 
     const listEcho = {
@@ -162,7 +162,7 @@ Let's add a button to reset the model (`youSaid`).
           value: youSaid,
           oninput: e => youSaid = e.target.value
         }),
-        ' You said: ' + youSaid)
+        m('p', 'You said: ' + youSaid)
     }
 
     const listEcho = {
@@ -209,7 +209,7 @@ through Mithril's `vnode` object.
           value: v.attrs.model(),
           oninput: e => v.attrs.model(e.target.value)
         }),
-        ' You said: ' + v.attrs.model())
+        m('p'. ' You said: ' + v.attrs.model()))
     }
 
     const listEcho = {
@@ -263,7 +263,7 @@ and additional mapping in the `app` component.
             value: model(),
             oninput: e => model(e.target.value)
           }),
-          ' You said: ' + model())
+          m('p', ' You said: ' + model()))
       }
 
       const listEcho = {
