@@ -438,66 +438,69 @@ Flems.io is based on the Open Source [Flems
 module](https://github.com/porsager/flems) which you can use for easy
 self hosting or embedding.
 
+<script src="https://unpkg.com/lz-string" type="text/javascript"></script>
 <script src="https://flems.io/flems.html" type="text/javascript" charset="utf-8"></script>
 <script>
-function Example(el, code, css) {
-  Flems(el, {
-    files: [
+  function Example(el, code, css) {
+      var link = 'https://flems.io/#0=' + LZString.compressToEncodedURIComponent(JSON.stringify(
       {
-        name: '.js',
-        content: code
-      },
-      {
-        name: '.css',
-        content: 
-          '.trackslist { margin-top: 2em; }\n' +
-          '.pure-button { margin-left: 1em; }\n' +
-          'h2 { text-align: center}\n' +
-          'img { margin-right: 1em; float: left; }\n'
-      }
-    ],
-    links: [
-      { 
-        name: 'mithril',
-        type: 'script',
-        url: 'https://unpkg.com/mithril'
-      },
-      {
-        name: 'mithril-stream',
-        type: 'script',
-        url: 'https://unpkg.com/mithril-stream'
-      },
-      {
-        name: 'purecss',
-        type: 'css',
-        url: 'https://unpkg.com/purecss'
-      }
-    ],
-    middle        : 55,
-    selected      : '.js',
-    color         : 'rgb(38,50,56)',
-    theme         : 'material',
-    resizeable    : true,
-    editable      : true,
-    toolbar       : true,
-    fileTabs      : true,
-    linkTabs      : true,
-    shareButton   : true,
-    reloadButton  : true,
-    console       : true,
-    autoReload    : true,
-    autoHeight    : true,
-  })
-}
+          files: [
+              {
+                  name: '.js',
+                  content: code
+              },
+              {
+                  name: '.css',
+                  content:
+                      '.trackslist { margin-top: 2em; }\n' +
+                      '.pure-button { margin-left: 1em; }\n' +
+                      'h2 { text-align: center}\n' +
+                      'img { margin-right: 1em; float: left; }\n'
+              }
+          ],
+          links: [
+              {
+                  name: 'mithril',
+                  type: 'script',
+                  url: 'https://unpkg.com/mithril'
+              },
+              {
+                  name: 'mithril-stream',
+                  type: 'script',
+                  url: 'https://unpkg.com/mithril-stream'
+              },
+              {
+                  name: 'purecss',
+                  type: 'css',
+                  url: 'https://unpkg.com/purecss'
+              }
+          ],
+          middle: 55,
+          selected: '.js',
+          color: 'rgb(38,50,56)',
+          theme: 'material',
+          resizeable: true,
+          editable: true,
+          toolbar: true,
+          fileTabs: true,
+          linkTabs: true,
+          shareButton: true,
+          reloadButton: true,
+          console: true,
+          autoReload: true,
+          autoHeight: true,
+      }));
 
-examples = document.getElementsByTagName('code');
+      var html = '<p><a href="' + link + '" target="_blank">Live Example</a></p>';
+      el.insertAdjacentHTML('afterEnd', html);
+  }
 
-for (var i = 0; i < examples.length; ++i) {
-  var ex = examples[i];
-  if (ex.parentNode.tagName !== 'PRE') continue;
-  var html = ex.textContent;
-  Example(ex, html);
-}
-setTimeout(function () {scroll(0, 0)}, 1000);
+  examples = document.getElementsByTagName('code');
+
+  for (var i = 0; i < examples.length; ++i) {
+      var ex = examples[i];
+      if (ex.parentNode.tagName !== 'PRE') continue;
+      var html = ex.textContent;
+      Example(ex, html);
+  }
 </script>
-
