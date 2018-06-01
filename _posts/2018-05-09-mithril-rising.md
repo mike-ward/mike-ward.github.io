@@ -26,7 +26,7 @@ generating forms and making service requests without having to,
 
 OK, so what does it look like?
 
-```js
+```javascript
 m.render(document.body, 
   m('h1', 'Hello world'))
 ```
@@ -493,7 +493,7 @@ self hosting or embedding.
           autoHeight: true,
       }));
 
-      var html = '<p><a href="' + link + '" target="_blank">Live Demo</a></p>';
+      var html = '<p><a href="' + link + '" target="_blank">Demo</a></p>';
       el.insertAdjacentHTML('afterEnd', html);
   }
 
