@@ -26,10 +26,8 @@ generating forms and making service requests without having to,
 
 OK, so what does it look like?
 
-```js
-m.render(document.body, 
-  m('h1', 'Hello world'))
-```
+    m.render(document.body, 
+      m('h1', 'Hello world'))
 
 Points of Interest:
 
@@ -490,7 +488,7 @@ self hosting or embedding.
           reloadButton: true,
           console: true,
           autoReload: true,
-          autoHeight: true,
+          autoHeight: false,
       }));
 
       var html = '<p><a href="' + link + '" target="_blank">Demo</a></p>';
