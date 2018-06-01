@@ -26,7 +26,7 @@ generating forms and making service requests without having to,
 
 OK, so what does it look like?
 
-```javascript
+```js
 m.render(document.body, 
   m('h1', 'Hello world'))
 ```

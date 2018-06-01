@@ -6,6 +6,7 @@ url:              http://mike-ward.net
 author:           Mike Ward
 paginate:         10
 version:          '1.0.0'
+highlighter:      rouge
 
 author:
   name:           'Mike Ward'
