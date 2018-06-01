@@ -26,8 +26,10 @@ generating forms and making service requests without having to,
 
 OK, so what does it look like?
 
-    m.render(document.body, 
-      m('h1', 'Hello world'))
+```js
+m.render(document.body, 
+  m('h1', 'Hello world'))
+```
 
 Points of Interest:
 
@@ -40,8 +42,8 @@ Points of Interest:
     [`m.mount()`](https://mithril.js.org/mount.html) as you'll see in
     the next example.
 -   Text `vnodes` can be expressed as simple strings. Try replacing
-    `m('h1', 'Hello world')` with `'Hello World'` above (examples are
-    editable!)
+    `m('h1', 'Hello world')` with `'Hello World'` above (live examples
+    are editable!)
 
 Points of interest:
 
@@ -93,7 +95,7 @@ Points of interest:
 
 -   `Vnodes` can have children. Child elements are expressed as an array
     or comma separated list of `vnodes`.
--   **Try it**: Remove the square brackes brackets from lines 4 and 11.
+-   **Try it**: Remove the square brackets from lines 4 and 11.
 -   Text nodes are expressed as strings.
 -   There is no builtin two-way binding. Components simply reflect the
     state of the model.
@@ -491,7 +493,7 @@ self hosting or embedding.
           autoHeight: true,
       }));
 
-      var html = '<p><a href="' + link + '" target="_blank">Live Example</a></p>';
+      var html = '<p><a href="' + link + '" target="_blank">Live Demo</a></p>';
       el.insertAdjacentHTML('afterEnd', html);
   }
 
