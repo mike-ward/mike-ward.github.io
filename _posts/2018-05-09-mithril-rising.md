@@ -498,6 +498,6 @@ for (var i = 0; i < examples.length; ++i) {
   var html = ex.textContent;
   Example(ex, html);
 }
-scroll(0, 0);
+setTimeout(function () {scroll(0, 0)}, 1000);
 </script>
 
