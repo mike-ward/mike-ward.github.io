@@ -93,8 +93,7 @@ Points of interest:
 
 -   `Vnodes` can have children. Child elements are expressed as an array
     or comma separated list of `vnodes`.
--   **Try it**: Remove the square brackets from lines 4 and 11.
--   Text nodes are expressed as strings.
+-   **Try it**: Remove the square brackets from lines 4 and 11 (in the Demo).
 -   There is no builtin two-way binding. Components simply reflect the
     state of the model.
 -   Redrawing occurs automatically for mounted components on events
@@ -233,10 +232,9 @@ through Mithril's `vnode` object.
 
 Points of interest:
 
--   The `view` method takes one parameter, a reference to its `vnode`.
+-   The `view` method takes one optional parameter, a reference to its `vnode`.
 -   `vnode.attrs` contains any attributes attached to the component.
--   `vnode` has other useful fields including `state`, that persist
--   across redraws.
+-   `vnode` has other useful fields including `state`, that persist across redraws.
 -   Mithril includes a functional stream library (e.g.
     `m.stream('123')`. In this example I'm using it as a simple
     *getter/setter*. Streams are powerful, reactive objects (think
@@ -295,7 +293,7 @@ Other random things I really like about Mithril
     ([`m.route()`](https://mithril.js.org/route.html)) to help create
     Single Page Applications (SPA).
 
--   There's a simple but effective promise system to handle asynchrony.
+-   There's a simple but effective promise API to handle asynchrony.
 
 -   The documentation is outstanding. It's written by hand, not
     generated from code. The author has done a great job explaining how
@@ -314,8 +312,8 @@ Other random things I really like about Mithril
     Mithril's hypertext functionallity is more expressive. JSX can be
     handled in Babel, Webpack, Parcel, etc.
 
--   Works great with Typescript. Mithril has a type definitions at
-    [npmjs.org](https://www.npmjs.com/package/@types/mithril).
+-   Works great with Typescript. Typescript type definitions can be found
+    at [npmjs.org](https://www.npmjs.com/package/@types/mithril).
 
 -   Supports ancient versions of Internet Explorer (with additional
     work)
