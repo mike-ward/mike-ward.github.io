@@ -299,11 +299,11 @@ Other random things I really like about Mithril
     generated from code. The author has done a great job explaining how
     the API's work and the motivation behind why it works as it does.
 
--   It's performant. It many cases it's faster than React. [Repaint Rate
+-   It's performant. In many cases, it's faster than React. [Repaint Rate
     Challenge](https://mathieuancelin.github.io/js-repaint-perfs/) also
     has some interesting benchmarks. Like all benchmarks, take them with
-    a grain a salt. My take away is that framework performance is on as
-    good or better than the big 3 (Angular, React, Vue).
+    a grain a salt. My take away is that framework performance is on
+    par with the big 3 (Angular, React, Vue).
 
 -   The [Gitter](https://gitter.im/lhorie/mithril.js) chat group is
     helpful and friendly.
