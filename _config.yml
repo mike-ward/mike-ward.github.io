@@ -2,7 +2,7 @@ permalink:        pretty
 title:            Mike-Ward.Net
 tagline:          .NET, Technology, Life, Whatever...
 description:      'Mike Ward''s personal blog. Author of Markdown Edit, VSColorOutput, Tweetz, Desk Drive and more'
-url:              http://mike-ward.net
+url:              https://mike-ward.net
 author:           Mike Ward
 paginate:         10
 version:          '1.0.0'
