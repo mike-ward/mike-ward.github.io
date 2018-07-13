@@ -489,7 +489,7 @@ self hosting or embedding.
           autoHeight: false,
       }));
 
-      var html = '<p><a href="' + link + '" target="_blank">Demo</a></p>';
+      var html = '<p><a href="' + link + '" target="_blank">Run Example</a></p>';
       el.insertAdjacentHTML('afterEnd', html);
   }
 
