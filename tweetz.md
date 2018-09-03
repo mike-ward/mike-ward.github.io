@@ -13,8 +13,8 @@ Tweetz shown with dark and light themes
 <table class="pure-table">
 <tbody>
 <tr>
-<td><img src="https://i.imgur.com/cot1fja.png" alt="light theme"/><td>
-<td><img src="https://i.imgur.com/MxyGPPl.png" alt="dark theme"/><td>
+<td><img src="https://i.imgur.com/cot1fja.png" alt="light theme"/></td>
+<td><img src="https://i.imgur.com/MxyGPPl.png" alt="dark theme"/></td>
 </tr>
 </tbody>
 </table>
