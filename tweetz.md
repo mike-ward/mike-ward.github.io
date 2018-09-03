@@ -10,7 +10,7 @@ updates, posting with media and keyboard shortcuts. (Press ? to display)
 
 Tweetz shown with dark and light themes
 
-<table class="pure-table">
+<table class="pure-table" style="border: none">
 <tbody>
 <tr>
 <td><img src="https://i.imgur.com/cot1fja.png" alt="light theme"/></td>
