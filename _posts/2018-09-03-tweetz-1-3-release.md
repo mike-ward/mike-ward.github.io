@@ -3,7 +3,7 @@ layout: post
 title: "Tweetz 1.3 Release"  
 ...
 
-In brief: Removing streaming API because twitter killed it. Add multiple
+In brief: Removed streaming API because twitter killed it. Added multiple
 image and video playback support.
 
 [Download](https://github.com/mike-ward/tweetz-desktop/releases/latest)
