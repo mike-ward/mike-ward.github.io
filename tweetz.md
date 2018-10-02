@@ -8,7 +8,7 @@ shown below). Tweetz displays your home, mentions and direct messages in a
 single view reducing the need to switch time lines. Tweetz supports real time
 updates, posting with media and keyboard shortcuts. (Press ? to display)
 
-Tweetz shown with dark and light themes
+Tweetz shown with light and dark themes
 
 ![screen shot of with light and dard modes](https://i.imgur.com/Q5hXzP1.png)
 
