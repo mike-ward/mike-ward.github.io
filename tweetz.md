@@ -36,7 +36,7 @@ the install folder. Open it and follow the directions. Make sure to use a text
 editor like Notepad and not a word processor (like Word). (Optional) If you
 would like ""Translation by"" credit, include your name and a web address.
 
-**Requires Windows 7 or Windows 8 and .NET 4.5.2
+**Requires Windows 7 or later .NET 4.5.2
 (<http://smallestdotnet.com/>)**
 
 **Note to Reviewers:** Please review Tweetz Desktop for what it is and not what
