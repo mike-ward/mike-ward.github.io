@@ -19,7 +19,7 @@ for `nodepad.exe`. This saves me a few hundred keystrokes a day.
 
 ### cp.cmd
 
-    @echo|set /p=""%cd%\%1"" | clip
+    @echo|set /p=""%cd%\%*"" | clip
 
 Save this to a file called `cp.cmd`. It copies the full file path of the
 given file to the clipboard. The `set /p=` part is needed to suppress
