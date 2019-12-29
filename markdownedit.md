@@ -3,8 +3,6 @@ layout: page
 title: "Markdown Edit"
 ---
 
-**Checkout the new web site for Markdown Edit! <http://markdownedit.com>**
-
 Markdown Edit is a Windows **desktop**
 [CommonMark](http://commonmark.org) (a.k.a. Markdown) editor with an
 emphasis on content and keyboard shortcuts. There is minimal window
