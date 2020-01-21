@@ -7,7 +7,7 @@ Tweetz is a Windows 10 desktop twitter client. It's minimal design mimics gadget
 
 [Download](https://github.com/mike-ward/tweetz/releases/lastest).
 
-![Screen shot](https://i.imgur.com/stuId59.png)
+![Screen shot](https://i.imgur.com/yCmnjAp.png)
 
 <button onclick="load_disqus('tweetz.core', 'Tweetz');" class="pure-button">Comments</button>
 
