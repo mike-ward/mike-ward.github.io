@@ -39,15 +39,6 @@ Visual Studio extension that colors output for build and debug windows.
 
 ------------------------------------------------------------------------
 
-[Simply Weather Setup](https://github.com/mike-ward/Simply-Weather/releases/latest)
-
-[Simply Weather](/simplyweather) is a windows desktop application that,
-um, er, displays the weather.
-
-*Version 1.0.0, June 29, 2015*
-
-------------------------------------------------------------------------
-
 [FreeSnap.msi](https://github.com/mike-ward/FreeSnap/releases/latest)  
 
 Move and resize windows with your keypad. Now available in 32 and 64 bit
