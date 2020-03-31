@@ -14,11 +14,9 @@ A Windows Desktop Markdown Editor [Read more...](http://markdownedit.com)
 
 ------------------------------------------------------------------------
 
-[Tweetz Desktop Setup](https://github.com/mike-ward/tweetz-desktop/releases/latest)
+[Tweetz Setup](https://github.com/mike-ward/tweetz/releases/latest)
 
-Tweetz Desktop is the successor to tweetz 3.1. [Read more...](/tweetz)
-
-*Version 1.1, July 20, 2016*
+Tweetz is a Windows Desktop twitter client [Read more...](/tweetz)
 
 ------------------------------------------------------------------------
 
@@ -34,8 +32,6 @@ Drive](/deskdrive))
 [VSColorOutput](https://www.visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496)
 
 Visual Studio extension that colors output for build and debug windows.
-
-*Version 2.4, April 8, 2016*
 
 ------------------------------------------------------------------------
 
