@@ -5,7 +5,7 @@ title: Tweetz
 
 Tweetz is a Windows 10 desktop twitter client. Its minimal design mimics gadget style applications. I use it to monitor current events and follow others in the developer community.
 
-[Download](https://github.com/mike-ward/tweetz/releases/lastest).
+[Download](https://github.com/mike-ward/tweetz/releases/latest).
 
 ![Screen shot](https://i.imgur.com/yCmnjAp.png)
 
