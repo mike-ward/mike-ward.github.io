@@ -4,19 +4,15 @@ title:  Downloads
 ---
 ### (a.k.a. The Goods)
 
-[Markdown Edit
-Setup](https://github.com/mike-ward/Markdown-Edit/releases/latest)
-
-A Windows Desktop Markdown Editor [Read more...](http://markdownedit.com)
-
-[![Release](https://img.shields.io/github/release/mike-ward/Markdown-Edit.svg?style=flat-square)](https://github.com/mike-ward/Markdown-Edit/releases/latest)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mike-ward/Markdown-Edit/master/LICENSE.txt)
-
-------------------------------------------------------------------------
-
 [Tweetz Setup](https://github.com/mike-ward/tweetz/releases/latest)
 
 Tweetz is a Windows Desktop twitter client [Read more...](/tweetz)
+
+------------------------------------------------------------------------
+
+[VSColorOutput](https://www.visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496)
+
+Visual Studio extension that colors output for build and debug windows.
 
 ------------------------------------------------------------------------
 
@@ -26,12 +22,6 @@ Automatic drive/media shortcuts for your desktop ([Desk
 Drive](/deskdrive))
 
 *Version 2.1.2, June 27, 2015*
-
-------------------------------------------------------------------------
-
-[VSColorOutput](https://www.visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496)
-
-Visual Studio extension that colors output for build and debug windows.
 
 ------------------------------------------------------------------------
 
