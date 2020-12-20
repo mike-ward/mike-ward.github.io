@@ -139,6 +139,10 @@ a few mouse clicks.
 Stored in `%AppData%/VSColorOutput/vscoloroutput.json`. Share them with
 friends and family (and other developers too).
 
+#### Per Solution Settings
+
+Copy your vscoloroutput.json or create an empty one to the same folder as you .sln file for per solution settings that can be versioned with your project!
+
 ### Open Source
 
 VSColorOutput is [open
