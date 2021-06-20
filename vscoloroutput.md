@@ -36,6 +36,8 @@ Like what I'm doing? Why not [donate](http://mike-ward.net/donate/)?
 
 ### Installation
 
+For Visual Studio 2022 goto https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput64
+
 Download and open the VsColorOutput.visx file. VSColorOutput supports
 Visual Studio 2010/2011. You can also install it from the [Visual Studio
 Extension
@@ -44,7 +46,7 @@ To uninstall, go the `Tools|Extensions` page, find VSColorOutput in the
 "Installed Extensions" and click uninstall. The settings file is not
 removed.
 
-**Note: Requires .NET 4.5.2**
+**Note: Requires .NET 4.7.2**
 
 ### How does it work?
 
@@ -57,7 +59,7 @@ classification. If no patterns match, then the line is classified as
 
 From here, Visual Studio does the heavy lifting of mapping the
 classification to a color. Settings are stored in a separate file
-(`%AppData%/VSColorOutput/vscoloroutput.json`).
+(`%AppData%/VSColorOutput[64]/vscoloroutput.json`).
 
 ### Usage
 
@@ -136,7 +138,7 @@ a few mouse clicks.
 
 #### Settings Stored in Separate File
 
-Stored in `%AppData%/VSColorOutput/vscoloroutput.json`. Share them with
+Stored in `%AppData%/VSColorOutput[64]/vscoloroutput.json`. Share them with
 friends and family (and other developers too).
 
 #### Per Solution Settings
