@@ -3,6 +3,8 @@ layout: page
 title: Tweetz
 ---
 
+## After 13 years, the end has come. Twitter has disabled all third party applications including my inconsequential little application. 😥 It was fun while it lasted. Thanks to everyone who supported me over the years.
+
 Tweetz is a Windows 10 desktop twitter client. Its minimal design mimics gadget style applications. I use it to monitor current events and follow others in the developer community.
 
 [Download](https://github.com/mike-ward/tweetz/releases/latest).
