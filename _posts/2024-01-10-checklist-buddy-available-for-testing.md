@@ -7,7 +7,7 @@ Hey friends,
 
 With the sudden death of Tweetz, my Twitter app, (thanks Elon), I've moved on to a new project.
 
-![Checklist Buddy feature image](/cdn/blog/checklist-buddy-feature-image)
+![Checklist Buddy feature image](cdn/images/blog/checklist-buddy-feature-image.png)
 
 I know what you're thinking; Gee Mike another checklist application. Bear with me a moment and I think you'll see why I wrote Checklist Buddy.
 
