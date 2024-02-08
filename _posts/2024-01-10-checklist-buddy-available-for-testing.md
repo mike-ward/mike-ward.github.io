@@ -25,4 +25,5 @@ So there you have it. Of course, you can create, edit, and order your lists.
 
 > Google has implemented mandatory closed testing requirements before allowing an app to be listed in the Play Store. So if you have an Android phone and live in the US or Canada, send me an email with your Google email address so I can add you to the closed testing group. After that, you'll receive a link to the Google Play Store listing.
 
-And yes, I promise not to sell your email, or track you or any of the other stupid shit people do with private info.
+And yes, I promise not to sell your email, or track you or any of the other stupid shit people do with private info. - <mike@mike-ward.net>
+
