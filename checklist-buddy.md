@@ -22,4 +22,4 @@ of steps read back in sequence.
 
 <a href='https://play.google.com/store/apps/details?id=net.mike_ward.checklistbuddy&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style="width: 15rem"/></a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8h0AyEJfedE?si=EOs8-nw_aKuYsgjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FZ9BuoY9u04?si=XO8NTsILfrSE5syQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
