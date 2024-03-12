@@ -20,6 +20,15 @@ Checklist Buddy encourages focusing on the task, not the checklist.
 Use it in aircraft, motor homes, boats, or anywhere you need a series
 of steps read back in sequence.
 
+**New Feature**
+
+During product testing, I found there were times I wanted a plain old checklist.
+While there are other to-do/checklist apps available, I found them annoyingly complex.
+I wanted something simple, direct and quick.
+
+So with a quick bit of programming magic, I added an icon to the end of each checklist.
+Tapping the icon displays a traditional checklist with checkboxes. Simple, direct and quick. 
+
 <a href='https://play.google.com/store/apps/details?id=net.mike_ward.checklistbuddy&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style="width: 15rem"/></a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eLRumjjtkvo?si=ewU1DwOoV4brCiNC&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
