@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <base href="/">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -7,101 +8,108 @@
   <meta name="google-site-verification" content="3NkoOJonDZBSfCcAwS7TO1tsBGAMfm1c54U57FDGLi4" />
   <link rel="stylesheet" href="/css/site.css">
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feedproxy.google.com/MikeWardTechnologyBlog">
-  <link rel="alternate" type="application/rdf+xml" title="RSS" href="http://feedproxy.google.com/MikeWardTechnologyBlog">
+  <link rel="alternate" type="application/rss+xml" title="RSS"
+    href="http://feedproxy.google.com/MikeWardTechnologyBlog">
+  <link rel="alternate" type="application/rdf+xml" title="RSS"
+    href="http://feedproxy.google.com/MikeWardTechnologyBlog">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39684572-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-39684572-1');
-</script>
-  
+  </script>
+
   {% seo %}
 </head>
-  <body>
-    <div id="content">
-      <h1 class="site-title">Mike-Ward.Net</h1>
-      <div id="topbar" class="pure-menu pure-menu-open pure-menu-horizontal">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/checklist-buddy">Checklist Buddy</a></li>
-          <li><a href="/vscoloroutput">VSColorOutput</a></li>
-          <li><a href="/downloads">Downloads</a></li>
-          <li><a href="/archive">Archive</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/donate">Donate!</a></li>
-        </ul>
-      </div>
-      <div class="left">
-        {{ content }}
-      </div>
-      <div class="right">
-        <div>
-          <a href="http://feedproxy.google.com/MikeWardTechnologyBlog" title="RSS Feed" class="rss-metro"></a>
-          <a href="http://feedburner.google.com/fb/a/mailverify?uri=MikeWardTechnologyBlog&amp;loc=en_US" title="Email Feed" class="email-metro"></a>
-          <a href="https://twitter.com/mikeward_aa" title="Follow &#64;mikeward_aa" class="twitter"></a>
-          <a href="http://stackoverflow.com/users/1032172/mike-ward" title="Follow on Stackoverflow.com" class="stackoverflow"></a>
-          <a href="https://github.com/mike-ward" title="Follow on GitHub" class="github"></a>
-        </div>
-        <div>.Net, Technology, Life, Whatever</div>
-        <h4>Recent Posts</h4>
-        <p>
-          {% for post in site.posts limit:7 %}
-          <div class="recent-post"><a href="{{ post.url }}">{{ post.title }}</a></div>
-          {% endfor %}
-          <div class="recent-post"><a href="/archive">More... ({{ site.posts | size }})</a></div>
-        </p>
-        <p>
-          <a href="http://mike-ward.net/donate/" title="donate")>Donate</a>
-        </p>
-      </div>
+
+<body>
+  <div id="content">
+    <h1 class="site-title">Mike-Ward.Net</h1>
+    <div id="topbar" class="pure-menu pure-menu-open pure-menu-horizontal">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/checklist-buddy">Checklist Buddy</a></li>
+        <li><a href="/vscoloroutput">VSColorOutput</a></li>
+        <li><a href="/lsv">lsv</a></li>
+        <li><a href="/downloads">Downloads</a></li>
+        <li><a href="/archive">Archive</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/donate">Donate!</a></li>
+      </ul>
     </div>
-    <footer>
+    <div class="left">
+      {{ content }}
+    </div>
+    <div class="right">
       <div>
-        <a href="/">Home</a> |
-        <a href="/deskdrive">Desk Drive</a> |
-        <a href="/tweetz">Tweetz</a> |
-        <a href="/markdownedit">Markdown Edit</a> |
-        <a href="/simplyweather">Simply Weather</a> |
-        <a href="/vscoloroutput]">VSColorOutput</a> |
-        <a href="/freesnap">FreeSnap</a> |
-        <a href="/calendar">Calendar</a> |
-        <a href="/downloads">Downloads</a> |
-        <a href="/archive">Archive</a> |
-        <a href="/about">About</a> |
-        <a href="/donate">Donate!</a>
+        <a href="http://feedproxy.google.com/MikeWardTechnologyBlog" title="RSS Feed" class="rss-metro"></a>
+        <a href="http://feedburner.google.com/fb/a/mailverify?uri=MikeWardTechnologyBlog&amp;loc=en_US"
+          title="Email Feed" class="email-metro"></a>
+        <a href="https://twitter.com/mikeward_aa" title="Follow &#64;mikeward_aa" class="twitter"></a>
+        <a href="http://stackoverflow.com/users/1032172/mike-ward" title="Follow on Stackoverflow.com"
+          class="stackoverflow"></a>
+        <a href="https://github.com/mike-ward" title="Follow on GitHub" class="github"></a>
       </div>
-      <p>Copyright &copy; 2024, Mike Ward</p>
-    </footer>
-    <script>
-      function init(f) {
-        if (window.addEventListener) window.addEventListener("load", f, false);
-        else if (window.attachEvent) window.attachEvent("onload", f);
-        else window.onload = f;
-      }
+      <div>.Net, Technology, Life, Whatever</div>
+      <h4>Recent Posts</h4>
+      <p>
+        {% for post in site.posts limit:7 %}
+      <div class="recent-post"><a href="{{ post.url }}">{{ post.title }}</a></div>
+      {% endfor %}
+      <div class="recent-post"><a href="/archive">More... ({{ site.posts | size }})</a></div>
+      </p>
+      <p>
+        <a href="http://mike-ward.net/donate/" title="donate" )>Donate</a>
+      </p>
+    </div>
+  </div>
+  <footer>
+    <div>
+      <a href="/">Home</a> |
+      <a href="/deskdrive">Desk Drive</a> |
+      <a href="/tweetz">Tweetz</a> |
+      <a href="/markdownedit">Markdown Edit</a> |
+      <a href="/simplyweather">Simply Weather</a> |
+      <a href="/vscoloroutput]">VSColorOutput</a> |
+      <a href="/freesnap">FreeSnap</a> |
+      <a href="/calendar">Calendar</a> |
+      <a href="/downloads">Downloads</a> |
+      <a href="/archive">Archive</a> |
+      <a href="/about">About</a> |
+      <a href="/donate">Donate!</a>
+    </div>
+    <p>Copyright &copy; 2024, Mike Ward</p>
+  </footer>
+  <script>
+    function init(f) {
+      if (window.addEventListener) window.addEventListener("load", f, false);
+      else if (window.attachEvent) window.attachEvent("onload", f);
+      else window.onload = f;
+    }
 
-      function loadScript(script, element) {
-        var scr = document.createElement("script");
-        scr.async = true;
-        scr.src = script;
-        (element || document.body).appendChild(scr);
-      }
+    function loadScript(script, element) {
+      var scr = document.createElement("script");
+      scr.async = true;
+      scr.src = script;
+      (element || document.body).appendChild(scr);
+    }
 
-      function load_disqus(id, title) {
-        var disqus_shortname = 'mikeward';
-        window.disqus_identifier = id;
-        window.disqus_title = title;
-        (function () {
-          var dsq = document.createElement('script');
-          dsq.type = 'text/javascript';
-          dsq.async = true;
-          dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-      }
-    </script>
-  </body>
+    function load_disqus(id, title) {
+      var disqus_shortname = 'mikeward';
+      window.disqus_identifier = id;
+      window.disqus_title = title;
+      (function () {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    }
+  </script>
+</body>
+
 </html>
