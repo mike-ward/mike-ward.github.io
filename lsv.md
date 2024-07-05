@@ -1,5 +1,5 @@
 ---
-layout: page  
+layout: page
 title: lsv
 ---
 # lsv - Vlang implementation of `ls`
@@ -9,7 +9,7 @@ title: lsv
 ![Screenshot](https://github.com/mike-ward/lsv/blob/main/screenshot.jpeg?raw=true)
 
 Border format with header option
-![Screenshot](https://github.com/mike-ward/lsv/blob/main/screenshot2.png?raw=true)
+![Screenshot](https://github.com/mike-ward/lsv/blob/main/screenshot2.jpeg?raw=true)
 
 ## Features
 
