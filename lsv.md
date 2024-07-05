@@ -18,6 +18,7 @@ Border format with header option
 - Color output based on LS_COLORS
 - Table format (long format)
 - Column Headers (long format)
+- Icons (requires a nerd font)
 - Blocked output (long format)
 - Checksum (md5, sha1, sha224, sha256, sha512, blake2b)
 - Friendly file sizes and dates
@@ -42,7 +43,7 @@ Border format with header option
 
 ## Help
 ```
-lsv 2024.2
+lsv 2024.3
 -----------------------------------------------
 Usage: lsv [options] [FILES]
 
@@ -52,6 +53,7 @@ Options:
   -a                        include files starting with .
   -c                        color the listing
   -D                        append / to directories
+  -i                        show file icon (requires nerd fonts)
   -m                        list of files separated by commas
   -q                        enclose files in quotes
   -R                        list subdirectories recursively
