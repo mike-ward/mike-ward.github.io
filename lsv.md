@@ -21,6 +21,7 @@ Border format with header option
 - Icons (requires a nerd font)
 - Blocked output (long format)
 - Checksum (md5, sha1, sha224, sha256, sha512, blake2b)
+- Mime types
 - Friendly file sizes and dates
 - Nearly as fast as GNU `ls`
 - Robust recursion. Try `lsv -R /`
@@ -43,7 +44,7 @@ Border format with header option
 
 ## Help
 ```
-lsv 2024.3
+lsv v2025.1
 -----------------------------------------------
 Usage: lsv [options] [FILES]
 
@@ -51,21 +52,25 @@ Description: List information about FILES
 
 Options:
   -a                        include files starting with .
+  -A                        do not list implied . and ..
   -c                        color the listing
   -D                        append / to directories
+  -F                        show full path
   -i                        show file icon (requires nerd fonts)
+  -l                        long listing format (see Long Listing Options)
   -m                        list of files separated by commas
   -q                        enclose files in quotes
   -R                        list subdirectories recursively
-      --depth <int>         limit depth of recursion
   -X                        list files by lines instead of by columns
   -1                        list one file per line
-      --width <int>         set output width to <int>
+
+  --depth <int>             limit depth of recursion
+  --width <int>             set output width to <int>
 
 Filtering and Sorting Options:
   -d                        list only directories
   -f                        list only files
-  -g                        group directories before files
+  -g                        sort directories before files
   -r                        reverse the listing order
   -s                        sort by file size, largest first
   -t                        sort by time, newest first
@@ -74,31 +79,52 @@ Filtering and Sorting Options:
   -x                        sort by file extension
   -u                        no sorting
 
+  --after <string>          after modified time <string>
+  --after-access  <string>  after access time <string>
+  --after-change <string>   after change time <string>
+  --before <string>         before modified time <string>
+  --before-access <string>  before access time <string>
+  --before-change <string>  before change time <string>
+
+                            where time <string> is an ISO 8601 format.
+                            See: https://ijmacd.github.io/rfc3339-iso8601
+
+  --ignore <string>         ignore glob patterns (pipe-separated)
+  --match <string>          match glob patterns (pipe-separated)
+
+  --ignore-case             ignore case when sorting
+
 Long Listing Options:
   -b                        blank line every 5 rows
   -B                        add borders to long listing format
+  -,                        sizes comma separated by thousands
   -k                        sizes in kibibytes (1024) (e.g. 1k 234m 2g)
   -K                        sizes in Kilobytes (1000) (e.g. 1kb 234mb 2gb)
-  -l                        long listing format
+  -#                        show entry number
   -o                        show octal permissions
   -p                        show relative path
-  -A                        show last accessed date
   -C                        show last status changed date
+  -E                        show last accessed date
   -H                        show column headers
   -I                        show time in iso format
   -J                        show time in compact format
+  -L                        show time in compact format with week day
+  -T                        show relative time
+  -M                        show mime type
   -N                        show inodes
-      --cs <string>         show file checksum
-                            (md5, sha1, sha224, sha256, sha512, blake2b)
 
-      --no-counts           hide file/dir counts
-      --no-date             hide date (modified)
-      --no-dim              hide shading; useful for light backgrounds
-      --no-group            hide group name
-      --no-hard-links       hide hard links count
-      --no-owner            hide owner name
-      --no-permissions      hide permissions
-      --no-size             hide file size
+  --cs <string>             show file checksum
+                            (md5, sha1, sha224, sha256, sha512, blake2b)
+  --no-counts               hide file/dir counts
+  --no-date                 hide date (modified)
+  --no-dim                  hide shading; useful for light backgrounds
+  --no-group                hide group name
+  --no-hard-links           hide hard links count
+  --no-owner                hide owner name
+  --no-permissions          hide permissions
+  --no-size                 hide file size
+  --no-wrap                 do not wrap long lines
+  --zero                    end each output line with NUL, not newline
 
   -h, --help                display this help and exit
   --version                 output version information and exit
