@@ -26,7 +26,6 @@ Border format with header option
 - Nearly as fast as GNU `ls`
 - Robust recursion. Try `lsv -R /`
 - Options similar to `ls`
-- Usual other `ls` features
 
 ## Installing
 
@@ -44,7 +43,7 @@ Border format with header option
 
 ## Help
 ```
-lsv v2025.1
+lsv v2025.2
 -----------------------------------------------
 Usage: lsv [options] [FILES]
 
@@ -90,8 +89,6 @@ Filtering and Sorting Options:
                             See: https://ijmacd.github.io/rfc3339-iso8601
 
   --ignore <string>         ignore glob patterns (pipe-separated)
-  --match <string>          match glob patterns (pipe-separated)
-
   --ignore-case             ignore case when sorting
 
 Long Listing Options:
@@ -101,6 +98,7 @@ Long Listing Options:
   -k                        sizes in kibibytes (1024) (e.g. 1k 234m 2g)
   -K                        sizes in Kilobytes (1000) (e.g. 1kb 234mb 2gb)
   -#                        show entry number
+  -n                        show owner and group IDs as numbers
   -o                        show octal permissions
   -p                        show relative path
   -C                        show last status changed date
